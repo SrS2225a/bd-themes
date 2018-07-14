@@ -210,6 +210,35 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
     border-radius: 0px !important;
 }
 
+/* Gets rid of the blocked users block */
+.message-group-blocked {display: none;}
+
+/* Hides the text box for chatting when there is a channel you cannot speak in */
+.channelTextAreaDisabled-rZtG8r {display: none;}
+
+/* Makes the popout server list */
+.guilds-wrapper{
+   border-right-width: 6px;
+    border-style: solid;
+    border-image: linear-gradient(#33ccff, #ff99cc) 30;
+    transition: border-right 1s, box-shadow 1s, -webkit-box-shadow 1s, -moz-box-shadow 1s, width 0.15s;
+   float: left !important;
+    width:0px;
+}
+.active .guild-inner{
+    z-index: 1 !important;
+    position: absolute !important;
+}
+
+.guilds-wrapper:hover{
+    width:70px;
+}
+
+.guilds-wrapper .guilds .guild.selected .guild-inner {
+    border-radius: 0px !important;
+}
+
+
 /*
 		                          _
                         .-.      / \        _

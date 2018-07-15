@@ -82,10 +82,9 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}
  
  /* Sets the color of inbeded links */ 
-.theme-dark .embedInner-1-fpTo, .theme-dark .attachment-33OFj0, .theme-dark .wrapperAudio-1jDe0Q {background-color: #2e3036;}
+.theme-dark .embedInner-1-fpTo, .theme-dark .attachment-33OFj0, .theme-dark .wrapperAudio-1jDe0Q, .theme-dark .wrapper-35wsBm {background-color: #2e3036;}
 
- 
- /* Recolors the friends tab */
+/* Recolors the friends tab */
 .theme-dark #friends .friends-table .friends-table-header .friends-column {color: #fff;}
 #friends .friends-table .friends-row .discord-tag .username {color: pink;}
 .private-channels .channel .channel-name {color: #fff; opacity: 1;}

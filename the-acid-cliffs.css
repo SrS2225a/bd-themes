@@ -75,8 +75,7 @@
 .container-16j22k {background-image: url("https://gtgraphics.de/en/wallpapers/forgotten-world-hungarian-parliament.jpg"); 
 background-position: center; background-repeat: no-repeat; background-size: cover !important;}
 
-.app {background-image: url("https://gtgraphics.de/en/wallpapers/elder-stones.jpg"); 
-background-position: center; background-repeat: no-repeat; background-size: cover !important;}
+.app {background: url("https://gtgraphics.de/en/wallpapers/elder-stones.jpg") center/cover no-repeat;}
 
  /* Recolors the no text channels message */
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}

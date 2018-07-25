@@ -126,7 +126,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {background-color: #0b512f !important; text-shadow: 1px 1px #000 !important;}
 
 /* Changes the time-stamp color */
-.theme-dark .message-group h2 .timestamp {color: cyan;}
+.theme-dark .timestampCozy-2hLAPV {color: cyan;}
 .theme-dark .timestamp-1mruiI {color: cyan;}
 .theme-dark .discrim-3rYTMj {opacity: 1;}
 .theme-dark .guild-settings-members-member .tag {color: #dcddde}
@@ -143,7 +143,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 
 /* Changes the color of pinned messages */
 .messagesPopout-24nkyi {background-color: #0E2F44;}
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {background-color: #bc8f8f;}
+.messageGroupWrapper-o-Zw7G {background-color: #bc8f8f !important;}
 
 /* Changes Settings or user dividers */
 .private-channels header {color: red; opacity: 1;}
@@ -235,10 +235,6 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 }
 
 /* Changes the border-radius of user pfp's and server icons */
-.guilds-wrapper .guilds .guild.selected .guild-inner {
-    border-radius: 0px !important;
-}
-
 .theme-dark .mask-3OgeRz {-webkit-mask: none;mask: none;}
 .theme-dark .guilds-wrapper .guilds-add,.theme-dark .guilds-wrapper .guilds .guild-icon,.theme-dark .guilds-wrapper .guilds .guild .guild-inner,
 .theme-dark .image-33JSyf,.theme-dark .avatar-large, .theme-light .avatar-profile, .theme-light .small-5Os1Bb,.theme-dark .avatar-small,

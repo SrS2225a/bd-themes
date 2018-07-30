@@ -139,7 +139,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .unread-1Dp-OI {display: none;}
 
 /* Gets rid of the box shadow from the jump button from channel search */
-.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {background-color: #bc8f8f !important; box-shadow: none !important;}
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {background-color: #bc8f8f !important; box-shadow: none !important;}
 
 /* Changes the color of pinned messages */
 .messagesPopout-24nkyi {background-color: #0E2F44;}
@@ -206,10 +206,6 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
     width:70px;
 }
 
-.guilds-wrapper .guilds .guild .guild-inner {
-    border-radius: 0px !important;
-}
-
 /* Gets rid of the blocked users block */
 .message-group-blocked {display: none;}
 
@@ -244,6 +240,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 .private-channels .status {border: 1.2px solid #2f3136;}
 .status-2s6iDp {border: 1.8px solid #2f3136;}
 .typing-1KJk_j {border-radius: 7px !important;}
+.avatar-17mtNa {height: 45px; width: 45px;}
 #bd-pub-button {border-radius: 4px;}
 
 /*

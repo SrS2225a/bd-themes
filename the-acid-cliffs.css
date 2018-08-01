@@ -7,7 +7,7 @@
 #friends, 
 .friends-header, 
 .friends-table, 
-.guilds-wrapper, 
+.scroller-wrapper, 
 .guild-header header,
 .headerBar-UHpsPw,
 .channels-wrap, 
@@ -213,7 +213,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 .channelTextAreaDisabled-rZtG8r {display: none;}
 
 /* Makes the popout server list */
-.guilds-wrapper{
+.guildsWrapper-5TJh6A {
    border-right-width: 6px;
     border-style: solid;
     border-image: linear-gradient(#33ccff, #ff99cc) 30;
@@ -226,7 +226,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
     position: absolute !important;
 }
 
-.guilds-wrapper:hover{
+.guildsWrapper-5TJh6A:hover{
     width:70px;
 }
 

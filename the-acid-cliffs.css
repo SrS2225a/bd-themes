@@ -68,10 +68,10 @@
 }
 
 .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY {
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.0);
 }
 .theme-dark .guildsWrapper-5TJh6A{
-  background: rgba(0,0,0,0.3) !important;
+  background: rgba(0,0,0,0.0) !important;
 }
 
 /* Displays the custom background */

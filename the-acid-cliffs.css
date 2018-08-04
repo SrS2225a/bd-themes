@@ -67,6 +67,13 @@
   background: transparent !important;
 }
 
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY {
+    background: rgba(0,0,0,0.3);
+}
+.theme-dark .guildsWrapper-5TJh6A{
+  background: rgba(0,0,0,0.3) !important;
+}
+
 /* Displays the custom background */
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .typeWindows-15E0Ys {
     background: rgba(0, 0, 0, 0.16) !important;

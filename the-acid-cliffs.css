@@ -141,7 +141,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 /* Removes the scroll bar and the round arrows that point next to a server and channel */
 .theme-dark .guild-1EfMGQ.selected-ML3OIq:before {background: #000; display: block;}
 .scroller-wrap .scroller::-webkit-scrollbar {display: none;}
-.guild-1EfMGQ.unread-qLkInr:before {display: none;}
+.unread-1Dp-OI {display: none;}
 
 /* Gets rid of the box shadow from the jump button from channel search */
 .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {background-color: #bc8f8f !important; box-shadow: none !important;}

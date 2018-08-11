@@ -185,10 +185,10 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left: 0; bottom: 0; width: 50px; height: 50px; background-repeat: no-repeat; background-position: center;}
 .guilds-wrapper .guilds-error{text-indent: 100%;white-space: nowrap; overflow: hidden;}
 /* Gets rid of the side div in a metion */
-.message-group .mentioned .message-text:after {display: none;}
+.isMentionedCozy-3isp7y:after {display: none;}
 	   
 /* Gets rid of the blocked users block */
-.message-group-blocked {display: none;}
+.messageGroupBlocked-3wrQQX , .messageGroupBlockedBtn-1PBBh-{display:none}
 
 /* Hides the text box for chatting when there is a channel you cannot speak in */
 .channelTextAreaDisabled-rZtG8r {display: none;}

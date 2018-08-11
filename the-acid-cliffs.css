@@ -139,11 +139,9 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .theme-dark .guild-settings-members-member .tag {color: #dcddde}
 
 /* Removes the scroll bar and the round arrows that point next to a server and channel */
-.theme-dark .guilds-wrapper .guild-separator:after {background-color:transparent }
-.theme-dark .guilds-wrapper .guilds .guild.unread:before {background: #8a8e94;border-radius: 8px;height: 30px;margin-top: -14px;}
-.theme-dark .guilds-wrapper .guilds .guild.selected:before {background: #000}
+.theme-dark .guild-1EfMGQ.selected-ML3OIq:before {background: #000; display: block;}
 .scroller-wrap .scroller::-webkit-scrollbar {display: none;}
-.unread-1Dp-OI {display: none;}
+.guild-1EfMGQ.unread-qLkInr:before {display: none;}
 
 /* Gets rid of the box shadow from the jump button from channel search */
 .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {background-color: #bc8f8f !important; box-shadow: none !important;}

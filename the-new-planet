@@ -1,0 +1,268 @@
+/* The Acid Cliffs - v.2.2.11*/
+
+
+
+/* Makes the app transparent so the background picture can be displayed */
+#voice-connection, 
+#friends, 
+.friends-header, 
+.friends-table, 
+.scroller-wrapper, 
+.guild-header header,
+.headerBar-UHpsPw,
+.channels-wrap, 
+.private-channels .search-bar, 
+.private-channels, 
+.guild-channels, 
+.account, 
+.friend-table-add-header,
+.content, 
+.title-wrap:not(.search-bar), 
+.messages-wrapper, 
+.messages .divider span, 
+.messages .divider:before, 
+.content, .message-group-blocked, 
+.is-local-bot-message,
+.channel-members-loading, 
+.channel-members-loading .heading, 
+.channel-members-loading .member, 
+.typing, 
+.container-RYiLUQ, 
+.theme-dark .ui-standard-sidebar-view, 
+.theme-dark .ui-standard-sidebar-view .sidebar-region,
+.theme-dark .ui-standard-sidebar-view .content-region,
+.theme-dark .channel-members,
+.container-2OU7Cz,
+.theme-dark .chat form, 
+.channels-3g2vYe, 
+.theme-dark .friends-table, 
+.theme-dark .messages-wrapper, 
+.content .flex-spacer, 
+.theme-dark .chat>.content, 
+.theme-dark .chat, 
+.channel-members, 
+.search .search-bar, 
+.container-iksrDt, 
+.container-3lnMWU, 
+.theme-dark .title-qAcLxz, 
+.theme-dark .typing-3eiiL_,
+.theme-dark .activityFeed-HeiGwL,
+.theme-dark .headerBar-cxbhPD,
+.theme-dark .lfg-3xoFkI,
+.video-3lOWa6,
+.theme-dark .private-channel-call,
+.appMount-3VJmYg,
+.container-2lgZY8,
+.channels-Ie2l6A,
+.container-PNkimc,
+.container-2Thooq,
+.theme-dark .title-3qD0b-,
+.theme-dark .typing-2GQL18,
+.search-bar.search-bar-light,
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA .selected-39BZ4S,
+.theme-dark .members-1998pB, 
+.noChannel-Z1DQK7,
+.activityFeed-28jde9,
+.dockItem-2kQDqg:hover {
+  background: transparent !important;
+}
+
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY {
+    background: rgba(0,0,0,0.0);
+}
+.theme-dark .guildsWrapper-5TJh6A{
+  background: rgba(0,0,0,0.0) !important;
+}
+
+/* Displays the custom background */
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .typeWindows-15E0Ys {
+    background: rgba(0, 0, 0, 0.16) !important;
+}
+
+.container-16j22k {background-image: url("c"); 
+background-position: center; background-repeat: no-repeat; background-size: cover !important;}
+
+.app {background: url("https://wallpapercave.com/wp/4HDJRCz.jpg") center/cover no-repeat;}
+
+ /* Recolors the no text channels message */
+.theme-dark .title-2BxgL2 {color: #d4d4d4;}
+ 
+ /* Sets the color of inbeded links */ 
+.theme-dark .embedInner-1-fpTo, .theme-dark .attachment-33OFj0, .theme-dark .wrapperAudio-1jDe0Q, .theme-dark .wrapper-35wsBm {background-color: #2e3036;}
+
+/* Recolors the friends tab */
+.theme-dark #friends .friends-table .friends-table-header .friends-column {color: #fff;}
+#friends .friends-table .friends-row .discord-tag .username {color: pink;}
+.private-channels .channel .channel-name {color: #fff; opacity: 1;}
+.theme-dark #friends .friends-table .friends-row:hover {background-color: rgba(0, 0, 0, 0.6);}
+
+/* Gets rid of the local bot shadow */
+.theme-dark .message-group .is-local-bot-message {box-shadow: none; box-shadow: -20px 0px #33373b;}
+
+/* Changes the color of the role menu and user information */
+.theme-dark .body-3ND3kc, .tabBarContainer-1s1u-z, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {background-color: #0E2F44;}
+.role-2irmRk {border-radius: 3px; margin: 0 4.3px 4.3px 0;}
+.roleCircle-3xAZ1j {border-radius: 6%;}
+
+/* Changes the text channel color */ 
+.contentSelectedText-3wUhMi
+{background-color: #43398e; text-shadow: 2px 2px #000 !important;}
+.contentHoveredText-2D9B-x
+{background-color: #2e1ac9; text-shadow: 2px 2px #000 !important;}
+.nameDefaultText-24KCy5 {color: white;}
+.nameUnreadText-DfkrI4:after {content: "\03c"; margin-left: 8px; color: #44f5b1;}
+
+/* Changes the settings tab color */
+.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {background-color: #1ac0c9 !important;}
+.side-8zPYf6 .itemSelected-1qLhcL, #bd-settings-sidebar .ui-tab-bar-item.selected {background-color: #8e3986;}
+.theme-dark .auditLog-3jNbM6 {color: drakgray;}
+.theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
+.description-2nQj2E {color: lightsteelblue !important;}
+#pubslayer .ui-tab-bar-item.selected {background-color: #8e3986 !important;}
+#pubslayer .ui-tab-bar-item:hover {background-color: #1ac0c9 !important;}
+
+/* Changes the DM Color */
+.private-channels .channel:hover a
+{background-color: #d0a100 !important;}
+.private-channels .channel.selected a
+{background-color: #0b512f;}
+
+/* Changes the Member list color */
+.member-3W1lQa:hover .content-OzHfo4,
+.member-3W1lQa .popout-open .content-OzHfo4,
+.member-3W1lQa .popout-open:hover .content-OzHfo4 {background-color: #d0a100 !important; text-shadow: 1px 1px #000 !important;}
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {background-color: #0b512f !important; text-shadow: 1px 1px #000 !important;}
+
+/* Changes the time-stamp color */
+.theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: cyan;}
+.theme-dark .discrim-3rYTMj {opacity: 1;}
+.theme-dark .guild-settings-members-member .tag {color: #dcddde}
+
+/* Removes the scroll bar and the round arrows that point next to a server and channel */
+.theme-dark .guild-1EfMGQ.selected-ML3OIq:before {background: #000; display: block;}
+.scroller-wrap .scroller::-webkit-scrollbar {display: none;}
+.unread-1Dp-OI {display: none;}
+
+/* Gets rid of the box shadow from the jump button from channel search */
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {background-color: #bc8f8f !important; box-shadow: none !important;}
+
+/* Changes the color of pinned messages */
+.messagesPopout-24nkyi {background-color: #0E2F44;}
+.messageGroupWrapper-o-Zw7G {background-color: #bc8f8f !important;}
+
+/* Changes Settings or user dividers */
+.private-channels header {color: red; opacity: 1;}
+.theme-dark .header-2RyJ0Y {color: red;}
+.membersGroup-v9BXpm {color: red !important;}
+.nameDefault-2DI02H {color: red;}
+.nameCollapsed-34uFWo {color: red;}
+#bd-settings-sidebar .ui-tab-bar-header {color: red;}
+.paginationItem-3-MBTL:before {height: 83px;}
+
+/* Changes the Voice Channel List */
+.nameDefaultVoice-3WUH7s, .nameLockedVoice-26MhB1 {color: orange;}
+
+/* Changes the transparency of the search bars, so they can be seen easier */
+.search {background-color: hsla(240, 0%, 20%, 0.72); color: #fff; opacity: 1;}
+.private-channels .search-bar .search-bar-inner input {color: #fff; opacity: 1;}
+.theme-dark .wrapper-1cBijl .addFriendInput-4bcerK, .search-bar input {color: #fff;}
+ .theme-dark .wrapper-1cBijl {background-color: hsla(218,5%,47%,.3); color: hsla(0,0%,100%,.7);}
+ .wrapper-1cBijl .btn:disabled {cursor: not-allowed !important; pointer-events: all;}
+ 
+/* Recolors the server serach popout */
+.theme-dark .search-results-wrap .search-result .hit {background-color: #bc8f8f;}
+.theme-dark .search-results-wrap, .theme-dark .search-results-wrap .channel-separator .channel-name {background-color: #0E2F44;}
+.theme-dark .search-results-wrap .search-result:before, .theme-dark .search-results-wrap .search-result:after {background-image: linear-gradient(0deg,hsla(0,0%,95%,0),#0E2F44);}
+
+/* Recolors the public button */
+#bd-pub-button {background: dodgerblue;}
+#pubslayer button:hover {background: dodgerblue;}
+
+/* Changes the style of the servers unavailable button */
+ div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;content: "You have servers unavailable due to the online usercap being reached, or discord is having issues.";}
+ div.tooltips div.tooltip-right.tooltip-red {font-size: 0;max-width: 208px}
+.guildsError-3cFMtY::after {content: ""; background-image: url('data:image/png;base64,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'); 
+text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left: 0; bottom: 0; width: 50px; height: 50px; background-repeat: no-repeat; background-position: center;}
+.guildsError-3cFMtY {text-indent: 100%;white-space: nowrap; overflow: hidden;}
+/* Gets rid of the side div in a metion */
+.isMentionedCozy-3isp7y:after {display: none;}
+	   
+/* Gets rid of the blocked users block */
+.messageGroupBlocked-3wrQQX , .messageGroupBlockedBtn-1PBBh-{display:none}
+
+/* Hides the text box for chatting when there is a channel you cannot speak in */
+.channelTextAreaDisabled-rZtG8r {display: none;}
+
+/* Makes the popout server list */
+.guilds-wrapper{
+   border-right-width: 6px;
+    border-style: solid;
+    border-image: linear-gradient(#33ccff, #ff99cc) 30;
+    transition: border-right 1s, box-shadow 1s, -webkit-box-shadow 1s, -moz-box-shadow 1s, width 0.15s;
+   float: left !important;
+    width:0px;
+}
+.active .guild-inner{
+    z-index: 1 !important;
+    position: absolute !important;
+}
+
+.guilds-wrapper:hover{
+    width:70px;
+}
+
+/* Gets rid of the blocked users block */
+.message-group-blocked {display: none;}
+
+/* Hides the text box for chatting when there is a channel you cannot speak in */
+.channelTextAreaDisabled-rZtG8r {display: none;}
+
+/* Makes the popout server list */
+.guildsWrapper-5TJh6A {
+   border-right-width: 6px;
+    border-style: solid;
+    border-image: linear-gradient(#33ccff, #ff99cc) 30;
+    transition: border-right 1s, box-shadow 1s, -webkit-box-shadow 1s, -moz-box-shadow 1s, width 0.15s;
+   float: left !important;
+    width:0px;
+}
+.active .guild-inner{
+    z-index: 1 !important;
+    position: absolute !important;
+}
+
+.guildsWrapper-5TJh6A:hover{
+    width:70px;
+}
+
+/* Changes the border-radius of user pfp's and server icons */
+.theme-dark .mask-3OgeRz {-webkit-mask: none;mask: none;}
+.theme-dark .guilds-wrapper .guilds-add,.theme-dark .guilds-wrapper .guilds .guild-icon,.theme-dark .guilds-wrapper .guilds .guild .guild-inner,
+.theme-dark .image-33JSyf,.theme-dark .avatar-large, .theme-dark .avatar-profile, .theme-drak .small-5Os1Bb,.theme-dark .avatar-small,
+.theme-dark .avatarHint-1qgaV3,.theme-dark .title-3qD0b- .status, .theme-dark .titleCall-_b9o8P .status, .listAvatar-1NlAhb {border-radius: 0px !important;}
+.theme-dark .status-2s6iDp, .statusProfile-3ynqtt, .avatar-small .status {border-radius: 0px; border: none;}
+.status-oxiHuE {border-radius: 0px !important;}
+.private-channels .status {border: 1.2px solid #2f3136;}
+.status-2s6iDp {border: 1.8px solid #2f3136;}
+.typing-1KJk_j {border-radius: 7px !important;}
+.avatar-17mtNa {height: 45px; width: 45px;}
+#bd-pub-button {border-radius: 4px;}
+
+/*
+		                          _
+                        .-.      / \        _
+            ^^         /   \    /^./\__   _/ \
+          _        .--'\/\_ \__/.      \ /    \  ^^  ___
+         / \_    _/ ^      \/  __  :'   /\/\  /\  __/   \
+        /    \  /    .'   _/  /  \   ^ /    \/  \/ .`'\_/\
+       /\/\  /\/ :' __  ^/  ^/    `--./.'  ^  `-.\ _    _:\ _
+      /    \/  \  _/  \-' __/.' ^ _   \_   .'\   _/ \ .  __/ \
+    /\  .-   `. \/     \ / -.   _/ \ -. `_/   \ /    `._/  ^  \
+   /  `-.__ ^   / .-'.--'    . /    `--./ .-'  `-.  `-. `.  -  `.
+ @/        `.  / /      `-.   /  .-'   / .   .'   \    \  \  .-  \%
+ @(88%@)@%% @)&@&(88&@.-_=_-=_-=_-=_-=_.8@% &@&&8(8%@%8)(8@%8 8%@)%
+ @88:::&(&8&&8::JRS:&`.~-_~~-~~_~-~_~-~~=.'@(&%::::%@8&8)::&#@8::::
+ `::::::8%@@%:::::@%&8:`.=~~-.~~-.~~=..~'8::::::::&@8:::::&8::::::'
+  `::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::'
+	   
+*/

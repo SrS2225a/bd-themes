@@ -114,7 +114,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 
 /* Changes the settings tab color */
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {background-color: #1ac0c9 !important;}
-.side-8zPYf6 .itemSelected-1qLhcL, #bd-settings-sidebar .ui-tab-bar-item.selected {background-color: #8e3986;}
+.side-8zPYf6 .itemSelected-1qLhcL, #bd-settings-sidebar .ui-tab-bar-item.selected {background-color: #8e3986 !important;}
 .theme-dark .auditLog-3jNbM6 {color: drakgray;}
 .theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
 .description-2nQj2E {color: lightsteelblue !important;}
@@ -122,9 +122,9 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 #pubslayer .ui-tab-bar-item:hover {background-color: #1ac0c9 !important;}
 
 /* Changes the DM Color */
-.private-channels .channel:hover a
+.channel-2QD9_O.selected-1HYmZZ, .channel-2QD9_O:hover
 {background-color: #d0a100 !important;}
-.private-channels .channel.selected a
+.channel-2QD9_O .selected-1HYmZZ
 {background-color: #0b512f;}
 
 /* Changes the Member list color */
@@ -156,7 +156,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .membersGroup-v9BXpm {color: red !important;}
 .nameDefault-2DI02H {color: red;}
 .nameCollapsed-34uFWo {color: red;}
-#bd-settings-sidebar .ui-tab-bar-header {color: red;}
+#bd-settings-sidebar .ui-tab-bar-header {color: red !important;}
 .paginationItem-3-MBTL:before {height: 83px;}
 
 /* Changes the Voice Channel List */

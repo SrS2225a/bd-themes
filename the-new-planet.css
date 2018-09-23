@@ -125,7 +125,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a
 {background-color: #d0a100 !important;}
 .channel-2QD9_O.selected-1HYmZZ a
-{background-color: #0b512f;}
+{background-color: #0b512f !important;}
 
 /* Changes the Member list color */
 .member-3W1lQa:hover .content-OzHfo4,

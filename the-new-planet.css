@@ -1,4 +1,4 @@
-/* The Acid Cliffs - v.2.2.11*/
+/* The Acid Cliffs - v.2.3.14*/
 
 
 
@@ -247,6 +247,61 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 .typing-1KJk_j {border-radius: 7px !important;}
 .avatar-17mtNa {height: 45px; width: 45px;}
 #bd-pub-button {border-radius: 4px;}
+
+/* Changes the look of the friends list */
+
+@media (max-width:1300px){#friends .friends-table .friends-column-guilds{display:inline-flex !important}}
+#app-mount #friends .friends-table .friends-row  {
+    margin: 10px;height: 130px !important;flex-direction: column ;flex-basis: 300px ; padding: 0;
+    white-space: nowrap;width: 320px;display: inline-block;justify-content: center;align-items: center;position:relative; border:none;}
+
+.theme-dark #friends .friends-table .friends-table-header {opacity: 0; height: 2px;}
+
+.app #friends .friends-table .friends-row .friends-column-name .avatar-small {top: 15px;
+    left: 5px;
+    width: 85px;
+    height: 85px;
+    background-size: 85px 85px;}
+
+#friends .friends-table .friends-row .friends-column-name .discord-tag {
+    
+    position: absolute;
+    top: 20px;
+    left: 115px;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+}
+
+.theme-dark #friends .friends-table .friends-row .friends-column-status {left: 10px;}
+
+#app-mount #friends .friends-table .friends-table-body .friends-row .friends-column-guilds {
+    top: 80px;
+    left: 115px;
+    width: 150px;
+   
+}
+
+#app-mount #friends .friends-table .friends-row .friends-column+.friends-column {
+    margin: 0;
+    padding: 0;
+}
+
+#app-mount #friends .friends-table .friends-row .friends-column {
+    position: absolute;
+}
+
+#friends .friends-table .friends-row .friends-column+.friends-column {
+    margin-left: 41px;
+}
+
+#friends .friends-table .friends-row .friends-column-actions {
+    top: 45px;
+    left: 115px;
+}
+
+#friends .friends-table .friends-row .friends-column-actions .friends-action {
+    width: 24px;
+    height: 24px;
+}
 
 /*
 		                          _

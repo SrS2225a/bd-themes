@@ -255,7 +255,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 @media (max-width:1300px){#friends .friends-table .friends-column-guilds{display:inline-flex !important}}
 #app-mount #friends .friends-table .friends-row  {
     margin: 10px;height: 142px !important;flex-direction: column ;flex-basis: 300px ; padding: 0;
-    white-space: nowrap;width: 332px;display: inline-block;justify-content: center;align-items: center;position:relative; border:none;}
+    white-space: nowrap;width: 324px;display: inline-block;justify-content: center;align-items: center;position:relative; border:none;}
 
 .theme-dark #friends .friends-table .friends-table-header {opacity: 0; height: 2px;}
 
@@ -268,7 +268,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 #friends .friends-table .friends-row .friends-column-name .discord-tag {
     position: absolute;
     top: 20px;
-    left: 115px;
+    left: 105px;
     text-shadow: rgb(0, 0, 0) 1px 1px 1px;
 }
 
@@ -276,7 +276,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 
 #app-mount #friends .friends-table .friends-table-body .friends-row .friends-column-guilds {
     top: 80px;
-    left: 115px;
+    left: 105px;
     width: 150px;
    
 }
@@ -296,7 +296,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 
 #friends .friends-table .friends-row .friends-column-actions {
     top: 45px;
-    left: 115px;
+    left: 105px;
 }
 
 #friends .friends-table .friends-row .friends-column-actions .friends-action {

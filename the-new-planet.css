@@ -254,8 +254,8 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 
 @media (max-width:1300px){#friends .friends-table .friends-column-guilds{display:inline-flex !important}}
 #app-mount #friends .friends-table .friends-row  {
-    margin: 10px;height: 130px !important;flex-direction: column ;flex-basis: 300px ; padding: 0;
-    white-space: nowrap;width: 320px;display: inline-block;justify-content: center;align-items: center;position:relative; border:none;}
+    margin: 10px;height: 142px !important;flex-direction: column ;flex-basis: 300px ; padding: 0;
+    white-space: nowrap;width: 332px;display: inline-block;justify-content: center;align-items: center;position:relative; border:none;}
 
 .theme-dark #friends .friends-table .friends-table-header {opacity: 0; height: 2px;}
 

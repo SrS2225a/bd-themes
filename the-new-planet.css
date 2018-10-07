@@ -266,14 +266,13 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
     background-size: 85px 85px;}
 
 #friends .friends-table .friends-row .friends-column-name .discord-tag {
-    
     position: absolute;
     top: 20px;
     left: 115px;
     text-shadow: rgb(0, 0, 0) 1px 1px 1px;
 }
 
-.theme-dark #friends .friends-table .friends-row .friends-column-status {left: 10px;}
+.theme-dark #friends .friends-table .friends-row .friends-column-status {left: 10px; bottom: 3px; width: 94%;}
 
 #app-mount #friends .friends-table .friends-table-body .friends-row .friends-column-guilds {
     top: 80px;

@@ -126,6 +126,8 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 {background-color: #d0a100;}
 .channel-2QD9_O.selected-1HYmZZ a
 {background-color: #0b512f !important;}
+.privateChannels-1nO12o header
+{opacity: 1; color: red;}
 
 /* Changes the Member list color */
 .member-3W1lQa:hover .content-OzHfo4,

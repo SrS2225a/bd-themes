@@ -1,4 +1,4 @@
-/* The Acid Cliffs - v.2.3.14*/
+/* The Acid Cliffs - v.2.4.15*/
 
 
 
@@ -143,6 +143,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 /* Removes the scroll bar and the round arrows that point next to a server and channel */
 .theme-dark .guild-1EfMGQ.selected-ML3OIq:before {background: #000; display: block;}
 .scroller-wrap .scroller::-webkit-scrollbar {display: none;}
+.scroller-2FKFPG::-webkit-scrollbar {display: none;}
 .unread-1Dp-OI {display: none;}
 
 /* Gets rid of the box shadow from the jump button from channel search */
@@ -175,6 +176,16 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .theme-dark .search-results-wrap .search-result .hit {background-color: #bc8f8f;}
 .theme-dark .search-results-wrap, .theme-dark .search-results-wrap .channel-separator .channel-name {background-color: #0E2F44;}
 .theme-dark .search-results-wrap .search-result:before, .theme-dark .search-results-wrap .search-result:after {background-image: linear-gradient(0deg,hsla(0,0%,95%,0),#0E2F44);}
+
+/* Changes the color of the options menu */
+.item-1Yvehc.danger-2dXSTE:hover {color: #fff !important;
+    background: crimson;}
+
+.item-1Yvehc.danger-2dXSTE {
+    color: crimson !important;
+    background: #fff;
+    border-radius: 0;}
+
 
 /* Recolors the public button */
 #bd-pub-button {background: dodgerblue;}
@@ -212,9 +223,6 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 .guilds-wrapper:hover{
     width:70px;
 }
-
-/* Gets rid of the blocked users block */
-.message-group-blocked {display: none;}
 
 /* Hides the text box for chatting when there is a channel you cannot speak in */
 .channelTextAreaDisabled-rZtG8r {display: none;}

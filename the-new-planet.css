@@ -187,9 +187,18 @@ background-position: center; background-repeat: no-repeat; background-size: cove
     color: crimson !important;
     background: #fff;
     border-radius: 0;}
-.rowBackground-3MeNoN .da-rowBackground {opacity: 0;}
 
+/* Changes the look of the libary tab */
+.rowBackground-3MeNoN .da-rowBackground {opacity: 0;}
 .theme-dark .header-39GIC8 {opacity: 0; height: 2px;}
+
+.gameLibrary-TTDw4Y .header-39GIC8 {display: none}
+.textCell-1aBIUP{margin:10px 0 0 20px}
+#app-mount .nameBodyCell-3JOlnK{margin:10px 0 0 10px}
+#app-mount .bodyCell-9xKjWE{width:300px;padding:2px}
+#app-mount .row-ZLfFhY{height:150px;width:350px;display:inline-table;margin:0;background:rgba(0,0,0,.4)}
+#app-mount .rowWrapper-2fB6P0{height:150px;width:350px;display: inline-table;margin:5px 0 0 35px}
+#app-mount .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY{border:none;background:rgba(0,0,0,.4)}
 
 /* Recolors the public button */
 #bd-pub-button {background: dodgerblue;}

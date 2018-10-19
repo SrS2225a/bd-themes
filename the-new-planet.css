@@ -187,7 +187,9 @@ background-position: center; background-repeat: no-repeat; background-size: cove
     color: crimson !important;
     background: #fff;
     border-radius: 0;}
+.rowBackground-3MeNoN .da-rowBackground {opacity: 0;}
 
+.theme-dark .header-39GIC8 {opacity: 0; height: 2px;}
 
 /* Recolors the public button */
 #bd-pub-button {background: dodgerblue;}

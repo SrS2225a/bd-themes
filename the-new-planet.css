@@ -1,4 +1,4 @@
-/* The Acid Cliffs - v.2.5.19*/
+/* The Acid Cliffs - v.3.6.20*/
 
 
 
@@ -164,6 +164,34 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .nameCollapsed-34uFWo {color: red;}
 #bd-settings-sidebar .ui-tab-bar-header {color: red !important;}
 .paginationItem-3-MBTL:before {height: 83px;}
+
+/* Changes the style of the store */
+.theme-dark .tileWrapper-2khh-w {background: transparent;}
+.theme-dark .tileWrapper-2khh-w:hover {background-color: rgba(0, 0, 0, 0.6);}
+.theme-dark .tag-HanR-9:before {background-image: none;}
+.theme-dark .tag-HanR-9:before {background: transparent;}
+.arrow-3jRqK8 {backgorund: transparent; opacity: 0.6;}
+.theme-dark .headerFancy-1AcCLF {background-image: none; background: #738ef5;}
+.overlappingBorder-1-XPGl, .theme-dark .overlappingBorder-1ysb12 {border: 2px solid orange; border-radius: 0px;}
+.paginationItem-3-iI7C {opacitiy: 1;}
+.theme-dark .root-1bFE0x {display: none;}
+.theme-dark .item-3V15ea {background: transparent;}
+.theme-dark .footer-3oZnEF {background: transparent; margin-top: 128px;}
+.theme-dark .itemBackground-1jfD8p {background: transparent;}
+
+.headerPurchase-2z_nch {transform: translateY(0px); opacity: 1;}
+
+.theme-dark .rowBody-10yI-R, .theme-dark .tagline-LsAYEH, .theme-dark .content-3FEARf {color: lightsteelblue;}
+.theme-dark .itemBackground-1jfD8p:before {opacity: 0;}
+
+.listeningActionsUserPopout-Ga2V_N .button-1Pkqso {color: white !important;}
+.theme-dark .viewAllGames-3LNpt1, .lookOutlined-3sRXeN.colorWhite-rEQuAQ {color: #00b0f4;}
+.theme-dark .row-1bU71H {background-color: #202225;}
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ {border-color: hsla(0,0%,100%,.6);}
+
+.icon-3kOcCa {display: none;}
+.theme-dark .selectedSort-2JSohJ {display: none;}
+.announcingNitro-3Ptg6m {margin: 0 0 10px 0px;}
 
 /* Changes the Voice Channel List */
 .nameDefaultVoice-3WUH7s, .nameLockedVoice-26MhB1 {color: orange;}

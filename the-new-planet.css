@@ -1,4 +1,4 @@
-/* The Acid Cliffs - v.3.7.21*/
+/* The Acid Cliffs - v.3.7.22*/
 
 
 
@@ -147,6 +147,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .scroller-wrap .scroller::-webkit-scrollbar {display: none;}
 .scroller-2FKFPG::-webkit-scrollbar {display: none;}
 .guild-1EfMGQ.unread-qLkInr:before{display: none;}
+.unread-1Dp-OI {display: none;}
 
 /* Gets rid of the box shadow from the jump button from channel search */
 .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {background-color: #bc8f8f !important; box-shadow: none !important;}
@@ -248,7 +249,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 .channelTextAreaDisabled-rZtG8r {display: none;}
 
 /* Makes the popout server list */
-.guilds-wrapper{
+.guildsWrapper-5TJh6A {
    border-right-width: 6px;
     border-style: solid;
     border-image: linear-gradient(#33ccff, #ff99cc) 30;
@@ -261,7 +262,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
     position: absolute !important;
 }
 
-.guilds-wrapper:hover{
+.guildsWrapper-5TJh6A:hover{
     width:70px;
 }
 
@@ -269,7 +270,8 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 .theme-dark .mask-3OgeRz {-webkit-mask: none;mask: none;}
 .theme-dark .guilds-wrapper .guilds-add,.theme-dark .guilds-wrapper .guilds .guild-icon,.theme-dark .guilds-wrapper .guilds .guild .guild-inner,
 .theme-dark .image-33JSyf,.theme-dark .avatar-large, .theme-dark .avatar-profile, .theme-drak .small-5Os1Bb,.theme-dark .avatar-small,
-.theme-dark .avatarHint-1qgaV3,.theme-dark .title-3qD0b- .status, .theme-dark .titleCall-_b9o8P .status, .listAvatar-1NlAhb {border-radius: 0px !important;}
+.theme-dark .avatarHint-1qgaV3,.theme-dark .title-3qD0b- .status, .theme-dark .titleCall-_b9o8P .status, .listAvatar-1NlAhb,
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4, .theme-dark .guildsError-3cFMtY, .theme-dark .guildsAdd-21_IdK {border-radius: 0px !important;}
 .theme-dark .status-2s6iDp, .statusProfile-3ynqtt, .avatar-small .status {border-radius: 0px; border: none;}
 .wrapper-232cHJ {bottom: 2px; right: 2px; border-radius: 0px;}
 .status-oxiHuE {border-radius: 0px !important;}

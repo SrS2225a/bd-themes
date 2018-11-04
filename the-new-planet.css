@@ -1,4 +1,4 @@
-/* The Acid Cliffs - v.3.8.23*/
+/* The New Planet - v3.9.24*/
 
 
 
@@ -138,6 +138,14 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .member-3W1lQa .popout-open .content-OzHfo4,
 .member-3W1lQa .popout-open:hover .content-OzHfo4 {background-color: #d0a100 !important; text-shadow: 1px 1px #000 !important;}
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {background-color: #0b512f !important; text-shadow: 1px 1px #000 !important;}
+
+/* Changes the more users options color */
+.theme-dark.contextMenu-HLZMGh {background-color: lightslategrey; color: #fff;}
+.theme-dark .item-1Yvehc:hover {background: slategrey;}
+
+.theme-dark .item-1Yvehc {color: #fff;} 
+
+.search .DraftEditor-root .public-DraftStyleDefault-block span {background: cadetblue;}
 
 /* Changes the time-stamp color */
 .theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: cyan;}

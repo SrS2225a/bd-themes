@@ -161,6 +161,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 /* Removes the scroll bar and the round arrows that point next to a server and channel */
 .scroller-wrap .scroller::-webkit-scrollbar {display: none;}
 .scroller-2FKFPG::-webkit-scrollbar {display: none;}
+.guild-1EfMGQ.unread-qLkInr:before {display: none;}
 .unread-1Dp-OI {display: none;}
 
 

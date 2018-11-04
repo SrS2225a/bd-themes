@@ -147,6 +147,12 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 
 .search .DraftEditor-root .public-DraftStyleDefault-block span {background: cadetblue;}
 
+.guild-1EfMGQ.da-guild.selected-ML3OIq.da-selected.unread-qLkInr.da-unread {outline: 2px dashed green !important;}
+.theme-dark .container-3ayLPN {background: cadetblue;}
+.theme-dark .resultsGroup-r_nuzN .header-2N-gMV {color: red}
+.theme-dark .option-96V44q:after {background: transparent;}
+.theme-dark .option-96V44q.selected-rZcOL-:after {background: transparent}
+
 /* Changes the time-stamp color */
 .theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: cyan;}
 .theme-dark .discrim-3rYTMj {opacity: 1;}
@@ -156,7 +162,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .scroller-wrap .scroller::-webkit-scrollbar {display: none;}
 .scroller-2FKFPG::-webkit-scrollbar {display: none;}
 .guild-1EfMGQ.unread-qLkInr:before{display: none;}
-.unread-1Dp-OI {display: none;}
+
 
 /* Gets rid of the box shadow from the jump button from channel search */
 .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {background-color: #bc8f8f !important; box-shadow: none !important;}
@@ -282,6 +288,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 .theme-dark .avatarHint-1qgaV3,.theme-dark .title-3qD0b- .status, .theme-dark .titleCall-_b9o8P .status, .listAvatar-1NlAhb,
 .theme-dark .guild-1EfMGQ .guildInner-3DSoA4, .theme-dark .guildsError-3cFMtY, .theme-dark .guildsAdd-21_IdK {border-radius: 0px !important;}
 .theme-dark .status-2s6iDp, .statusProfile-3ynqtt, .avatar-small .status {border-radius: 0px; border: none;}
+guild-1EfMGQ.da-guild.selected-ML3OIq.da-selected.unread-qLkInr.da-unread {outline: 2px dashed green;}
 .wrapper-232cHJ {bottom: 2px; right: 2px;}
 .status-oxiHuE {border-radius: 0px !important;}
 .private-channels .status {border: 1.2px solid #2f3136;}

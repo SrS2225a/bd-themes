@@ -1,4 +1,4 @@
-/* The New Planet - v3.10.26*/
+/* The New Planet - v3.11.27*/
 
 
 
@@ -145,11 +145,12 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 
 .theme-dark .item-1Yvehc {color: #fff;} 
 
-.search .DraftEditor-root .public-DraftStyleDefault-block span {background: cadetblue;}
+.search .DraftEditor-root .public-DraftStyleDefault-block span {background: lightslategrey;}
 
-.guild-1EfMGQ.da-guild.selected-ML3OIq.da-selected.unread-qLkInr.da-unread {outline: 2.6px dashed green !important;}
-.theme-dark .container-3ayLPN {background: cadetblue;}
-.theme-dark .resultsGroup-r_nuzN .header-2N-gMV {color: red}
+.guild-1EfMGQ.da-guild.selected-ML3OIq.da-selected.unread-qLkInr.da-unread {outline: 2.8px dashed green !important;}
+.theme-dark .container-3ayLPN {background: lightslategrey;}
+.theme-dark .option-96V44q.selected-rZcOL- {background-color: slategrey;}
+.theme-dark .resultsGroup-r_nuzN .header-2N-gMV {color: red;}
 .theme-dark .option-96V44q:after {background: transparent;}
 .theme-dark .option-96V44q.selected-rZcOL-:after {background: transparent;}
 

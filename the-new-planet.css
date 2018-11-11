@@ -1,4 +1,4 @@
-/* The New Planet - v3.11.27*/
+/* The New Planet - v3.12.27*/
 
 
 
@@ -115,6 +115,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 {background-color: #2e1ac9; text-shadow: 2px 2px #000 !important;}
 .nameDefaultText-24KCy5 {color: white;}
 .nameUnreadText-DfkrI4:after {content: "\03c"; margin-left: 8px; color: #44f5b1;}
+.theme-dark .subtitle-Qv5s8c {color: #1db954;}
 
 /* Changes the settings tab color */
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {background-color: #1ac0c9 !important;}

@@ -1,4 +1,4 @@
-/* The New Planet - v3.12.27*/
+/* The New Planet - v3.12.28*/
 
 
 
@@ -250,6 +250,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 /* Recolors the public button */
 #bd-pub-button {background: dodgerblue;}
 #pubslayer button:hover {background: dodgerblue;}
+#pubslayer .ui-tab-bar-header {color: red;}
 
 /* Changes the style of the servers unavailable button */
  div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;content: "You have servers unavailable due to the online usercap being reached, or discord is having issues.";}

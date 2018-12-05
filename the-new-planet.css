@@ -1,4 +1,4 @@
-/* The New Planet - v3.12.28*/
+/* The New Planet - v3.13.28*/
 
 
 
@@ -146,6 +146,13 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 
 .theme-dark .item-1Yvehc {color: #fff;} 
 
+.icon-2doZ3q {brightness(0.25);}
+.theme-dark .item-1GzJrl {background: lightslategrey;}
+.theme-dark .item-1GzJrl:hover {background: slategrey;}
+.theme-dark .item-1GzJrl.invite-271nFU {color: #304db5;}
+
+.theme-dark .item-1Yvehc.disabled-2xniQf, .theme-dark .item-1Yvehc.disabled-2xniQf:hover {color: #333;}
+
 .search .DraftEditor-root .public-DraftStyleDefault-block span {background: lightslategrey;}
 
 .guild-1EfMGQ.da-guild.selected-ML3OIq.da-selected.unread-qLkInr.da-unread {outline: 2.8px dashed green !important;}
@@ -154,6 +161,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .theme-dark .resultsGroup-r_nuzN .header-2N-gMV {color: red;}
 .theme-dark .option-96V44q:after {background: transparent;}
 .theme-dark .option-96V44q.selected-rZcOL-:after {background: transparent;}
+.theme-dark .searchOption-zQ-1l6 .answer-1n6g43 {color: #333;}
 
 /* Changes the time-stamp color */
 .theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: cyan;}

@@ -1,4 +1,4 @@
-/* The New Planet - v3.13.29*/
+/* The New Planet - v3.14.29*/
 
 
 
@@ -253,6 +253,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 #app-mount .row-ZLfFhY{height:150px;width:350px;display:inline-table;margin:0;background:rgba(0,0,0,.4)}
 #app-mount .rowWrapper-2fB6P0{height:150px;width:350px;display: inline-table;margin:5px 0 0 35px}
 #app-mount .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY{border:none;background:rgba(0,0,0,.4)}
+.disabledButtonColor-34LjTT {rgba(24,25,28, 1);}
 
 /* Recolors the public button */
 #bd-pub-button {background: dodgerblue;}

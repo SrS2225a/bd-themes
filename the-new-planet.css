@@ -1,4 +1,4 @@
-/* The New Planet - v3.14.31*/
+/* The New Planet - v3.14.32*/
 
 
 
@@ -66,7 +66,8 @@
 .activityFeed-28jde9,
 .dockItem-2kQDqg:hover, 
 .applicationStore-1pNvnv,
-.gameLibrary-TTDw4Y {
+.gameLibrary-TTDw4Y
+.theme-dark .root-1BQpZw {
   background: transparent !important;
 }
 
@@ -172,6 +173,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .scroller-wrap .scroller::-webkit-scrollbar {display: none;}
 .scroller-2FKFPG::-webkit-scrollbar {display: none;}
 .guild-1EfMGQ.unread-qLkInr:before {display: none;}
+.guild-1EfMGQ.selected-ML3OIq:before {display: none;}
 .unread-1Dp-OI {display: none;}
 
 
@@ -300,7 +302,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 .theme-dark .avatarHint-1qgaV3,.theme-dark .title-3qD0b- .status, .theme-dark .titleCall-_b9o8P .status, .listAvatar-1NlAhb,
 .theme-dark .guild-1EfMGQ .guildInner-3DSoA4, .theme-dark .guildsError-3cFMtY, .theme-dark .guildsAdd-21_IdK {border-radius: 0px !important;}
 .theme-dark .status-2s6iDp, .statusProfile-3ynqtt, .avatar-small .status {border-radius: 0px; border: none;}
-.guild-1EfMGQ.da-guild.selected-ML3OIq.da-selected.unread-qLkInr.da-unread {outline: 2.8px dashed green !important;}
+.guild-1EfMGQ.da-guild.selected-ML3OIq.da-selected {outline: 2.8px dashed green !important;}
 .wrapper-232cHJ {bottom: 2px; right: 2px;}
 .status-oxiHuE {border-radius: 0px !important;}
 .private-channels .status {border: 1.2px solid #2f3136;}

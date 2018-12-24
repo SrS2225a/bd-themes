@@ -1,4 +1,4 @@
-/* The New Planet - v3.15.33*/
+/* The New Planet - v3.16.33*/
 
 
 /* Makes the app transparent so the background picture can be displayed */
@@ -65,7 +65,7 @@
 .activityFeed-28jde9,
 .dockItem-2kQDqg:hover, 
 .applicationStore-1pNvnv,
-.gameLibrary-TTDw4Y,
+.gamerary-TTDw4Y,
 .theme-dark .root-1BQpZw {
   background: transparent !important;
 }
@@ -259,6 +259,20 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 #app-mount .rowWrapper-2fB6P0{height:150px;width:350px;display: inline-table;margin:5px 0 0 35px}
 #app-mount .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY{border:none;background:rgba(0,0,0,.4)}
 .disabledButtonColor-34LjTT {rgba(24,25,28, 1);}
+
+/* Adds in the fadable update notification */
+.app-19_DXt {margin-top: 46px; animation: reset 3s linear forwards; animation-delay: 24s;}
+.typeWindows-1za-n7:after {position: absolute; width: 100%; overflow-x: scroll; overflow-y: hidden; margin-top: 14px; background: black; color: white; white-space: pre; animation: delay-hide 3s linear forwards; animation-delay: 24s; content: "On Jan 18 2019, we will be switching our update provider to a diffrient one as the one we are currently using will no longer be supported sometime in Jan, and this theme will no longer work with it. \a The update provider is what we use to load the theme, and update it when there is a new version advaiable. However, there is a version that will be able to work with this theme \a You may download it from: https://raw.githubusercontent.com/SrS2225a/bd-themes/master/new-theme-provider/the%20new%20planet.theme.css";}
+
+@keyframes delay-hide {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes reset {
+    0% {margin-top: 48px;}
+    100% {margin-top: 0px;}
+}
 
 /* Recolors the public button */
 #bd-pub-button {background: dodgerblue;}

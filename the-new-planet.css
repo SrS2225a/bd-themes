@@ -1,4 +1,4 @@
-/* The New Planet - v3.16.35*/
+/* The New Planet - v3.16.36*/
 
 
 /* Makes the app transparent so the background picture can be displayed */
@@ -122,7 +122,8 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .side-8zPYf6 .itemSelected-1qLhcL, #bd-settings-sidebar .ui-tab-bar-item.selected {background-color: #8e3986 !important;}
 .theme-dark .auditLog-3jNbM6 {color: drakgray;}
 .theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
-.description-2nQj2E {color: lightsteelblue !important;}
+.description-2nQj2E, .theme-dark #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
+.theme-dark .defaultColor-1_ajX0 {color: mediumpurple;}
 #pubslayer .ui-tab-bar-item.selected {background-color: #8e3986 !important;}
 #pubslayer .ui-tab-bar-item:hover {background-color: #1ac0c9 !important;}
 
@@ -156,6 +157,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .search .DraftEditor-root .public-DraftStyleDefault-block span {background: lightslategrey;}
 
 .theme-dark .container-3ayLPN {background: lightslategrey;}
+.theme-dark .item-1GzJrl.invite-271nFU {color: #304db5 !important;}
 
 .theme-dark .option-96V44q.selected-rZcOL- {background-color: slategrey;}
 .theme-dark .resultsGroup-r_nuzN .header-2N-gMV {color: red;}

@@ -1,4 +1,4 @@
-/* The New Planet - v3.16.36*/
+/* The New Planet - v3.16.37*/
 
 
 /* Makes the app transparent so the background picture can be displayed */
@@ -124,6 +124,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
 .description-2nQj2E, .theme-dark #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
 .theme-dark .defaultColor-1_ajX0 {color: mediumpurple;}
+.horizontal-1ae9ci>.flexChild-faoVW3:first-child {color: #f6f6f6;}
 #pubslayer .ui-tab-bar-item.selected {background-color: #8e3986 !important;}
 #pubslayer .ui-tab-bar-item:hover {background-color: #1ac0c9 !important;}
 

@@ -1,4 +1,4 @@
-/* The New Planet - v3.16.37*/
+/* The New Planet - v3.17.37*/
 
 
 /* Makes the app transparent so the background picture can be displayed */
@@ -253,6 +253,9 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 /* Changes the look of the libary tab */
 .rowBackground-3MeNoN .da-rowBackground {opacity: 0;}
 .theme-dark .header-39GIC8 {opacity: 0; height: 2px;}
+
+.theme-dark .rowWrapperActive-2L7i9f {background-color: rgba(0,0,0,.6);}
+.rowBackground-3MeNoN {-webkit-mask: radial-gradient(100% 100% at top left,hsla(0,0%,100%,.3) 0,hsla(0,0%,100%,.4) 100%);}
 
 .gameLibrary-TTDw4Y .header-39GIC8 {display: none}
 .textCell-1aBIUP{margin:10px 0 0 20px}

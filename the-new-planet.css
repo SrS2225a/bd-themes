@@ -1,4 +1,4 @@
-/* The New Planet - v3.17.38*/
+/* The New Planet - v4.17.38*/
 
 
 /* Makes the app transparent so the background picture can be displayed */
@@ -85,7 +85,8 @@
 .container-16j22k {background-image: url("https://gtgraphics.de/en/wallpapers/forgotten-world-hungarian-parliament.jpg"); 
 background-position: center; background-repeat: no-repeat; background-size: cover !important;}
 
-.app {background: url("https://storge.pic2.me/cm/5120x2880/735/5286da04468ee.jpg") center/cover no-repeat;} 
+.app {background: url("https://storge.pic2.me/cm/5120x2880/735/5286da04468ee.jpg") center/cover no-repeat; font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;}
+.da-wordmark:after {content: "The Blue Planet - Version 4.17.38"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}

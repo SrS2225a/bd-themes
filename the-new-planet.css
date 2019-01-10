@@ -1,4 +1,4 @@
-/* The New Planet - v4.17.38*/
+/* The New Planet - v4.18.38*/
 
 
 /* Makes the app transparent so the background picture can be displayed */
@@ -269,7 +269,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 
 /* Adds in the fadable update notification */
 .app-19_DXt {margin-top: 46px; animation: reset 3s linear forwards; animation-delay: 30s;}
-.typeWindows-1za-n7:after {position: absolute; width: 100%; overflow-x: scroll; overflow-y: hidden; margin-top: 14px; background: black; color: white; white-space: pre; animation: delay-hide 3s linear forwards; animation-delay: 30s; content: "On Jan 18 2019, we will be switching our update provider to a diffrient one as the one we are currently using will no longer be supported sometime in Oct of 2019, and this theme will no longer work with it. \a The update provider is what we use to load the theme, and update it when there is a new version advaiable. However, there will be a new version available which will be able to work with this theme \a In the upcoming days up to Jan 18th, a notification will be shown telling you how to update to the new version, so be on the lookout for it!" ;}
+.typeWindows-1za-n7:after {position: absolute; width: 100%; overflow-x: scroll; overflow-y: hidden; margin-top: 14px; background: black; color: white; white-space: pre; animation: delay-hide 3s linear forwards; animation-delay: 30s; content: "As you guys proberly know alreadly as what was displayed from the notification you get when loading discord, the time has come to switch to new update provider, which is used to update the theme and load it /a So, as to support this theme contunie working even after support ends for the update provider which was used ever since this theme was created, we will be switching to a new one /a To download the provider visit https://raw.githubusercontent.com/SrS2225a/bd-themes/master/new-theme-provider/the%20new%20planet.theme.css and right click and save as and go to themes and click 'open theme folder on the the top left' move your downloaded theme into the folder that just opened and restart.";}
 
 @keyframes delay-hide {
   0%   { opacity: 1; height: 46px;}

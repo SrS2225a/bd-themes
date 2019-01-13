@@ -1,4 +1,4 @@
-/* The New Planet - v5.18.42*/
+/* The New Planet - v5.18.43*/
 
 
 /* Makes the app transparent so the background picture can be displayed */
@@ -86,7 +86,7 @@
 background-position: center; background-repeat: no-repeat; background-size: cover !important;}
 
 .app {background: url("https://storge.pic2.me/cm/5120x2880/735/5286da04468ee.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
-.da-wordmark:after {content: "The New Planet - Version 5.18.42"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.da-wordmark:after {content: "The New Planet - Version 5.18.43"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}
@@ -379,7 +379,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
     position: absolute;
 }
 
-.friends-table .friends-row .friends-column+.friends-column {
+.friends-table .friends-row .friendsColumn-eVHFqJ+.friendsColumn-eVHFqJ {
     margin-left: 41px;
 }
 
@@ -388,7 +388,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
     left: 105px;
 }
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friends-action {
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
     width: 24px;
     height: 24px;
 }

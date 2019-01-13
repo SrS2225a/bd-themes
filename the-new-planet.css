@@ -1,4 +1,4 @@
-/* The New Planet - v4.18.41*/
+/* The New Planet - v5.18.41*/
 
 
 /* Makes the app transparent so the background picture can be displayed */
@@ -86,7 +86,7 @@
 background-position: center; background-repeat: no-repeat; background-size: cover !important;}
 
 .app {background: url("https://storge.pic2.me/cm/5120x2880/735/5286da04468ee.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
-.da-wordmark:after {content: "The New Planet - Version 4.18.41"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.da-wordmark:after {content: "The New Planet - Version 5.18.41"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}
@@ -95,10 +95,11 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .theme-dark .embedInner-1-fpTo, .theme-dark .attachment-33OFj0, .theme-dark .wrapperAudio-1jDe0Q, .theme-dark .wrapper-35wsBm {background-color: #2e3036;}
 
 /* Recolors the friends tab */
-.theme-dark #friends .friends-table .friends-table-header .friends-column {color: #fff;}
-#friends .friends-table .friends-row .discord-tag .username {color: pink;}
+.friendsTable-133bsv {background: transparent !important;}
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumn-eVHFqJ {color: #fff;}
+.friendsTable-133bsv .friendsRow-2yicud .discord-tag .username {color: pink;}
 .private-channels .channel .channel-name {color: #fff; opacity: 1;}
-.theme-dark #friends .friends-table .friends-row:hover {background-color: rgba(0, 0, 0, 0.6);}
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover {background-color: rgba(0, 0, 0, 0.6);}
 
 /* Gets rid of the local bot shadow */
 .theme-dark .message-group .is-local-bot-message {box-shadow: none; box-shadow: -20px 0px #33373b;}
@@ -167,6 +168,9 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .theme-dark .option-96V44q.selected-rZcOL-:after {background: transparent;}
 .theme-dark .searchOption-zQ-1l6 .answer-1n6g43, .theme-dark .option-96V44q .filter-3Y_im- {color: #333;}
 
+.theme-dark .dividerEnabled-2TTlcf {border-bottom-color: hsla(180, 100%, 61%, 0.2);}
+.theme-dark .separator-gCa7yv, .theme-dark #bd-settings-sidebar .ui-tab-bar-separator {background-color: hsla(180, 100%, 61%, 0.2);}
+
 /* Changes the time-stamp color */
 .theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: cyan;}
 .theme-dark .discrim-3rYTMj {opacity: 1;}
@@ -174,9 +178,9 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 
 /* Removes the scroll bar and the round arrows that point next to a server and channel */
 .scroller-wrap .scroller::-webkit-scrollbar {display: none;}
-.scroller-2FKFPG::-webkit-scrollbar {display: none;}
-.guild-1EfMGQ.unread-qLkInr:before {display: none;}
-.guild-1EfMGQ.selected-ML3OIq:before {display: none;}
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before {display: block; border-radius: 1px;height: 14px;margin-top: -6px;background-color: #44f5b1;}
+.theme-dark .guild-1EfMGQ.selected-ML3OIq:before {display: none;}
+.guild-1EfMGQ.selected-ML3OIq:before {display: block;}
 .unread-1Dp-OI {display: none;}
 
 
@@ -337,54 +341,54 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 #bd-pub-button {border-radius: 4px;}
 
 /* Changes the look of the friends list */
-@media (max-width:1300px){#friends .friends-table .friends-column-guilds{display:inline-flex !important}}
-#app-mount #friends .friends-table .friends-row  {
+@media (max-width:1300px){.friendsTable-133bsv .friendsColumnGuilds-2we6jb{display:inline-flex !important}}
+#app-mount .friendsTable-133bsv .friendsRow-2yicud  {
     margin: 10px;height: 142px !important;flex-direction: column ;flex-basis: 300px ; padding: 0;
     white-space: nowrap;width: 324px;display: inline-block;justify-content: center;align-items: center;position:relative; border:none;}
 
-.theme-dark #friends .friends-table .friends-table-header {opacity: 0; height: 2px;}
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d {opacity: 0; height: 2px;}
 
-.app #friends .friends-table .friends-row .friends-column-name .avatar-small {top: 11px;
+.app .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .avatar-small {top: 11px;
     left: 5px;
     width: 85px;
     height: 85px;
     background-size: 85px 85px;}
 
-#friends .friends-table .friends-row .friends-column-name .discord-tag {
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .discord-tag {
     position: absolute;
     top: 20px;
     left: 105px;
     text-shadow: rgb(0, 0, 0) 1px 1px 1px;
 }
 
-.theme-dark #friends .friends-table .friends-row .friends-column-status {left: 10px; bottom: 3px; width: 94%;}
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 {left: 10px; bottom: 3px; width: 94%;}
 
-#app-mount #friends .friends-table .friends-table-body .friends-row .friends-column-guilds {
+#app-mount .friendsTable-133bsv .friendsTableBody-1ZhKif .friendsRow-2yicud .friendsColumnGuilds-2we6jb {
     top: 80px;
     left: 105px;
     width: 150px;
    
 }
 
-#app-mount #friends .friends-table .friends-row .friends-column+.friends-column {
+#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ+.friendsColumn-eVHFqJ {
     margin: 0;
     padding: 0;
 }
 
-#app-mount #friends .friends-table .friends-row .friends-column {
+#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ {
     position: absolute;
 }
 
-#friends .friends-table .friends-row .friends-column+.friends-column {
+.friends-table .friends-row .friends-column+.friends-column {
     margin-left: 41px;
 }
 
-#friends .friends-table .friends-row .friends-column-actions {
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M {
     top: 45px;
     left: 105px;
 }
 
-#friends .friends-table .friends-row .friends-column-actions .friends-action {
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friends-action {
     width: 24px;
     height: 24px;
 }

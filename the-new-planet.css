@@ -1,4 +1,4 @@
-/* The New Planet - v5.18.41*/
+/* The New Planet - v5.18.42*/
 
 
 /* Makes the app transparent so the background picture can be displayed */
@@ -66,7 +66,7 @@
 .dockItem-2kQDqg:hover, 
 .applicationStore-1pNvnv,
 .gameLibrary-TTDw4Y,
-.theme-dark .root-1BQpZw {
+.theme-dark .root-1BQpZw, .theme-dark .container-3gCOGc {
   background: transparent !important;
 }
 

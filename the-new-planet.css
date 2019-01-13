@@ -177,7 +177,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .theme-dark .guild-settings-members-member .tag {color: #dcddde}
 
 /* Removes the scroll bar and the round arrows that point next to a server and channel */
-.scroller-wrap .scroller::-webkit-scrollbar {display: none;}
+.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {display: none;}
 .theme-dark .guild-1EfMGQ.unread-qLkInr:before {display: block; border-radius: 1px;height: 14px;margin-top: -6px;background-color: #44f5b1;}
 .theme-dark .guild-1EfMGQ.selected-ML3OIq:before {display: none;}
 .guild-1EfMGQ.selected-ML3OIq:before {display: block;}

@@ -1,5 +1,6 @@
-/* The New Planet - v5.18.43*/
-
+/* The New Planet - v5.19.43*/
+/*                  1^ 2^ 3^
+1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 
 /* Makes the app transparent so the background picture can be displayed */
 #voice-connection, 
@@ -169,7 +170,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .theme-dark .searchOption-zQ-1l6 .answer-1n6g43, .theme-dark .option-96V44q .filter-3Y_im- {color: #333;}
 
 .theme-dark .dividerEnabled-2TTlcf {border-bottom-color: hsla(180, 100%, 61%, 0.2);}
-.theme-dark .separator-gCa7yv, .theme-dark #bd-settings-sidebar .ui-tab-bar-separator {background-color: hsla(180, 100%, 61%, 0.2);}
+.theme-dark .separator-gCa7yv, .theme-dark #bd-settings-sidebar .ui-tab-bar-separator {background-color: hsla(180, 100%, 61%, 0.2); padding: 0;}
 
 /* Changes the time-stamp color */
 .theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: cyan;}

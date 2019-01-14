@@ -1,4 +1,4 @@
-/* The New Planet - v5.19.43*/
+/* The New Planet - v6.19.43*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 
@@ -130,6 +130,8 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .horizontal-1ae9ci>.flexChild-faoVW3:first-child {color: #f6f6f6;}
 #pubslayer .ui-tab-bar-item.selected {background-color: #8e3986 !important;}
 #pubslayer .ui-tab-bar-item:hover {background-color: #1ac0c9 !important;}
+
+.contentColumnDefault-1VQkGM {padding: 60px 40px 80px; position: relative; border-raidus: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: 80%; margin-left: auto;margin-right: auto;}
 
 /* Changes the DM Color */
 .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a
@@ -306,6 +308,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 
 /* Hides the text box for chatting when there is a channel you cannot speak in */
 .channelTextAreaDisabled-rZtG8r {display: none;}
+.buttonWrapper-1ZmCpA[tabindex="3"] {display:none}
 
 /* Makes the popout server list */
 .guildsWrapper-5TJh6A {

@@ -87,7 +87,7 @@
 background-position: center; background-repeat: no-repeat; background-size: cover !important;}
 
 .app {background: url("https://storge.pic2.me/cm/5120x2880/735/5286da04468ee.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
-.da-wordmark:after {content: "The New Planet - Version 5.18.43"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.da-wordmark:after {content: "The New Planet - Version 6.19.43"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}

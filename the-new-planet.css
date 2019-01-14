@@ -1,4 +1,4 @@
-/* The New Planet - v6.19.44*/
+/* The New Planet - v6.20.44*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 
@@ -87,7 +87,7 @@
 background-position: center; background-repeat: no-repeat; background-size: cover !important;}
 
 .app {background: url("https://storge.pic2.me/cm/5120x2880/735/5286da04468ee.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
-.da-wordmark:after {content: "The New Planet - Version 6.19.44"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.da-wordmark:after {content: "The New Planet - Version 6.20.44"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}
@@ -132,6 +132,42 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 #pubslayer .ui-tab-bar-item:hover {background-color: #1ac0c9 !important;}
 
 .contentColumnDefault-1VQkGM {padding: 60px 40px 80px; position: relative; border-radius: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: 80%; margin-left: auto;margin-right: auto;}
+.sidebarScrollable-1qPI87+.content-1rPSz4 {
+    margin-left: 232px;
+    max-width: 468px;
+    padding: 60px 40px 60px !important;
+    position: relative;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.4);
+    min-height: 0%;
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    right: 50%;
+    margin: 0;}
+
+.customScroller-26gWhv {
+    margin-left: 40px;
+    margin-right: 97px;
+    max-width: 660px;
+    min-width: 404px;
+    padding: 60px 40px 60px;
+    position: relative;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.4) !important;
+    min-height: 0%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    min-width: 80%;
+    margin-left: auto;
+    margin-right: auto;}
+
+.customHeader-f9DEJ_ {padding-top: 0px;}
+.customHeader-PhBRGa {padding-top: 0px;}
+.toolsContainer-1edPuj {position: absolute; margin-right: 0px; left: 92%; display: inline-flex;}
 
 /* Changes the DM Color */
 .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a

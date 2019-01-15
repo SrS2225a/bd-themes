@@ -1,4 +1,4 @@
-/* The New Planet - v6.21.44*/
+/* The New Planet - v6.21.45*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 
@@ -86,8 +86,8 @@
 .container-16j22k {background-image: url("https://gtgraphics.de/en/wallpapers/forgotten-world-hungarian-parliament.jpg"); 
 background-position: center; background-repeat: no-repeat; background-size: cover !important;}
 
-.app {background: url("https://storge.pic2.me/cm/5120x2880/735/5286da04468ee.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
-.da-wordmark:after {content: "The New Planet - Version 6.21.44"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.appMount-3lHmkl {background: url("https://storge.pic2.me/cm/5120x2880/735/5286da04468ee.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
+.da-wordmark:after {content: "The New Planet - Version 6.21.45"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}
@@ -101,6 +101,14 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .friendsTable-133bsv .friendsRow-2yicud .discord-tag .username {color: pink;}
 .private-channels .channel .channel-name {color: #fff; opacity: 1;}
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover {background-color: rgba(0, 0, 0, 0.6);}
+
+/* Fixes the emoji picker */
+.emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG {background-color: #353535}
+
+.emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {background-color:#595959}
+.emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG input {color:#fff}
+
+.emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R ::-webkit-input-placeholder{color:#fff}
 
 /* Gets rid of the local bot shadow */
 .theme-dark .message-group .is-local-bot-message {box-shadow: none; box-shadow: -20px 0px #33373b;}
@@ -164,6 +172,13 @@ background-position: center; background-repeat: no-repeat; background-size: cove
     min-width: 80%;
     margin-left: auto;
     margin-right: auto;}
+
+.customScroller-26gWhv>div {
+    margin-left: 0%;
+    margin-right: 100%;
+    max-width: 0%;
+    min-width: 100%;
+}
 
 .customHeader-f9DEJ_ {padding-top: 0px;}
 .customHeader-PhBRGa {padding-top: 0px;}
@@ -358,7 +373,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 .theme-dark .guilds-wrapper .guilds-add,.theme-dark .guilds-wrapper .guilds .guild-icon,.theme-dark .guilds-wrapper .guilds .guild .guild-inner,
 .theme-dark .image-33JSyf,.theme-dark .avatar-large, .theme-dark .avatar-profile, .theme-drak .small-5Os1Bb,.theme-dark .avatar-small,
 .theme-dark .avatarHint-1qgaV3,.theme-dark .title-3qD0b- .status, .theme-dark .titleCall-_b9o8P .status, .listAvatar-1NlAhb,
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4, .theme-dark .guildsError-3cFMtY, .theme-dark .guildsAdd-21_IdK {border-radius: 0px !important;}
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4, .theme-dark .guildsError-3cFMtY, .theme-dark .guildsAdd-21_IdK, .inner-1W0Bkn {border-radius: 0px !important;}
 .theme-dark .status-2s6iDp, .statusProfile-3ynqtt, .avatar-small .status {border-radius: 0px; border: none;}
 .guild-1EfMGQ.da-guild.selected-ML3OIq.da-selected {outline: 2.8px dashed yellow !important;}
 .wrapper-232cHJ {bottom: 2px; right: 2px;}
@@ -377,7 +392,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 
 .theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d {opacity: 0; height: 2px;}
 
-.app .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .avatar-small {top: 11px;
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .avatarSmall--gkJKA {top: 11px;
     left: 5px;
     width: 85px;
     height: 85px;

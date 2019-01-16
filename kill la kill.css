@@ -88,6 +88,7 @@
 }
 
 .toolsContainer-1edPuj {position: absolute; margin-right: 0px; left: 92%; display: inline-flex;}
+.buttonWrapper-1ZmCpA[tabindex="3"] {display:none}
 
 .contentColumnDefault-1VQkGM {padding: 60px 40px 80px; position: relative; border-radius: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: 80%; margin-left: auto;margin-right: auto; border: #e65c00 double 4px;}
 .sidebarScrollable-1qPI87+.content-1rPSz4 {
@@ -132,4 +133,60 @@
     margin-right: 100%;
     max-width: 0%;
     min-width: 100%;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {background-color: lightsteelblue; border-color: black; border-style: dashed;}
+    
+.scroller-2FKFPG::-webkit-scrollbar {width: 12px;}
+
+@media (max-width:1300px){.friendsTable-133bsv .friendsColumnGuilds-2we6jb{display:inline-flex !important}}
+#app-mount .friendsTable-133bsv .friendsRow-2yicud  {
+    margin: 10px;height: 142px !important;flex-direction: column ;flex-basis: 300px ; padding: 0;
+    white-space: nowrap;width: 324px;display: inline-block;justify-content: center;align-items: center;position:relative; border: limegreen groove 3px; background: rgba(0,0,0,.6);}
+
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d {opacity: 0; height: 2px;}
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .avatarSmall--gkJKA {top: 11px;
+    left: 5px;
+    width: 85px;
+    height: 85px;
+    background-size: 85px 85px;}
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .discord-tag {
+    position: absolute;
+    top: 20px;
+    left: 105px;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+}
+
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 {left: 10px; bottom: 3px; width: 94%;}
+
+#app-mount .friendsTable-133bsv .friendsTableBody-1ZhKif .friendsRow-2yicud .friendsColumnGuilds-2we6jb {
+    top: 80px;
+    left: 105px;
+    width: 150px;
+   
+}
+
+#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ+.friendsColumn-eVHFqJ {
+    margin: 0;
+    padding: 0;
+}
+
+#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ {
+    position: absolute;
+}
+
+.friends-table .friends-row .friendsColumn-eVHFqJ+.friendsColumn-eVHFqJ {
+    margin-left: 41px;
+}
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M {
+    top: 45px;
+    left: 105px;
+}
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
+    width: 24px;
+    height: 24px;
 }

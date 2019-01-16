@@ -1,1 +1,89 @@
+/* Makes the app transparent so the background picture can be displayed */
+#voice-connection,
+#friends,
+.friends-header,
+.friendsTable-133bsv,
+.scroller-wrapper,
+.guild-header header,
+.headerBar-UHpsPw,
+.channels-wrap,
+.private-channels .search-bar,
+.private-channels,
+.guild-channels,
+.account,
+.friend-table-add-header,
+.content,
+.title-wrap:not(.search-bar),
+.messages-wrapper,
+.messages .divider span,
+.messages .divider:before,
+.content, .message-group-blocked,
+.is-local-bot-message,
+.channel-members-loading,
+.channel-members-loading .heading,
+.channel-members-loading .member,
+.typing,
+.container-RYiLUQ,
+.theme-dark .standardSidebarView-3F1I7i,
+.theme-dark .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
+.theme-dark .standardSidebarView-3F1I7i .contentRegion-3nDuYy,
+.contentRegionScroller-26nc1e,
+.theme-dark .channel-members,
+.container-2OU7Cz,
+.theme-dark .chat form,
+.channels-3g2vYe,
+.theme-dark .friends-table,
+.theme-dark .messages-wrapper,
+.content .flex-spacer,
+.theme-dark .chat > .content,
+.theme-dark .chat,
+.channel-members,
+.search .search-bar,
+.container-iksrDt,
+.container-3lnMWU,
+.theme-dark .title-qAcLxz,
+.theme-dark .typing-3eiiL_,
+.theme-dark .activityFeed-HeiGwL,
+.theme-dark .headerBar-cxbhPD,
+.theme-dark .lfg-3xoFkI,
+.video-3lOWa6,
+.theme-dark .private-channel-call,
+.appMount-3VJmYg,
+.container-2lgZY8,
+.channels-Ie2l6A,
+.container-PNkimc,
+.container-2Thooq,
+.theme-dark .title-3qD0b-,
+.theme-dark .typing-2GQL18,
+.search-bar.search-bar-light,
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA .selected-39BZ4S,
+.theme-dark .members-1998pB,
+.noChannel-Z1DQK7,
+.activityFeed-28jde9,
+.dockItem-2kQDqg:hover,
+.applicationStore-1pNvnv,
+.gameLibrary-TTDw4Y,
+.theme-dark .root-1BQpZw, .theme-dark .container-3gCOGc {
+    background: transparent !important;
+}
+
+/* Changes how dark the background should be so that the text can be easier to read*/
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY {
+    background: rgba(0,0,0,0.0);
+}
+
+.theme-dark .guildsWrapper-5TJh6A {
+    background: rgba(0,0,0,0.0) !important;
+}
+
+/* Changes how dark the background should be so that the text can be easier to read */
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .typeWindows-15E0Ys {
+    background: rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Gets an image to be displayed as background */
+.appMount-3lHmkl {
+    background: url("https://cdn.discordapp.com/attachments/534940355091496970/534945011268190240/539563.jpg") center/cover no-repeat;
+    font-family: Helvetica, sans, gothic, rockwell, times new roman;
+}
 

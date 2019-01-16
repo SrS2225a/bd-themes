@@ -87,3 +87,49 @@
     font-family: Helvetica, sans, gothic, rockwell, times new roman;
 }
 
+.toolsContainer-1edPuj {position: absolute; margin-right: 0px; left: 92%; display: inline-flex;}
+
+.contentColumnDefault-1VQkGM {padding: 60px 40px 80px; position: relative; border-radius: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: 80%; margin-left: auto;margin-right: auto; border: #e65c00 double 4px;}
+.sidebarScrollable-1qPI87+.content-1rPSz4 {
+    margin-left: 232px;
+    max-width: 468px;
+    padding: 60px 40px 60px !important;
+    position: relative;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.4);
+    min-height: 0%;
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    right: 50%;
+    margin: 0;
+    border: red solid 4px;
+}
+
+.customScroller-26gWhv {
+    margin-left: 40px;
+    margin-right: 97px;
+    max-width: 660px;
+    min-width: 404px;
+    padding: 60px 40px 60px;
+    position: relative;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.4) !important;
+    min-height: 0%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    min-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    outline: solid;
+}
+
+.customScroller-26gWhv>div {
+    margin-left: 0%;
+    margin-right: 100%;
+    max-width: 0%;
+    min-width: 100%;
+}

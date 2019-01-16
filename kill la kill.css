@@ -207,3 +207,26 @@
 }
 
 .theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {border-radius: 0 !important;}
+
+.role-2irmRk {border-radius: 5%;}
+.roleCircle-3xAZ1j {border-radius: 10%;}
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .theme-dark .body-3ND3kc {background: black;}
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before {display: block; border-radius: 1px;height: 14px;margin-top: -6px;background-color: #44f5b1;}
+.theme-dark .guild-1EfMGQ.selected-ML3OIq:before {display: none;}
+.guild-1EfMGQ.selected-ML3OIq:before {display: block;}
+.unread-1Dp-OI {display: none;}
+.guild-1EfMGQ.da-guild.selected-ML3OIq.da-selected {outline: 2.8px dashed yellow !important;}
+.theme-dark .status-2s6iDp, .statusProfile-3ynqtt, .avatar-small .status {border-radius: 0px; border: none;}
+.theme-dark .topSectionNormal-2-vo2m, .headerTop-3C2Zn0 {
+    background-image: url(https://cdn.discordapp.com/attachments/534940355091496970/534962234414333952/2ri943mckvc01.png);
+}
+
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {border-radius: 0 !important;}
+.avatarSmall-3ACRaI .status-2zcSVk {
+    border-radius: 0px;
+    bottom: -3px;
+    height: 100%;
+    right: 108%;
+    width: 4px;
+}

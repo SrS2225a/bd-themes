@@ -62,7 +62,7 @@
 .activityFeed-28jde9,
 .dockItem-2kQDqg:hover,
 .applicationStore-1pNvnv,
-.gameLibrary-TTDw4Y,
+.gameLibrary-TTDw4Y, .gameUpdates-2GPqBU,
 .theme-dark .root-1BQpZw, .theme-dark .container-3gCOGc {
     background: transparent !important;
 }
@@ -221,6 +221,79 @@
 .theme-dark .topSectionNormal-2-vo2m, .headerTop-3C2Zn0 {
     background-image: url(https://cdn.discordapp.com/attachments/534940355091496970/534962234414333952/2ri943mckvc01.png);
 }
+.item-1GzJrl.item-1GzJrl {background: #381f25;}
+.icon-2doZ3q {filter: brightness(1000%);}
+
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
+    background: linear-gradient(to right, #ccccff 0%, #666699 100%);
+    background-position: 50% 100%;
+    border-left: blue solid 4px;
+}
+
+.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active { 
+    background: linear-gradient(to left, #ccccff 0%, #666699 100%);
+    background-position: 50% 100%;
+}
+
+
+.theme-dark .iconForeground-3y9f0B {color: blue; opacity: .6;}
+.iconInactive-g2AXfB {opacity: 1;}
+
+.nameDefault-2DI02H {color: red; text-shadow: 2px 2px black;}
+.theme-dark .membersGroup-v9BXpm {color: red; text-shadow: 2px 2px black;}
+.theme-dark .header-2RyJ0Y {color: red; text-shadow: 2px 2px black;}
+.nameUnreadText-DfkrI4:after {content: "\03c"; margin-left: 8px; color: #44f5b1;}
+.lookFilled-1Gx00P.colorGreen-29iAKY {background: orangered;}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {background: coral;}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {background: orangered;}
+.lookInverted-2D7oAl.colorBrand-3pXr91 {background: orangered;}
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover {background: coral;}
+.theme-dark .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {background: coral;}
+
+.theme-dark.contextMenu-HLZMGh {background: #381f25; color: #fff;}
+.resultsGroup-r_nuzN {background: #381f25;}
+.theme-dark .option-96V44q:after {display: none;}
+
+.theme-dark .modal-3HD5ck {background: slategrey;}
+.theme-dark .footer-2yfCgX {background: lightslategrey;}
+.theme-dark .description-3_Ncsb, .theme-dark .labelDescriptor-1PqHgD {color: lightblue;}
+.theme-dark .closeButton-1tv5uR {border-color: darkred;}
+
+.theme-dark .inner-zqa7da {box-shadow: 1px 1px steelblue;}
+.search-l1Wz-Q {box-shadow: 1px 1px steelblue;}
+
+.theme-dark .isMentioned-N-h9aa {background: rgba(218,112,161,.3);}
+
+.theme-dark .searchResultsWrap-2DKFzt {background: linear-gradient(to top right, #8e0e00 0%, #1f1c18 100%)}
+.messagesPopout-24nkyi {background: linear-gradient(to bottom left, #8e0e00 0%, #1f1c18 100%)}
+.theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA, .theme-dark .messageGroupWrapper-o-Zw7G {background: linear-gradient(to right, #cd5c5c 0%, #d55867 100%)}
+.theme-dark .channelSeparator-1X1FuH .channelName-1QajIf {background: transparent;}
+.theme-dark .searchResult-3pzFAB:before, .theme-dark .searchResult-3pzFAB:after {background: transparent;}
+.theme-dark .searchResult-3pzFAB .hit-NLlWXA {box-shadow: 0 0 10px 6px darkred;}
+.theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {border: none;}
+.theme-dark .searchHeader-1l-wpR, .recentMentionsPopout-2fmau1 .header-3LXPrb, .theme-dark .header-ykumBX {background: #4a2730;}
+
+.theme-dark .topSectionNormal-2-vo2m, .headerTop-3C2Zn0 , .topSectionPlaying-1J5E4n, .topSectionSpotify-1lI0-P {
+    background-image: url(https://cdn.discordapp.com/attachments/534940355091496970/534962234414333952/2ri943mckvc01.png);
+}
+
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumn-eVHFqJ {color: #fff;}
+.private-channels .channel .channel-name {color: #fff; opacity: 1;}
+
+.rowBackground-3MeNoN .da-rowBackground {opacity: 0;}
+.theme-dark .header-39GIC8 {opacity: 0; height: 2px;}
+
+.theme-dark .rowWrapperActive-2L7i9f {background-color: rgba(0,0,0,.6);}
+.rowBackground-3MeNoN {-webkit-mask: radial-gradient(100% 100% at top left,hsla(0,0%,100%,.3) 0,hsla(0,0%,100%,.4) 100%); width: 100%; filter: grayscale(80%);}
+
+.gameLibrary-TTDw4Y .header-39GIC8 {display: none}
+.textCell-1aBIUP{margin:10px 0 0 20px}
+#app-mount .nameBodyCell-3JOlnK{margin:10px 0 0 10px}
+#app-mount .bodyCell-9xKjWE{width:300px;padding:2px}
+#app-mount .row-ZLfFhY{height:150px;width:350px;display:inline-table;margin:0;background:rgba(0,0,0,.6)}
+#app-mount .rowWrapper-2fB6P0{height:150px;width:350px;display: inline-table;margin:5px 0 0 35px; border: limegreen groove 3px; border-radius: 0;}
+#app-mount .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY{border:none;background:rgba(0,0,0,.6)}
+.disabledButtonColor-34LjTT{rgba(24,25,28, 1);}
 
 .theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {border-radius: 0 !important;}
 .avatarSmall-3ACRaI .status-2zcSVk {

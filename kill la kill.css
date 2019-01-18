@@ -160,6 +160,8 @@
 }
 
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 {left: 10px; bottom: 3px; width: 94%;}
+.status-3fQvEa {width: 20px; border-radius: 0px;}
+.iconBadge-2dji3k {display: none}
 
 #app-mount .friendsTable-133bsv .friendsTableBody-1ZhKif .friendsRow-2yicud .friendsColumnGuilds-2we6jb {
     top: 80px;
@@ -294,6 +296,9 @@
 #app-mount .rowWrapper-2fB6P0{height:150px;width:350px;display: inline-table;margin:5px 0 0 35px; border: limegreen groove 3px; border-radius: 0;}
 #app-mount .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY{border:none;background:rgba(0,0,0,.6)}
 .disabledButtonColor-34LjTT{rgba(24,25,28, 1);}
+
+.theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf {background: transparent;}
+.theme-dark .embedInner-1-fpTo {border: none;}
 
 .theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {border-radius: 0 !important;}
 .avatarSmall-3ACRaI .status-2zcSVk {

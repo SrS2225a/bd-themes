@@ -1,3 +1,4 @@
+
 /* Makes the app transparent so the background picture can be displayed */
 #voice-connection,
 #friends,
@@ -87,6 +88,8 @@
     font-family: Helvetica, sans, gothic, rockwell, times new roman;
 }
 
+.da-wordmark:after {content: "Kill La Kill - Version 0.0.1"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+
 .toolsContainer-1edPuj {position: absolute; margin-right: 0px; left: 92%; display: inline-flex;}
 .buttonWrapper-1ZmCpA[tabindex="3"] {display:none}
 
@@ -107,7 +110,7 @@
     left: 50%;
     right: 50%;
     margin: 0;
-    border: red solid 4px;
+    border: #e65c00 double 4px;
 }
 
 .customScroller-26gWhv {
@@ -125,7 +128,7 @@
     min-width: 80%;
     margin-left: auto;
     margin-right: auto;
-    outline: solid;
+    border: #e65c00 double 4px;
 }
 
 .customScroller-26gWhv>div {
@@ -158,10 +161,12 @@
     left: 105px;
     text-shadow: rgb(0, 0, 0) 1px 1px 1px;
 }
+.theme-dark .defaultColor-1_ajX0 {text-shadow: 2px 3px black;}
 
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 {left: 10px; bottom: 3px; width: 94%;}
-.status-3fQvEa {width: 20px; border-radius: 0px;}
+.theme-dark .status-2s6iDp {border-color: #2f3136; right: 110%; width: 4px; height: 120px;}
 .iconBadge-2dji3k {display: none}
+.mask-3OgeRz {-webkit-mask: none;}
 
 #app-mount .friendsTable-133bsv .friendsTableBody-1ZhKif .friendsRow-2yicud .friendsColumnGuilds-2we6jb {
     top: 80px;
@@ -243,6 +248,7 @@
 
 .nameDefault-2DI02H {color: red; text-shadow: 2px 2px black;}
 .theme-dark .membersGroup-v9BXpm {color: red; text-shadow: 2px 2px black;}
+.privateChannels-1nO12o header {color: red; opacity: 1; text-shadow: 2px 2px black;}
 .theme-dark .header-2RyJ0Y {color: red; text-shadow: 2px 2px black;}
 .nameUnreadText-DfkrI4:after {content: "\03c"; margin-left: 8px; color: #44f5b1;}
 .lookFilled-1Gx00P.colorGreen-29iAKY {background: orangered;}
@@ -258,6 +264,8 @@
 
 .theme-dark .modal-3HD5ck {background: slategrey;}
 .theme-dark .footer-2yfCgX {background: lightslategrey;}
+.theme-dark .quickswitcher-3JagVE {background: lightslategrey;}
+.theme-dark .emptyStateNote-ZYTetQ, .theme-dark .emptyStateNote-ZYTetQ {color: #000;}
 .theme-dark .description-3_Ncsb, .theme-dark .labelDescriptor-1PqHgD {color: lightblue;}
 .theme-dark .closeButton-1tv5uR {border-color: darkred;}
 
@@ -267,6 +275,7 @@
 .theme-dark .isMentioned-N-h9aa {background: rgba(218,112,161,.3);}
 
 .theme-dark .searchResultsWrap-2DKFzt {background: linear-gradient(to top right, #8e0e00 0%, #1f1c18 100%)}
+.nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {color: #ff !important;}
 .messagesPopout-24nkyi {background: linear-gradient(to bottom left, #8e0e00 0%, #1f1c18 100%)}
 .theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA, .theme-dark .messageGroupWrapper-o-Zw7G {background: linear-gradient(to right, #cd5c5c 0%, #d55867 100%)}
 .theme-dark .channelSeparator-1X1FuH .channelName-1QajIf {background: transparent;}
@@ -308,3 +317,13 @@
     right: 108%;
     width: 4px;
 }
+.typing-1KJk_j {border-radius: 7px !important;}
+.theme-dark .memberOnline-1CIh-0:hover {background: transparent;}
+.dividerContent-2L12VI:after, .dividerContent-2L12VI:before {background: beige;}
+
+.theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI {color: #e8e6a9;}
+
+.member-3W1lQa:hover .content-OzHfo4,
+.member-3W1lQa .popout-open .content-OzHfo4,
+.member-3W1lQa .popout-open:hover .content-OzHfo4 {background-color: transparent !important; text-shadow: 2px 2px #000 !important;}
+

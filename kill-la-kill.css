@@ -87,7 +87,7 @@
     font-family: Helvetica, sans, gothic, rockwell, times new roman;
 }
 
-.da-wordmark:after {content: "Kill La Kill - Version 0.0.1"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.da-wordmark:after {content: "Kill La Kill - Version 0.1.1"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
 .toolsContainer-1edPuj {position: absolute; margin-right: 0px; left: 92%; display: inline-flex;}
 .buttonWrapper-1ZmCpA[tabindex="3"] {display:none}

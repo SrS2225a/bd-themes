@@ -1,4 +1,4 @@
-/* The New Planet - v6.21.45*/
+/* The New Planet - v6.22.45*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 
@@ -87,7 +87,7 @@
 background-position: center; background-repeat: no-repeat; background-size: cover !important;}
 
 .appMount-3lHmkl {background: url("https://storge.pic2.me/cm/5120x2880/735/5286da04468ee.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
-.da-wordmark:after {content: "The New Planet - Version 6.21.45"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.da-wordmark:after {content: "The New Planet - Version 6.22.45"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}
@@ -139,7 +139,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 #pubslayer .ui-tab-bar-item.selected {background-color: #8e3986 !important;}
 #pubslayer .ui-tab-bar-item:hover {background-color: #1ac0c9 !important;}
 
-.contentColumnDefault-1VQkGM {padding: 60px 40px 80px; position: relative; border-radius: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: 80%; margin-left: auto;margin-right: auto;}
+.contentColumnDefault-1VQkGM {padding: 60px 40px 80px; position: relative; border-radius: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: 80%; margin-left: auto;margin-right: auto; border: 3px orange double;}
 .sidebarScrollable-1qPI87+.content-1rPSz4 {
     margin-left: 232px;
     max-width: 468px;
@@ -155,7 +155,8 @@ background-position: center; background-repeat: no-repeat; background-size: cove
     margin-right: auto;
     left: 50%;
     right: 50%;
-    margin: 0;}
+    margin: 0;
+    border: 3px orange double;}
 
 .customScroller-26gWhv {
     margin-left: 40px;
@@ -171,7 +172,8 @@ background-position: center; background-repeat: no-repeat; background-size: cove
     margin-bottom: 60px;
     min-width: 80%;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+    border: 3px orange double;}
 
 .customScroller-26gWhv>div {
     margin-left: 0%;
@@ -322,7 +324,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 #app-mount .nameBodyCell-3JOlnK{margin:10px 0 0 10px}
 #app-mount .bodyCell-9xKjWE{width:300px;padding:2px}
 #app-mount .row-ZLfFhY{height:150px;width:350px;display:inline-table;margin:0;background:rgba(0,0,0,.4)}
-#app-mount .rowWrapper-2fB6P0{height:150px;width:350px;display: inline-table;margin:5px 0 0 35px}
+#app-mount .rowWrapper-2fB6P0{height:150px;width:350px;display: inline-table;margin:5px 0 0 35px;border: 3px limegreen groove;}
 #app-mount .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY{border:none;background:rgba(0,0,0,.4)}
 .disabledButtonColor-34LjTT {rgba(24,25,28, 1);}
 
@@ -388,7 +390,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 @media (max-width:1300px){.friendsTable-133bsv .friendsColumnGuilds-2we6jb{display:inline-flex !important}}
 #app-mount .friendsTable-133bsv .friendsRow-2yicud  {
     margin: 10px;height: 142px !important;flex-direction: column ;flex-basis: 300px ; padding: 0;
-    white-space: nowrap;width: 324px;display: inline-block;justify-content: center;align-items: center;position:relative; border:none;}
+    white-space: nowrap;width: 324px;display: inline-block;justify-content: center;align-items: center;position:relative; border:none; border: 2px limegreen groove; border-radius: 2px;}
 
 .theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d {opacity: 0; height: 2px;}
 

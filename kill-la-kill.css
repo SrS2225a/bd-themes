@@ -87,7 +87,7 @@
     font-family: Helvetica, sans, gothic, rockwell, times new roman;
 }
 
-.da-wordmark:after {content: "Kill La Kill - Version 0.1.1"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.da-wordmark:after {content: "Kill La Kill - Version 0.1.2"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
 .toolsContainer-1edPuj {position: absolute; margin-right: 0px; left: 92%; display: inline-flex;}
 .buttonWrapper-1ZmCpA[tabindex="3"] {display:none}
@@ -252,7 +252,7 @@
 .nameDefault-2DI02H {color: red; text-shadow: 2px 2px black;}
 .theme-dark .membersGroup-v9BXpm {color: red; text-shadow: 2px 2px black;}
 .privateChannels-1nO12o header {color: red; opacity: 1; text-shadow: 2px 2px black;}
-.theme-dark .header-2RyJ0Y {color: red; text-shadow: 2px 2px black;}
+.theme-dark .header-2RyJ0Y, .theme-dark #bd-settings-sidebar .ui-tab-bar-header {color: red; text-shadow: 2px 2px black;}
 .nameUnreadText-DfkrI4:after {content: "\03c"; margin-left: 8px; color: #44f5b1;}
 .lookFilled-1Gx00P.colorGreen-29iAKY {background: orangered;}
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {background: coral;}
@@ -269,7 +269,7 @@
 .theme-dark .footer-2yfCgX {background: lightslategrey;}
 .theme-dark .quickswitcher-3JagVE {background: lightslategrey;}
 .theme-dark .emptyStateNote-ZYTetQ, .theme-dark .emptyStateNote-ZYTetQ {color: #000;}
-.theme-dark .description-3_Ncsb, .theme-dark .labelDescriptor-1PqHgD {color: lightblue;}
+.theme-dark .description-3_Ncsb, .theme-dark .labelDescriptor-1PqHgD, .theme-dark #bd-settingspane-container .ui-switch-item .style-description {color: lightblue;}
 .theme-dark .closeButton-1tv5uR {border-color: darkred;}
 
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {background-color: rgba(79,84,92,.6) !important}

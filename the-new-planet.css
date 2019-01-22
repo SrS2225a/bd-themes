@@ -87,7 +87,7 @@
 background-position: center; background-repeat: no-repeat; background-size: cover !important;}
 
 .appMount-3lHmkl {background: url("https://storge.pic2.me/cm/5120x2880/735/5286da04468ee.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
-.da-wordmark:after {content: "The New Planet - Version 6.22.46"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.da-wordmark:after {content: "The New Planet - Version 6.23.46"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}
@@ -269,6 +269,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .theme-dark .item-3V15ea {background: transparent;}
 .theme-dark .footer-3oZnEF {background: transparent; margin-top: 128px;}
 .theme-dark .itemBackground-1jfD8p {background: transparent;}
+.theme-dark .description-2XMjXn {background: #000;}
 
 .headerPurchase-2z_nch {transform: translateY(0px); opacity: 1;}
 
@@ -315,6 +316,7 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 /* Changes the look of the libary tab */
 .rowBackground-3MeNoN .da-rowBackground {opacity: 0;}
 .theme-dark .header-39GIC8 {opacity: 0; height: 2px;}
+.theme-dark .gameUpdates-2GPqBU {background: transparent;}
 
 .theme-dark .rowWrapperActive-2L7i9f {background-color: rgba(0,0,0,.6);}
 .rowBackground-3MeNoN {-webkit-mask: radial-gradient(100% 100% at top left,hsla(0,0%,100%,.3) 0,hsla(0,0%,100%,.4) 100%); width: 100%; filter: grayscale(80%);}

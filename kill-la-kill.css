@@ -87,7 +87,7 @@
     font-family: Helvetica, sans, gothic, rockwell, times new roman;
 }
 
-.da-wordmark:after {content: "Kill La Kill - Version 0.1.2"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.da-wordmark:after {content: "Kill La Kill - Version 0.2.2"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
 .toolsContainer-1edPuj {position: absolute; margin-right: 0px; left: 92%; display: inline-flex;}
 .buttonWrapper-1ZmCpA[tabindex="3"] {display:none}
@@ -232,11 +232,7 @@
 .item-1GzJrl.item-1GzJrl {background: #381f25;}
 .icon-2doZ3q {filter: brightness(1000%);}
 
-.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
-    background: linear-gradient(to right, #ccccff 0%, #666699 100%);
-    background-position: 50% 100%;
-    border-left: blue solid 4px;
-}
+.lookInverted-2D7oAl.colorBrand-3pXr91 {color: #000;}
 
 .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active { 
     background: linear-gradient(to left, #ccccff 0%, #666699 100%);
@@ -248,6 +244,9 @@
 .iconInactive-g2AXfB {opacity: 1;}
 .theme-dark .button-2b6hmh, .theme-light .button-2b6hmh {color: palevioletred;}
 
+.headerButtonColor-G7_f-V {backgrond: orangered;}
+.theme-dark .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {background: coral;}
+.cardHeader-3nTWsD:hover .headerButtonHide-2rOg_A, .button-38aScr:disabled {background: lightcoral;}
 
 .nameDefault-2DI02H {color: red; text-shadow: 2px 2px black;}
 .theme-dark .membersGroup-v9BXpm {color: red; text-shadow: 2px 2px black;}

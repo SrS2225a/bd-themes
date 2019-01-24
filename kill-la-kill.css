@@ -234,12 +234,6 @@
 
 .lookInverted-2D7oAl.colorBrand-3pXr91 {color: #000;}
 
-.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active { 
-    background: linear-gradient(to left, #ccccff 0%, #666699 100%);
-    background-position: 50% 100%;
-}
-
-
 .theme-dark .iconForeground-3y9f0B, .theme-dark .button-3AYNKb {color: blue; opacity: .6;}
 .iconInactive-g2AXfB {opacity: 1;}
 .theme-dark .button-2b6hmh, .theme-light .button-2b6hmh {color: palevioletred;}

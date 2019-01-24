@@ -1,4 +1,4 @@
-/* The New Planet - v6.22.45*/
+/* The New Planet - v6.24.46*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 
@@ -87,13 +87,14 @@
 background-position: center; background-repeat: no-repeat; background-size: cover !important;}
 
 .appMount-3lHmkl {background: url("https://storge.pic2.me/cm/5120x2880/735/5286da04468ee.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
-.da-wordmark:after {content: "The New Planet - Version 6.23.46"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.da-wordmark:after {content: "The New Planet - Version 6.24.46"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}
  
  /* Sets the color of inbeded links */ 
 .theme-dark .embedInner-1-fpTo, .theme-dark .attachment-33OFj0, .theme-dark .wrapperAudio-1jDe0Q, .theme-dark .wrapper-35wsBm {background-color: #2e3036;}
+.theme-dark .isMentioned-N-h9aa {background: rgba(218,112,161,.3);}
 
 /* Recolors the friends tab */
 .friendsTable-133bsv {background: transparent !important;}

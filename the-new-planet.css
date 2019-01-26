@@ -1,4 +1,4 @@
-/* The New Planet - v6.24.46*/
+/* The New Planet - v6.25.46*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 
@@ -87,7 +87,7 @@
 background-position: center; background-repeat: no-repeat; background-size: cover !important;}
 
 .appMount-3lHmkl {background: url("https://storge.pic2.me/cm/5120x2880/735/5286da04468ee.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
-.da-wordmark:after {content: "The New Planet - Version 6.24.46"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.da-wordmark:after {content: "The New Planet - Version 6.25.46"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}
@@ -128,6 +128,10 @@ background-position: center; background-repeat: no-repeat; background-size: cove
 .nameDefaultText-24KCy5 {color: white;}
 .nameUnreadText-DfkrI4:after {content: "\03c"; margin-left: 8px; color: #44f5b1;}
 .theme-dark .subtitle-Qv5s8c {color: #1db954;}
+
+/* Changes the pop-in control tabs */
+.theme-dark .modal-3HD5ck {background: #381f25;}
+.theme-dark .footer-2yfCgX {background: #381f20;}
 
 /* Changes the settings tab color */
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {background-color: #1ac0c9 !important;}

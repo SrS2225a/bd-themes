@@ -80,7 +80,7 @@
 
 /* Displays the custom background */
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .typeWindows-15E0Ys {
-    background: var(background-transpraency) !important;
+    background: var(--background-transpraency) !important;
 }
 
 .appMount-3lHmkl {background: url("https://wallpapercave.com/wp/wp2834841.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}

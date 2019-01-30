@@ -1,4 +1,4 @@
-/* The Multiverse - v7.25.50*/
+/* The Multiverse - v7.26.50*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 
@@ -83,7 +83,7 @@
 }
 
 .appMount-3lHmkl {background: url("https://wallpapercave.com/wp/wp2834841.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
-.da-wordmark:after {content: "The Multiverse - Version 7.25.50"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.da-wordmark:after {content: "The Multiverse - Version 7.26.50"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}
@@ -353,24 +353,6 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 /* Hides the text box for chatting when there is a channel you cannot speak in */
 .channelTextAreaDisabled-rZtG8r {display: none;}
 .buttonWrapper-1ZmCpA[tabindex="3"] {display:none}
-
-/* Makes the popout server list */
-.guildsWrapper-5TJh6A {
-   border-right-width: 6px;
-    border-style: solid;
-    border-image: linear-gradient(#33ccff, #ff99cc) 30;
-    transition: border-right 1s, box-shadow 1s, -webkit-box-shadow 1s, -moz-box-shadow 1s, width 0.15s;
-   float: left !important;
-    width:0px;
-}
-.active .guild-inner{
-    z-index: 1 !important;
-    position: absolute !important;
-}
-
-.guildsWrapper-5TJh6A:hover{
-    width:70px;
-}
 
 /* Changes the border-radius of user pfp's and server icons */
 .theme-dark .mask-3OgeRz {-webkit-mask: none;mask: none;}

@@ -1,4 +1,4 @@
-/* The Multiverse - v7.25.49*/
+/* The Multiverse - v7.25.50*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 
@@ -83,7 +83,7 @@
 }
 
 .appMount-3lHmkl {background: url("https://wallpapercave.com/wp/wp2834841.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
-.da-wordmark:after {content: "The Multiverse - Version 7.25.49"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.da-wordmark:after {content: "The Multiverse - Version 7.25.50"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}
@@ -189,9 +189,9 @@
 
 /* Changes the DM Color */
 .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a
-{background-color: var(--hovered-select-channel);}
+{background-color: var(--user-member-hover);}
 .channel-2QD9_O.selected-1HYmZZ a
-{background-color: var(--slected-channel-color) !important;}
+{background-color: var(--user-member-select) !important;}
 .privateChannels-1nO12o header
 {opacity: 1; color: var(--small-heading-main);}
 

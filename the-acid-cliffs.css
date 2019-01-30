@@ -82,7 +82,7 @@
 }
 
 .appMount-3lHmkl {background: url("https://wallpapercave.com/wp/wp2834841.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
-.da-wordmark:after {content: "The Multiverse - Version 7.25.48"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.da-wordmark:after {content: "The Multiverse - Version 7.25.49"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}
@@ -117,9 +117,9 @@
 
 /* Changes the text channel color */ 
 .contentSelectedText-3wUhMi
-{background-color: var(--slected-channel-color) text-shadow: 2px 2px #000 !important;}
+{background-color: var(--slected-channel-color); text-shadow: 2px 2px #000 !important;}
 .contentHoveredText-2D9B-x
-{background-color: var(--hovered-select-channel) text-shadow: 2px 2px #000 !important;}
+{background-color: var(--hovered-select-channel); text-shadow: 2px 2px #000 !important;}
 .nameDefaultText-24KCy5 {color: white;}
 .nameUnreadText-DfkrI4:after {content: "\03c"; margin-left: 8px; color: #44f5b1;}
 .theme-dark .subtitle-Qv5s8c {color: #1db954;}
@@ -188,9 +188,9 @@
 
 /* Changes the DM Color */
 .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a
-{background-color: #d0a100;}
+{background-color: var(--hovered-select-channel);}
 .channel-2QD9_O.selected-1HYmZZ a
-{background-color: #0b512f !important;}
+{background-color: var(--slected-channel-color) !important;}
 .privateChannels-1nO12o header
 {opacity: 1; color: var(--small-heading-main);}
 
@@ -264,7 +264,7 @@
 .theme-dark .tag-HanR-9:before {background: transparent;}
 .arrow-3jRqK8 {backgorund: transparent; opacity: 0.6;}
 .theme-dark .headerFancy-1AcCLF {background-image: none; background: #738ef5;}
-.overlappingBorder-1-XPGl, .theme-dark .overlappingBorder-1ysb12 {border: 2px solid orange; border-radius: 0px;}
+.overlappingBorder-1-XPGl, .theme-dark .overlappingBorder-1ysb12 {border: 2px solid var(--border-settings-main); border-radius: 0px;}
 .paginationItem-3-iI7C {opacitiy: 1;}
 .theme-dark .root-1bFE0x {display: none;}
 .theme-dark .item-3V15ea {background: transparent;}

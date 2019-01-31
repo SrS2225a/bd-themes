@@ -1,4 +1,4 @@
-/* The Multiverse - v7.26.50*/
+/* The Multiverse - v7.27.50*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 
@@ -83,7 +83,7 @@
 }
 
 .appMount-3lHmkl {background: url("https://wallpapercave.com/wp/wp2834841.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
-.da-wordmark:after {content: "The Multiverse - Version 7.26.50"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
+.da-wordmark:after {content: "The Multiverse - Version 7.27.50"; color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
 .theme-dark .title-2BxgL2 {color: #d4d4d4;}
@@ -112,6 +112,8 @@
 
 /* Changes the color of the role menu and user information */
 .theme-dark .body-3ND3kc, .tabBarContainer-1s1u-z, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {background-color: #0E2F44;}
+.theme-dark .container-VSDcQc .sectionTag-pXyto9, .theme-dark .popoutList-T9CKZQ {background: #999966; text-shadow: 1px 1px black;}
+.theme-dark .row-rrHHJU.selected-1pIgLL {background:hsla(0, 0%, 100%, .05)}
 .theme-dark .listRow-hutiT_:hover {background: hsla(0, 0%, 100%, .05);}
 .role-2irmRk {border-radius: 3px; margin: 0 4.3px 4.3px 0;}
 .roleCircle-3xAZ1j {border-radius: 6%;}

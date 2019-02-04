@@ -1,9 +1,9 @@
-/* The Multiverse - v7.28.50*/
+/* The Multiverse - v7.29.50*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 7.28.50";
+    --Update-Text: "Version 7.29.50";
 }
 
 #voice-connection, 
@@ -154,7 +154,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. Added in an update log.</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. Styleized the "toast" notification balloons</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
   animation: color-change 10s infinite linear;
 }
@@ -167,6 +167,61 @@ text-align: center;
   to {
     -webkit-filter: hue-rotate(360deg);
   }
+}
+
+/* Styles the toast notifications */
+.bd-toasts, .toasts {
+  width: calc(100% - 10px)!important;
+  height: calc(100% - 70px)!important;
+  position: absolute;
+  top: initial!important;
+  right: initial!important;
+  bottom: 0px!important;
+  left: initial!important;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  position: absolute;
+}
+
+.bd-toasts {
+  right: 10px!important;
+  align-items: flex-end!important;
+}
+
+.toasts {
+  left: 10px!important;
+  align-items: flex-start!important;
+}
+
+[class*="toast"] {
+  font-size: 13px!important;
+}.bd-toasts, .toasts {
+  width: calc(100% - 10px)!important;
+  height: calc(100% - 70px)!important;
+  position: absolute;
+  top: initial!important;
+  right: initial!important;
+  bottom: 0px!important;
+  left: initial!important;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  position: absolute;
+}
+
+.bd-toasts {
+  right: 10px!important;
+  align-items: flex-end!important;
+}
+
+.toasts {
+  left: 10px!important;
+  align-items: flex-start!important;
+}
+
+[class*="toast"] {
+  font-size: 13px!important;
 }
 
 .contentColumnDefault-1VQkGM {padding: 60px 40px 80px; position: relative; border-radius: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: 80%; margin-left: auto;margin-right: auto; border: 3px var(--border-settings-main) double;}

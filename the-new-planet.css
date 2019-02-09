@@ -230,18 +230,17 @@ text-align: center;
 
 
 
-.contentColumnDefault-1VQkGM {padding: 60px 40px 80px; position: relative; border-radius: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: 80%; margin-left: auto;margin-right: auto; border: 3px var(--border-settings-main) double;}
+.contentColumnDefault-1VQkGM {padding: 60px 40px 80px; position: relative; border-radius: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: auto; margin-left: auto;margin-right: auto; border: 3px var(--border-settings-main) double;}
 .sidebarScrollable-1qPI87+.content-1rPSz4 {
-    margin-left: 232px;
-    max-width: 468px;
     padding: 60px 40px 60px !important;
     position: relative;
+    display: inline-flex;
     border-radius: 5px;
     background-color: rgba(0,0,0,.4);
     min-height: 0%;
     margin-top: 60px !important;
     margin-bottom: 60px !important;
-    max-width: 70%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     left: 50%;
@@ -250,10 +249,6 @@ text-align: center;
     border: 3px var(--border-settings-main) double;}
 
 .customScroller-26gWhv {
-    margin-left: 40px;
-    margin-right: 97px;
-    max-width: 660px;
-    min-width: 404px;
     padding: 60px 40px 60px;
     position: relative;
     border-radius: 5px;
@@ -261,7 +256,7 @@ text-align: center;
     min-height: 0%;
     margin-top: 60px;
     margin-bottom: 60px;
-    min-width: 80%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     border: 3px var(--border-settings-main) double;}
@@ -275,7 +270,7 @@ text-align: center;
 
 .customHeader-f9DEJ_ {padding-top: 0px;}
 .customHeader-PhBRGa {padding-top: 0px;}
-.toolsContainer-1edPuj {position: absolute; margin-right: 0px; left: 92%; display: inline-flex;}
+.toolsContainer-1edPuj {position: absolute; margin-right: 0px; left: 95%; padding-top: 18px; display: inline-flex;}
 
 /* Changes the DM Color */
 .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a

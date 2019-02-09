@@ -1,9 +1,9 @@
-/* The Multiverse - v7.29.50*/
+/* The Multiverse - v7.29.51*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 7.29.50";
+    --Update-Text: "Version 7.29.51";
 }
 
 #voice-connection, 
@@ -70,7 +70,8 @@
 .dockItem-2kQDqg:hover, 
 .applicationStore-1pNvnv,
 .gameLibrary-TTDw4Y,
-.theme-dark .root-1BQpZw, .theme-dark .container-3gCOGc {
+.theme-dark .root-1BQpZw, .theme-dark .container-3gCOGc,
+#app-mount .wrapper-29NfPK {
   background: transparent !important;
 }
 
@@ -154,11 +155,10 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. Styleized the "toast" notification balloons</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. A few bug fixes</text><text y="84" style="font-size: 1.2em;" x="30">2. Stylized the video call block</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
   animation: color-change 10s infinite linear;
 }
-
 
 @keyframes color-change {
   from {
@@ -181,7 +181,6 @@ text-align: center;
   display: flex;
   flex-flow: column;
   justify-content: flex-end;
-  position: absolute;
 }
 
 .bd-toasts {
@@ -208,21 +207,27 @@ text-align: center;
   flex-flow: column;
   justify-content: flex-end;
   position: absolute;
-}
-
-.bd-toasts {
-  right: 10px!important;
-  align-items: flex-end!important;
-}
-
-.toasts {
-  left: 10px!important;
-  align-items: flex-start!important;
-}
-
-[class*="toast"] {
   font-size: 13px!important;
 }
+ 
+.video-1FfuMD {background: rgba(0,0,0,.2); outline: 2px solid springgreen; border-left: 2px solid springgreen;}
+.notice-2FJMB4 {
+    /* width: calc(100% - 10px)!important; */
+    /* height: calc(100% - 70px)!important; */
+    position: absolute;
+    top: initial!important;
+    right: initial!important;
+    bottom: 8px!important;
+    left: 8px!important;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    border-radius: 4px;
+}
+
+.button-1MICoQ {top: -6px;}
+
+
 
 .contentColumnDefault-1VQkGM {padding: 60px 40px 80px; position: relative; border-radius: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: 80%; margin-left: auto;margin-right: auto; border: 3px var(--border-settings-main) double;}
 .sidebarScrollable-1qPI87+.content-1rPSz4 {
@@ -314,6 +319,7 @@ text-align: center;
 
 /* Changes the time-stamp color */
 .theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: cyan;}
+.theme-dark .timestampCompact-MHgFLv {color: cyan;}
 .theme-dark .discrim-3rYTMj {opacity: 1;}
 .theme-dark .guild-settings-members-member .tag {color: #dcddde}
 

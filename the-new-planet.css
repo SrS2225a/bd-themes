@@ -1,9 +1,9 @@
-/* The Multiverse - v7.29.51*/
+/* The Multiverse - v7.29.52*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 7.29.51";
+    --Update-Text: "Version 7.29.52";
 }
 
 #voice-connection, 
@@ -155,7 +155,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. A few bug fixes</text><text y="84" style="font-size: 1.2em;" x="30">2. Stylized the video call block</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. Made is so the "toast" blocks are not in the way of the client as much</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
   animation: color-change 10s infinite linear;
 }
@@ -217,7 +217,7 @@ text-align: center;
     position: absolute;
     top: initial!important;
     right: initial!important;
-    bottom: 8px!important;
+    margin-top: 8px!important;
     left: 8px!important;
     display: flex;
     flex-flow: column;

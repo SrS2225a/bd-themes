@@ -223,6 +223,7 @@ text-align: center;
     flex-flow: column;
     justify-content: flex-start;
     border-radius: 4px;
+    font-size: 13px;
 }
 
 .button-1MICoQ {top: -6px;}

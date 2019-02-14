@@ -1,9 +1,9 @@
-/* The Multiverse - v8.29.54*/
+/* The Multiverse - v8.29.55*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 8.29.54";
+    --Update-Text: "Version 8.29.55";
 }
 
 #voice-connection, 
@@ -155,9 +155,10 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. Added Plugin Support</text><text y="82" style="font-size: 1.2em;" x="30">2. Added a notes section</text><text y="120" style="font-size: 1.8em;">Notes</text><text y="152" style="font-size: 1.2em;" x="30">To Do: Add what it means for a plugin to have theme support</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. Defined what it means for a plugin to have theme support</text><text y="94" style="font-size: 1.8em;">Notes</text><text y="124" style="font-size: 1.2em;" x="30">Maybe place in the theme somewhere which plugins are supported?</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
   animation: color-change 20s infinite linear;
+}mation: color-change 20s infinite linear;
 }
 
 @keyframes color-change {
@@ -511,6 +512,8 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 /*
 
 /* Adds Plugin Support */
+.bda-slist:before {content: "An plugin adding any extra UI elements to discord has compatibility support for The Multiverse, and will say so if the plugin does as an color-changing message. However, if a plugin does not add any extra UI elements to discord, in this case the plugin will always have theme support for the multiverse even though there is no message confirming that there is indeed support for it"; font-size: 15px; color: lightsteelblue;}
+
 [data-name="AccountDetailsPlus"]:after,
 [data-name="DetailedServerTooltips"]:after,
 [data-name="Guild Counter"]:after,

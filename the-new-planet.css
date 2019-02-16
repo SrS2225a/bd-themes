@@ -1,4 +1,4 @@
-/* The Multiverse - v8.29.55*/
+/* The Multiverse - v8.29.56*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
@@ -155,10 +155,9 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. Defined what it means for a plugin to have theme support</text><text y="94" style="font-size: 1.8em;">Notes</text><text y="124" style="font-size: 1.2em;" x="30">Maybe place in the theme somewhere which plugins are supported?</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. Fix for text not changeing colors as they should</text><text y="90" style="font-size: 1.8em;">Notes</text><text y="124" style="font-size: 1.2em;" x="30">Maybe place in the theme somewhere which plugins are supported?</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
-  animation: color-change 20s infinite linear;
-}mation: color-change 20s infinite linear;
+animation: color-change 20s infinite linear;
 }
 
 @keyframes color-change {
@@ -520,11 +519,14 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 [data-name="Extened Context Menu"]:after,
 [data-name="Share Button"]:after,
 [data-name="Save To"]:after,
-[data-name="View Guild Relationships"]:after {
+[data-name="View Guild Relationships"]:after,
+[data-name="Extended Context Menu"]:after,
+[data-name="JoinedAtDate"]:after,
+[data-name="ThemeSettings"]:after {
   content: " (✔) This plugin has theme support for The Multiverse (✔) ";
   color: rgba(74,107,26,1);
   animation: color-change 20s infinite linear;
-}
+}	
 
 .metalloriff-changelog-scroller, .vgr-relationshipswindow-scroller-wrapper, .sb-menu-scroller-wrapper {background: #381f25 !important;}
 .sb-menu-label {padding-bottom: 10px;}

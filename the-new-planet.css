@@ -1,9 +1,9 @@
-/* The Multiverse - v8.29.56*/
+/* The Multiverse - v8.29.57*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 8.29.55";
+    --Update-Text: "Version 8.29.57";
 }
 
 #voice-connection, 
@@ -71,7 +71,7 @@
 .applicationStore-1pNvnv,
 .gameLibrary-TTDw4Y,
 .theme-dark .root-1BQpZw, .theme-dark .container-3gCOGc,
-#app-mount .wrapper-29NfPK {
+#app-mount .wrapper-29NfPK, .theme-dark .pageWrapper-1PgVDX {
   background: transparent !important;
 }
 
@@ -81,6 +81,8 @@
 .theme-dark .guildsWrapper-5TJh6A{
   background: rgba(0,0,0,0.0) !important;
 }
+
+.bg-AYqtMd {opacity: 0 !important;}
 
 /* Displays the custom background */
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .typeWindows-15E0Ys {
@@ -155,11 +157,12 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. Fix for text not changeing colors as they should</text><text y="90" style="font-size: 1.8em;">Notes</text><text y="124" style="font-size: 1.2em;" x="30">Maybe place in the theme somewhere which plugins are supported?</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. Added theme suppo</text><text y="90" style="font-size: 1.8em;">Notes</text><text y="124" style="font-size: 1.2em;" x="30">Maybe place in the theme somewhere which plugins are supported?</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 animation: color-change 20s infinite linear;
 }
 
+/* Adds in rainboo text */
 @keyframes color-change {
   from {
     -webkit-filter: hue-rotate(0deg);
@@ -229,7 +232,7 @@ animation: color-change 20s infinite linear;
 .button-1MICoQ {top: -6px;}
 
 
-
+/* stylizes the configuration page for the user settings and server settings pages*/
 .contentColumnDefault-1VQkGM {padding: 60px 40px 80px; position: relative; border-radius: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: auto; margin-left: auto;margin-right: auto; border: 3px var(--border-settings-main) double;}
 .sidebarScrollable-1qPI87+.content-1rPSz4 {
     padding: 60px 40px 60px !important;

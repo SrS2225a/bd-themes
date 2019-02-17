@@ -157,7 +157,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. Bug fixes for toast blocks</text><text y="90" style="font-size: 1.8em;">Notes</text><text y="124" style="font-size: 1.2em;" x="30">Maybe place in the theme somewhere which plugins are supported?</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. Includes bug fixes for toast blocks</text><text y="90" style="font-size: 1.8em;">Notes</text><text y="124" style="font-size: 1.2em;" x="30">Maybe place in the theme somewhere which plugins are supported?</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 animation: color-change 20s infinite linear;
 }
@@ -227,6 +227,7 @@ animation: color-change 20s infinite linear;
     justify-content: flex-start;
     border-radius: 4px;
     font-size: 13px;
+    z-index: 9999;
 }
 
 .button-1MICoQ {top: -6px;}

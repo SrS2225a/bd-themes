@@ -1,9 +1,9 @@
-/* The Multiverse - v8.29.56*/
+/* The Multiverse - v8.29.57*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 8.29.56";
+    --Update-Text: "Version 8.29.57";
 }
 
 #voice-connection, 
@@ -157,7 +157,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. Added theme support for the new search discovery page</text><text y="90" style="font-size: 1.8em;">Notes</text><text y="124" style="font-size: 1.2em;" x="30">Maybe place in the theme somewhere which plugins are supported?</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. Bug fixes for toast blocks</text><text y="90" style="font-size: 1.8em;">Notes</text><text y="124" style="font-size: 1.2em;" x="30">Maybe place in the theme somewhere which plugins are supported?</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 animation: color-change 20s infinite linear;
 }
@@ -182,7 +182,7 @@ animation: color-change 20s infinite linear;
   bottom: 0px!important;
   left: initial!important;
   display: flex;
-  flex-flow: column;
+  flex-flow: wrap;
   justify-content: flex-end;
 }
 
@@ -207,7 +207,7 @@ animation: color-change 20s infinite linear;
   bottom: 0px!important;
   left: initial!important;
   display: flex;
-  flex-flow: column;
+  flex-flow: wrap;
   justify-content: flex-end;
   position: absolute;
   font-size: 13px!important;
@@ -223,7 +223,7 @@ animation: color-change 20s infinite linear;
     margin-top: 8px!important;
     left: 8px!important;
     display: flex;
-    flex-flow: column;
+    flex-flow: wrap;
     justify-content: flex-start;
     border-radius: 4px;
     font-size: 13px;

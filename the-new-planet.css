@@ -1,9 +1,9 @@
-/* The Multiverse - v8.29.57*/
+/* The Multiverse - v8.30.58*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 8.29.58";
+    --Update-Text: "Version 8.30.58";
 }
 
 #voice-connection, 
@@ -157,8 +157,9 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 1.8em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1.2em;" x="30">1. Includes even more bug fixes for toast blocks</text><text y="90" style="font-size: 1.8em;">Notes</text><text y="124" style="font-size: 1.2em;" x="30">Why cant i fully fix the toast blocks? More bugs with them show up everytime :(</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 220" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1em;" x="30">1. Added in rainbow text to the typing clarification message</text><text y="80" style="font-size: 1em;" x="30">2. New main theme file v2 out - Includes more customization options</text><text y="114" style="font-size: 1.4em;">Notes</text><text y="144" x="30" style="font-size: 1em;">!¡NOTICE¡! Because this is a revamp on the main theme file, the theme will</text><text y="164" x="30" style="font-size: 1em;">break without the new file when support is added for it !¡NOTICE¡!</text><text y="182" x="30" style="font-size: 1em;">You may download it from here: bit.ly/2EgG2MF</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
+word-wrap: break-word;
 animation: color-change 20s infinite linear;
 }
 
@@ -171,6 +172,8 @@ animation: color-change 20s infinite linear;
     -webkit-filter: hue-rotate(360deg);
   }
 }
+
+.theme-dark .base-gE7OpD span {color: #6aa810; animation: color-change 20s infinite linear;}
 
 /* Styles the toast notifications */
 .bd-toasts, .toasts {

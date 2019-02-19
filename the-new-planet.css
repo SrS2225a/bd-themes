@@ -173,7 +173,7 @@ animation: color-change 20s infinite linear;
   }
 }
 
-.theme-dark .base-gE7OpD span {color: #6aa810; animation: color-change 20s infinite linear;}
+.theme-dark .base-gE7OpD span {color: #4a6b1a; animation: color-change 12s infinite linear;}
 
 /* Styles the toast notifications */
 .bd-toasts, .toasts {

@@ -22,7 +22,7 @@
 /* You can edit the following rgba and hex color types to change some of the look of the theme */
 :root {
     /* Note: MAKE SURtps://E YOU WRAP THE DOUBLE QOUTES AROUND THE URL TO YOUR IMAGE, OTHERWISE IT WILL NOT WORK!*/
-    --main-background: "https://wallpapercave.com/wp/wp2834841.jpg";
+    --main-background: url("https://wallpapercave.com/wp/wp2834841.jpg");
     --background-transpraency: rgba(0, 0, 0,0.12);
     --slected-channel-color: #43398e;
     --hovered-select-channel: #2e1ac9;

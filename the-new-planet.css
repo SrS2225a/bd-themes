@@ -1,9 +1,9 @@
-/* The Multiverse - v8.30.58*/
+/* The Multiverse - v8.31.58*/
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 8.30.58";
+    --Update-Text: "Version 8.31.58";
 }
 
 #voice-connection, 
@@ -89,7 +89,7 @@
     background: var(--background-transpraency) !important;
 }
 
-.appMount-3lHmkl {background: url("https://wallpapercave.com/wp/wp2834841.jpg") center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
+.appMount-3lHmkl {background: var(--main-background); center/cover no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
 .da-wordmark:after {content: var(--Theme-Variant)" - "var(--Update-Text); color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
@@ -131,7 +131,7 @@
 .contentHoveredText-2D9B-x
 {background-color: var(--hovered-select-channel); text-shadow: 2px 2px #000 !important;}
 .nameDefaultText-24KCy5 {color: white;}
-.nameUnreadText-DfkrI4:after {content: "\03c"; margin-left: 8px; color: #44f5b1;}
+.nameUnreadText-DfkrI4:after {content: "\03c"; margin-left: 8px; color: var(--main-unread);}
 .theme-dark .subtitle-Qv5s8c {color: #1db954;}
 
 /* Changes the pop-in control tabs */
@@ -157,7 +157,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 220" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1em;" x="30">1. Added in rainbow text to the typing clarification message</text><text y="80" style="font-size: 1em;" x="30">2. New main theme file v2 out - Includes more customization options</text><text y="114" style="font-size: 1.4em;">Notes</text><text y="144" x="30" style="font-size: 1em;">!¡NOTICE¡! Because this is a revamp on the main theme file, the theme will</text><text y="164" x="30" style="font-size: 1em;">break without the new file when support is added for it !¡NOTICE¡!</text><text y="182" x="30" style="font-size: 1em;">You may download it from here: bit.ly/2EgG2MF</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1em;" x="30">1. Now added support for theme file v2</text><text y="84" style="font-size: 1.4em;">Notes</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
@@ -308,15 +308,15 @@ animation: color-change 20s infinite linear;
 .theme-dark .separator-gCa7yv, .theme-dark #bd-settings-sidebar .ui-tab-bar-separator {background-color: hsla(180, 100%, 61%, 0.2); padding: 0;}
 
 /* Changes the time-stamp color */
-.theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: cyan;}
-.theme-dark .timestampCompact-MHgFLv {color: cyan;}
+.theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: var(--main-timestamp);}
+.theme-dark .timestampCompact-MHgFLv {color: var(--main-timestamp);}
 .theme-dark .discrim-3rYTMj {opacity: 1;}
 .theme-dark .guild-settings-members-member .tag {color: #dcddde}
 
 /* Removes the scroll bar and the round arrows that point next to a server and channel */
 .guildsWrapper-5TJh6A.foldercontent {width:70px !important;}
 .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {display: none;}
-.theme-dark .guild-1EfMGQ.unread-qLkInr:before {display: block; border-radius: 1px;height: 14px;margin-top: -6px;background-color: #44f5b1;}
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before {display: block; border-radius: 1px;height: 14px;margin-top: -6px;background-color: var(--main-unread);}
 .theme-dark .guild-1EfMGQ.selected-ML3OIq:before {display: none;}
 .guild-1EfMGQ.selected-ML3OIq:before {display: block;}
 .unread-1Dp-OI {display: none;}

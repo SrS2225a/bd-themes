@@ -220,8 +220,6 @@ animation: color-change 20s infinite linear;
     z-index: 9999;
 }
 
-.button-1MICoQ {top: -6px;}
-
 
 /* stylizes the configuration page for the user settings and server settings pages*/
 .video-1FfuMD {background: rgba(0,0,0,.2); outline: 2px solid springgreen; border-left: 2px solid springgreen;}

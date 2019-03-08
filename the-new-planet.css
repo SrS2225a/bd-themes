@@ -78,7 +78,7 @@
 .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY {
     background: rgba(0,0,0,0.0);
 }
-.theme-dark .guildsWrapper-5TJh6A{
+.theme-dark .wrapper-1Rf91z{
   background: rgba(0,0,0,0.0) !important;
 }
 
@@ -314,11 +314,11 @@ animation: color-change 20s infinite linear;
 .theme-dark .guild-settings-members-member .tag {color: #dcddde}
 
 /* Removes the scroll bar and the round arrows that point next to a server and channel */
-.guildsWrapper-5TJh6A.foldercontent {width:70px !important;}
+.wrapper-1Rf91z.foldercontent {width:70px !important;}
 .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {display: none;}
-.theme-dark .guild-1EfMGQ.unread-qLkInr:before {display: block; border-radius: 1px;height: 14px;margin-top: -6px;background-color: var(--main-unread);}
-.theme-dark .guild-1EfMGQ.selected-ML3OIq:before {display: none;}
-.guild-1EfMGQ.selected-ML3OIq:before {display: block;}
+.theme-dark .container-2td-dC.unread-2OHH1w:before {display: block; border-radius: 1px;height: 14px;margin-top: -6px;background-color: var(--main-unread);}
+.theme-dark .container-2td-dC.selected-nT-gM3:before {display: none;}
+.container-2td-dC.selected-nT-gM3:before {display: block;}
 .unread-1Dp-OI {display: none;}
 
 
@@ -439,9 +439,9 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 .theme-dark .guilds-wrapper .guilds-add,.theme-dark .guilds-wrapper .guilds .guild-icon,.theme-dark .guilds-wrapper .guilds .guild .guild-inner,
 .theme-dark .image-33JSyf,.theme-dark .avatar-large, .theme-dark .avatar-profile, .theme-drak .small-5Os1Bb,.theme-dark .avatar-small,
 .theme-dark .avatarHint-1qgaV3,.theme-dark .title-3qD0b- .status, .theme-dark .titleCall-_b9o8P .status, .listAvatar-1NlAhb,
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4, .theme-dark .guildsError-3cFMtY, .theme-dark .guildsAdd-21_IdK, .inner-1W0Bkn {border-radius: 0px !important;}
+.theme-dark .container-2td-dC .wrapper-2lTRaf, .theme-dark .guildsError-3cFMtY, .theme-dark .circleIconButton-jET_ig, .inner-1W0Bkn {border-radius: 0px !important;}
 .theme-dark .status-2s6iDp, .statusProfile-3ynqtt, .avatar-small .status {border-radius: 0px; border: none;}
-.guild-1EfMGQ.da-guild.selected-ML3OIq.da-selected {outline: 2.8px dashed yellow !important;}
+.container-2td-dC.da-guild.selected-nT-gM3.da-selected {outline: 2.8px dashed yellow !important;}
 .wrapper-232cHJ {bottom: 2px; right: 2px;}
 .status-oxiHuE {border-radius: 0px !important;}
 .private-channels .status {border: 1.2px solid #2f3136;}

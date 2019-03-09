@@ -290,7 +290,7 @@ animation: color-change 20s infinite linear;
 .theme-dark .item-1GzJrl:hover {background: slategrey;}
 .theme-dark .item-1GzJrl.invite-271nFU {color: #304db5;}
 
-.theme-dark .item-1Yvehc.disabled-2xniQf, .theme-dark .item-1Yvehc.disabled-2xniQf:hover {color: #333;}
+.theme-dark .item-1Yvehc.disabled-2xniQf, .theme-dark .item-1Yvehc.disabled-2xniQf:hover {color: #33b;}
 
 .search .DraftEditor-root .public-DraftStyleDefault-block span {background: lightslategrey;}
 
@@ -439,10 +439,10 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 .theme-dark .guilds-wrapper .guilds-add,.theme-dark .guilds-wrapper .guilds .guild-icon,.theme-dark .guilds-wrapper .guilds .guild .guild-inner,
 .theme-dark .image-33JSyf,.theme-dark .avatar-large, .theme-dark .avatar-profile, .theme-drak .small-5Os1Bb,.theme-dark .avatar-small,
 .theme-dark .avatarHint-1qgaV3,.theme-dark .title-3qD0b- .status, .theme-dark .titleCall-_b9o8P .status, .listAvatar-1NlAhb,
-.theme-dark .container-2td-dC .wrapper-2lTRaf, .theme-dark .guildsError-3cFMtY, .theme-dark .circleIconButton-jET_ig, .inner-1W0Bkn {border-radius: 0px !important;}
+.theme-dark .container-2td-dC, .wrapper-2lTRaf, .theme-dark .guildsError-3cFMtY, .theme-dark .circleIconButton-jET_ig, .inner-1W0Bkn {border-radius: 0px !important;}
 .theme-dark .status-2s6iDp, .statusProfile-3ynqtt, .avatar-small .status {border-radius: 0px; border: none;}
 .container-2td-dC .selected-nT-gM3 {outline: 2.8px dashed yellow !important;}
-.wrapper-232cHJ {bottom: 2px; right: 2px;}
+.wrapper-232cHJ {margin-bottom: 4px; right: 2px;}
 .status-oxiHuE {border-radius: 0px !important;}
 .private-channels .status {border: 1.2px solid #2f3136;}
 .status-2s6iDp {border: 1.8px solid #2f3136;}

@@ -1,9 +1,9 @@
-/* The Multiverse - v8.32.60 */
+/* The Multiverse - v8.32.61 */
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 8.32.60";
+    --Update-Text: "Version 8.32.61";
 }
 
 #voice-connection, 
@@ -157,11 +157,12 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1em;" x="30">1. Fixed the server sidebar due to discord css class changes</text><text y="84" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30">1. Fix bugs with the server selector such as</text><text y="132" style="font-size: 1em;" x="30">server profile picture radius change on mouse hold</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1em;" x="30">1. Fix for the guilds unavailable button</text><text y="84" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30">1. All new server selector bugs should now be fixed!</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
 }
+
 
 /* Adds in rainboo text */
 @keyframes color-change {
@@ -422,14 +423,23 @@ animation: color-change 20s infinite linear;
 #bd-pub-li {display: none;} /* Hidden for now due to issues with the public button*/
 
 /* Changes the style of the servers unavailable button */
-.guildsError-3cFMtY::after {content: ""; background-image: url('data:image/png;base64,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'); 
-text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left: 0; bottom: 0; width: 50px; height: 50px; background-repeat: no-repeat; background-position: center;}
-.guildsError-3cFMtY {text-indent: 100%;white-space: nowrap; overflow: hidden;}
+#app-mount .guildsError-b7zR5H {
+    content: "";
+    background-image: url('data:image/png;base64,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');
+    background-color:rgba(56, 56, 56, 0.3);
+    background-size: 25px 25px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: 100%;
+}
+
 /* Gets rid of the side div in a metion */
 .isMentionedCozy-3isp7y:after {display: none;}
 	   
 /* Gets rid of the blocked users block */
-.messageGroupBlocked-3wrQQX , .messageGroupBlockedBtn-1PBBh-{display:none}
+.messageGroupBlocked-3wrQQX, .messageGroupBlockedBtn-1PBBh-{display:none}
 
 /* Hides the text box for chatting when there is a channel you cannot speak in */
 .channelTextAreaDisabled-rZtG8r {display: none;}
@@ -440,7 +450,7 @@ text-indent: 0%; background-size: 25px 25px; position: absolute; right: 0; left:
 .theme-dark .guilds-wrapper .guilds-add,.theme-dark .guilds-wrapper .guilds .guild-icon,.theme-dark .guilds-wrapper .guilds .guild .guild-inner,
 .theme-dark .image-33JSyf,.theme-dark .avatar-large, .theme-dark .avatar-profile, .theme-drak .small-5Os1Bb,.theme-dark .avatar-small,
 .theme-dark .avatarHint-1qgaV3,.theme-dark .title-3qD0b- .status, .theme-dark .titleCall-_b9o8P .status, .listAvatar-1NlAhb, .da-dragfix,
-.theme-dark .container-2td-dC, .wrapper-2lTRaf, .theme-dark .guildsError-3cFMtY, .theme-dark .circleIconButton-jET_ig, .inner-1W0Bkn {border-radius: 0px !important;}
+.theme-dark .container-2td-dC, .wrapper-2lTRaf, .theme-dark .guildsError-b7zR5H, .theme-dark .circleIconButton-jET_ig, .inner-1W0Bkn {border-radius: 0px !important;}
 .theme-dark .status-2s6iDp, .statusProfile-3ynqtt, .avatar-small .status {border-radius: 0px; border: none;}
 .selected-nT-gM3, .circleButtonSelected-34rLFW  {outline: 2.8px dashed yellow !important;}
 .wrapper-232cHJ {margin-bottom: 4px; right: 2px;}

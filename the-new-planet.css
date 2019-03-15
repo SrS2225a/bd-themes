@@ -165,7 +165,7 @@ animation: color-change 20s infinite linear;
 }
 
 
-/* Adds in rainboo text */
+/* Adds in rainbow text */
 @keyframes color-change {
   from {
     -webkit-filter: hue-rotate(0deg);
@@ -335,6 +335,7 @@ animation: color-change 20s infinite linear;
 .theme-dark .select-2TCrqx .Select-option.is-focused {background: #7c6482;}
 .theme-dark .select-2TCrqx .Select-menu-outer {background: transparent;}
 .Select .Select-menu {border-radius: 0%;}
+.theme-dark .closeButton-1tv5uR {border-radius: 25%;}
 
 /* Gets rid of the box shadow from the jump button from channel search */
 .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {background-color: #bc8f8f !important; box-shadow: none !important;}

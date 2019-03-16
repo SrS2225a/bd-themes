@@ -547,6 +547,7 @@ animation: color-change 20s infinite linear;
   animation: color-change 20s infinite linear;
 }	
 
+/* Stylies Plugins */
 .metalloriff-changelog-scroller, .vgr-relationshipswindow-scroller-wrapper, .sb-menu-scroller-wrapper {background: #381f25 !important;}
 .sb-menu-label {padding-bottom: 10px;}
 .vgr-friend-item:hover {background-color: rgba(255, 255, 255, 0.2);}

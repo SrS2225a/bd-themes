@@ -265,7 +265,7 @@ animation: color-change 20s infinite linear;
 
 .customHeader-f9DEJ_ {padding-top: 0px;}
 .customHeader-PhBRGa {padding-top: 0px;}
-.toolsContainer-1edPuj {position: relative; margin-right: 18px; padding-top: 18px; display: inline-flex;}
+.toolsContainer-1edPuj {position: fixed; margin-right: 0px !important; padding-top: 18px; right: 0%;}
 .sidebarRegion-VFTUkN {flex: 1 0 28px}
 .customColumn-Rb6toI {max-width: 100%;}
 

@@ -237,6 +237,7 @@ animation: color-change 20s infinite linear;
     margin-bottom: 60px !important;
     margin-left: auto;
     margin-right: auto;
+    min-width: auto;
     left: 50%;
     right: 50%;
     margin: 0;

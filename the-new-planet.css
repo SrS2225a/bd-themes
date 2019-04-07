@@ -1,9 +1,9 @@
-/* The Multiverse - v8.35.66 */
+/* The Multiverse - v8.35.67 */
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 8.35.66";
+    --Update-Text: "Version 8.35.67";
 }
 
 /* Initalizes the theme */
@@ -160,7 +160,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1em;" x="30">1. Added styling for region select dialog</text><text y="84" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1em;" x="30">1. Hidden Zeres Plugin Libary from plugins</text><text y="84" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
@@ -228,7 +228,7 @@ animation: color-change 20s infinite linear;
 
 /* stylizes the configuration page for the user settings and server settings pages*/
 .video-1FfuMD {background: rgba(0,0,0,.2); outline: 2px solid springgreen; border-left: 2px solid springgreen;}
-.contentColumnDefault-1VQkGM {padding: 60px 40px 80px; position: relative; border-radius: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: auto; margin-left: auto;margin-right: auto; border: 3px var(--border-settings-main) double;}
+.contentColumnDefault-1VQkGM {padding: 60px 40px 60px; position: relative; border-radius: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: auto; margin-left: auto;margin-right: auto; border: 3px var(--border-settings-main) double;}
 .sidebarScrollable-1qPI87+.content-1rPSz4 {
     padding: 60px 40px 60px !important;
     position: relative;
@@ -532,6 +532,8 @@ animation: color-change 20s infinite linear;
 /*
 
 /* Adds Plugin Support */
+[data-name="ZeresPluginLibrary"] {display: none;}
+
 .bda-slist:before {content: "An plugin adding any extra UI elements to discord has compatibility support for The Multiverse, and will say so if the plugin does as an color-changing message. However, if a plugin does not add any extra UI elements to discord, in this case the plugin will always have theme support for the multiverse even though there is no message confirming that there is indeed support for it"; font-size: 15px; color: lightsteelblue;}
 
 [data-name="AccountDetailsPlus"]:after,

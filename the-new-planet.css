@@ -485,7 +485,6 @@ animation: color-change 20s infinite linear;
 .contentRegion-3nDuYy #bd-customcss-attach-controls {background: transparent;}
 
 .editor {border-radius: 3px;}
-.ace-monokai {background: red;}
 .ace_content {background: #002240;}
 .ace-monokai .ace_gutter {background: #05294a;}
 .ace-monokai .ace_gutter-active-line, .ace-monokai .ace_marker-layer .ace_active-line {background: #0c2f5d;}

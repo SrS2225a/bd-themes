@@ -1,9 +1,9 @@
-/* The Multiverse - v8.35.67 */
+/* The Multiverse - v8.36.67 */
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 8.35.67";
+    --Update-Text: "Version 8.36.67";
 }
 
 /* Initalizes the theme */
@@ -160,7 +160,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1em;" x="30">1. Hidden Zeres Plugin Libary from plugins</text><text y="84" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1em;" x="30">1. Stylized the custom css editor</text><text y="84" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
@@ -475,6 +475,20 @@ animation: color-change 20s infinite linear;
 .status-2s6iDp {border: 1.8px solid #2f3136;}
 .typing-1KJk_j {border-radius: 7px !important;}
 #bd-pub-button {border-radius: 4px;}
+
+/* Stylizes the custom css editor */
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button {background: #43b581;}
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover {background: #2a9254;}
+
+.theme-dark #bd-settingspane-container h2.ui-form-title {color: mediumpurple;}
+
+.contentRegion-3nDuYy #bd-customcss-attach-controls {background: transparent;}
+
+.editor {border-radius: 3px;}
+.ace-monokai {background: red;}
+.ace_content {background: #002240;}
+.ace-monokai .ace_gutter {background: #05294a;}
+.ace-monokai .ace_gutter-active-line, .ace-monokai .ace_marker-layer .ace_active-line {background: #0c2f5d;}
 
 /* Changes the look of the friends list */
 @media (max-width:1300px){.friendsTable-133bsv .friendsColumnGuilds-2we6jb{display:inline-flex !important}}

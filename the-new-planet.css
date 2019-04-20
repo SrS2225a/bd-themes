@@ -485,9 +485,9 @@ animation: color-change 20s infinite linear;
 .contentRegion-3nDuYy #bd-customcss-attach-controls {background: transparent;}
 
 .editor {border-radius: 3px;}
-.ace_content {background: #002240;}
-.ace-monokai .ace_gutter {background: #05294a;}
-.ace-monokai .ace_gutter-active-line, .ace-monokai .ace_marker-layer .ace_active-line {background: #0c2f5d;}
+.ace_content {background: #002240 !important;}
+.ace-monokai .ace_gutter {background: #05294a !important;}
+.ace-monokai .ace_gutter-active-line, .ace-monokai .ace_marker-layer .ace_active-line {background: #0c2f5d !important;}
 
 /* Changes the look of the friends list */
 @media (max-width:1300px){.friendsTable-133bsv .friendsColumnGuilds-2we6jb{display:inline-flex !important}}

@@ -1,9 +1,9 @@
-/* The Multiverse - v8.36.67 */ 
+/* The Multiverse - v8.37.68 */ 
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 8.36.68";
+    --Update-Text: "Version 8.37.68";
 }
 
 /* Initalizes the theme */
@@ -12,7 +12,6 @@
 .friends-header, 
 .friendsTable-133bsv, 
 .scroller-wrapper, 
-.guild-header header,
 .headerBar-UHpsPw,
 .channels-wrap, 
 .private-channels .search-bar, 
@@ -138,6 +137,7 @@
 /* Changes the pop-in control tabs */
 .theme-dark .modal-3HD5ck {background: #381f25;}
 .theme-dark .footer-2yfCgX {background: #381f20;}
+.theme-dark .quickswitcher-3JagVE {background-color: #381f25;}
 
 /* Changes the settings tab color */
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {background-color: var(--settings-member-hover) !important;}
@@ -160,7 +160,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1em;" x="30">1. css fixes for the custom css editor</text><text y="84" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1em;" x="30">1. stylized find or start a convosation pop up ballon</text><text y="84" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;

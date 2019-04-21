@@ -420,7 +420,6 @@ animation: color-change 20s infinite linear;
 
 .theme-dark .rowWrapperActive-2L7i9f {background-color: rgba(0,0,0,.6);}
 .rowBackground-3MeNoN {-webkit-mask: radial-gradient(100% 100% at top left,hsla(0,0%,100%,.3) 0,hsla(0,0%,100%,.4) 100%); width: 100%; filter: grayscale(80%);}
-
 .gameLibrary-TTDw4Y .header-39GIC8 {display: none}
 .textCell-1aBIUP{margin:10px 0 0 20px}
 #app-mount .nameBodyCell-3JOlnK{margin:10px 0 0 10px}
@@ -429,6 +428,9 @@ animation: color-change 20s infinite linear;
 #app-mount .rowWrapper-2fB6P0{height:150px;width:350px;display: inline-table;margin:5px 0 0 35px; border: 3px groove var(--border-libary-friends-main);}
 #app-mount .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY{border:none;background:rgba(0,0,0,.4)}
 .disabledButtonColor-34LjTT {rgba(24,25,28, 1);}
+
+.da-disabledButtonOverlay {cursor: not-allowed;}
+.rowWrapper-2fB6P0 {cursor: context-menu;}
 
 /* Adds in the fadable update notification */
 .typeWindows-1za-n7:after {content: "";}

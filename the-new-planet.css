@@ -71,7 +71,8 @@
 .applicationStore-1pNvnv,
 .gameLibrary-TTDw4Y,
 .theme-dark .root-1BQpZw, .theme-dark .container-3gCOGc,
-#app-mount .wrapper-29NfPK, .theme-dark .pageWrapper-1PgVDX {
+#app-mount .wrapper-29NfPK, .theme-dark .pageWrapper-1PgVDX,
+.container-1r6BKw {
   background: transparent !important;
 }
 
@@ -126,11 +127,9 @@
 .roleCircle-3xAZ1j {border-radius: 6%;}
 
 /* Changes the text channel color */ 
-.contentSelectedText-3wUhMi
-{background-color: var(--slected-channel-color); text-shadow: 2px 2px #000 !important;}
-.contentHoveredText-2D9B-x
-{background-color: var(--hovered-select-channel); text-shadow: 2px 2px #000 !important;}
-.nameDefaultText-24KCy5 {color: white;}
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {background-color: var(--slected-channel-color) !important; text-shadow: 2px 2px #000 !important;}
+.theme-dark .wrapper-1ucjTd:hover .content-3at_AU {background-color: var(--hovered-select-channel); text-shadow: 2px 2px #000 !important;}
+.name-3_Dsmg {color: white;}
 .nameUnreadText-DfkrI4:after {content: "\03c"; margin-left: 8px; color: var(--main-unread);}
 .theme-dark .subtitle-Qv5s8c {color: #1db954;}
 
@@ -276,7 +275,7 @@ animation: color-change 20s infinite linear;
 {background-color: var(--user-member-hover);}
 .channel-2QD9_O.selected-1HYmZZ a
 {background-color: var(--user-member-select) !important;}
-.privateChannels-1nO12o header
+.name-IbjUBS
 {opacity: 1; color: var(--small-heading-main);}
 
 /* Changes the Member list color */
@@ -331,7 +330,7 @@ animation: color-change 20s infinite linear;
 .theme-dark .container-2td-dC.unread-2OHH1w:before {display: block; border-radius: 1px;height: 14px;margin-top: -6px;background-color: var(--main-unread);}
 .theme-dark .container-2td-dC.selected-nT-gM3:before {display: none;}
 .container-2td-dC.selected-nT-gM3:before {display: block;}
-.unread-1Dp-OI {display: none;}
+.unread-3zKkbm {display: none;}
 .theme-dark .select-2TCrqx .Select-option {color: #f6f6f7;background: #9a83a0;}
 .theme-dark .select-2TCrqx .Select-option.is-selected {background: #7c6482;}
 .theme-dark .select-2TCrqx .Select-option.is-focused {background: #7c6482;}

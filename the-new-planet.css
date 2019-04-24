@@ -346,7 +346,7 @@ animation: color-change 20s infinite linear;
 
 @keyframes delay-hide {
   0%   { opacity: 1; height: 60px;}
-  100% { opacity: 0; height: 1px; content: "";}
+  100% { opacity: 0; height: 1px;}
 }
 
 /* Changes the color of pinned messages */

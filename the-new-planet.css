@@ -1,9 +1,9 @@
-/* The Multiverse - v8.38.69 */ 
+/* The Multiverse - v8.38.70 */ 
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 8.38.69";
+    --Update-Text: "Version 8.38.70";
 }
 
 /* Initalizes the theme */
@@ -159,7 +159,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1em;" x="30">1. Added in an announcement regarding the theme + css fixes</text><text y="84" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30">Clean up source code once discord updates settle</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1em;" x="30">1. Bug fix for announcement notification</text><text y="84" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30">Clean up source code once discord updates settle</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;

@@ -439,9 +439,6 @@ animation: color-change 20s infinite linear;
 .da-disabledButtonOverlay {cursor: not-allowed;}
 .rowWrapper-2fB6P0 {cursor: context-menu;}
 
-/* Adds in the fadable update notification */
-.typeWindows-1za-n7:after {content: "";}
-
 /* Recolors the public button */
 #bd-pub-button {background: dodgerblue;}
 #pubslayer button:hover {background: dodgerblue;}

@@ -155,7 +155,6 @@
 [layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
 padding: 18px;
   display: block;
-  background: transparent;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
@@ -393,7 +392,7 @@ animation: color-change 20s infinite linear;
 .announcingNitro-3Ptg6m {margin: 0 0 10px 0px;}
 
 /* Changes the Voice Channel List */
-.nameDefaultVoice-3WUH7s, .nameLockedVoice-26MhB1 {color: orange;}
+.theme-dark .wrapper-1ucjTd.modeConnected-2IEL4z .content-3at_AU {background-color: var(--slected-channel-color) !important; text-shadow: 2px 2px #000 !important;}
 
 /* Changes the transparency of the search bars, so they can be seen easier */
 .search {background-color: hsla(240, 0%, 20%, 0.72); color: #fff; opacity: 1;}

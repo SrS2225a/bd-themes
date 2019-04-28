@@ -1,4 +1,4 @@
-/* The Multiverse - v8.38.70 */ 
+/* The Multiverse - v8.38.71 */ 
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
@@ -158,7 +158,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1em;" x="30">1. Bug fix for announcement notification</text><text y="84" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30">Clean up source code once discord updates settle</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="52" style="font-size: 1em;" x="30">1. Removed announcement notification + css fixes</text><text y="84" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30">Clean up source code once discord updates settle</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
@@ -304,6 +304,8 @@ animation: color-change 20s infinite linear;
 .theme-dark .option-96V44q.selected-rZcOL- {background-color: slategrey;}
 .theme-dark .resultsGroup-r_nuzN .header-2N-gMV {color: var(--small-heading-main);}
 .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {color: var(--small-heading-main);}
+.privateChannels-1nO12o header {color: var(--small-heading-main);}
+.theme-dark .h5-18_1nd {color: var(--small-heading-main);}
 .theme-dark .option-96V44q:after {background: transparent;}
 .theme-dark .option-96V44q.selected-rZcOL-:after {background: transparent;}
 .theme-dark .searchOption-zQ-1l6 .answer-1n6g43, .theme-dark .option-96V44q .filter-3Y_im- {color: #333;}

@@ -304,7 +304,7 @@ animation: color-change 20s infinite linear;
 .theme-dark .option-96V44q.selected-rZcOL- {background-color: slategrey;}
 .theme-dark .resultsGroup-r_nuzN .header-2N-gMV {color: var(--small-heading-main);}
 .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {color: var(--small-heading-main);}
-.privateChannels-1nO12o header {color: var(--small-heading-main);}
+.privateChannels-1nO12o header {color: var(--small-heading-main); opacity: 1;}
 .theme-dark .h5-18_1nd {color: var(--small-heading-main);}
 .theme-dark .option-96V44q:after {background: transparent;}
 .theme-dark .option-96V44q.selected-rZcOL-:after {background: transparent;}

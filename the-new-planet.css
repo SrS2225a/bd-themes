@@ -331,7 +331,7 @@ animation: color-change 20s infinite linear;
 .theme-dark .container-2td-dC.unread-2OHH1w:before {display: block; border-radius: 1px;height: 14px;margin-top: -6px;background-color: var(--main-unread);}
 .theme-dark .container-2td-dC.selected-nT-gM3:before {display: none;}
 .container-2td-dC.selected-nT-gM3:before {display: block;}
-.unread-3zKkbm {background-color: transparent;}
+.unread-3zKkbm {background-color: transparent !important;}
 .theme-dark .select-2TCrqx .Select-option {color: #f6f6f7;background: #9a83a0;}
 .theme-dark .select-2TCrqx .Select-option.is-selected {background: #7c6482;}
 .theme-dark .select-2TCrqx .Select-option.is-focused {background: #7c6482;}

@@ -1,9 +1,9 @@
-/* The Multiverse - v8.38.73 */ 
+/* The Multiverse - v8.38.74 */ 
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 8.38.73";
+    --Update-Text: "Version 8.38.74";
 }
 
 /* Initalizes the theme */
@@ -144,7 +144,7 @@
 .theme-dark .auditLog-3jNbM6 {color: drakgray;}
 .theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
 .description-2nQj2E, .theme-dark #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
-.theme-dark .defaultColor-1_ajX0 {color: var(--large-heading-main);}
+.theme-dark .defaultColor-1_ajX0 {color: var(--large-heading-main) !important;}
 .regionSelectModalHeader-21khC1 {color: var(--large-heading-main);}
 .regionSelectModal-12e-57 {background: #381f25;}
 .horizontal-1ae9ci>.flexChild-faoVW3:first-child {color: #f6f6f6;}
@@ -399,6 +399,7 @@ animation: color-change 20s infinite linear;
 .theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB .hit-NLlWXA {background-color: #bc8f8f;}
 .theme-dark .searchResultsWrap-2DKFzt, .theme-dark .searchResultsWrap-2DKFzt .channelSeparator-1X1FuH .channelName-1QajIf {background-color: #0E2F44;}
 .theme-dark .searchResult-3pzFAB:before, .theme-dark .searchResult-3pzFAB:after {background-image: linear-gradient(0deg,hsla(0,0%,95%,0),#0E2F44);}
+.theme-dark .children-19S4PO:after {background: transparent;}
 .theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {border: transparent;}
 
 .textArea-2Spzkt:focus  {box-shadow: 2px 0 15px -4px rgba(255, 255, 255, 0.4), -2px 0 8px -4px rgba(255, 255, 255, 0.4);}
@@ -436,9 +437,9 @@ animation: color-change 20s infinite linear;
 
 /* Recolors the public button */
 #bd-pub-button {background: dodgerblue;}
-#pubslayer button:hover {background: dodgerblue;}
+#bd-pub-button {border-radius: 4px !important; margin: auto; color: #fff}
 #pubslayer .ui-tab-bar-header {color: red;}
-#bd-pub-li {display: none;} /* Hidden for now due to issues with the public button*/
+#pubslayer button:hover {background: dodgerblue;}
 
 /* Changes the style of the servers unavailable button */
 #app-mount .guildsError-b7zR5H {

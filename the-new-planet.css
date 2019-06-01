@@ -94,15 +94,14 @@
 .da-wordmark:after {content: var(--Theme-Variant)" - "var(--Update-Text); color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 
  /* Recolors the no text channels message */
-.theme-dark .title-2BxgL2 {color: #d4d4d4;}
+.theme-dark .text-GwUZgS {color: #d4d4d4;}
  
- /* Sets the color of inbeded links */ 
+ /* Sets the color of enbeded links */ 
 .theme-dark .embedInner-1-fpTo, .theme-dark .attachment-33OFj0, .theme-dark .wrapperAudio-1jDe0Q, .theme-dark .wrapper-35wsBm {background-color: #2e3036;}
 .theme-dark .isMentioned-N-h9aa {background: rgba(218,112,161,.3);}
 
 /* Recolors the friends tab */
 .friendsTable-133bsv {background: transparent !important;}
-.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumn-eVHFqJ {color: #fff;}
 .friendsTable-133bsv .friendsRow-2yicud .discord-tag .username {color: pink;}
 .private-channels .channel .channel-name {color: #fff; opacity: 1;}
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover {background-color: rgba(0, 0, 0, 0.6);}
@@ -114,9 +113,6 @@
 .emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG input {color:#fff}
 
 .emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R ::-webkit-input-placeholder{color:#fff}
-
-/* Gets rid of the local bot shadow */
-.theme-dark .message-group .is-local-bot-message {box-shadow: none; box-shadow: -20px 0px #33373b;}
 
 /* Changes the color of the role menu and user information */
 .theme-dark .body-3ND3kc, .tabBarContainer-1s1u-z, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {background-color: #0E2F44;}

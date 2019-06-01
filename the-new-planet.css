@@ -117,7 +117,6 @@
 /* Changes the color of the role menu and user information */
 .theme-dark .body-3ND3kc, .tabBarContainer-1s1u-z, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {background-color: #0E2F44;}
 .theme-dark .container-VSDcQc .sectionTag-pXyto9, .theme-dark .popoutList-T9CKZQ {background: #999966; text-shadow: 1px 1px black;}
-.theme-dark .row-rrHHJU.selected-1pIgLL {background:hsla(0, 0%, 100%, .05)}
 .theme-dark .listRow-hutiT_:hover {background: hsla(0, 0%, 100%, .05);}
 .role-2irmRk {border-radius: 3px; margin: 0 4.3px 4.3px 0;}
 .roleCircle-3xAZ1j {border-radius: 6%;}
@@ -137,15 +136,14 @@
 /* Changes the settings tab color */
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {background-color: var(--settings-member-hover) !important;}
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, #bd-settings-sidebar .ui-tab-bar-item.selected {background-color: var(--settings-member-select) !important;}
-.theme-dark .auditLog-3jNbM6 {color: drakgray;}
 .theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
 .description-2nQj2E, .theme-dark #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
 .theme-dark .defaultColor-1_ajX0 {color: var(--large-heading-main) !important;}
 .regionSelectModalHeader-21khC1 {color: var(--large-heading-main);}
 .regionSelectModal-12e-57 {background: #381f25;}
 .horizontal-1ae9ci>.flexChild-faoVW3:first-child {color: #f6f6f6;}
-#pubslayer .ui-tab-bar-item.selected {background-color: #8e3986 !important;}
-#pubslayer .ui-tab-bar-item:hover {background-color: #1ac0c9 !important;}
+#pubslayer .ui-tab-bar-item.selected {background-color: var(--settings-member-select) !important;}
+#pubslayer .ui-tab-bar-item:hover {background-color: var(--settings-member-hover) !important;}
 
 /* Adds in the update log module */
 [layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
@@ -203,8 +201,6 @@ animation: color-change 20s infinite linear;
 }
 
 .notice-2FJMB4 {
-    /* width: calc(100% - 10px)!important; */
-    /* height: calc(100% - 70px)!important; */
     position: absolute;
     top: initial!important;
     right: initial!important;
@@ -238,26 +234,6 @@ animation: color-change 20s infinite linear;
     right: 50%;
     margin: 0;
     border: 3px var(--border-settings-main) double;}
-
-.customScroller-26gWhv {
-    padding: 60px 40px 60px;
-    position: relative;
-    border-radius: 5px;
-    background-color: rgba(0,0,0,.4) !important;
-    min-height: 0%;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px var(--border-settings-main) double;}
-
-.customScroller-26gWhv>div {
-    margin-left: 0%;
-    margin-right: 100%;
-    max-width: 0%;
-    min-width: 100%;
-}
 
 .customHeader-f9DEJ_ {padding-top: 0px;}
 .customHeader-PhBRGa {padding-top: 0px;}
@@ -313,7 +289,6 @@ animation: color-change 20s infinite linear;
 .theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: var(--main-timestamp);}
 .theme-dark .timestampCompact-MHgFLv {color: var(--main-timestamp);}
 .theme-dark .discrim-3rYTMj {opacity: 1;}
-.theme-dark .guild-settings-members-member .tag {color: #dcddde}
 
 /* Removes the scroll bar and the round arrows that point next to a server and channel */
 .wrapper-1Rf91z.foldercontent {width:70px !important;}

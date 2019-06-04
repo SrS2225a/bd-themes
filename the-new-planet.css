@@ -235,17 +235,12 @@ animation: color-change 20s infinite linear;
     right: 50%;
     margin: 0;
     border: 3px var(--border-settings-main) double;}
-.customScroller-26gWhv>div {padding: 60px 40px 60px;
-    position: relative;
-    border-radius: 5px;
-    background-color: rgba(0,0,0,.4);
-    min-height: 0%;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    min-width: auto;
-    margin-left: auto;
-    margin-right: auto;
-	border: 3px var(--border-settings-main) double;}
+.customScroller-26gWhv>div {	
+    margin-left: 0%;	
+    margin-right: 100%;	
+    max-width: 0%;	
+    min-width: 100%;	
+}
 
 .customHeader-f9DEJ_ {padding-top: 0px;}
 .customHeader-PhBRGa {padding-top: 0px;}

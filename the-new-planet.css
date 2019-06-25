@@ -389,6 +389,10 @@ h3.title-3KTIjF {color: red !important;}
 
 /* ~~~~ */
 
+/* Stylizes embeds */
+.theme-dark .embedInner-1-fpTo, .theme-dark .markup-2BOw-j code {background: black}
+.theme-dark .embedPill-1Zntps {display: none;}
+
 /* Changes the Voice Channel List */
 .theme-dark .wrapper-1ucjTd.modeConnected-2IEL4z .content-3at_AU {background-color: var(--slected-channel-color) !important; text-shadow: 2px 2px #000 !important;}
 

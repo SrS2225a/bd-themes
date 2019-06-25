@@ -5,6 +5,7 @@
     --Theme-Variant: "The Multiverse";
     --Update-Text: "Version 9.38.74";
 }
+/* ~~~~ means cont. */
 
 /* Initalizes the theme */
 #voice-connection, 
@@ -350,10 +351,10 @@ animation: color-change 20s infinite linear;
 .paginationItem-3-MBTL:before {height: 83px;}
 
 /* Changes the style of the store */
-.theme-dark .slideBody-2nMrnU, .theme-light .slideBody-2nMrnU {background: transparent}
+.theme-dark .slideBody-2nMrnU, .theme-light .slideBody-2nMrnU {background: transparent;}
 .theme-dark .description-2oYgWO {background: lightyellow}
-.theme-dark .overlappingBorder-3aFng4 {background: orange}
-.theme-dark .itemBackground-2vEldQ {background-image: none !important; background: trasparent !important;}
+.theme-dark .overlappingBorder-3aFng4 {border-color: orange}
+.theme-dark .itemBackground-2vEldQ {background-image: none !important; background: transparent !important;}
 .itemBackground-2vEldQ:before {background: transparent !important}
 .heroCarousel-usH_dd {margin-bottom: 0; margin: 3%}
 .carouselContainer-1cw6QH {
@@ -361,17 +362,21 @@ animation: color-change 20s infinite linear;
     height: 480px;
     display: grid;
 }
+.theme-dark .details-1DqjXP {background: antiquewhite;}
+.gameTitle-8njhLq {color: mediumaquamarine !important;}
 .actionsContainer-YoXiVl {flex-wrap: nowrap;}
-.title-2XwaXv {color: mediumaquamarine !important}
+.title-2XwaXv {color: mediumaquamarine !important;}
 .muteContainer-dXWpxM {background: red;}
 .nextArrow-V_4mvH, .prevArrow-11tqRS {background: red; border-radius: 50%; width: 40px; height: 40px;}
 .theme-dark .scrollerButton-1Vm5_P {
     background-color: red;
     color: #fff;
 }
+/* ~~~~ */
+
 
 .arrowHidden-1jg6O9, .arrowHidden-1jg6O9:hover {
-    opacity: 1;
+    opacity: 1 !important;
 }
 h3.title-3KTIjF {color: red;}
 .theme-dark .row-1bU71H {background: darkslategray;}

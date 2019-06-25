@@ -352,7 +352,7 @@ animation: color-change 20s infinite linear;
 
 /* Changes the style of the store */
 .theme-dark .description-2oYgWO {background: lightyellow}
-.theme-dark .overlappingBorder-3aFng4 {border-color: orange}
+.theme-dark .overlappingBorder-3aFng4, .overlappingBorder-1-XPGl {border-color: orange}
 .theme-dark .itemBackground-2vEldQ {background-image: none !important; background: transparent !important;}
 .itemBackground-2vEldQ:before {background: transparent !important}
 .heroCarousel-usH_dd {margin-bottom: 0; margin: 3%}
@@ -371,17 +371,23 @@ animation: color-change 20s infinite linear;
     background-color: red;
     color: #fff;
 }
-/* ~~~~ */
-
+.theme-dark .name-u2zgy7 {color: gray;}
+.theme-dark .root-1bFE0x {
+    background-color: rebeccapurple;
+    border: 16px solid #202225;
+}
 
 .arrowHidden-1jg6O9, .arrowHidden-1jg6O9:hover {
     opacity: 1 !important;
 }
-h3.title-3KTIjF {color: red;}
+.arrow-3jRqK8 {background: red; opacity: 1 !important;}
+h3.title-3KTIjF {color: red !important;}
 .theme-dark .row-1bU71H {background: darkslategray;}
 .openBody-1HeDPG {width: 100%}
 .body-1Q8LH2, .openBody-1HeDPG {background: rebeccapurple;}
 .theme-dark .bodySection-jqkkIP {background: tan;}
+
+/* ~~~~ */
 
 /* Changes the Voice Channel List */
 .theme-dark .wrapper-1ucjTd.modeConnected-2IEL4z .content-3at_AU {background-color: var(--slected-channel-color) !important; text-shadow: 2px 2px #000 !important;}

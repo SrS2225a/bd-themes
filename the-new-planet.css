@@ -390,7 +390,7 @@ h3.title-3KTIjF {color: red !important;}
 /* ~~~~ */
 
 /* Stylizes embeds */
-.theme-dark .embedInner-1-fpTo, .theme-dark .markup-2BOw-j code {background: black}
+.theme-dark .embedInner-1-fpTo, .theme-dark .markup-2BOw-j code {background: black !important}
 .theme-dark .embedPill-1Zntps {display: none;}
 
 /* Changes the Voice Channel List */

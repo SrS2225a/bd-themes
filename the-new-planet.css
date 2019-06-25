@@ -351,7 +351,6 @@ animation: color-change 20s infinite linear;
 .paginationItem-3-MBTL:before {height: 83px;}
 
 /* Changes the style of the store */
-.theme-dark .slideBody-2nMrnU, .theme-light .slideBody-2nMrnU {background: transparent;}
 .theme-dark .description-2oYgWO {background: lightyellow}
 .theme-dark .overlappingBorder-3aFng4 {border-color: orange}
 .theme-dark .itemBackground-2vEldQ {background-image: none !important; background: transparent !important;}

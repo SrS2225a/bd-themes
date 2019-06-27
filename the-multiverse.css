@@ -342,8 +342,8 @@ animation: color-change 20s infinite linear;
 .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {background-color: #bc8f8f !important; box-shadow: none !important;}
 
 /* Changes the color of pinned messages */
-.messagesPopout-24nkyi {background-color: #0E2F44;}
-.messageGroupWrapper-o-Zw7G {background-color: #bc8f8f !important;}
+.messagesPopout-24nkyi {background-color: var(--main-updates-background);}
+.messageGroupWrapper-o-Zw7G {background-color: var(--main-secondary-updates-background) !important;}
 
 /* Changes Settings or user dividers */
 .private-channels header {color: var(--small-heading-main); opacity: 1;}

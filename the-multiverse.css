@@ -274,6 +274,7 @@ animation: color-change 20s infinite linear;
 {background-color: var(--user-member-select) !important;}
 .name-IbjUBS
 {opacity: 1; color: var(--small-heading-main);}
+.theme-dark .akaBadge-1M-1Gw {background-color: #292b2f !important;}
 
 /* Changes the Member list color */
 .member-3W1lQa:hover .content-OzHfo4,

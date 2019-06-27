@@ -136,6 +136,9 @@
 .slideBody-2nMrnU {background: var(--popout-control-dialog-background); background-image: none !important}
 .contentWrapper-3WC1ID {background: var(--popout-control-dialog-background);}
 
+/* Stylizes Mentions */
+.mention-1f5kbO, .base-PmTxvP {background: var(--mention-background-main) !important;}
+
 /* Changes the settings tab color */
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {background-color: var(--settings-member-hover) !important;}
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, #bd-settings-sidebar .ui-tab-bar-item.selected {background-color: var(--settings-member-select) !important;}

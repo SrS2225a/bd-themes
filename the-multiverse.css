@@ -105,7 +105,7 @@
 .friendsTable-133bsv {background: transparent !important;}
 .friendsTable-133bsv .friendsRow-2yicud .discord-tag .username {color: pink;}
 .private-channels .channel .channel-name {color: #fff; opacity: 1;}
-.theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover {background-color: rgba(0, 0, 0, 0.6);}
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover {background-color: var(--friends-hover-transpraency);}
 
 /* Fixes the emoji picker */
 .emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG {background-color: #353535}
@@ -116,7 +116,7 @@
 .emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R ::-webkit-input-placeholder{color:#fff}
 
 /* Changes the color of the role menu and user information */
-.theme-dark .body-3ND3kc, .tabBarContainer-1s1u-z, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {background-color: #0E2F44;}
+.theme-dark .body-3ND3kc, .tabBarContainer-1s1u-z, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {background-color: var(--user-info-background-main);}
 .theme-dark .container-VSDcQc .sectionTag-pXyto9, .theme-dark .popoutList-T9CKZQ {background: #999966; text-shadow: 1px 1px black;}
 .theme-dark .listRow-hutiT_:hover {background: hsla(0, 0%, 100%, .05);}
 .role-2irmRk {border-radius: 3px; margin: 0 4.3px 4.3px 0;}
@@ -144,6 +144,7 @@
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, #bd-settings-sidebar .ui-tab-bar-item.selected {background-color: var(--settings-member-select) !important;}
 .theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
 .description-2nQj2E, .theme-dark #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
+.markup-2BOw-j {color: var(--main-chat-color);}
 .theme-dark .defaultColor-1_ajX0 {color: var(--large-heading-main) !important;}
 .regionSelectModalHeader-21khC1 {color: var(--large-heading-main);}
 .regionSelectModal-12e-57 {background: var(--popout-control-dialog-background);}

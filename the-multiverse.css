@@ -90,7 +90,7 @@
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .typeWindows-15E0Ys {
     background: var(--background-transpraency) !important;
 }
-
+.container-16j22k {background-image: var(--load-background); background-position: center; background-size: cover; background-repeat: no-repeat;}
 .appMount-3lHmkl {background-image: var(--main-background); background-position: center; background-size: cover; background-repeat: no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
 .da-wordmark:after {content: var(--Theme-Variant)" - "var(--Update-Text); color: #fff; position: absolute; width: 400%; font-size: 15px; margin-left: 4px;}
 

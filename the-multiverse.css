@@ -225,7 +225,7 @@ animation: color-change 20s infinite linear;
     padding: 60px 40px 60px !important;
     position: relative;
     border-radius: 5px;
-    background-color: rgba(0,0,0,.4);
+    background-color: var(--secondary-transpraency);
     min-height: 0%;
     margin-top: 60px !important;
     margin-bottom: 60px !important;
@@ -241,7 +241,7 @@ animation: color-change 20s infinite linear;
     padding: 60px 40px 60px;
     position: relative;
     border-radius: 5px;
-    background-color: rgba(0,0,0,.4) !important;
+    background-color: var(--secondary-transpraency) !important;
     min-height: 0%;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -278,8 +278,8 @@ animation: color-change 20s infinite linear;
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {background-color: var(--user-member-select) !important; text-shadow: 1px 1px #000 !important;}
 
 /* Changes the more users options color */
-.theme-dark.contextMenu-HLZMGh {background-color: lightslategrey; color: #fff;}
-.theme-dark .item-1Yvehc:hover {background: slategrey;}
+.theme-dark.contextMenu-HLZMGh {background-color: var(--main-dropdown); color: #fff;}
+.theme-dark .item-1Yvehc:hover {background: var(--main-dropdown-hover);}
 
 .theme-dark .item-1Yvehc {color: #fff;} 
 
@@ -350,7 +350,7 @@ animation: color-change 20s infinite linear;
 .paginationItem-3-MBTL:before {height: 83px;}
 
 /* Changes the style of the store */
-.theme-dark .description-2oYgWO {background: lightyellow}
+.theme-dark .description-2oYgWO {background: var(--store-item-background);}
 .theme-dark .overlappingBorder-3aFng4, .overlappingBorder-1-XPGl {border-color: orange}
 .theme-dark .itemBackground-2vEldQ {background-image: none !important; background: transparent !important;}
 .itemBackground-2vEldQ:before {background: transparent !important}
@@ -361,39 +361,39 @@ animation: color-change 20s infinite linear;
     display: grid;
 }
 .theme-dark .details-1DqjXP {background: antiquewhite;}
-.gameTitle-8njhLq {color: mediumaquamarine !important;}
+.gameTitle-8njhLq {color: var(--store-small-heading-main) !important;}
 .actionsContainer-YoXiVl {flex-wrap: nowrap;}
-.title-2XwaXv {color: mediumaquamarine !important;}
-.muteContainer-dXWpxM {background: red;}
-.nextArrow-V_4mvH, .prevArrow-11tqRS {background: red; border-radius: 50%; width: 40px; height: 40px;}
+.title-2XwaXv {color: var(--store-small-heading-main) !important;}
+.muteContainer-dXWpxM {background: var(--arrow-color-main);}
+.nextArrow-V_4mvH, .prevArrow-11tqRS {background: var(--arrow-color-main); border-radius: 50%; width: 40px; height: 40px;}
 .theme-dark .scrollerButton-1Vm5_P {
     background-color: red;
     color: #fff;
 }
 .theme-dark .name-u2zgy7 {color: gray;}
 .theme-dark .root-1bFE0x {
-    background-color: rebeccapurple;
+    background-color: var(--store-embed-main);
     border: 16px solid #202225;
 }
 
 .arrowHidden-1jg6O9, .arrowHidden-1jg6O9:hover {
     opacity: 1 !important;
 }
-.arrow-3jRqK8 {background: red; opacity: 1 !important;}
-h3.title-3KTIjF {color: red !important;}
+.arrow-3jRqK8 {background: var(--arrow-color-main); opacity: 1 !important;}
+h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .row-1bU71H {background: darkslategray;}
 .openBody-1HeDPG {width: 100%}
-.body-1Q8LH2, .openBody-1HeDPG {background: rebeccapurple;}
+.body-1Q8LH2, .openBody-1HeDPG {background: var(--store-embed-main);}
 .theme-dark .bodySection-jqkkIP {background: tan;}
 
 /* ~~~~ */
-.guildInfo-2wGKIg {background: antiquewhite;}
+.guildInfo-2wGKIg {background: var(--store-item-background);}
 .theme-dark .guildName-1yURO5 {color: mediumturquoise;}
 .theme-dark .description-2QALGo {color: gray;}
 .guildInfo-2wGKIg {padding: 16px;}
 
 /* Stylizes embeds */
-.theme-dark .embedInner-1-fpTo, .theme-dark .markup-2BOw-j code, .theme-dark .wrapper-35wsBm {background: black !important}
+.theme-dark .embedInner-1-fpTo, .theme-dark .markup-2BOw-j code, .theme-dark .wrapper-35wsBm {background: var(--main-embed-background); !important}
 .theme-dark .embedPill-1Zntps {display: none;}
 
 /* Changes the Voice Channel List */
@@ -447,10 +447,10 @@ h3.title-3KTIjF {color: red !important;}
 .rowWrapper-2fB6P0 {cursor: context-menu;}
 
 /* Recolors the public button */
-#bd-pub-button {background: dodgerblue;}
+#bd-pub-button {background: var(--discordservers-main-button);}
 #bd-pub-button {border-radius: 4px !important; margin: auto; color: #fff}
-#pubslayer .ui-tab-bar-header {color: red;}
-#pubslayer button:hover {background: dodgerblue;}
+#pubslayer .ui-tab-bar-header {color: var(--discordservers-small-heading-main);}
+#pubslayer button:hover {background: var(--discordservers-main-button);}
 
 /* Changes the style of the servers unavailable button */
 #app-mount .guildsError-b7zR5H {

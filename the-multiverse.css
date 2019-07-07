@@ -212,13 +212,15 @@ animation: color-change 20s infinite linear;
     right: initial!important;
     margin-top: 8px!important;
     left: 8px!important;
-    display: flex;
+    display: grid;
     flex-flow: wrap;
     justify-content: flex-start;
     border-radius: 4px;
     font-size: 13px;
     z-index: 9999;
 }
+
+.button-1MICoQ {position: unset; margin-left: 0; margin-bottom: 8px;}
 
 .theme-dark .body-2iXqIL {background: black;}
 
@@ -321,8 +323,8 @@ animation: color-change 20s infinite linear;
 .pill-31IEus {display: none;}
 .wrapper-1Rf91z.foldercontent {width:70px !important;}
 div::-webkit-scrollbar-track-piece {border: none !important; border-radius: 0%; background-color: transparent !important;}
-div::-webkit-scrollbar-track {background-color: rgba(0,0,0,.4) !important;}
-div::-webkit-scrollbar-thumb {background-color: rgba(255,255,255,0.4) !important; border: none;}
+div::-webkit-scrollbar-track {background-color: rgba(0,0,0,.4) !important; border-radius: 0% !important;}
+div::-webkit-scrollbar-thumb {background-color: rgba(255,255,255,0.4) !important; border-radius: 0% !important;}
 div::-webkit-scrollbar {width: inherit}
 .theme-dark .container-2td-dC.unread-2OHH1w:before {display: block; border-radius: 1px;height: 14px;margin-top: -6px;background-color: var(--main-unread);}
 .theme-dark .container-2td-dC.selected-nT-gM3:before {display: none;}

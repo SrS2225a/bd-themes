@@ -320,13 +320,10 @@ animation: color-change 20s infinite linear;
 /* Removes the scroll bar and the round arrows that point next to a server and channel */
 .pill-31IEus {display: none;}
 .wrapper-1Rf91z.foldercontent {width:70px !important;}
-.theme-dark .select-2TCrqx .Select-menu::-webkit-scrollbar {display: block;}
-.scroller-2FKFPG::-webkit-scrollbar-thumb, .scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb, .scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {border-radius: 0% !important;}
-.scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb, .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {background-color: rgba(255,255,255,0.4) !important;}
-.scrollerThemed-2oenus.themeGhost-28MSn0.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track {background-color: rgba(0,0,0,.4) !important;}
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {border: none; background-color: rgba(0,0,0,.4);}
-.scroller-2FKFPG::-webkit-scrollbar {width: inherit}
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {border: none;}
+div::-webkit-scrollbar-track-piece {border: none !important; border-radius: 0%; background-color: transparent !important;}
+div::-webkit-scrollbar-track {background-color: rgba(0,0,0,.4) !important;}
+div::-webkit-scrollbar-thumb {background-color: rgba(255,255,255,0.4) !important; border: none;}
+div::-webkit-scrollbar {width: inherit}
 .theme-dark .container-2td-dC.unread-2OHH1w:before {display: block; border-radius: 1px;height: 14px;margin-top: -6px;background-color: var(--main-unread);}
 .theme-dark .container-2td-dC.selected-nT-gM3:before {display: none;}
 .container-2td-dC.selected-nT-gM3:before {display: block;}

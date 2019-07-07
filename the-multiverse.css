@@ -97,7 +97,7 @@
  /* Recolors the no text channels message */
 .theme-dark .text-GwUZgS {color: #d4d4d4;}
  
- /* Sets the color of enbeded links */ 
+ /* Sets the color of embeded links */ 
 .theme-dark .embedInner-1-fpTo, .theme-dark .attachment-33OFj0, .theme-dark .wrapperAudio-1jDe0Q, .theme-dark .wrapper-35wsBm {background-color: #2e3036;}
 .theme-dark .isMentioned-N-h9aa {background: rgba(218,112,161,.3);}
 
@@ -398,7 +398,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .guildInfo-2wGKIg {padding: 16px;}
 
 /* Stylizes embeds */
-.theme-dark .embedInner-1-fpTo, .theme-dark .markup-2BOw-j code, .theme-dark .wrapper-35wsBm, .attachment-33OFj0 {background: var(--main-embed-background); !important}
+.theme-dark .embedInner-1-fpTo, .theme-dark .markup-2BOw-j code, .theme-dark .wrapper-35wsBm, .theme-dark .attachment-33OFj0 {background: var(--main-embed-background); !important}
 .theme-dark .embedPill-1Zntps {display: none;}
 
 /* Changes the Voice Channel List */

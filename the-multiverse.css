@@ -3,7 +3,7 @@
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 10.39.76";
+    --Update-Text: "Version 10.40.76";
 }
 /* ~~~~ means cont. */
 
@@ -130,8 +130,8 @@
 .theme-dark .subtitle-Qv5s8c {color: #1db954;}
 
 /* Changes the pop-in control tabs */
-.theme-dark .modal-3v8ziU {background: var(--popout-control-dialog-background);}
-.theme-dark .footer-30ewN8 {background: var(--popout-control-dialog-background);}
+.theme-dark .modal-yWgWj- {background: var(--popout-control-dialog-background);}
+.theme-dark .footer-3rDWdCv {background: var(--popout-control-dialog-background);}
 .theme-dark .quickswitcher-3JagVE {background: var(--popout-control-dialog-background);}
 .slideBody-2nMrnU {background: var(--popout-control-dialog-background); background-image: none !important}
 .contentWrapper-3WC1ID {background: var(--popout-control-dialog-background);}
@@ -159,7 +159,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. Release for Theme File Ver. 3</text><text y="68" style="font-size: 1em;" x="30">2. Embed color fix for attachments</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. plugin update button fix</text><text y="68" style="font-size: 1em;" x="30">2. allowed dropdown styling for other dropdowns</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
@@ -223,7 +223,7 @@ animation: color-change 20s infinite linear;
 .button-1MICoQ {position: unset; margin-left: 0; margin-bottom: 8px;}
 
 #pluginNotice {height: auto; text-align: start;}
-span.notice-message {position: absolute; padding-left: 4px;}
+span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 
 .theme-dark .body-2iXqIL {background: black;}
 
@@ -288,24 +288,24 @@ span.notice-message {position: absolute; padding-left: 4px;}
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {background-color: var(--user-member-select) !important; text-shadow: 1px 1px #000 !important;}
 
 /* Changes the more users options color */
-.theme-dark.contextMenu-HLZMGh {background-color: var(--main-dropdown); color: #fff;}
+.theme-dark.contextMenu-HLZMGh {background-color: var(--); color: #fff;}
 .theme-dark .item-1Yvehc:hover {background: var(--main-dropdown-hover);}
 
 .theme-dark .item-1Yvehc {color: #fff;} 
 
 .icon-2doZ3q {filter: brightness(0.25);}
-.theme-dark .item-1GzJrl {background: lightslategrey;}
-.theme-dark .item-1GzJrl:hover {background: slategrey;}
+.theme-dark .item-1GzJrl {background: var(--main-dropdown);}
+.theme-dark .item-1GzJrl:hover {background: var(--main-dropdown-hover);}
 .theme-dark .item-1GzJrl.invite-271nFU {color: #304db5;}
 
 .theme-dark .item-1Yvehc.disabled-2xniQf, .theme-dark .item-1Yvehc.disabled-2xniQf:hover {color: #33b;}
 
-.search .DraftEditor-root .public-DraftStyleDefault-block span {background: lightslategrey;}
+.search .DraftEditor-root .public-DraftStyleDefault-block span {background: var(--main-dropdown);}
 
-.theme-dark .container-3ayLPN {background: lightslategrey;}
+.theme-dark .container-3ayLPN {background: var(--main-dropdown);}
 .theme-dark .item-1GzJrl.invite-271nFU {color: #304db5 !important;}
 
-.theme-dark .option-96V44q.selected-rZcOL- {background-color: slategrey;}
+.theme-dark .option-96V44q.selected-rZcOL- {background-color: var(--main-dropdown-hover);}
 .theme-dark .resultsGroup-r_nuzN .header-2N-gMV {color: var(--small-heading-main);}
 .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {color: var(--small-heading-main);}
 .privateChannels-1nO12o header {color: var(--small-heading-main); opacity: 1;}
@@ -388,7 +388,7 @@ div::-webkit-scrollbar {width: inherit}
 }
 .arrow-3jRqK8 {background: var(--arrow-color-main); opacity: 1 !important;}
 h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
-.theme-dark .row-1bU71H {background: darkslategray;}
+.theme-dark .row-1bU71H {background: var(--main-dropdown-hover);}
 .openBody-1HeDPG {width: 100%}
 .body-1Q8LH2, .openBody-1HeDPG {background: var(--store-embed-main);}
 .theme-dark .bodySection-jqkkIP {background: tan;}

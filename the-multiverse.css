@@ -302,6 +302,9 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 
 .search .DraftEditor-root .public-DraftStyleDefault-block span {background: var(--main-dropdown);}
 
+.css-12o7ek3-option {background: var(--main-dropdown-hover);}
+.css-1aymab5-option {background: var(--main-dropdown);}
+
 .theme-dark .container-3ayLPN {background: var(--main-dropdown);}
 .theme-dark .item-1GzJrl.invite-271nFU {color: #304db5 !important;}
 

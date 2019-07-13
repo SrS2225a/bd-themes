@@ -1,9 +1,9 @@
-/* The Multiverse - v8.38.76 */ 
+/* The Multiverse - v8.38.77 */ 
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
     --Theme-Variant: "The Multiverse";
-    --Update-Text: "Version 10.40.76";
+    --Update-Text: "Version 10.40.77";
 }
 /* ~~~~ means cont. */
 
@@ -60,7 +60,7 @@
 .container-2lgZY8,
 .channels-Ie2l6A,
 .container-PNkimc,
-.container-2Thooq,
+.container-3baos1,
 .theme-dark .title-3qD0b-,
 .theme-dark .typing-2GQL18,
 .search-bar.search-bar-light,
@@ -131,7 +131,7 @@
 
 /* Changes the pop-in control tabs */
 .theme-dark .modal-yWgWj- {background: var(--popout-control-dialog-background);}
-.theme-dark .footer-3rDWdCv {background: var(--popout-control-dialog-background);}
+.theme-dark .footer-3rDWdC {background: var(--popout-control-dialog-background);}
 .theme-dark .quickswitcher-3JagVE {background: var(--popout-control-dialog-background);}
 .slideBody-2nMrnU {background: var(--popout-control-dialog-background); background-image: none !important}
 .contentWrapper-3WC1ID {background: var(--popout-control-dialog-background);}
@@ -288,7 +288,7 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {background-color: var(--user-member-select) !important; text-shadow: 1px 1px #000 !important;}
 
 /* Changes the more users options color */
-.theme-dark.contextMenu-HLZMGh {background-color: var(--); color: #fff;}
+.theme-dark.contextMenu-HLZMGh {background-color: var(--main-dropdown); color: #fff;}
 .theme-dark .item-1Yvehc:hover {background: var(--main-dropdown-hover);}
 
 .theme-dark .item-1Yvehc {color: #fff;} 

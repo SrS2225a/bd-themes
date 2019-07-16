@@ -1,9 +1,9 @@
-/* The Multiverse - v11.40.77 */ 
+/* The Multiverse - v10.40.77 */ 
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse";
-        --Update-Text: "Version 11.40.77";
+        --Update-Text: "Version 10.40.77";
 	--revision: "3";
 	--creator-long: "SrS#8614";
 	--creator-short: "SrS";
@@ -11,45 +11,75 @@
 /* ~~~~ means cont. */
 
 /*loads additional sources*/
-@import url('https://bdsources.tk/sourcecheck/code.css');
 
 /* Initalizes the theme */
-.appMount-3lHmkl,
-.theme-dark .header-39GIC8,
-.theme-dark .wrapper-39oAo3,
-.theme-dark .separator-1N1EBC, /* ACTIVITY FEED NOW PLAYING SEPERATOR */
-.theme-dark .headerBar-UHpsPw,
-.theme-dark .applicationStore-1pNvnv,
-.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active /* CLICKING ON VOICE CHANNEL */
-.theme-dark .gameLibrary-TTDw4Y,
-.theme-dark .container-2Thooq, .theme-light .container-2Thooq,
-.theme-dark .root-1BQpZw,
-.channels-Ie2l6A,
+.#voice-connection, 
+#friends, 
+.friends-header, 
+.friendsTable-133bsv, 
+.scroller-wrapper, 
+.headerBar-UHpsPw,
+.channels-wrap, 
+.private-channels .search-bar, 
+.private-channels, 
+.guild-channels, 
+.account, 
+.friend-table-add-header,
+.content, 
+.title-wrap:not(.search-bar), 
+.messages-wrapper, 
+.messages .divider span, 
+.messages .divider:before, 
+.content, .message-group-blocked, 
+.is-local-bot-message,
+.channel-members-loading, 
+.channel-members-loading .heading, 
+.channel-members-loading .member, 
+.typing, 
+.container-RYiLUQ, 
+.theme-dark .standardSidebarView-3F1I7i, 
+.theme-dark .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
+.theme-dark .standardSidebarView-3F1I7i .contentRegion-3nDuYy,
+.contentRegionScroller-26nc1e,
+.theme-dark .channel-members,
+.container-2OU7Cz,
+.theme-dark .chat form, 
+.channels-3g2vYe, 
+.theme-dark .friends-table, 
+.theme-dark .messages-wrapper, 
+.content .flex-spacer, 
+.theme-dark .chat>.content, 
+.theme-dark .chat, 
+.channel-members, 
+.search .search-bar, 
+.container-iksrDt, 
+.container-3lnMWU, 
+.theme-dark .title-qAcLxz, 
+.theme-dark .typing-3eiiL_,
+.theme-dark .activityFeed-1C0EmJ,
+.theme-dark .headerBar-cxbhPD,
+.theme-dark .lfg-3xoFkI,
+.video-3lOWa6,
+.theme-dark .private-channel-call,
+.appMount-3VJmYg,
 .container-2lgZY8,
-.theme-dark .container-3gCOGc,
-.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3,
-.theme-dark .standardSidebarView-3F1I7i,
-.theme-dark .activityFeed-28jde9,
-.theme-dark .activityFeed-1C0EmJ, /* activity feed */
-.theme-dark .gameLibrary-TTDw4Y,
-.theme-dark .pageWrapper-1PgVDX,
-.theme-dark .wrapper-1Rf91z,
-.theme-dark .applicationStore-1pNvnvm,
-.theme-dark .divider-3FBTu8, /* CHANNEL TITLE DIVIDER */
-.theme-dark .sidebarRegion-VFTUkN,
-.theme-dark .guildsWrapper-5TJh6A,
-.theme-dark .typing-2GQL18,
-.theme-dark .messagesWrapper-3lZDfY,
-.theme-dark .title-3qD0b-,
-.theme-dark .tile-2OwFgW:hover,
-.theme-dark .container-1r6BKw,
+.channels-Ie2l6A,
 .container-PNkimc,
-.theme-dark .messageG,
-.theme-dark .tile-2OwFgW,
-.theme-dark .contentRegion-3nDuYy,
-.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ
-{
-    background: transparent !important;
+.container-3baos1,
+.theme-dark .title-3qD0b-,
+.theme-dark .typing-2GQL18,
+.search-bar.search-bar-light,
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA .selected-39BZ4S,
+.theme-dark .members-1998pB, 
+.noChannel-Z1DQK7,
+.activityFeed-28jde9,
+.dockItem-2kQDqg:hover, 
+.applicationStore-1pNvnv,
+.gameLibrary-TTDw4Y,
+.theme-dark .root-1BQpZw, .theme-dark .container-3gCOGc,
+#app-mount .wrapper-29NfPK, .theme-dark .pageWrapper-1PgVDX,
+.container-1r6BKw {
+  background: transparent !important;
 }
 
 .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY {
@@ -134,7 +164,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. added protections from discordsource & betterdiscord</text><text y="68" style="font-size: 1em;" x="30">2. allowed dropdown styling for other dropdowns</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. fixes for the update plugin button</text><text y="68" style="font-size: 1em;" x="30">2. allowed dropdown styling for other dropdowns</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;

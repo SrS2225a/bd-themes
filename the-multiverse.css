@@ -308,7 +308,7 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 
 .search .DraftEditor-root .public-DraftStyleDefault-block span {background: var(--main-dropdown);}
 
-.css-1gnr91b-option {background: var(--main-dropdown-hover);}
+.css-1gnr91b-option, .css-12o7ek3-option {background: var(--main-dropdown-hover);}
 .css-1aymab5-option {background: var(--main-dropdown);}
 
 .theme-dark .container-3ayLPN {background: var(--main-dropdown);}

@@ -534,13 +534,13 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 
 .theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d {opacity: 0; height: 2px;}
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .avatarSmall--gkJKA {top: 11px;
-    left: 5px;
-    width: 85px;
-    height: 85px;
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .avatarSmall--gkJKA {top: 10px;
+    left: 10px;
+    width: 85px !important;
+    height: 85px !important;
     background-size: 85px 85px;}
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .discord-tag {
+.friendsTable-133bsv .friendsRow-2yicud .discordTag-1Hozyw {
     position: absolute;
     top: 20px;
     left: 105px;

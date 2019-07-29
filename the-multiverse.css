@@ -1,9 +1,9 @@
-/* The Multiverse - v10.42.78 */ 
+/* The Multiverse - v10.43.78 */ 
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse";
-        --Update-Text: "Version 10.42.78";
+        --Update-Text: "Version 10.43.78";
 	--revision: "3";
 	--creator-long: "SrS#8614";
 	--creator-short: "SRS";
@@ -196,6 +196,9 @@
 .userSettingsVoice-iwdUCU .media-engine-video {background: transparent;}
 #pubslayer .ui-tab-bar-item.selected {background-color: var(--settings-member-select) !important;}
 #pubslayer .ui-tab-bar-item:hover {background-color: var(--settings-member-hover) !important;}
+.bd-pfbtn, .bda-slist .bda-footer button, .item-26Dhrx:last-child, .lookFilled-1Gx00P.colorBrand-3pXr91 {background: var(--discordservers-main-button) !important;}
+.themeDefault-24hCdX.valueChecked-m-4IJZ {background: var(--discordservers-main-button);}
+.themeDefault-24hCdX.valueUnchecked-2lU_20 {background: var(--discordservers-main-button); filter: hue-rotate(180deg);}
 
 /* Adds in the update log module */
 [layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
@@ -204,7 +207,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. Added creators name to theme</text><text y="68" style="font-size: 1em;" x="30">2. Added a number of bug fixes</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. You can now customize some buttons of discord with --discordservers-main-button</text><text y="68" style="font-size: 1em;" x="30"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;

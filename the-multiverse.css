@@ -166,7 +166,7 @@
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU {background-color: var(--hovered-select-channel); text-shadow: 2px 2px #000 !important;}
 .name-3_Dsmg {color: white !important;}
 .unread-3zKkbm:after {content: ">"; margin-left: 2px; color: var(--main-unread); display: block !important;}
-..keybind-KpFkfr:after {font-size: 15px; content: var(--creator-short); font-weight: 600; color: lime; animation: color-change 12s infinite linear;}
+.keybind-KpFkfr:after {font-size: 15px; content: var(--creator-short); font-weight: 600; color: lime; animation: color-change 12s infinite linear;}
 .keybind-KpFkfr {font-size: 0px;}
 .theme-dark .subtitle-Qv5s8c {color: #1db954;}
 

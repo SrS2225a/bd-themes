@@ -170,17 +170,6 @@
 .keybind-KpFkfr {font-size: 0px;}
 .theme-dark .subtitle-Qv5s8c {color: #1db954;}
 
-/* Changes the pop-in control tabs */
-.theme-dark .modal-yWgWj- {background: var(--popout-control-dialog-background);}
-.theme-dark .footer-3rDWdC {background: var(--popout-control-dialog-background);}
-.theme-dark .quickswitcher-3JagVE {background: var(--popout-control-dialog-background);}
-.slideBody-2nMrnU {background: var(--popout-control-dialog-background); background-image: none !important}
-.theme-dark .card-FDVird:before {background: rgba(32,34,37,.3);}
-.contentWrapper-3WC1ID {background: var(--popout-control-dialog-background);}
-
-/* Stylizes Mentions */
-.mention-1f5kbO, .base-PmTxvP {background: var(--mention-background-main) !important;}
-
 /* Stylizes the activity tab */
 .colorStandard-2KCXvj {color: gray;}
 .theme-dark .outer-2IVh5n, .theme-dark .recentlyPlayedContainer-2F3MqS {background: var(--store-item-background);}
@@ -194,6 +183,17 @@
 .theme-dark .popout-3G62UL { background-color: var(--user-member-select);}
 
 .title-29uC1r {color: #fff !important;}
+
+/* Changes the pop-in control tabs */
+.theme-dark .modal-yWgWj- {background: var(--popout-control-dialog-background);}
+.theme-dark .footer-3rDWdC {background: var(--popout-control-dialog-background);}
+.theme-dark .quickswitcher-3JagVE {background: var(--popout-control-dialog-background);}
+.slideBody-2nMrnU {background: var(--popout-control-dialog-background); background-image: none !important}
+.theme-dark .card-FDVird:before {background: rgba(32,34,37,.3);}
+.contentWrapper-3WC1ID {background: var(--popout-control-dialog-background);}
+
+/* Stylizes Mentions */
+.mention-1f5kbO, .base-PmTxvP {background: var(--mention-background-main) !important;}
 
 /* Changes the settings tab color */
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {background-color: var(--settings-member-hover) !important;}

@@ -167,6 +167,23 @@
 .name-3_Dsmg {color: white !important;}
 .unread-3zKkbm:after {content: ">"; margin-left: 2px; color: var(--main-unread); display: block !important;}
 .keybind-KpFkfr:after {font-size: 15px; content: var(--creator-short); font-weight: 600; color: lime; animation: color-change 12s infinite linear;}
+#bd-settings-sidebar:after {
+    content: var(--Theme-Variant) " by " var(--creator-short) '\A' " Revision " var(--revision);
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    display: block !important;
+    opacity: 1 !important;
+    margin-top: 2px;
+    cursor: pointer !important;
+    position: relative;
+    visibility: visible !important;
+    top: unset !important;
+    bottom: 1px !important;
+    float: left;
+    padding: 2px 10px;
+    white-space: pre-line;
+    color: lime;
+}
 .keybind-KpFkfr {font-size: 0px;}
 .theme-dark .subtitle-Qv5s8c {color: #1db954;}
 

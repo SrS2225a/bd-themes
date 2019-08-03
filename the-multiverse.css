@@ -666,7 +666,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 /* Adds Plugin Support */
 [data-name="ZeresPluginLibrary"] {display: none;}
 
-.bda-slist:before {content: "An plugin adding any extra UI elements to discord has compatibility support for The Multiverse, and will say so if the plugin does as an color-changing message. However, if a plugin does not add any extra UI elements to discord, in this case the plugin will always have theme support for the multiverse even though there is no message confirming that there is indeed support for it"; font-size: 15px; color: lightsteelblue;}
+.bda-slist:before {content: "An plugin adding any extra UI elements to discord has compatibility support for The Multiverse, and will say so if the plugin does as an color-changing message. However, if a plugin does not add any extra UI elements to discord, in this case the plugin will always have theme support for the multiverse even though there is no message confirming that it does so"; font-size: 15px; color: lightsteelblue;}
 
 [data-name="AccountDetailsPlus"]:after,
 [data-name="DetailedServerTooltips"]:after,

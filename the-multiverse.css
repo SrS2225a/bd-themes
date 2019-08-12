@@ -1,9 +1,9 @@
-/* The Multiverse - v10.46.79 */ 
+/* The Multiverse - v10.46.80 */ 
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse";
-        --Update-Text: "Version 10.46.79";
+        --Update-Text: "Version 10.46.80";
 	--revision: "3";
 	--creator-long: "SrS#8614";
 	--creator-short: "SRS";
@@ -120,8 +120,7 @@
 /* Stylizes server folders */
 .expandedFolderBackground-2sPsd- {
     border: var(--border-settings-main) 2px dashed;
-    border-radius: 0% !important;
-    background: rgba(242, 240, 233, 0.7) !important;
+    border-radius: 0% !importat;
     left: 10px;
 }
 
@@ -236,6 +235,7 @@
 /* Changes the pop-in control tabs */
 .theme-dark .modal-yWgWj- {background: var(--popout-control-dialog-background);}
 .theme-dark .footer-3rDWdC {background: var(--popout-control-dialog-background);}
+.theme-dark .root-1gCeng {background: var(--popout-control-dialog-background);}
 .theme-dark .quickswitcher-3JagVE {background: var(--popout-control-dialog-background);}
 .slideBody-2nMrnU {background: var(--popout-control-dialog-background); background-image: none !important}
 .theme-dark .card-FDVird:before {background: rgba(32,34,37,.3);}
@@ -272,7 +272,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. Added an easter egg under user settings. Find It!</text><text y="68" style="font-size: 1em;" x="30"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. fixed the background with thefolder settings pop-out</text><text y="68" style="font-size: 1em;" x="30">2. Removed server folder background css since it can be customized within discord</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;

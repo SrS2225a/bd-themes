@@ -120,6 +120,7 @@
 /* Stylizes server folders */
 .expandedFolderBackground-2sPsd- {
     border: var(--border-settings-main) 2px dashed;
+    background: rgba(242, 240, 233, 0.7) !important
     border-radius: 0% !importat;
     left: 10px;
 }

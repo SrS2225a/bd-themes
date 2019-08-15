@@ -1,9 +1,9 @@
-/* The Multiverse - v10.46.80 */ 
+/* The Multiverse - v10.47.80 */ 
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse";
-        --Update-Text: "Version 10.46.80";
+        --Update-Text: "Version 10.47.80";
 	--revision: "3";
 	--creator-long: "SrS#8614";
 	--creator-short: "SRS";
@@ -145,6 +145,10 @@
 .expandedFolderIconWrapper-1xLaU- {height: 45px; width: 45px; margin: 0px;}
 .folder-21wGz3 {background: transparent !important;}
 
+/* Stylizes the command page */
+.theme-dark .autocomplete-1vrmpx {background: darkblue}
+.theme-dark .contentTitle-2tG_sM {var(--small-heading-main)}
+
 /* Fixes the emoji picker */
 .emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG {background-color: #353535}
 
@@ -273,7 +277,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. fixed the background with the folder settings pop-out</text><text y="68" style="font-size: 1em;" x="30"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. the command gui '/' now has its own styling</text><text y="68" style="font-size: 1em;" x="30"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;

@@ -147,7 +147,7 @@
 
 /* Stylizes the command page */
 .theme-dark .autocomplete-1vrmpx {background: darkblue}
-.theme-dark .contentTitle-2tG_sM {var(--small-heading-main)}
+.theme-dark .contentTitle-2tG_sM {color: var(--small-heading-main)}
 
 /* Fixes the emoji picker */
 .emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG {background-color: #353535}

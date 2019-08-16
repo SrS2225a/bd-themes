@@ -441,12 +441,12 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 .theme-dark .timestampCompact-MHgFLv {color: var(--main-timestamp);}
 .theme-dark .discrim-3rYTMj {opacity: 1;}
 
-/* Removes the scroll bar and the round arrows that point next to a server and channel */
+/* Changes the scroll bar and the round arrows that point next to a server and channel */
 .pill-31IEus {display: none;}
 .wrapper-1Rf91z.foldercontent {width:70px !important;}
 div::-webkit-scrollbar-track-piece {border: none !important; border-radius: 0%; background-color: transparent !important;}
 div::-webkit-scrollbar-track {background-color: rgba(0,0,0,.4) !important; border-radius: 0% !important; border-style: none;}
-div::-webkit-scrollbar-thumb {background-color: rgba(255,255,255,0.4) !important; border-radius: 0% !important; border-style: none;}
+div::-webkit-scrollbar-thumb {background-color: rgba(255,255,255,0.4) !important; border-radius: 0% !important; border-style: none; border-color: transparent !important;}
 div::-webkit-scrollbar {width: inherit}
 .theme-dark .container-2td-dC.unread-2OHH1w:before {display: block; border-radius: 1px;height: 14px;margin-top: -6px;background-color: var(--main-unread);}
 .theme-dark .container-2td-dC.selected-nT-gM3:before {display: none;}

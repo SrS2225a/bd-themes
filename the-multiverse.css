@@ -1,19 +1,18 @@
-/* The Multiverse - v10.47.80 */ 
+/* The Multiverse - v10.47.81 */ 
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse";
-        --Update-Text: "Version 10.47.80";
+        --Update-Text: "Version 10.47.81";
 	--revision: "3";
 	--creator-long: "SrS#8614";
 	--creator-short: "SRS";
 }
 
-@import url('https://bdsources.tk/sourcecheck/code.css');
-
 /* ~~~~ means cont. */
 
 /* loads additional sources */
+@import url('https://bdsources.tk/sourcecheck/code.css');
 
 /* Initalizes the theme */
 #voice-connection, gui
@@ -277,7 +276,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. the command gui '/' now has its own styling</text><text y="68" style="font-size: 1em;" x="30"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. the guild error button now has its own text attached</text><text y="68" style="font-size: 1em;" x="30"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
@@ -590,6 +589,16 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
     background-position: center;
     text-indent: 1000%;
 }
+
+.tooltip-2QfLtc::after {content: "Server(s) are unavailable due to being full or an outage";
+    text-indent: 0%;
+    display: block;
+    bottom: 6px;
+    position: relative;
+}
+
+.tooltip-2QfLtc {text-indent: -9999%; display: block; padding: 0px 12px;}
+
 
 /* Gets rid of the side div in a metion */
 .isMentionedCozy-3isp7y:after {display: none;}

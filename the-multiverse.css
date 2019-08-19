@@ -268,6 +268,7 @@
 .themeDefault-24hCdX.valueUnchecked-2lU_20 {background: var(--discordservers-main-button); filter: hue-rotate(180deg);}
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {background: var(--discordservers-main-button) !important; filter: hue-rotate(0deg);}
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {background: var(--discordservers-main-button); filter: hue-rotate(180deg);}
+.barFill-23-gu- {background: --discordservers-main-button;}
 
 /* Adds in the update log module */
 [layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
@@ -276,7 +277,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. the guild error button now has its own text attached</text><text y="68" style="font-size: 1em;" x="30"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. sliders are now affected by '--discordservers-main-button'</text><text y="68" style="font-size: 1em;" x="30"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;

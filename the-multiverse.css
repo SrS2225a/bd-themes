@@ -590,16 +590,6 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
     text-indent: 1000%;
 }
 
-.tooltip-2QfLtc::after {content: "Server(s) are unavailable due to being full or an outage";
-    text-indent: 0%;
-    display: block;
-    bottom: 6px;
-    position: relative;
-}
-
-.tooltip-2QfLtc {text-indent: -9999%; display: block; padding: 0px 12px;}
-
-
 /* Gets rid of the side div in a metion */
 .isMentionedCozy-3isp7y:after {display: none;}
 	   

@@ -1,11 +1,10 @@
-/* The Multiverse - v10.47.81 */ 
+/* The Multiverse - v10.48.81 */ 
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse";
-        --Update-Text: "Version 10.47.81";
+        --Update-Text: "Version 10.48.81";
 	--revision: "3";
-	--creator-long: "SrS#8614";
 	--creator-short: "SRS";
 }
 
@@ -160,6 +159,7 @@
 .theme-dark .body-3ND3kc, .tabBarContainer-1s1u-z, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {background-color: var(--user-info-background-main);}
 .header-QKLPzZ, .headerTop-3C2Zn0 {background: var(--user-info-background-main); filter: hue-rotate(20deg); border-bottom: gray 1px solid;}
 .theme-dark .container-VSDcQc .sectionTag-pXyto9, .theme-dark .popoutList-T9CKZQ {background: #999966; text-shadow: 1px 1px black;}
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {background: yellowgreen;}
 .theme-dark .listRow-hutiT_:hover {background: hsla(0, 0%, 100%, .05);}
 .role-2irmRk {border-radius: 3px; margin: 0 4.3px 4.3px 0;}
 .roleCircle-3xAZ1j {border-radius: 6%;}
@@ -279,7 +279,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. sliders are now affected by --discordservers-main-button</text><text y="68" style="font-size: 1em;" x="30"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. recolored some reset buttons</text><text y="68" style="font-size: 1em;" x="30"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;

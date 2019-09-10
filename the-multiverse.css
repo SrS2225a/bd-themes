@@ -3,7 +3,7 @@
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse";
-        --Update-Text: "Version 10.49.82";
+        --Update-Text: "Version 10.49.82-A";
 	--revision: "3";
 	--creator-short: "SRS";
 }
@@ -14,7 +14,7 @@
 @import url('https://bdsources.tk/sourcecheck/code.css');
 
 /* Initalizes the theme */
-#app-mount, .app-2rEoOp, body, .privateChannels-1nO12o, .panels-j1Uci_ {
+#app-mount, .app-2rEoOp, body, .privateChannels-1nO12o, .panels-j1Uci_, .container-PNkimc, .container-1r6BKw.themed-ANHk51, .members-1998pB, .contentRegion-3nDuYy, .sidebarRegion-VFTUkN, .activityFeed-1C0EmJ, .standardSidebarView-3F1I7i, .container-3gCOGc, .gameLibrary-TTDw4Y, .container-1r6BKw.themed-ANHk51, .applicationStore-1pNvnv, .activityFeed-1C0EmJ {
     background-color: transparent !important;
 }
 
@@ -167,7 +167,7 @@
 .title-pqKcDf, .da-formTitleInCard {color: var(--store-small-heading-main) !important;}
 .theme-dark .base-1x0h_U {color: black;}
 .recentlyPlayedContainer-2F3MqS {background: transparent;}
-.theme-dark .memberListHeader-Qq9531 {color: var(--small-heading-main);}
+.header-zu8eWb {color: var(--small-heading-main);}
 .theme-dark .inset-GQDQYw {background: transparent;}
 .theme-dark .section-2VKIPC {background: rgba(32,34,37,.6);}
 .theme-dark .itemContainer-302Zx6:hover {background: rgba(5,5,0,.4);}
@@ -219,7 +219,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. added customization to vvoice member list</text><text y="68" style="font-size: 1em;" x="30"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. hot fixes in progress due to discord updates</text><text y="68" style="font-size: 1em;" x="30"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
@@ -349,17 +349,15 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 
 /* Changes the more users options color 
 .contextMenu-HLZMGh {padding: 0px; background: var(--main-dropdown);}
-.theme-dark .item-1Yvehc {background-color: var(--main-dropdown); padding: 0;}
-.theme-dark .item-1Yvehc:hover {background: var(--main-dropdown-hover);}
+.clickable-11uBi-:hover, .selected-BYpGTS {background: var(--main-dropdown-hover);}
 
 .theme-dark .item-1Yvehc {color: #fff;} 
 
-.icon-2doZ3q {filter: brightness(0.25);}
-.theme-dark .item-1GzJrl {background: var(--main-dropdown);}
-.theme-dark .item-1GzJrl:hover {background: var(--main-dropdown-hover);}
+.icon-2doZ3q, .iconContainer-2ZxvJk {filter: brightness(0.25);}
+.itemBase-1Qj4z6:hover {background: var(--main-dropdown-hover);}
 .theme-dark .item-1GzJrl.invite-271nFU {color: #304db5;}
 
-.menu-Sp6bN1 {padding: 0px; background: var(--main-dropdown);}
+.menu-Sp6bN1 {padding: 4px 0px; background: var(--main-dropdown);}
 .itemBase-1Qj4z6 {margin: 0px;}
 .separator-2zcjq8 {border-bottom: none;}
 

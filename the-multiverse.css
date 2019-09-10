@@ -359,6 +359,10 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 .theme-dark .item-1GzJrl:hover {background: var(--main-dropdown-hover);}
 .theme-dark .item-1GzJrl.invite-271nFU {color: #304db5;}
 
+.menu-Sp6bN1 {padding: 0px; background: var(--main-dropdown);}
+.itemBase-1Qj4z6 {margin: 0px;}
+.separator-2zcjq8 {border-bottom: none;}
+
 .theme-dark .item-1Yvehc.disabled-2xniQf, .theme-dark .item-1Yvehc.disabled-2xniQf:hover {color: #33b;}
 
 .search .DraftEditor-root .public-DraftStyleDefault-block span {background: var(--main-dropdown);}

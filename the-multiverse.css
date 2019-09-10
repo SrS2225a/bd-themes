@@ -347,7 +347,7 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 .theme-dark .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {background: var(--user-member-select) !important;}
 .theme-dark .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh {background: var(--user-member-hover);}
 
-/* Changes the more users options color 
+/* Changes the more users options color */
 .contextMenu-HLZMGh {padding: 0px; background: var(--main-dropdown);}
 .clickable-11uBi-:hover, .selected-BYpGTS {background: var(--main-dropdown-hover);}
 

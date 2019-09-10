@@ -14,73 +14,8 @@
 @import url('https://bdsources.tk/sourcecheck/code.css');
 
 /* Initalizes the theme */
-#voice-connection, gui
-#friends, 
-.friends-header, 
-.friendsTable-133bsv, 
-.scroller-wrapper, 
-.headerBar-UHpsPw,
-.channels-wrap, 
-.private-channels .search-bar, 
-.private-channels, 
-.guild-channels, 
-.account, 
-.friend-table-add-header,
-.content, 
-.title-wrap:not(.search-bar), 
-.messages-wrapper, 
-.messages .divider span, 
-.messages .divider:before, 
-.content, .message-group-blocked, 
-.is-local-bot-message,
-.channel-members-loading, 
-.channel-members-loading .heading, 
-.channel-members-loading .member, 
-.typing, 
-.container-RYiLUQ, 
-.theme-dark .standardSidebarView-3F1I7i, 
-.theme-dark .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
-.theme-dark .standardSidebarView-3F1I7i .contentRegion-3nDuYy,
-.contentRegionScroller-26nc1e,
-.theme-dark .channel-members,
-.container-2OU7Cz,
-.theme-dark .chat form, 
-.channels-3g2vYe, 
-.theme-dark .friends-table, 
-.theme-dark .messages-wrapper, 
-.content .flex-spacer, 
-.theme-dark .chat>.content, 
-.theme-dark .chat, 
-.channel-members, 
-.search .search-bar, 
-.container-iksrDt, 
-.container-3lnMWU, 
-.theme-dark .title-qAcLxz, 
-.theme-dark .typing-3eiiL_,
-.theme-dark .activityFeed-1C0EmJ,
-.theme-dark .headerBar-cxbhPD,
-.theme-dark .lfg-3xoFkI,
-.video-3lOWa6,
-.theme-dark .private-channel-call,
-.appMount-3VJmYg,
-.container-2lgZY8,
-.channels-Ie2l6A,
-.container-PNkimc,
-.container-3baos1,
-.theme-dark .title-3qD0b-,
-.theme-dark .typing-2GQL18,
-.search-bar.search-bar-light,
-.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA .selected-39BZ4S,
-.theme-dark .members-1998pB, 
-.noChannel-Z1DQK7,
-.activityFeed-28jde9,
-.dockItem-2kQDqg:hover, 
-.applicationStore-1pNvnv,
-.gameLibrary-TTDw4Y,
-.theme-dark .root-1BQpZw, .theme-dark .container-3gCOGc,
-#app-mount .wrapper-29NfPK, .theme-dark .pageWrapper-1PgVDX,
-.container-1r6BKw {
-  background: transparent !important;
+#app-mount, .app-2rEoOp, body, .privateChannels-1nO12o, .panels-j1Uci_ {
+    background-color: transparent !important;
 }
 
 .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY {
@@ -230,7 +165,7 @@
 /* Stylizes the activity tab */
 .theme-dark .outer-2IVh5n, .theme-dark .recentlyPlayedContainer-2F3MqS {background: var(--store-item-background) !important;}
 .title-pqKcDf, .da-formTitleInCard {color: var(--store-small-heading-main) !important;}
-.theme-dark .base-1x0h_U {color: bisque;}
+.theme-dark .base-1x0h_U {color: black;}
 .recentlyPlayedContainer-2F3MqS {background: transparent;}
 .theme-dark .memberListHeader-Qq9531 {color: var(--small-heading-main);}
 .theme-dark .inset-GQDQYw {background: transparent;}
@@ -407,13 +342,14 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 .theme-dark .akaBadge-1M-1Gw {background-color: #292b2f !important;}
 
 /* Changes the Member list color */
-.theme-dark .member-3W1lQa:hover {background-color: var(--user-member-hover) !important; text-shadow: 1px 1px #000 !important;}
-.theme-dark .member-3W1lQa.popout-open, .theme-dark .member-3W1lQa.popout-open:hover {background-color: var(--user-member-select) !important; text-shadow: 1px 1px #000 !important;}
+.clickable-1JJAn8.container-2Pjhx-:hover {background-color: var(--user-member-hover) !important; text-shadow: 1px 1px #000 !important;}
+.clickable-1JJAn8.container-2Pjhx-:active {background-color: var(--user-member-select) !important; text-shadow: 1px 1px #000 !important;}
 .theme-dark .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {background: var(--user-member-select) !important;}
 .theme-dark .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh {background: var(--user-member-hover);}
 
-/* Changes the more users options color */
-.theme-dark.contextMenu-HLZMGh {background-color: var(--main-dropdown); color: #fff;}
+/* Changes the more users options color 
+.contextMenu-HLZMGh {padding: 0px; background: var(--main-dropdown);}
+.theme-dark .item-1Yvehc {background-color: var(--main-dropdown); padding: 0;}
 .theme-dark .item-1Yvehc:hover {background: var(--main-dropdown-hover);}
 
 .theme-dark .item-1Yvehc {color: #fff;} 

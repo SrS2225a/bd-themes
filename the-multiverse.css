@@ -290,7 +290,6 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 /* stylizes the configuration page for the user settings and server settings pages*/
 .video-1FfuMD {background: rgba(0,0,0,.2); outline: 2px solid springgreen; border-left: 2px solid springgreen;}
 .contentRegionScrollerWrap-3YZXdm {left: 10%}
-.contentColumnDefault-1VQkGM {padding: 0px;}
 .contentColumnDefault-1VQkGM:last-child {padding: 60px 40px 60px; position: relative; border-radius: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: auto; margin-left: auto;margin-right: auto; border: 3px var(--border-settings-main) double;}
 .sidebarScrollable-1qPI87+.content-1rPSz4 {
     padding: 60px 40px 60px !important;

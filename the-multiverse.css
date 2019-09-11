@@ -1,9 +1,9 @@
-/* The Multiverse - v10.51.82 */ 
+/* The Multiverse - v10.51.83 */ 
 /*                  1^ 2^ 3^
 1=Theme revamp - 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse";
-        --Update-Text: "Version 10.49.82-A";
+        --Update-Text: "Version 10.49.83";
 	--revision: "3";
 	--creator-short: "SRS";
 }
@@ -194,7 +194,7 @@
 .theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
 .description-2nQj2E, .theme-dark #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
 .markup-2BOw-j {color: var(--main-chat-color); text-shadow: 0 0 20px;}
-.theme-dark .defaultColor-1_ajX0 {color: var(--large-heading-main) !important;}
+.theme-dark .defaultColor-1_ajX0 {color: var(--large-heading-main) !important; font-size: inherit;}
 .regionSelectModalHeader-21khC1 {color: var(--large-heading-main);}
 .regionSelectModal-12e-57 {background: var(--popout-control-dialog-background); !important}
 .horizontal-1ae9ci>.flexChild-faoVW3:first-child {color: #f6f6f6;}
@@ -219,7 +219,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. hot fixes in progress due to discord updates</text><text y="68" style="font-size: 1em;" x="30"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. hot fixes due to discord updates</text><text y="68" style="font-size: 1em;" x="30">2. got rid of the extra ui in public</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
@@ -289,7 +289,9 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 
 /* stylizes the configuration page for the user settings and server settings pages*/
 .video-1FfuMD {background: rgba(0,0,0,.2); outline: 2px solid springgreen; border-left: 2px solid springgreen;}
-.contentColumnDefault-1VQkGM {padding: 60px 40px 60px; position: relative; border-radius: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: auto; margin-left: auto;margin-right: auto; border: 3px var(--border-settings-main) double;}
+.contentRegionScrollerWrap-3YZXdm {left: 10%}
+.contentColumnDefault-1VQkGM {padding: 0px;}
+.contentColumnDefault-1VQkGM:last-child {padding: 60px 40px 60px; position: relative; border-radius: 5px; background-color: rgba(0,0,0,.4); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: auto; margin-left: auto;margin-right: auto; border: 3px var(--border-settings-main) double;}
 .sidebarScrollable-1qPI87+.content-1rPSz4 {
     padding: 60px 40px 60px !important;
     position: relative;

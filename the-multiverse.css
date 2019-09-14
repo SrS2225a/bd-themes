@@ -487,7 +487,9 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .children-19S4PO:after {background: transparent;}
 .theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {border: transparent;}
 
+::placeholder {color: lightgray !important;}
 .textArea-2Spzkt:focus  {box-shadow: 2px 0 15px -4px rgba(255, 255, 255, 0.4), -2px 0 8px -4px rgba(255, 255, 255, 0.4);}
+.attachButtonDivider-3Glu60 {width: 0px;}
 .theme-dark .inner-zqa7da {background-color: rgba(114,118,125,.3); box-shadow: 2px 2px 3px 0px #000;}
 .search-l1Wz-Q.da-search.theme-dark.popout-open, .browseSearch-e9jF-f.popout-open {box-shadow: 2px 2px 3px 0px #000;}
 

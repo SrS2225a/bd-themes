@@ -50,6 +50,7 @@
 .friendsTable-133bsv .friendsRow-2yicud .discord-tag .username {color: pink;}
 .private-channels .channel .channel-name {color: #fff; opacity: 1;}
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover {background-color: var(--friends-hover-transpraency);}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionDeny-18IZiW:hover {background: none;}
 
 /* Stylizes server folders */
 .expandedFolderBackground-2sPsd- {

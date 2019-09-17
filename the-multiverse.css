@@ -197,8 +197,8 @@
 /* Changes the settings tab color */
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {background-color: var(--settings-member-hover) !important;}
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, #bd-settings-sidebar .ui-tab-bar-item.selected {background-color: var(--settings-member-select) !important;}
-.theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
-.description-2nQj2E, .theme-dark #bd-settingspane-container .ui-switch-item .style-description {color: lightsteelblue;}
+.theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: var(--main-decription-color);}
+.description-2nQj2E, .theme-dark #bd-settingspane-container .ui-switch-item .style-description {color: var(--main-decription-color);}
 .markup-2BOw-j {color: var(--main-chat-color); text-shadow: 0 0 20px;}
 .theme-dark .defaultColor-1_ajX0 {color: var(--large-heading-main) !important; font-size: inherit;}
 .regionSelectModalHeader-21khC1 {color: var(--large-heading-main);}

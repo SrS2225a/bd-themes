@@ -83,8 +83,9 @@
 .folder-21wGz3 {background: transparent !important;}
 
 /* Stylizes the command page */
-.theme-dark .autocomplete-1vrmpx {background: darkblue}
-.theme-dark .contentTitle-2tG_sM {color: var(--small-heading-main)}
+.theme-dark .autocomplete-1vrmpx {background: var(--store-embed-main);}
+.wrapper-39oAo3 {background: var(--store-embed-main);}
+.theme-dark .contentTitle-2tG_sM {color: var(--small-heading-main);}
 
 /* Fixes the emoji picker */
 .emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG {background-color: #353535}
@@ -226,7 +227,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. cutomized gift links</text><text y="68" style="font-size: 1em;" x="30"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="110" style="font-size: 1em;" x="30"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="30">1. --store-embed-main now changes chat box context menus and dialogs</text><text y="68" style="font-size: 1em;" x="30">2. --arrow-color-main now changes video play buttons</text><text y="98" style="font-size: 1.4em;">Notes</text>These changes are in effect since not everyone has nitro for the store where they were orginally for,<text y="110" style="font-size: 1em;" x="30">and wanted to make those variables adviable to all regardless if the user has nitro or not</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
@@ -445,6 +446,7 @@ div::-webkit-scrollbar {width: inherit}
 .title-2XwaXv {color: var(--store-small-heading-main) !important;}
 .muteContainer-dXWpxM {background: var(--arrow-color-main);}
 .nextArrow-V_4mvH, .prevArrow-11tqRS {background: var(--arrow-color-main); border-radius: 50%; width: 40px; height: 40px;}
+.wrapper-129saQ {background: var(--arrow-color-main);}
 .theme-dark .scrollerButton-1Vm5_P {
     background-color: var(--arrow-color-main);
     color: #fff;

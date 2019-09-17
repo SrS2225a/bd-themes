@@ -284,7 +284,7 @@ animation: color-change 20s infinite linear;
     flex-flow: wrap;
     justify-content: flex-start;
     border-radius: 4px;
-    font-size: 13px;
+    font-size: initial;
     z-index: 9999;
 }
 

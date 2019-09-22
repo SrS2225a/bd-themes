@@ -14,7 +14,7 @@
 @import url('https://bdsources.tk/sourcecheck/code.css');
 
 /* Initalizes the theme */
-#app-mount, .app-2rEoOp, body, .privateChannels-1nO12o, .panels-j1Uci_, .container-PNkimc, .container-1r6BKw.themed-ANHk51, .members-1998pB, .contentRegion-3nDuYy, .sidebarRegion-VFTUkN, .activityFeed-1C0EmJ, .standardSidebarView-3F1I7i, .container-3gCOGc, .gameLibrary-TTDw4Y, .container-1r6BKw.themed-ANHk51, .applicationStore-1pNvnv, .activityFeed-1C0EmJ, .theme-dark .pageWrapper-1PgVDX {
+.members-1998pB, .container-1r6BKw.themed-ANHk51, .messages-3amgkR, .sidebar-2K8pFh, .panels-j1Uci_, .scroller-2TZvBN, .sidebarRegionScroller-3MXcoP, .friendsTable-133bsv .friendsTableBody-1ZhKif, .scroller-1JbKMe {
     background-color: transparent !important;
 }
 
@@ -96,7 +96,7 @@
 .emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R ::-webkit-input-placeholder{color:#fff}
 
 /* Changes the color of the role menu and user information */
-.theme-dark .body-3ND3kc, .tabBarContainer-1s1u-z, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {background-color: var(--user-info-background-main);}
+.theme-dark .body-3ND3kc, .tabBarContainer-1s1u-z, .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {background-color: var(--user-info-background-main);} {background-color: var(--user-info-background-main) !important;}
 .header-QKLPzZ, .headerTop-3C2Zn0 {background: var(--user-info-background-main); filter: hue-rotate(20deg); border-bottom: gray 1px solid;}
 .body-Ogsp8ivar {background: var(--user-info-background-main)}
 .theme-dark .container-VSDcQc .sectionTag-pXyto9, .theme-dark .popoutList-T9CKZQ {background: #999966; text-shadow: 1px 1px black;}
@@ -417,7 +417,7 @@ div::-webkit-scrollbar {width: inherit}
 .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {background-color: #bc8f8f !important; box-shadow: none !important;}
 
 /* Changes the color of pinned messages */
-.messagesPopout-24nkyi {background-color: var(--main-updates-background);}
+.messagesPopout-24nkyi {background-color: var(--main-updates-background) !important;}
 .messageGroupWrapper-o-Zw7G {background-color: var(--main-secondary-updates-background) !important;}
 
 /* Changes Settings or user dividers */

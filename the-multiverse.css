@@ -447,6 +447,7 @@ div::-webkit-scrollbar {width: inherit}
 .muteContainer-dXWpxM {background: var(--arrow-color-main);}
 .nextArrow-V_4mvH, .prevArrow-11tqRS {background: var(--arrow-color-main); border-radius: 50%; width: 40px; height: 40px;}
 .wrapper-129saQ {background: var(--arrow-color-main);}
+.iconExternal-NKMKxg, .iconExternalMargins-2v2mzg, .iconPlay-2kgvwV {color: gray; opacity: 1;}
 .theme-dark .scrollerButton-1Vm5_P {
     background-color: var(--arrow-color-main);
     color: #fff;

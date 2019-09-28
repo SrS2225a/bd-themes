@@ -109,6 +109,7 @@
 .theme-dark .listRow-hutiT_:hover {background: hsla(0, 0%, 100%, .05);}
 .role-2irmRk {border-radius: 3px; margin: 0 4.3px 4.3px 0;}
 .roleCircle-3xAZ1j {border-radius: 6%;}
+.sidebar-2K8pFh {border-radius: 0px;}
 
 /* Changes the text channel color */ 
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {background-color: var(--slected-channel-color) !important; text-shadow: 2px 2px #000 !important;}

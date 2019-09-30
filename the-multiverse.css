@@ -342,6 +342,14 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 .sidebarRegion-VFTUkN {flex: 1 0 28px}
 .customColumn-Rb6toI {max-width: 100%;}
 
+/* Stylizes the custom css editor */
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button {background: #43b581;}
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover {background: #2a9254;}
+
+.theme-dark #bd-settingspane-container h2.ui-form-title {color: mediumpurple;}
+
+.contentRegion-3nDuYy #bd-customcss-attach-controls {background: transparent;}
+
 /* Changes the DM Color */
 .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a
 {background-color: var(--user-member-hover);}

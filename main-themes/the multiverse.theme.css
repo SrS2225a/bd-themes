@@ -59,7 +59,8 @@
     --main-button-color: #1e90ff;
     --main-secondary-button-color: #FF8F1F;
     --main-updates-background: #0E2F44;
-    --main-text-selection-list: #00008B
+    --main-text-selection-list: #00008B;
+     --main-text-selection-hover: #00468C;
     --main-secondary-updates-background: #bc8f8f; 
     --user-info-background-main: #0E2F44
 }

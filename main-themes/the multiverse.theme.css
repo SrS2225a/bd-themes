@@ -48,12 +48,13 @@
     --main-unread: #44f5b1;
     --mention-background-main: #f04747;
     --discordservers-main-button: #1e90ff;
-    --discordservers-small-heading-main: #ff0;
+    --discordservers-heading-main: #ff0;
     --popout-control-dialog-background: #381f25;
     --store-item-background: #ffffe0;
     --store-embed-main: #0F8C7A;
     --store-small-heading-main: #66ddaa;
     --arrow-color-main: #ff0;
+    --server-folder-extended-main: rgba(242, 240, 233, 0.7);
     --main-decription-color: #b0c4de;
     --main-chat-color: #fff;
     --main-button-color: #1e90ff;

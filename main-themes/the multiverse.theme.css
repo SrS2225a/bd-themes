@@ -46,6 +46,7 @@
     --border-server-main: #FFD700; /* The border color for server folders */
     --main-timestamp: #00FFFF; /* The main timestamp color */
     --main-unread: #44f5b1; /* The color for unread nodifyers */
+    --title-bar-main: #fff; /* The main color for the title bar */
     --mention-background-main: #f04747;/* The main color for pings */
     --mention-reaction-main: #f04747; /* The main color for chat at's and mentions */
     --main-link-color: #00b0f4; /* The main color for links */

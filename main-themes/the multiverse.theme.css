@@ -66,8 +66,6 @@
     --main-secondary-button-color: #FF8F1F; /* Color to be displayed for the majority of secondary buttons */
     --main-cancel-button-color: #9acd32; /* Color to be displayed for the majority of cancel/exit buttons */
     --user-profile-background: #0E2F44; /* Color to be displayed for user profiles */
-    --main-text-selection-list: #00008B;
-    --main-text-selection-hover: #00468C;
     --main-updates-background: #0E2F44; /* Background to be displayed for updates like pinned messages/search */
     --main-secondary-updates-background: #bc8f8f; /* Secondary Background to be displayed for updates like pinned messages/search */
     --activity-heading-1:#B7DB70; /* The first heading color for the activity tab */

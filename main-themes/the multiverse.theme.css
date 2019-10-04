@@ -41,30 +41,33 @@
     --main-embed-background: #000000; /* the main color to be displayed for embeds */
     --small-heading-main: #f00000; /* the main color to be displayed for small heading */
     --large-heading-main: #9370DB; /* the main color to be displayed for large heading */
-    --border-libary-friends-main: #32CD32;
-    --border-settings-main: #FFD700;
-    --border-server-main: #FFD700;
-    --main-timestamp: #00FFFF;
-    --main-unread: #44f5b1;
-    --mention-background-main: #f04747;
+    --border-libary-friends-main: #32CD32; /* The border color for the friends list */
+    --border-settings-main: #FFD700; /* The border color for setting options */
+    --border-server-main: #FFD700; /* The border color for server folders */
+    --main-timestamp: #00FFFF; /* The main timestamp color */
+    --main-unread: #44f5b1; /* The color for unread nodifyers */
+    --mention-background-main: #f04747;/* The main color for pings */
+    --mention-reaction-main: #f04747; /* The main color for chat at's and mentions */
     --discordservers-main-button: #1e90ff;  /* the color to be displayed for pubilc's module buttons */
     --discordservers-heading-main: #ff0; /* the color to be displayed for pubilc's module headings */
     --popout-control-dialog: #381f25; /* the main color to be displayed for pop out setting control dialogs */
-    --popout-secondary-control-dialog: #2f3136;
-    --store-item-background: #ffffe0;
-    --store-embed-main: #0F8C7A;
-    --store-small-heading-main: #66ddaa;
-    --arrow-color-main: #ff0;
-    --server-folder-extended-main: rgba(242, 240, 233, 0.7);
-    --main-decription-color: #b0c4de;
-    --main-chat-color: #fff;
-    --main-button-color: #1e90ff;
-    --main-secondary-button-color: #FF8F1F;
-    --main-updates-background: #0E2F44;
+    --popout-secondary-control-dialog: #2f3136; /* the secondary main color to be displayed for pop out setting control dialogs */
+    --store-item-background: #ffffe0; /* Main background for items in the store */
+    --store-embed-main: #0F8C7A; /* Main background for store embeds */
+    --store-small-heading-main: #66ddaa; /* The small heading for the store */
+    --store-sidebar-main: #d2b48c; /* The color to be displayed for the sidebar in selected store games */
+    --play-arrow-color-main: #ff0; /* the color to be displayed for play button and navagation arrows */
+    --server-folder-extended-main: rgba(242, 240, 233, 0.7); /* The main color to be displayed when sever folders are expanded */
+    --main-decription-color: #b0c4de; /* The color to be displayed for setting descritors */
+    --main-chat-color: #fff; /* The color to be displayed for user chat descriptors */
+    --main-button-color: #1e90ff; /* Color to be displayed for the majority of buttons */
+    --main-secondary-button-color: #FF8F1F; /* Color to be displayed for the majority of secondary buttons */
+    --main-cancel-button-color: #9acd32; /* Color to be displayed for the majority of cancel/exit buttons */
+    --user-profile-background: #0E2F44; /* Color to be displayed for user profiles */
     --main-text-selection-list: #00008B;
-     --main-text-selection-hover: #00468C;
-    --main-secondary-updates-background: #bc8f8f; 
-    --user-info-background-main: #0E2F44;
-    --activity-heading-1:#B7DB70;
-    --activity-heading-2: #DE669A;
+    --main-text-selection-hover: #00468C;
+    --main-updates-background: #0E2F44; /* Background to be displayed for updates like pinned messages/search */
+    --main-secondary-updates-background: #bc8f8f; /* Secondary Background to be displayed for updates like pinned messages/search */
+    --activity-heading-1:#B7DB70; /* The first heading color for the activity tab */
+    --activity-heading-2: #DE669A; /* The first secondary heading color for the activity tab */
 }

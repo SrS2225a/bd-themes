@@ -50,7 +50,7 @@
     --mention-background-main: #f04747;/* The main color for pings */
     --mention-reaction-main: #f04747; /* The main color for chat at's and mentions */
     --main-link-color: #00b0f4; /* The main color for links */
-    --toast-hover-main: #000 /* The main color for tool tips */
+    --toast-hover-main: #000; /* The main color for tool tips */
     --discordservers-main-button: #1e90ff;  /* the color to be displayed for pubilc's module buttons */
     --discordservers-heading-main: #ff0; /* the color to be displayed for pubilc's module headings */
     --popout-control-dialog: #381f25; /* the main color to be displayed for pop out setting control dialogs */

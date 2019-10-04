@@ -22,8 +22,8 @@
 
 :root {
     /* You can define your own background look by changing the variables to your own url. Make sure you do not delete the url(""); part; and it's a valid url too, otherwise it will not work */
-/* background to display while loading */  --load-background: url("https://66.media.tumblr.com/tumblr_m396kzDv8h1rpx9bqo1_500.jpg");
-/* the main background to display */  --main-background: url("https://wallpapercave.com/wp/wp2834841.jpg");
+    --load-background: url("https://66.media.tumblr.com/tumblr_m396kzDv8h1rpx9bqo1_500.jpg"); /* background to display while loading */
+    --main-background: url("https://wallpapercave.com/wp/wp2834841.jpg"); /* the main background to display */ 
     
      /* You can define your own color by changing the variables to your own hex or rgb. When using a hex color, make sure you have the # in the front. Likewise if it is a rgb color, wrap () around, rgba should be in the front */
      /* Color Picker: https://www.w3schools.com/colors/colors_picker.asp <- You need to copy and paste, sorry! */
@@ -47,9 +47,9 @@
     --main-timestamp: #00FFFF;
     --main-unread: #44f5b1;
     --mention-background-main: #f04747;
-    --discordservers-main-button: #1e90ff;
-    --discordservers-heading-main: #ff0;
-    --popout-control-dialog: #381f25;
+    --discordservers-main-button: #1e90ff;  /* the color to be displayed for pubilc's module buttons */
+    --discordservers-heading-main: #ff0; /* the color to be displayed for pubilc's module headings */
+    --popout-control-dialog: #381f25; /* the main color to be displayed for pop out setting control dialogs */
     --popout-secondary-control-dialog: #2f3136;
     --store-item-background: #ffffe0;
     --store-embed-main: #0F8C7A;
@@ -64,5 +64,7 @@
     --main-text-selection-list: #00008B;
      --main-text-selection-hover: #00468C;
     --main-secondary-updates-background: #bc8f8f; 
-    --user-info-background-main: #0E2F44
+    --user-info-background-main: #0E2F44;
+    --activity-heading-1:#B7DB70;
+    --activity-heading-2: #DE669A;
 }

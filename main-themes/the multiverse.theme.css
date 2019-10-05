@@ -27,7 +27,6 @@
     
      /* You can define your own color by changing the variables to your own hex or rgb. When using a hex color, make sure you have the # in the front. Likewise if it is a rgb color, wrap () around, rgba should be in the front */
      /* Color Picker: https://www.w3schools.com/colors/colors_picker.asp <- You need to copy and paste, sorry! */
-    --font-type: Helvetica, sans, gothic, rockwell, times new roman; /* the main font type to display. Some parts may not be affected. For a list of font types visit https://fonts.google.com/ some may not work */    
     --background-transpraency: rgba(0, 0, 0,0.12); /* How transparent your main background should be */ 
     --secondary-transpraency: rgba(0, 0, 0,0.4); /* How transparent other elements should be */
     --main-dropdown: #778899; /* the main dropdown color */   
@@ -46,7 +45,6 @@
     --border-server-main: #FFD700; /* The border color for server folders */
     --main-timestamp: #00FFFF; /* The main timestamp color */
     --main-unread: #44f5b1; /* The color for unread nodifyers */
-    --title-bar-main: #fff; /* The main color for the title bar */
     --mention-background-main: #f04747;/* The main color for pings */
     --mention-reaction-main: #f04747; /* The main color for chat at's and mentions */
     --main-link-color: #00b0f4; /* The main color for links */

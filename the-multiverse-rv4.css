@@ -14,10 +14,9 @@
 @import url('https://bdsources.tk/sourcecheck/code.css');
 
 /* Initalizes the theme */
-#app-mount, .app-2rEoOp, body, .members-1998pB, .container-3gCOGc, .pageWrapper-1PgVDX, .contentRegion-3nDuYy, .scroller-305q3I, .container-PNkimc, .privateChannels-1nO12o, .scroller-1IIF0A, .container-1r6BKw.themed-ANHk51, .messages-3amgkR, .sidebar-2K8pFh, .panels-j1Uci_, .scroller-2TZvBN, .scroller-9moviB, .sidebarRegionScroller-3MXcoP, .friendsTable-133bsv .friendsTableBody-1ZhKif, .scroller-1JbKMe, .activityFeed-1C0EmJ, .scroller-1JpcIc, .applicationStore-1pNvnv, .root-1BQpZw, .scroller-5bBood, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e {
+#app-mount, .app-2rEoOp, body, .members-1998pB, .bg-h5JY_x, .container-3gCOGc, .pageWrapper-1PgVDX, .contentRegion-3nDuYy, .scroller-305q3I, .container-PNkimc, .privateChannels-1nO12o, .scroller-1IIF0A, .container-1r6BKw.themed-ANHk51, .messages-3amgkR, .sidebar-2K8pFh, .panels-j1Uci_, .scroller-2TZvBN, .scroller-9moviB, .sidebarRegionScroller-3MXcoP, .friendsTable-133bsv .friendsTableBody-1ZhKif, .scroller-1JbKMe, .activityFeed-1C0EmJ, .scroller-1JpcIc, .applicationStore-1pNvnv, .root-1BQpZw, .scroller-5bBood, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e {
     background-color: transparent !important;
 }
-
 .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY {
     background: rgba(0,0,0,0.0);
 }

@@ -83,8 +83,8 @@
 .folder-21wGz3 {background: transparent !important;}
 
 /* Stylizes the command page */
-.theme-dark .autocomplete-1vrmpx {background: var(--store-embed-main);}
-.wrapper-39oAo3 {background: var(--store-embed-main);}
+.theme-dark .autocomplete-1vrmpx {background: var(--main-switch-button-color);}
+.wrapper-39oAo3 {background: var(--main-switch-button-color);}
 .theme-dark .contentTitle-2tG_sM {color: var(--small-heading-main);}
 
 /* Fixes the emoji picker */

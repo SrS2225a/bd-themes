@@ -96,10 +96,10 @@
 .emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R ::-webkit-input-placeholder{color:#fff}
 
 /* Changes the color of the role menu and user information */
-.theme-dark .body-3ND3kc, .tabBarContainer-1s1u-z, .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {background-color: var(--user-info-background-main);} {background-color: var(--user-info-background-main) !important;}
-.header-QKLPzZ, .headerTop-3C2Zn0 {background: var(--user-info-background-main); filter: hue-rotate(20deg); border-bottom: gray 1px solid;}
-.body-Ogsp8ivar {background: var(--user-info-background-main)}
-.theme-dark .streamPreview-2-WUWT {background: var(--user-info-background-main)}
+.theme-dark .body-3ND3kc, .tabBarContainer-1s1u-z, .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {background-color: var(--user-profile-background) !important;}
+.header-QKLPzZ, .headerTop-3C2Zn0 {background: var(--user-profile-background); filter: hue-rotate(20deg); border-bottom: gray 1px solid;}
+.body-Ogsp8ivar {background: var(--user-profile-background)}
+.theme-dark .streamPreview-2-WUWT {background: var(--user-profile-background);}
 .theme-dark .container-VSDcQc .sectionTag-pXyto9, .theme-dark .popoutList-T9CKZQ {background: #999966; text-shadow: 1px 1px black;}
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {background: yellowgreen; color: black;}
 .closeButton-g8-Rd4 {padding: 2px 16px 2px 16px;}

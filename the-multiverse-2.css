@@ -43,6 +43,7 @@
 .embedInner-1-fpTo {border-radius: 3px;}
 .markup-2BOw-j blockquote {border-radius: 0px 3px 3px 0px; background: var(--main-embed-background); border-color: gray;}
 .wrapperAudio-1jDe0Q {background: var(--main-embed-background);}
+.markup-2BOw-j a {color: var(--main-link-color);}
 
 /* Recolors the friends tab */
 .friendsTable-133bsv {background: transparent !important;}

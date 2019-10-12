@@ -3,7 +3,7 @@
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse";
-        --Update-Text: "Version 1.0.1";
+        --Update-Text: "Version 1.0.2";
 	--revision: "3";
 	--creator-short: "SRS";
 }
@@ -172,6 +172,7 @@
 .theme-dark .outer-2IVh5n, .theme-dark .recentlyPlayedContainer-2F3MqS {background: var(--store-item-background) !important;}
 .title-pqKcDf, .da-formTitleInCard {color: var(----activity-heading-2) !important;}
 .theme-dark .base-1x0h_U {color: var(--activity-heading-1);}
+.title-FVgbgL {color: inherit !important}
 .recentlyPlayedContainer-2F3MqS {background: transparent;}
 .header-zu8eWb {color: var(--small-heading-main);}
 .theme-dark .inset-GQDQYw {background: transparent;}

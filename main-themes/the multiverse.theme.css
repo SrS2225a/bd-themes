@@ -40,6 +40,7 @@
     --main-embed-background: #000000; /* the main color to be displayed for embeds */
     --small-heading-main: #f00000; /* the main color to be displayed for small heading */
     --large-heading-main: #9370DB; /* the main color to be displayed for large heading */
+  /* --other-large-heading-main: #B7DB70 */
     --border-libary-friends-main: #32CD32; /* The border color for the friends list */
     --border-settings-main: #FFD700; /* The border color for setting options */
     --border-server-main: #FFD700; /* The border color for server folders */
@@ -65,7 +66,7 @@
     --main-button-color: #1e90ff; /* Color to be displayed for the majority of buttons */
     --main-secondary-button-color: #FF8F1F; /* Color to be displayed for the majority of secondary buttons */
     --main-cancel-button-color: #9acd32; /* Color to be displayed for the majority of cancel/exit buttons */
-    --main-switch-button-color: #9acd32; /* Color to be displayed for page/filter buttons */
+    /* --commands-main */ --main-switch-button-color: #9acd32; /* Color to be displayed for page/filter buttons */
     --user-profile-background: #0E2F44; /* Color to be displayed for user profiles */
     --main-updates-background: #0E2F44; /* Background to be displayed for updates like pinned messages/search */
     --main-secondary-updates-background: #bc8f8f; /* Secondary Background to be displayed for updates like pinned messages/search */

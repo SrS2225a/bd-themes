@@ -296,6 +296,8 @@ animation: color-change 20s infinite linear;
 #pluginNotice {height: auto; text-align: start;}
 span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 
+.theme-dark .tooltipBlack-PPG47z {background: var(--toast-hover-main);}
+
 .theme-dark .body-2iXqIL {background: black;}
 
 /* stylizes the configuration page for the user settings and server settings pages*/

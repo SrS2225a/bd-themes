@@ -1,9 +1,9 @@
-/* The Multiverse - v1.0.1 */ 
+/* The Multiverse - v1.0.3 */ 
 /*                 1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse";
-        --Update-Text: "Version 1.0.2";
+        --Update-Text: "Version 1.0.3";
 	--revision: "3";
 	--creator-short: "SRS";
 }

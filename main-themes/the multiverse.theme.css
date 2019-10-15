@@ -65,7 +65,7 @@
     --main-button-color: #1e90ff; /* Color to be displayed for the majority of buttons */
     --main-secondary-button-color: #FF8F1F; /* Color to be displayed for the majority of secondary buttons */
     --main-cancel-button-color: #9acd32; /* Color to be displayed for the majority of cancel/exit buttons */
-    /* --commands-main */ --main-switch-button-color: #9acd32; /* Color to be displayed for page/filter buttons */
+    /* --commands-main */ --main-switch-button-color: #00008b; /* Color to be displayed for page/filter buttons */
     --user-profile-background: #0E2F44; /* Color to be displayed for user profiles */
     --main-updates-background: #0E2F44; /* Background to be displayed for updates like pinned messages/search */
     --main-secondary-updates-background: #bc8f8f; /* Secondary Background to be displayed for updates like pinned messages/search */

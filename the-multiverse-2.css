@@ -3,7 +3,7 @@
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse";
-        --Update-Text: "Version 1.0.3";
+        --Update-Text: "Version 1.0.4";
 	--revision: "3";
 	--creator-short: "SRS";
 }
@@ -170,7 +170,7 @@
 .theme-dark .outer-2IVh5n, .theme-dark .recentlyPlayedContainer-2F3MqS {background: var(--store-item-background) !important;}
 .title-pqKcDf, .da-formTitleInCard {color: var(--activity-heading-2) !important;}
 .theme-dark .base-1x0h_U {color: var(--activity-heading-1);}
-.title-FVgbgL {color: inherit !important}
+.title-FVgbgL {color: inherit !important;}
 .recentlyPlayedContainer-2F3MqS {background: transparent;}
 .header-zu8eWb {color: var(--small-heading-main);}
 .theme-dark .inset-GQDQYw {background: transparent;}
@@ -498,7 +498,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU {background-color: var(--hovered-select-channel); text-shadow: 2px 2px #000 !important;}
 
 .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {background-color: var(--user-member-select) !important; text-shadow: 2px 2px #000 !important;}
-.listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh {background-color: var(--user-member-hover) !important; text-shadow: 2px 2px #000 !important;}
+.listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh {background-color: var(--user-member-hover); text-shadow: 2px 2px #000 !important;}
 
 /* Changes the transparency of the search bars, so they can be seen easier */
 .search {background-color: hsla(240, 0%, 20%, 0.72); color: #fff; opacity: 1;}

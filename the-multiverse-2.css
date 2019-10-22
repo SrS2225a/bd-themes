@@ -1,9 +1,9 @@
-/* The Multiverse - v1.0.4 */ 
+/* The Multiverse - v1.0.5 */ 
 /*                 1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse";
-        --Update-Text: "Version 1.0.4";
+        --Update-Text: "Version 1.0.5";
 	--revision: "3";
 	--creator-short: "SRS";
 }
@@ -54,7 +54,7 @@
 
 /* Stylizes server folders */
 .expandedFolderBackground-2sPsd- {
-    border: var(--border-settings-main) 2px dashed;
+    border: var(--border-server-main) 2px dashed;
     background: rgba(242, 240, 233, 0.7) !important;
     border-radius: 0% !important;
     left: 10px;
@@ -170,7 +170,7 @@
 .theme-dark .outer-2IVh5n, .theme-dark .recentlyPlayedContainer-2F3MqS {background: var(--store-item-background) !important;}
 .title-pqKcDf, .da-formTitleInCard {color: var(--activity-heading-2) !important;}
 .theme-dark .base-1x0h_U {color: var(--activity-heading-1);}
-.title-FVgbgL {color: inherit !important;}
+.title-FVgbgL {color: var(--large-heading-main) !important;}
 .recentlyPlayedContainer-2F3MqS {background: transparent;}
 .header-zu8eWb {color: var(--small-heading-main);}
 .theme-dark .inset-GQDQYw {background: transparent;}
@@ -459,12 +459,12 @@ div::-webkit-scrollbar {width: inherit}
 .gameTitle-8njhLq {color: var(--store-small-heading-main) !important;}
 .actionsContainer-YoXiVl {flex-wrap: nowrap;}
 .title-2XwaXv {color: var(--store-small-heading-main) !important;}
-.muteContainer-dXWpxM {background: var(--arrow-color-main);}
-.nextArrow-V_4mvH, .prevArrow-11tqRS {background: var(--arrow-color-main); border-radius: 50%; width: 40px; height: 40px;}
-.wrapper-129saQ {background: var(--arrow-color-main);}
+.muteContainer-dXWpxM {background: var(--play-arrow-color-main);}
+.nextArrow-V_4mvH, .prevArrow-11tqRS {background: var(--play-arrow-color-main); border-radius: 50%; width: 40px; height: 40px;}
+.wrapper-129saQ {background: var(--play-arrow-color-main);}
 .iconExternal-NKMKxg, .iconExternalMargins-2v2mzg, .iconPlay-2kgvwV {color: gray; opacity: 1;}
 .theme-dark .scrollerButton-1Vm5_P {
-    background-color: var(--arrow-color-main);
+    background-color: var(--play-arrow-color-main);
     color: #fff;
 }
 .theme-dark .name-u2zgy7 {color: gray;}

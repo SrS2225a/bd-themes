@@ -22,29 +22,29 @@
 
 :root {
     /* You can define your own background look by changing the variables to your own url. Make sure you do not delete the url(""); part; and it's a valid url too, otherwise it will not work */
-    --load-background: url("https://66.media.tumblr.com/tumblr_m396kzDv8h1rpx9bqo1_500.jpg"); /* background to display while loading */
-    --main-background: url("https://wallpapercave.com/wp/wp2834841.jpg"); /* the main background to display */ 
+ ✔️   --load-background: url("https://66.media.tumblr.com/tumblr_m396kzDv8h1rpx9bqo1_500.jpg"); /* background to display while loading */
+ ✔️   --main-background: url("https://wallpapercave.com/wp/wp2834841.jpg"); /* the main background to display */ 
     
      /* You can define your own color by changing the variables to your own hex or rgb. When using a hex color, make sure you have the # in the front. Likewise if it is a rgb color, wrap () around, rgba should be in the front */
      /* Color Picker: https://www.w3schools.com/colors/colors_picker.asp <- You need to copy and paste, sorry! */
-    --background-transpraency: rgba(0, 0, 0,0.12); /* How transparent your main background should be */ 
-    --secondary-transpraency: rgba(0, 0, 0,0.4); /* How transparent other elements should be */
-    --main-dropdown: #778899; /* the main dropdown color */   
-    --main-dropdown-hover: #708090; /* the main dropdown color on hover */
-    --slected-channel-color: #43398e; /* the main channel color upon select */
-    --hovered-select-channel: #2e1ac9; /* the main channel color upon hover */
-    --user-member-select: #0b512f; /* the main member color upon select */
-    --user-member-hover: #d0a100;  /* the main member color upon hover */
-    --settings-member-select: #8e3986; /* the main settings color upon select */
-    --settings-member-hover: #1ac0c9; /* the main settings color upon hover */
-    --main-embed-background: #000000; /* the main color to be displayed for embeds */
-    --small-heading-main: #f00000; /* the main color to be displayed for small heading */
-    --large-heading-main: #9370DB; /* the main color to be displayed for large heading */
-    --border-libary-friends-main: #32CD32; /* The border color for the friends list */
-    --border-settings-main: #FFD700; /* The border color for setting options */
-    --border-server-main: #FFD700; /* The border color for server folders */
-    --main-timestamp: #00FFFF; /* The main timestamp color */
-    --main-unread: #44f5b1; /* The color for unread nodifyers */
+ ✔️   --background-transpraency: rgba(0, 0, 0,0.12); /* How transparent your main background should be */ 
+ ✔️   --secondary-transpraency: rgba(0, 0, 0,0.4); /* How transparent other elements should be */
+ ✔️   --main-dropdown: #778899; /* the main dropdown color */   
+ ✔️   --main-dropdown-hover: #708090; /* the main dropdown color on hover */
+ ✔️   --slected-channel-color: #43398e; /* the main channel color upon select */
+ ✔️   --hovered-select-channel: #2e1ac9; /* the main channel color upon hover */
+ ✔️   --user-member-select: #0b512f; /* the main member color upon select */
+ ✔️   --user-member-hover: #d0a100;  /* the main member color upon hover */
+ ✔️   --settings-member-select: #8e3986; /* the main settings color upon select */
+ ✔️   --settings-member-hover: #1ac0c9; /* the main settings color upon hover */
+ ✔️   --main-embed-background: #000000; /* the main color to be displayed for embeds */
+ ✔️   --small-heading-main: #f00000; /* the main color to be displayed for small heading */
+ ✔️   --large-heading-main: #9370DB; /* the main color to be displayed for large heading */
+ ✔️   --border-libary-friends-main: #32CD32; /* The border color for the friends list */
+ ✔️   --border-settings-main: #FFD700; /* The border color for setting options */
+ ✔️   --border-server-main: #FFD700; /* The border color for server folders */
+ ✔️   --main-timestamp: #00FFFF; /* The main timestamp color */
+ ✔️   --main-unread: #44f5b1; /* The color for unread nodifyers */
     --mention-background-main: #f04747;/* The main color for pings */
     --main-input: #202225; /* The main color for user inputs */
     --mention-reaction-main: #DA70A1; /* The main color for chat at's and reactions */
@@ -58,7 +58,7 @@
     --store-embed-main: #0F8C7A; /* Main background for store embeds */
     --store-small-heading-main: #66ddaa; /* The small heading for the store */
     --store-sidebar-main: #d2b48c; /* The color to be displayed for the sidebar in selected store games */
-    --play-arrow-color-main: #ff0; /* the color to be displayed for play button and navagation arrows */
+ ✔️   --play-arrow-color-main: #ff0; /* the color to be displayed for play button and navagation arrows */
     --server-folder-extended-main: rgba(242, 240, 233, 0.7); /* The main color to be displayed when sever folders are expanded */
     --main-decription-color: #b0c4de; /* The color to be displayed for setting descritors */
     --main-chat-color: #fff; /* The color to be displayed for user chat descriptors */

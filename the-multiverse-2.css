@@ -501,10 +501,10 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh {background-color: var(--user-member-hover); text-shadow: 2px 2px #000 !important;}
 
 /* Changes the transparency of the search bars, so they can be seen easier */
-.search {background-color: hsla(240, 0%, 20%, 0.72); color: #fff; opacity: 1;}
-.private-channels .search-bar .search-bar-inner input {color: #fff; opacity: 1;}
-.theme-dark .wrapper-1cBijl .addFriendInput-4bcerK, .search-bar input {color: #fff;}
- .theme-dark .wrapper-1cBijl {background-color: hsla(218,5%,47%,.3); color: hsla(0,0%,100%,.7);}
+.search {background-color: var(--main-input); color: #fff; opacity: 1;}
+.private-channels .search-bar .search-bar-inner input {color: #fff; opacity: 1; background-color: var(--main-input);}
+.theme-dark .wrapper-1cBijl .addFriendInput-4bcerK, .search-bar input {color: #fff; background-color: var(--main-input);}
+ .theme-dark .wrapper-1cBijl {background-color: var(--main-input); color: hsla(0,0%,100%,.7);}
  .wrapper-1cBijl .btn:disabled {cursor: not-allowed !important; pointer-events: all;}
  
 /* Recolors the server serach popout */

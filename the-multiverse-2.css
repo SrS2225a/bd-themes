@@ -39,9 +39,9 @@
  
  /* Sets the color of embeded links */ 
 .theme-dark .embedInner-1-fpTo, .theme-dark .attachment-33OFj0, .theme-dark .wrapperAudio-1jDe0Q, .theme-dark .wrapper-35wsBm {background-color: #2e3036;}
-.theme-dark .isMentioned-N-h9aa {background: var(--mention-reaction-main); opacity: .3;}
+.theme-dark .isMentioned-N-h9aa {background: var(--mention-reaction-main);}
 .reaction-1ELvT8 {background: var(--mention-reaction-main); filter: grayscale(50%);}
-.reaction-1ELvT8.reactionMe-23mbRf {background: var(--mention-reaction-main);}
+.reaction-1ELvT8.reactionMe-23mbRf {background: var(--mention-reaction-main); filter: grayscale(0%);}
 .embedInner-1-fpTo {border-radius: 3px;}
 .markup-2BOw-j blockquote {border-radius: 0px 3px 3px 0px; background: var(--main-embed-background); border-color: gray;}
 .markup-2BOw-j pre {border: 2px solid gary;}

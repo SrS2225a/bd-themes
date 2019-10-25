@@ -39,7 +39,7 @@
  
  /* Sets the color of embeded links */ 
 .theme-dark .embedInner-1-fpTo, .theme-dark .attachment-33OFj0, .theme-dark .wrapperAudio-1jDe0Q, .theme-dark .wrapper-35wsBm {background-color: #2e3036;}
-.theme-dark .isMentioned-N-h9aa {background: var(--mention-reaction-main);}
+.theme-dark .isMentioned-N-h9aa {background: var(--mention-reaction-main); opacity: .81;}
 .reaction-1ELvT8 {background: var(--mention-reaction-main); filter: grayscale(50%); opacity: 1 !important;}
 .reaction-1ELvT8.reactionMe-23mbRf {background: var(--mention-reaction-main); filter: grayscale(0%);}
 .embedInner-1-fpTo {border-radius: 3px;}

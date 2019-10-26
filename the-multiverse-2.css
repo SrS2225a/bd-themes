@@ -3,7 +3,7 @@
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 1.0.8 (BETA)";
+        --Update-Text: "Version 1.0.9 (BETA)";
 	--revision: "4";
 	--creator-short: "SRS";
 }
@@ -379,6 +379,9 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 
 .theme-dark .item-1Yvehc {color: #fff;} 
 .item-2J1YMK {margin: 0px;}
+
+.optionLabel-2CkCZx {background: var(--main-dropdown);}
+.optionActive-KkAdqq {background: var(--main-dropdown-hover);}
 
 .icon-2doZ3q, .iconContainer-2ZxvJk {filter: brightness(0.25);}
 .itemBase-1Qj4z6:hover {background: var(--main-dropdown-hover);}

@@ -48,12 +48,12 @@
  ✔️   --mention-background-main: #f04747;/* The main color for pings */
  ✔️   --main-input: #202225; /* The main color for user inputs */
  ✔️   --mention-reaction-main: #DA70A1; /* The main color for chat at's and reactions */
-    --main-link-color: #00b0f4; /* The main color for links */
-    --toast-hover-main: #000; /* The main color for tool tips */
-    --discordservers-main-button: #1e90ff;  /* the color to be displayed for pubilc's module buttons */
-    --discordservers-heading-main: #ff0; /* the color to be displayed for pubilc's module headings */
-    --popout-control-dialog: #381f25; /* the main color to be displayed for pop out setting control dialogs */
-    --popout-secondary-control-dialog: #2f3136; /* the secondary main color to be displayed for pop out setting control dialogs */
+ ✔️   --main-link-color: #00b0f4; /* The main color for links */
+ ✔️   --toast-hover-main: #000; /* The main color for tool tips */
+ ✔️   --discordservers-main-button: #1e90ff;  /* the color to be displayed for pubilc's module buttons */
+ ✔️   --discordservers-heading-main: #ff0; /* the color to be displayed for pubilc's module headings */
+ ✔️   --popout-control-dialog: #381f25; /* the main color to be displayed for pop out setting control dialogs */
+ ✔️   --popout-secondary-control-dialog: #2f3136; /* the secondary main color to be displayed for pop out setting control dialogs */
     --store-item-background: #ffffe0; /* Main background for items in the store */
     --store-embed-main: #0F8C7A; /* Main background for store embeds */
     --store-small-heading-main: #66ddaa; /* The small heading for the store */

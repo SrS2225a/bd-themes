@@ -1,9 +1,9 @@
-/* The Multiverse - v1.0.7 */ 
+/* The Multiverse - v1.0.10 */ 
 /*                 1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 1.0.9 (BETA)";
+        --Update-Text: "Version 1.0.10";
 	--revision: "4";
 	--creator-short: "SRS";
 }
@@ -60,7 +60,7 @@
 /* Stylizes server folders */
 .expandedFolderBackground-2sPsd- {
     border: var(--border-server-main) 2px dashed;
-    background: rgba(242, 240, 233, 0.7) !important;
+    background: var(--server-folder-extended-main) !important;
     border-radius: 0% !important;
     left: 10px;
 }
@@ -88,8 +88,8 @@
 .folder-21wGz3 {background: transparent !important;}
 
 /* Stylizes the command page */
-.theme-dark .autocomplete-1vrmpx {background: var(--main-switch-button-color);}
-.wrapper-39oAo3 {background: var(--main-switch-button-color);}
+.theme-dark .autocomplete-1vrmpx {background: var(--commands-main);}
+.wrapper-39oAo3 {background: var(--commands-main);}
 .theme-dark .contentTitle-2tG_sM {color: var(--small-heading-main);}
 
 /* Fixes the emoji picker */
@@ -172,7 +172,7 @@
 }
 
 /* Stylizes the activity tab */
-.theme-dark .outer-2IVh5n, .theme-dark .recentlyPlayedContainer-2F3MqS {background: var(--store-item-background) !important;}
+.theme-dark .outer-2IVh5n, .theme-dark .recentlyPlayedContainer-2F3MqS {background: var(.) !important;}
 .title-pqKcDf, .da-formTitleInCard {color: var(--activity-heading-2) !important;}
 .theme-dark .base-1x0h_U {color: var(--activity-heading-1);}
 .title-FVgbgL {color: var(--large-heading-main) !important;}
@@ -236,7 +236,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. Removed Better Discords server from public for the time being</text><text y="68" style="font-size: 1em;" x="20">2. Added in more variables from the theme file</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20">1. You can now edit: --discordservers-heading-main</text><text y="144" style="font-size: 1em;" x="20">2. Removed Better Discord listing from public due to invite link being invalid</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. Offical release for The Multiverse 2</text><text y="68" style="font-size: 1em;" x="20">2. Added in more variables from the theme file</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20"></text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;

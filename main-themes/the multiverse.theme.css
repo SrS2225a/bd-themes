@@ -54,21 +54,22 @@
  ✔️   --discordservers-heading-main: #ff0; /* the color to be displayed for pubilc's module headings */
  ✔️   --popout-control-dialog: #381f25; /* the main color to be displayed for pop out setting control dialogs */
  ✔️   --popout-secondary-control-dialog: #2f3136; /* the secondary main color to be displayed for pop out setting control dialogs */
-    --store-item-background: #ffffe0; /* Main background for items in the store */
-    --store-embed-main: #0F8C7A; /* Main background for store embeds */
-    --store-small-heading-main: #66ddaa; /* The small heading for the store */
-    --store-sidebar-main: #d2b48c; /* The color to be displayed for the sidebar in selected store games */
+ ✔️   --store-item-background: #ffffe0; /* Main background for items in the store */
+ ✔️   --store-embed-main: #0F8C7A; /* Main background for store embeds */
+ ✔️   --store-small-heading-main: #66ddaa; /* The small heading for the store */
+ ✔️   --store-sidebar-main: #d2b48c; /* The color to be displayed for the sidebar in selected store games */
  ✔️   --play-arrow-color-main: #ff0; /* the color to be displayed for play button and navagation arrows */
-    --server-folder-extended-main: rgba(242, 240, 233, 0.7); /* The main color to be displayed when sever folders are expanded */
-    --main-decription-color: #b0c4de; /* The color to be displayed for setting descritors */
-    --main-chat-color: #fff; /* The color to be displayed for user chat descriptors */
-    --main-button-color: #1e90ff; /* Color to be displayed for the majority of buttons */
-    --main-secondary-button-color: #FF8F1F; /* Color to be displayed for the majority of secondary buttons */
-    --main-cancel-button-color: #9acd32; /* Color to be displayed for the majority of cancel/exit buttons */
-    /* --commands-main */ --main-switch-button-color: #00008b; /* Color to be displayed for page/filter buttons */
-    --user-profile-background: #0E2F44; /* Color to be displayed for user profiles */
-    --main-updates-background: #0E2F44; /* Background to be displayed for updates like pinned messages/search */
-    --main-secondary-updates-background: #bc8f8f; /* Secondary Background to be displayed for updates like pinned messages/search */
-    --activity-heading-1:#B7DB70; /* The first heading color for the activity tab */
-    --activity-heading-2: #DE669A; /* The first secondary heading color for the activity tab */
+ ✔️   --server-folder-extended-main: rgba(242, 240, 233, 0.7); /* The main color to be displayed when sever folders are expanded */
+ ✔️   --main-decription-color: #b0c4de; /* The color to be displayed for setting descritors */
+ ✔️   --main-chat-color: #fff; /* The color to be displayed for user chat descriptors */
+ ✔️   --main-button-color: #1e90ff; /* Color to be displayed for the majority of buttons */
+ ✔️   --main-secondary-button-color: #FF8F1F; /* Color to be displayed for the majority of secondary buttons */
+ ✔️   --main-cancel-button-color: #9acd32; /* Color to be displayed for the majority of cancel/exit buttons */
+ ✔️   --commands-main : #00008b; /* Color to be displayed for page/filter buttons */
+ ✔️   --user-profile-background: #0E2F44; /* Color to be displayed for user profiles */
+ ✔️   --main-updates-background: #0E2F44; /* Background to be displayed for updates like pinned messages/search */
+ ✔️   --main-secondary-updates-background: #bc8f8f; /* Secondary Background to be displayed for updates like pinned messages/search */
+ ✔️   --activity-heading-1:#B7DB70; /* The first heading color for the activity tab */
+ ✔️   --activity-heading-2: #DE669A; /* The first secondary heading color for the activity tab */
+ ✔️   --border-radius-profile-main: none; /*  Defines if profiles should be square or circular */
 }

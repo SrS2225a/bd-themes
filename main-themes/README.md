@@ -5,6 +5,8 @@ Themes can only be downloaded throught the author (SrS27a)
 ## Getting themes!
 To get themes message the author on discord; The author discord name is SrS#8614
 
+My Own Themes:
+
 - The Mutliverse | An photo that an austromener took relaviling mulitplie universes in the stars
 - The Multiverse 2 | An photo that an austromener took relaviling mulitplie universes in the stars
 

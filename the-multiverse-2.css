@@ -601,8 +601,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 #app-mount .wrapper-1Rf91z foreignObject,
 #app-mount .wrapper-1Rf91z .wrapper-25eVIn, 
 #app-mount .wrapper-1Rf91z .svg-1X37T1, foreignObject {
-    border-radius: 0;
-    mask:none;
+    mask: var(--border-radius-profile-main);
 }
 
 [mask="url(#svg-mask-status-idle)"],

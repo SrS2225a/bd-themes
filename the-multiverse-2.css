@@ -601,10 +601,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 
 /* Changes the border-radius of user pfp's and server icons */
 .theme-dark .mask-3OgeRz {-webkit-mask: none;mask: none;}
-.theme-dark .guilds-wrapper .guilds-add,.theme-dark .guilds-wrapper .guilds .guild-icon,.theme-dark .guilds-wrapper .guilds .guild .guild-inner,
-.theme-dark .image-33JSyf,.theme-dark .avatar-large, .theme-dark .avatar-profile, .theme-drak .small-5Os1Bb,.theme-dark .avatar-small,
-.theme-dark .avatarHint-1qgaV3,.theme-dark .title-3qD0b- .status, .theme-dark .titleCall-_b9o8P .status, .listAvatar-1NlAhb, .da-dragfix,
-.theme-dark .container-2td-dC, .wrapper-2lTRaf, .theme-dark .guildsError-b7zR5H, .theme-dark .circleIconButton-jET_ig, .inner-1W0Bkn {border-radius: 0px !important;}
+
 .pointerEvents-2zdfdO {border-radius: 0px; mask: none !important;}
 
 #app-mount .wrapper-1Rf91z [mask*="url"],

@@ -171,7 +171,7 @@
 }
 
 /* Stylizes the activity tab */
-.theme-dark .outer-2IVh5n, .theme-dark .recentlyPlayedContainer-2F3MqS {background: var(.) !important;}
+.theme-dark .outer-2IVh5n, .theme-dark .recentlyPlayedContainer-2F3MqS {background: var(--store-item-background) !important;}
 .title-pqKcDf, .da-formTitleInCard {color: var(--activity-heading-2) !important;}
 .theme-dark .base-1x0h_U {color: var(--activity-heading-1);}
 .title-FVgbgL {color: var(--large-heading-main) !important;}

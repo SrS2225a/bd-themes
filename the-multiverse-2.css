@@ -219,6 +219,7 @@
 #pubslayer .ui-tab-bar-item.selected {background-color: var(--settings-member-select) !important;}
 #pubslayer .ui-tab-bar-item:hover {background-color: var(--settings-member-hover) !important;}
 .lookFilled-1Gx00P.colorBrand-3pXr91 {margin-left: 18px;}
+.message-3SOT5P .btn-11C5_u {margin-left: auto !important;}
 .bd-pfbtn, .bda-slist .bda-footer button, .item-26Dhrx[style*="background-color: rgb(114, 137, 218);"], .lookFilled-1Gx00P.colorBrand-3pXr91 {background: var(--main-button-color);}
 .bd-pfbtn:hover, .bda-slist .bda-footer button:hover, .item-26Dhrx[style*="background-color: rgb(114, 137, 218);"]:hover, .lookFilled-1Gx00P.colorBrand-3pXr91:hover {background: var(--main-button-color); filter: hue-rotate(20deg);}
 .bda-slist .bda-footer button:disabled {cursor: not-allowed;}

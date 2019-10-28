@@ -1,9 +1,9 @@
-/* The Multiverse - v1.0.10 */ 
+/* The Multiverse - v1.2.10 */ 
 /*                 1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 1.1.10";
+        --Update-Text: "Version 1.2.10";
 	--revision: "4";
 	--creator-short: "SRS";
 }
@@ -199,6 +199,13 @@
 .tierBody-16Chc9 {background: var(--popout-secondary-control-dialog);}
 .tierMarkerBackground-3q29am {background: var(--popout-secondary-control-dialog);}
 
+.bd-backdrop {background: transparent;}
+.bd-modal-wrapper .bd-modal-body {background: var(--popout-control-dialog);}
+.bd-modal-wrapper .header {background: var(--popout-control-dialog); color: var(--large-heading-main);}
+.bd-modal-wrapper .footer {background: var(--popout-control-dialog);}
+.bd-modal-wrapper .footer button {background: var(--main-button-color);}
+customized better discords own pop-in UI elements
+
 /* Stylizes Mentions */
 .mention-1f5kbO, .base-PmTxvP {background: var(--mention-background-main) !important;}
 
@@ -238,7 +245,7 @@ padding: 18px;
   border: 3px double rgba(74,107,26,1);
   color: rgba(74,107,26,1);
   border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. improved --main-button-color buttons</text><text y="68" style="font-size: 1em;" x="20">2. removed the mask for the "view profile" button</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20"></text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. customized better discords own pop-in UI elements</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20"></text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;

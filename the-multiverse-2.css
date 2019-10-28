@@ -10,9 +10,6 @@
 
 /* ~~~~ means cont. */
 
-/* loads additional sources */
-@import url('https://bdsources.tk/sourcecheck/code.css');
-
 /* Initalizes the theme */
 #app-mount, .app-2rEoOp, body, .members-1998pB, .bg-h5JY_x, .container-3gCOGc, .pageWrapper-1PgVDX, .contentRegion-3nDuYy, .scroller-305q3I, .container-PNkimc, .privateChannels-1nO12o, .scroller-1IIF0A, .container-1r6BKw.themed-ANHk51, .messages-3amgkR, .sidebar-2K8pFh, .panels-j1Uci_, .scroller-2TZvBN, .scroller-9moviB, .sidebarRegionScroller-3MXcoP, .friendsTable-133bsv .friendsTableBody-1ZhKif, .scroller-1JbKMe, .activityFeed-1C0EmJ, .scroller-1JpcIc, .applicationStore-1pNvnv, .root-1BQpZw, .scroller-5bBood, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e {
     background-color: transparent !important;
@@ -608,6 +605,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .avatarHint-1qgaV3,.theme-dark .title-3qD0b- .status, .theme-dark .titleCall-_b9o8P .status, .listAvatar-1NlAhb, .da-dragfix,
 .theme-dark .container-2td-dC, .wrapper-2lTRaf, .theme-dark .guildsError-b7zR5H, .theme-dark .circleIconButton-jET_ig, .inner-1W0Bkn {border-radius: 0px !important;}
 .pointerEvents-2zdfdO {border-radius: 0px; mask: none !important;}
+
 #app-mount .wrapper-1Rf91z [mask*="url"],
 #app-mount .mask-1l8v16 foreignObject {
     mask: var(--border-radius-profile-main);
@@ -615,14 +613,6 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 
 [mask="url(#svg-mask-avatar-status-round-80)"] {
     mask: none;	
-}
-
-
-[mask="url(#svg-mask-status-idle)"],
-[mask="url(#svg-mask-status-dnd)"],
-[mask="url(#svg-mask-status-offline)"],
-[mask="url(#svg-mask-status-streaming)"] {
-    mask: url(#svg-mask-status-online);
 }
 
 [mask="url(#svg-mask-status-online)"],

@@ -32,21 +32,14 @@
 .wordmark-2iDDfm:after {content: var(--Theme-Variant)" - "var(--Update-Text); color: #fff; position: absolute; width: 10000%; font-size: 15px; margin-left: 6px;}
 svg[name="DiscordWordmark"] {display: none;}
 
- /* Recolors the no text channels message */
-.theme-dark .text-GwUZgS {color: #d4d4d4;}
- 
- /* Sets the color of embeded links */ 
-.theme-dark .embedInner-1-fpTo, .theme-dark .attachment-33OFj0, .theme-dark .wrapperAudio-1jDe0Q, .theme-dark .wrapper-35wsBm {background-color: #2e3036;}
+ /* Sets the color of mentions and reactions */ 
 .theme-dark .isMentioned-N-h9aa {background: var(--mention-reaction-main); opacity: .81;}
 .reaction-1ELvT8 {background: var(--mention-reaction-main); filter: grayscale(50%); opacity: 1 !important;}
 .reaction-1ELvT8.reactionMe-23mbRf {background: var(--mention-reaction-main); filter: grayscale(0%);}
-.embedInner-1-fpTo {border-radius: 3px;}
-.markup-2BOw-j blockquote {border-radius: 0px 3px 3px 0px; background: var(--main-embed-background); border-color: gray;}
 .theme-dark .wrapper-3WhCwL {color: var(--mention-reaction-main) !important; filter: brightness(2);}
 .theme-dark .wrapperHover-1GktnT:hover {background: transparent; text-decoration: underline;}
 .markup-2BOw-j pre {border: 2px solid gray;}
 .blockquoteDivider-2hH8H6 {background: gray;}
-.wrapperAudio-1jDe0Q {background: var(--main-embed-background);}
 .markup-2BOw-j a {color: var(--main-link-color);}
 
 /* Recolors the friends tab */
@@ -509,8 +502,10 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .guildInfo-2wGKIg {padding: 16px;}
 
 /* Stylizes embeds */
-.theme-dark .embedInner-1-fpTo, .theme-dark .markup-2BOw-j code, .theme-dark .wrapper-35wsBm, .theme-dark .attachment-33OFj0 {background: var(--main-embed-background); !important}
+.theme-dark .embedInner-1-fpTo, .theme-dark .markup-2BOw-j code, .wrapperAudio-1jDe0Q, .theme-dark .wrapper-35wsBm, .theme-dark .attachment-33OFj0 {background: var(--main-embed-background); !important}
+.embedInner-1-fpTo {border-radius: 3px;}
 .theme-dark .embedPill-1Zntps {display: none;}
+.markup-2BOw-j blockquote {border-radius: 0px 3px 3px 0px; background: var(--main-embed-background); border-color: gray;}
 
 /* Changes the Voice Channel List */
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {background-color: var(--slected-channel-color) !important; text-shadow: 2px 2px #000 !important;}

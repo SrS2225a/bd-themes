@@ -569,6 +569,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 #bd-pub-button {border-radius: 4px !important; margin: auto; color: #fff}
 #pubslayer .ui-tab-bar-header {color: var(--discordservers-heading-main);}
 #pubslayer button {background: var(--discordservers-main-button);}
+#pubslayer button:hover {background: var(--discordservers-main-button); filter: hue-rotate(20deg);}
 .bd-server-card.bd-server-card-pinned, .bd-server-card.bd-server-card-pinned:after {display: none;}
 
 /* Changes the style of the servers unavailable button */

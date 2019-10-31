@@ -34,13 +34,6 @@ svg[name="DiscordWordmark"] {display: none;}
 .blockquoteDivider-2hH8H6 {background: gray;}
 .markup-2BOw-j a {color: var(--main-link-color);}
 
-/* Recolors the friends tab */
-.friendsTable-133bsv {background: transparent !important;}
-.private-channels .channel .channel-name {color: #fff; opacity: 1;}
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionDeny-18IZiW:hover {background: none;}
-.friendsAction-__WNE9.actionDeny-18IZiW:hover {background: transparent !important;}
-.friendsAction-__WNE9:hover {background: transparent; color: #fff;}
-
 /* Stylizes server folders */
 .expandedFolderBackground-2sPsd- {
     border: var(--border-server-main) 2px dashed;
@@ -683,6 +676,9 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
     width: 24px;
     height: 24px;
 }
+
+.friendsAction-__WNE9.actionDeny-18IZiW:hover {background: transparent !important;}
+.friendsAction-__WNE9:hover {background: transparent; color: #fff !important;}
 
 /*
 /* Adds Plugin Support */

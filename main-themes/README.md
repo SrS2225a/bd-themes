@@ -15,4 +15,4 @@ Commissions:
 
 
 ## TO DO
-For extra protection, private all themes and create a plugin for BD that logins to github within the discord client. Anyones github account added to the source code has access to the theme.
+For extra protection, private all themes and create a plugin for BD that logins to github and integrates with KSS within the discord client. Anyones github account added to the source code has access to the theme.

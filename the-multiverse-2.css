@@ -103,17 +103,13 @@ svg[name="DiscordWordmark"] {display: none;}
 .unread-3zKkbm:after {content: ">"; margin-left: 2px; color: var(--main-unread); display: block !important;}
 #bd-settings-sidebar:after {
     content: var(--Theme-Variant) " by " var(--creator-short) '\A' " Revision " var(--revision);
-    font-size: 12px !important;
-    font-weight: 600 !important;
-    display: block !important;
-    opacity: 1 !important;
+    font-size: 12px;
+    font-weight: 600;
+    display: block;
     margin-top: 2px;
     cursor: pointer;
     position: relative;
-    visibility: visible;
-    top: unset;
     bottom: 1px;
-    float: left;
     padding: 2px 10px;
     white-space: pre-line;
     color: lime;

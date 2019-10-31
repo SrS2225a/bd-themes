@@ -191,8 +191,8 @@ svg[name="DiscordWordmark"] {display: none;}
 .mention-1f5kbO, .base-PmTxvP {background: var(--mention-background-main) !important;}
 
 /* Changes the settings tab color */
-.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {background-color: var(--settings-member-hover) !important;}
-.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, #bd-settings-sidebar .ui-tab-bar-item.selected {background-color: var(--settings-member-select) !important;}
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .themed-OHr7kt.item-PXvHYJ:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {background-color: var(--settings-member-hover) !important;}
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, #bd-settings-sidebar .ui-tab-bar-item.selected {background-color: var(--settings-member-select) !important;}
 .theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: var(--main-decription-color);}
 .description-2nQj2E, .theme-dark #bd-settingspane-container .ui-switch-item .style-description {color: var(--main-decription-color);}
 .markup-2BOw-j {color: var(--main-chat-color); text-shadow: 0 0 20px;}
@@ -211,8 +211,6 @@ svg[name="DiscordWordmark"] {display: none;}
 .bda-slist .bda-footer button, .item-26Dhrx[style*="background-color: rgb(114, 137, 218);"], .lookFilled-1Gx00P.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled {background: var(--main-button-color);}
 .bd-pfbtn:hover, .bda-slist .bda-footer button:hover, .item-26Dhrx[style*="background-color: rgb(114, 137, 218);"]:hover, .lookFilled-1Gx00P.colorBrand-3pXr91:hover {background: var(--main-button-color); filter: hue-rotate(20deg);}
 .lookFilled-1Gx00P.colorPrimary-3b3xI6, .bd-pfbtn {background: var(--main-secondary-button-color);}
-.themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {color: var(--main-secondary-button-color); background: #fff;}
-.themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {background: var(--main-secondary-button-color); color: #fff;}
 .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .bd-pfbtn:hover {background: var(--main-secondary-button-color); filter: hue-rotate(20deg);}
 .item-3HpYcP[style*="background-color: rgba(67, 181, 129, 0.2)"] {background: #fff !important;}
 .bda-slist .bda-footer button:disabled {cursor: not-allowed;}

@@ -38,6 +38,8 @@ svg[name="DiscordWordmark"] {display: none;}
 .friendsTable-133bsv {background: transparent !important;}
 .private-channels .channel .channel-name {color: #fff; opacity: 1;}
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionDeny-18IZiW:hover {background: none;}
+.friendsAction-__WNE9.actionDeny-18IZiW:hover {background: transparent !important;}
+.friendsAction-__WNE9:hover {background: transparent; color: #fff;}
 
 /* Stylizes server folders */
 .expandedFolderBackground-2sPsd- {

@@ -187,8 +187,8 @@ svg[name="DiscordWordmark"] {display: none;}
 /* Changes the settings tab color */
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {background: var(--settings-member-hover) !important;}
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, #bd-settings-sidebar .ui-tab-bar-item.selected {background: var(--settings-member-select) !important;}
-.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {linear-gradient(to left,#00f,#ffa500) !important;}
-.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {linear-gradient(to right,#f00,#0f0) !important;}
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {background: linear-gradient(to left,#00f,#ffa500) !important;}
+.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {background: linear-gradient(to right,#f00,#0f0) !important;}
 .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:hover, .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ {background: transparent !important;}
 .theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: var(--main-decription-color);}
 .description-2nQj2E, .theme-dark #bd-settingspane-container .ui-switch-item .style-description {color: var(--main-decription-color);}

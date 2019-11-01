@@ -475,7 +475,7 @@ div::-webkit-scrollbar {width: inherit}
 .arrowHidden-1jg6O9, .arrowHidden-1jg6O9:hover {
     opacity: 1 !important;
 }
-.arrow-3jRqK8 {background: var(--arrow-color-main); color: gray; opacity: 1 !important;}
+.arrow-3jRqK8 {background: var(--play-arrow-color-main); color: gray; opacity: 1 !important;}
 h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .row-1bU71H {background: var(--main-dropdown-hover);}
 .openBody-1HeDPG {width: 100%}

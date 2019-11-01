@@ -1,9 +1,9 @@
-/* The Multiverse - v1.3.12 */ 
+/* The Multiverse - v1.3.13 */ 
 /*                 1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 1.3.12";
+        --Update-Text: "Version 1.3.13";
 	--revision: "4";
 	--creator-short: "SrS";
 }
@@ -11,7 +11,7 @@
 /* ~~~~ means cont. */
 
 /* Initalizes the theme */
-#app-mount, .app-2rEoOp, body, .members-1998pB, .bg-h5JY_x, .container-3gCOGc, .chat-3bRxxu, .wrapper-1Rf91z, .pageWrapper-1PgVDX, .contentRegion-3nDuYy, .scroller-305q3I, .container-PNkimc, .privateChannels-1nO12o, .scroller-1IIF0A, .container-1r6BKw.themed-ANHk51, .messages-3amgkR, .sidebar-2K8pFh, .panels-j1Uci_, .scroller-2TZvBN, .scroller-9moviB, .sidebarRegionScroller-3MXcoP, .friendsTable-133bsv .friendsTableBody-1ZhKif, .scroller-1JbKMe, .activityFeed-1C0EmJ, .scroller-1JpcIc, .applicationStore-1pNvnv, .root-1BQpZw, .scroller-5bBood, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e {
+#app-mount, .app-2rEoOp, body, .members-1998pB, .bg-h5JY_x, .container-3gCOGc, .chat-3bRxxu, .wrapper-1Rf91z, .pageWrapper-1PgVDX, .contentRegion-3nDuYy, .scroller-305q3I, .container-PNkimc, .perksModal-fSYqOq, .privateChannels-1nO12o, .scroller-1IIF0A, .container-1r6BKw.themed-ANHk51, .messages-3amgkR, .sidebar-2K8pFh, .panels-j1Uci_, .scroller-2TZvBN, .scroller-9moviB, .sidebarRegionScroller-3MXcoP, .friendsTable-133bsv .friendsTableBody-1ZhKif, .scroller-1JbKMe, .activityFeed-1C0EmJ, .scroller-1JpcIc, .applicationStore-1pNvnv, .root-1BQpZw, .scroller-5bBood, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e {
     background-color: transparent !important;
 }
 
@@ -171,8 +171,8 @@ svg[name="DiscordWordmark"] {display: none;}
 .slideBody-2nMrnU {background: var(--popout-control-dialog); background-image: none !important;}
 .theme-dark .card-FDVird:before {background: rgba(32,34,37,.3);}
 .contentWrapper-3WC1ID {background: var(--popout-control-dialog);}
-.tierBody-16Chc9 {background: var(--popout-secondary-control-dialog);}
-.tierMarkerBackground-3q29am {background: var(--popout-secondary-control-dialog);}
+.tierBody-16Chc9, .perk-2WeBWW, .tierMarkerBackground-3q29am {background: var(--popout-secondary-control-dialog) !important;}
+
 
 .bd-backdrop {background: transparent;}
 .bd-modal-wrapper .bd-modal-body {background: var(--popout-control-dialog);}
@@ -214,6 +214,8 @@ svg[name="DiscordWordmark"] {display: none;}
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {background: var(--main-button-color); filter: hue-rotate(180deg);}
 .barFill-23-gu- {background: var(--main-button-color);}
 .theme-dark .bar-2Qqk5Z {background: var(--main-secondary-button-color);}
+.barForeground-3KglC8 {background: var(--main-button-color);}
+.barBackground-2EEiLw {background: var(--main-secondary-button-color);}
 
 
 /* Adds in the update log module */

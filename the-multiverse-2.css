@@ -187,7 +187,7 @@ svg[name="DiscordWordmark"] {display: none;}
 /* Changes the settings tab color */
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {background: var(--settings-member-hover) !important;}
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, #bd-settings-sidebar .ui-tab-bar-item.selected {background: var(--settings-member-select) !important;}
-.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .activeButton-1BJAiN {background: background: #000; color: #fff !important;}
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .activeButton-1BJAiN {background: #000; color: #fff !important;}
 .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover, .theme-dark .activeButton-1BJAiN:hover {background: #fff; color: #000;}
 .roundButton-2CW1Hh {color: lightgrey;}
 .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:hover, .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ {background: transparent !important;}

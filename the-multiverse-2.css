@@ -171,7 +171,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .slideBody-2nMrnU {background: var(--popout-control-dialog); background-image: none !important;}
 .theme-dark .card-FDVird:before {background: rgba(32,34,37,.3);}
 .contentWrapper-3WC1ID {background: var(--popout-control-dialog);}
-.tierBody-16Chc9, .perk-2WeBWW, .tierMarkerBackground-3q29am {background: var(--popout-secondary-control-dialog) !important;}
+.tierBody-16Chc9, .perk-2WeBWW, .tierMarkerBackground-3q29am, .ctaBar-2UsjF2 {background: var(--popout-secondary-control-dialog) !important;}
 
 
 .bd-backdrop {background: transparent;}
@@ -204,8 +204,8 @@ svg[name="DiscordWordmark"] {display: none;}
 .message-3SOT5P .btn-11C5_u {margin-left: auto !important;}
 .bda-slist .bda-footer button, .item-26Dhrx[style*="background-color: rgb(114, 137, 218);"], .lookFilled-1Gx00P.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled {background: var(--main-button-color);}
 .bd-pfbtn:hover, .bda-slist .bda-footer button:hover, .item-26Dhrx[style*="background-color: rgb(114, 137, 218);"]:hover, .lookFilled-1Gx00P.colorBrand-3pXr91:hover {background: var(--main-button-color); filter: hue-rotate(20deg);}
-.lookFilled-1Gx00P.colorPrimary-3b3xI6, .bd-pfbtn, .buttonColor-1agP3J {background: var(--main-secondary-button-color) !important;}
-.lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .bd-pfbtn:hover {background: var(--main-secondary-button-color) !important; filter: hue-rotate(20deg);}
+.lookFilled-1Gx00P.colorPrimary-3b3xI6, .lookFilled-1Gx00P.colorGreen-29iAKY, .bd-pfbtn, .buttonColor-1agP3J {background: var(--main-secondary-button-color) !important;}
+.lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .bd-pfbtn:hover {background: var(--main-secondary-button-color) !important; filter: hue-rotate(20deg);}
 .item-3HpYcP[style*="background-color: rgba(67, 181, 129, 0.2)"] {background: #fff !important;}
 .bda-slist .bda-footer button:disabled {cursor: not-allowed;}
 .themeDefault-24hCdX.valueChecked-m-4IJZ {background: var(--main-button-color) !important;}

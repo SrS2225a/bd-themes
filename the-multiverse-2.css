@@ -276,7 +276,7 @@ animation: color-change 20s infinite linear;
   font-size: 13px!important;
 }
 
-.notice-2FJMB4 {
+.notice-2FJMB4, #pluginNotice {
     position: fixed;
     margin-top: 8px;
     left: 50%;
@@ -284,7 +284,7 @@ animation: color-change 20s infinite linear;
     border-radius: 4px;
     font-size: initial;
     z-index: 9999;
-    margin-left: -16em;
+    margin-left: -14em;
 }
 
 .button-1MICoQ {position: unset; margin-left: 0; margin-bottom: 8px;}

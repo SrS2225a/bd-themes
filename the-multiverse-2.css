@@ -562,7 +562,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 
 /* Hides the text box for chatting when there is a channel you cannot speak in */
 .channelTextAreaDisabled-rZtG8r {display: none;}
-.buttonWrapper-1ZmCpA[tabindex="4"] {display:none}
+.buttonWrapper-1ZmCpA[tabindex="3"] {display:none}
 
 /* Changes the border-radius of user pfp's and server icons */
 .theme-dark .mask-3OgeRz {-webkit-mask: none;mask: none;}

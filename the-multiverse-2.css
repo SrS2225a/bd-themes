@@ -66,11 +66,12 @@ svg[name="DiscordWordmark"] {display: none;}
 .body-Ogsp8ivar {background: var(--user-profile-background)}
 .theme-dark .streamPreview-2-WUWT {background: var(--user-profile-background);}
 .theme-dark .container-VSDcQc .sectionTag-pXyto9, .theme-dark .popoutList-T9CKZQ {background: #999966; text-shadow: 1px 1px black;}
-.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6, .cancelButton-2O3h8t, .lookLink-9FtZy-.colorWhite-rEQuAQ {background: var(--main-cancel-button-color); color: black;}
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6, .cancelButton-2O3h8t, .lookLink-9FtZy-.colorWhite-rEQuAQ, .lookLink-9FtZy-.colorBrand-3pXr91 {background: var(--main-cancel-button-color); color: black;}
 .closeButton-g8-Rd4 {padding: 2px 16px 2px 16px;}
 .lookFilled-1Gx00P.colorRed-1TFJan {margin-left: 12px;}
-.shinyButton-3uFlM- {margin-left: 0px !important;}
+.linkButton-wzh5kV {padding: 2px 4px;}
 .fullWidth-1orjjo {right: 5%;}
+.shinyButton-3uFlM- {margin-left: 0px !important;}
 .verticalButtons-3jkiMb .planOption-2-re8V:not(:first-child) {margin-top: 20px;}
 .theme-dark .listRow-hutiT_:hover {background: hsla(0, 0%, 100%, .05);}
 .role-2irmRk {border-radius: 3px; margin: 0 4.3px 4.3px 0;}

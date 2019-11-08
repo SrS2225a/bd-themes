@@ -664,29 +664,10 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionDeny-18IZiW:hover {background: transparent !important;} {background: transparent !important;}
 .friendsAction-__WNE9:hover {background: transparent; color: #fff !important;}
 
-/*
-/* Adds Plugin Support */
+/* Stylies Plugins */
 [data-name="ZeresPluginLibrary"] {display: none;}
 [data-name="KSSLibrary"] {display: none;}
 
-.bda-slist:before {content: "An plugin adding any extra UI elements to discord has compatibility support for The Multiverse, and will say so if the plugin does as an color-changing message. However, if a plugin does not add any extra UI elements to discord, in this case the plugin will always have theme support for the multiverse even though there is no message confirming that it does so"; font-size: 15px; color: lightsteelblue;}
-
-[data-name="AccountDetailsPlus"]:after,
-[data-name="DetailedServerTooltips"]:after,
-[data-name="Guild Counter"]:after,
-[data-name="Extened Context Menu"]:after,
-[data-name="Share Button"]:after,
-[data-name="Save To"]:after,
-[data-name="View Guild Relationships"]:after,
-[data-name="Extended Context Menu"]:after,
-[data-name="JoinedAtDate"]:after,
-[data-name="ThemeSettings"]:after {
-  content: " (✔) This plugin has theme support for The Multiverse (✔) ";
-  color: rgba(74,107,26,1);
-  animation: color-change 20s infinite linear;
-}	
-
-/* Stylies Plugins */
 .metalloriff-changelog-scroller, .vgr-relationshipswindow-scroller-wrapper, .sb-menu-scroller-wrapper {background: #381f25 !important;}
 .sb-menu-label {padding-bottom: 10px;}
 .vgr-friend-item:hover {background-color: rgba(255, 255, 255, 0.2);}

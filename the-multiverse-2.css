@@ -149,7 +149,7 @@ svg[name="DiscordWordmark"] {display: none;}
 /* Changes the pop-in control tabs */
 .theme-dark .card-FDVird:before {background: rgba(32,34,37,.3);}
 
-.tierBody-16Chc9, .perk-2WeBWW, .tierMarkerBackground-3q29am, .ctaBar-2UsjF2, .contentWrapper-3WC1ID, .scroller-3__pG8, .slideBody-2nMrnU, .theme-dark .quickswitcher-3JagVE, .theme-dark .root-1gCeng, .theme-dark .footer-3rDWdC, .theme-dark .modal-yWgWj- {background: var(--popout-secondary-control-dialog) !important;}
+.tierBody-16Chc9, .perk-2WeBWW, .tierMarkerBackground-3q29am, .ctaBar-2UsjF2, .contentWrapper-3WC1ID, .scroller-3__pG8, .slideBody-2nMrnU, .theme-dark .quickswitcher-3JagVE, .theme-dark .root-1gCeng, .theme-dark .footer-3rDWdC, .theme-dark .modal-yWgWj- {background: var(--popout-control-dialog) !important;}
 
 
 .bd-backdrop {background: transparent;}

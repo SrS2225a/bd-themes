@@ -569,12 +569,11 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 
 .pointerEvents-2zdfdO {border-radius: 0px; mask: none !important;}
 
-#app-mount .wrapper-1Rf91z [mask*="url"],
-#app-mount .mask-1l8v16 foreignObject {
+#app-mount .wrapper-1Rf91z [mask*="url"], #app-mount .mask-1l8v16 foreignObject {
     mask: var(--border-radius-profile-main);
 }
 
-[mask="url(#svg-mask-avatar-status-round-80)"] {
+[mask="url(#svg-mask-avatar-status-round-80)"], [masl="url(#svg-mask-avatar-status-mobile-80)"] {
     mask: none;	
 }
 

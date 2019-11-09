@@ -543,7 +543,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 
 /* Changes the style of the servers unavailable button */
 .note-450gs3 {color: darkgray; text-shadow: -1px 1px;}
-.title-3trS3_ {color: darkslategray; text-shadow: -1px 1px;}
+.title-3trS3_ {color: lightgray; text-shadow: -1px 1px;}
 
 #app-mount .guildsError-b7zR5H {
     content: "";
@@ -560,7 +560,6 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
  
 .errorPage-u8SYh4 {
 	background-image: url("https://i.imgur.com/AvBWoK3.png") !important;
-	background-color: black !important;
 	background-repeat: space !important;
 	background-size: 20% !important;
 }

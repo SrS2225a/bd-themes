@@ -1,5 +1,5 @@
-/* The Multiverse - v1.3.14 */ 
-/*                 1^ 2^ 3^
+/* The Multiverse 2 - v1.4.14 */ 
+/*                    1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse 2";
@@ -56,8 +56,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .folder-21wGz3 {background: transparent !important;}
 
 /* Stylizes the command page */
-.theme-dark .autocomplete-1vrmpx {background: var(--commands-main);}
-.wrapper-39oAo3 {background: var(--commands-main);}
+.theme-dark .autocomplete-1vrmpx, .wrapper-39oAo3 {background: var(--commands-main);}
 .theme-dark .contentTitle-2tG_sM {color: var(--small-heading-main);}
 
 /* Changes the color of the role menu and user information */

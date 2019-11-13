@@ -558,9 +558,10 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 }
  
 .errorPage-u8SYh4 {
-	background-image: url("https://i.imgur.com/AvBWoK3.png") !important;
-	background-repeat: space !important;
-	background-size: 20% !important;
+	background-image: var(--load-background); !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center !important;
 }
 
 /* Gets rid of the side div in a metion */

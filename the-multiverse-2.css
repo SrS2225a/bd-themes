@@ -1,9 +1,9 @@
-/* The Multiverse 2 - v1.4.14 */ 
+/* The Multiverse 2 - v1.5.14 */ 
 /*                    1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 1.4.14";
+        --Update-Text: "Version 1.5.14";
 	--revision: "4";
 	--creator-short: "SrS";
 }
@@ -202,11 +202,11 @@ svg[name="DiscordWordmark"] {display: none;}
 /* Adds in the update log module */
 [layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
 padding: 18px;
-  display: block;
-  border: 3px double rgba(74,107,26,1);
-  color: rgba(74,107,26,1);
-  border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. Discord Crash Message Now Shows A Warning Background</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20">1. contunie on code cleanup</text><text y="144" style="font-size: 1em;" x="20">2. Contunie to test upon the new background changes</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+display: block;
+border: 3px double rgba(74,107,26,1);
+color: rgba(74,107,26,1);
+border-radius: 4px; 
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. Changed Discord Crash Message to use --load-background</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20">1. contunie on code cleanup</text><text y="144" style="font-size: 1em;" x="20">2. Contunie to test upon the new background changes</text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;

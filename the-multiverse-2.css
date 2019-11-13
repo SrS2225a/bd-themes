@@ -469,7 +469,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .guildInfo-2wGKIg {padding: 16px;}
 
 /* Stylizes embeds */
-.theme-dark .embedInner-1-fpTo, .theme-dark .markup-2BOw-j code, .wrapperAudio-1jDe0Q, .theme-dark .wrapper-35wsBm, .theme-dark .attachment-33OFj0 {background: var(--main-embed-background); !important}
+.theme-dark .markup-2BOw-j code, .theme-dark .wrapper-35wsBm, .embedFull-2tM8-- {background: var(--main-embed-background); !important}
 .embedInner-1-fpTo {border-radius: 3px;}
 .theme-dark .embedPill-1Zntps {display: none;}
 .markup-2BOw-j blockquote {border-radius: 0px 3px 3px 0px; background: var(--main-embed-background); border-color: gray;}

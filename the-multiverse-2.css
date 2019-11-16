@@ -87,6 +87,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .theme-dark .base-gE7OpD span {color: lime; animation: color-change 12s infinite linear;}
 .base-gE7OpD .cooldownWrapper-3joyFc {color: lime !important; animation: color-change 12s infinite linear;}
 
+.emptyMessage-2wGhmr {display: none;}
 
 /* Animations */
 @keyframes color-change {
@@ -472,7 +473,6 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .markup-2BOw-j code, .theme-dark .wrapper-35wsBm, .embedFull-2tM8--, .theme-dark .attachment-33OFj0 {background: var(--main-embed-background) !important;}
 .markup-2BOw-j blockquote {border-radius: 0px 3px 3px 0px; background: var(--main-embed-background); border-color: gray;}
 .embedFull-2tM8-- {border: none;}
-.embedAuthorIcon--1zR3L {width: 21px; height: 21px;}
 .grid-1nZz7S {padding: 8px 12px;}
 .embedMargin-UO5XwE {margin-top: 6px;}
 .wrapper-35wsBm {padding: 14px;}

@@ -585,7 +585,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
     mask: var(--border-radius-profile-main);
 }
 
-[mask="url(#svg-mask-avatar-status-round-80)"], [mask="url(#svg-mask-avatar-status-mobile-80)"] [masl="url(#svg-mask-avatar-status-mobile-80)"] {
+[mask="url(#svg-mask-avatar-status-round-80)"], [mask="url(#svg-mask-avatar-status-mobile-80)"] {
     mask: none;	
 }
 

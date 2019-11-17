@@ -672,8 +672,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
     height: 24px;
 }
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionDeny-18IZiW:hover {background: transparent !important;} {background: transparent !important;}
-.friendsAction-__WNE9:hover {background: transparent; color: #fff !important;}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionDeny-18IZiW:hover, .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionAccept-zzNNTu:hover {background: transparent !important;}
 
 /* Stylies Plugins */
 [data-name="ZeresPluginLibrary"] {display: none;}

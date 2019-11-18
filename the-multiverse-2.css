@@ -474,7 +474,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {background: gray; border-radius: 0px;}
 .grid-1nZz7S {padding: 8px 12px;}
 .embedFull-2tM8-- {border: none;}
-.embedImage-2W1cML img {margin-right: auto !important; margin-left: auto !important;}
+.embedImage-2W1cML img, .embedFull-2tM8-- .embedMedia-1guQoW {margin-right: auto !important; margin-left: auto !important;}
 
 /* Changes the Voice Channel List */
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {background-color: var(--slected-channel-color) !important; text-shadow: 2px 2px #000 !important;}

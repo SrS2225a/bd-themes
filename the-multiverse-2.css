@@ -407,7 +407,7 @@ div::-webkit-scrollbar {width: inherit}
 .messageGroupWrapper-o-Zw7G {background-color: var(--main-secondary-updates-background) !important;}
 
 /* Changes the header color */
-.theme-dark .h5-18_1nd, .theme-dark .header-2RyJ0Y, .membersGroup-v9BXpm, .name-IbjUBS, .privateChannels-1nO12o header, .theme-dark .contentTitle-2tG_sM, .label-3aiqT2 {color: var(--small-heading-main); opacity: 1;}
+.theme-dark .h5-18_1nd, .theme-dark .header-2RyJ0Y, .membersGroup-v9BXpm, .name-IbjUBS, .privateChannels-1nO12o header, .theme-dark .contentTitle-2tG_sM, .label-3aiqT, #bd-settings-sidebar .ui-tab-bar-header {color: var(--small-heading-main); opacity: 1;}
 .theme-dark .defaultColor-1_ajX0, .modalTitle-3yx4eo, .regionSelectModalHeader-21khC1 {color: var(--large-heading-main) !important; font-size: inherit;}
 span.optional--ezibr {display: none;}
 

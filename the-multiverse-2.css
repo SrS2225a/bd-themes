@@ -153,9 +153,8 @@ svg[name="DiscordWordmark"] {display: none;}
 .tierBody-16Chc9, .perk-2WeBWW, .tierMarkerBackground-3q29am, .ctaBar-2UsjF2 {background: var(--store-item-background) !important;}
 
 .bd-backdrop {background: transparent;}
-.bd-modal-wrapper .bd-modal-body {background: var(--popout-control-dialog);}
+.bd-modal-wrapper .bd-modal-body, bd-modal-wrapper .footer {background: var(--popout-control-dialog);}
 .bd-modal-wrapper .header {background: var(--popout-control-dialog) ; color: var(--large-heading-main);}
-.bd-modal-wrapper .footer {background: var(--popout-control-dialog);}
 .bd-modal-wrapper .footer button {background: var(--main-button-color);}
 
 
@@ -172,6 +171,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: var(--main-decription-color);}
 .description-2nQj2E, .theme-dark #bd-settingspane-container .ui-switch-item .style-description {color: var(--main-decription-color);}
 .markup-2BOw-j {color: var(--main-chat-color); text-shadow: 0 0 20px;}
+.theme-dark .spoilerText-3p6IlD {background: hsla(0,0%,100%,.3);}
 .regionSelectModal-12e-57 {background: var(--popout-control-dialog); !important}
 .horizontal-1ae9ci>.flexChild-faoVW3:first-child {color: #f6f6f6;}
 .notches-1sAcEM {background-image: none !important;}
@@ -204,7 +204,7 @@ display: block;
 border: 3px double rgba(74,107,26,1);
 color: rgba(74,107,26,1);
 border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. fixed upload dialog customization due to discord css class changes</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20"></text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. It is now easier to see selected spolier text</text><text y="68" style="font-size: 1em;" x="20">2. Made a few other small tweeks</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20"></text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;

@@ -150,7 +150,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .theme-dark .card-FDVird:before {background: rgba(32,34,37,.3);}
 
 .contentWrapper-3WC1ID, .scroller-3__pG8, .slideBody-2nMrnU, .theme-dark .quickswitcher-3JagVE, .theme-dark .root-1gCeng, .theme-dark .footer-3rDWdC, .theme-dark .footer-3mqk7D, .theme-dark .modal-yWgWj-, .theme-dark .uploadModal-2ifh8j {background: var(--popout-control-dialog) !important;}
-.tierBody-16Chc9, .perk-2WeBWW, .tierMarkerBackground-3q29am, .ctaBar-2UsjF2 {background: var(--store-item-background) !important;}
+.tierBody-16Chc9, .tierBody-x9kBBp, .perk-2WeBWW, .tierMarkerBackground-3q29am, .ctaBar-2UsjF2, .body-2iXqIL, .footer-2aTx0s {background: var(--popout-secondary-control-dialog) !important;}
 
 .bd-backdrop {background: transparent;}
 .bd-modal-wrapper .bd-modal-body, bd-modal-wrapper .footer {background: var(--popout-control-dialog);}
@@ -274,7 +274,7 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 /* stylizes the configuration page for the user settings and server settings pages*/
 .theme-dark .wrapper-29NfPK {background: var(--secondary-transpraency);}
 .sidebar-2K8pFh {border-radius: 0px !important;}
-.container-2Rl01u, .panels-j1Uci_, .container-1r6BKw.themed-ANHk51 {background: var(--secondary-transpraency); opacity: .76;}
+.container-2Rl01u, .panels-j1Uci_, .container-1r6BKw.themed-ANHk51, .searchBar-6Kv8R2 {background: var(--secondary-transpraency); opacity: .76;}
 .video-1FfuMD {background: rgba(0,0,0,.2); outline: 2px solid springgreen; border-left: 2px solid springgreen;}
 .contentColumnDefault-1VQkGM {padding: 60px 40px 60px; position: relative; border-radius: 5px; background-color: var(--secondary-transpraency); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: auto; margin-left: auto;margin-right: auto; border: 3px var(--border-settings-main) double;}
 .sidebarScrollable-1qPI87+.content-1rPSz4 {
@@ -381,7 +381,7 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 .theme-dark .separator-gCa7yv, .theme-dark #bd-settings-sidebar .ui-tab-bar-separator {background-color: hsla(180, 100%, 61%, 0.2); padding: 0;}
 
 /* Changes the time-stamp color */
-.theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: var(--main-timestamp);}
+.theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: var(--main-timestamp) !important;}
 .theme-dark .timestampCompact-MHgFLv {color: var(--main-timestamp);}
 .theme-dark .discrim-3rYTMj {opacity: 1;}
 

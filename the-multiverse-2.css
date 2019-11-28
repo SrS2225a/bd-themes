@@ -9,7 +9,7 @@
 }
 
 /* Initalizes the theme */
-#app-mount, .app-2rEoOp, body, .members-1998pB, .bg-h5JY_x, .container-3gCOGc, .chat-3bRxxu, .wrapper-1Rf91z, .pageWrapper-1PgVDX, .contentRegion-3nDuYy, .scroller-305q3I, .container-PNkimc, .perksModal-fSYqOq, .privateChannels-1nO12o, .scroller-1IIF0A, .container-1r6BKw.themed-ANHk51, .messages-3amgkR, .sidebar-2K8pFh, .panels-j1Uci_, .scroller-2TZvBN, .scroller-9moviB, .sidebarRegionScroller-3MXcoP, .friendsTable-133bsv .friendsTableBody-1ZhKif, .scroller-1JbKMe, .activityFeed-1C0EmJ, .scroller-1JpcIc, .applicationStore-1pNvnv, .root-1BQpZw, .scroller-5bBood, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e {
+#app-mount, .app-2rEoOp, body, .members-1998pB, .bg-h5JY_x, .container-3gCOGc, .chat-3bRxxu, .wrapper-1Rf91z, .pageWrapper-1PgVDX, .contentRegion-3nDuYy, .scroller-305q3I, .container-PNkimc, .perksModal-fSYqOq, .privateChannels-1nO12o, .scroller-1IIF0A, .messages-3amgkR, .sidebar-2K8pFh, .scroller-2TZvBN, .scroller-9moviB, .sidebarRegionScroller-3MXcoP, .friendsTable-133bsv .friendsTableBody-1ZhKif, .scroller-1JbKMe, .activityFeed-1C0EmJ, .scroller-1JpcIc, .applicationStore-1pNvnv, .root-1BQpZw, .scroller-5bBood, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e {
     background-color: transparent !important;
 }
 
@@ -204,7 +204,7 @@ display: block;
 border: 3px double rgba(74,107,26,1);
 color: rgba(74,107,26,1);
 border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. It is now easier to see selected spolier text</text><text y="68" style="font-size: 1em;" x="20">2. Made a few other small tweeks</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20"></text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. Experminting with --secondary-transparecny customization option</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20"></text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
@@ -273,6 +273,7 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 
 /* stylizes the configuration page for the user settings and server settings pages*/
 .theme-dark .wrapper-29NfPK {background: var(--secondary-transpraency);}
+.container-2Rl01u, .panels-j1Uci_, container-1r6BKw.themed-ANHk51 {background: var(--secondary-transpraency); opacity: .76;}
 .video-1FfuMD {background: rgba(0,0,0,.2); outline: 2px solid springgreen; border-left: 2px solid springgreen;}
 .contentColumnDefault-1VQkGM {padding: 60px 40px 60px; position: relative; border-radius: 5px; background-color: var(--secondary-transpraency); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: auto; margin-left: auto;margin-right: auto; border: 3px var(--border-settings-main) double;}
 .sidebarScrollable-1qPI87+.content-1rPSz4 {
@@ -375,7 +376,7 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 .theme-dark .option-96V44q.selected-rZcOL-:after {background: transparent;}
 .theme-dark .searchOption-zQ-1l6 .answer-1n6g43, .theme-dark .option-96V44q .filter-3Y_im- {color: #333;}
 
-.theme-dark .dividerEnabled-2TTlcf {border-bottom-color: hsla(180, 100%, 61%, 0.2);}
+.theme-dark .dividerEnabled-2TTlcf {border-bottom-color: hsla(0, 0%, 100%, 0.2);}
 .theme-dark .separator-gCa7yv, .theme-dark #bd-settings-sidebar .ui-tab-bar-separator {background-color: hsla(180, 100%, 61%, 0.2); padding: 0;}
 
 /* Changes the time-stamp color */
@@ -486,7 +487,6 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA {background-color: transparent;}
 .theme-dark .searchResultsWrap-2DKFzt, .theme-dark .searchResultsWrap-2DKFzt .channelSeparator-1X1FuH .channelName-1QajIf {background-color: #0E2F44;}
 .theme-dark .searchResult-3pzFAB:before, .theme-dark .searchResult-3pzFAB:after {background-image: linear-gradient(0deg,hsla(0,0%,95%,0),#0E2F44);}
-.theme-dark .children-19S4PO:after {background: transparent;}
 .theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {border: transparent;}
 
 ::placeholder {color: lightgray !important;}

@@ -342,8 +342,8 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 .clickable-1JJAn8.container-2Pjhx-:active, .selected-aXhQR6.container-2Pjhx- {background-color: var(--user-member-select) !important; text-shadow: 1px 1px #000 !important;}
 
 /* Changes the more users options color */
-.contextMenu-HLZMGh, .container-3cGP6G, .quickSelectPopout-X1hvgV, .theme-dark .popout-2sKjHu {padding: 0px; background: var(--main-dropdown);}
-.clickable-11uBi-:hover, .selected-BYpGTS, .quickSelectPopoutOption-opKBx9:hover, .optionLabel-2CkCZx, .optionNormal-12VR9V:hover {background: var(--main-dropdown-hover);}
+.contextMenu-HLZMGh, .container-3cGP6G, .quickSelectPopout-X1hvgV, .theme-dark .popout-2sKjHu, .css-1aymab5-option {padding: 0px; background: var(--main-dropdown);}
+.clickable-11uBi-:hover, .selected-BYpGTS, .quickSelectPopoutOption-opKBx9:hover, .optionLabel-2CkCZx, .optionNormal-12VR9V:hover, .css-1gnr91b-option, .css-12o7ek3-option {background: var(--main-dropdown-hover);}
 
 .theme-dark .item-1Yvehc {color: #fff;} 
 .item-2J1YMK {margin: 0px;}

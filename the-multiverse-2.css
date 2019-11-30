@@ -1,9 +1,9 @@
-/* The Multiverse 2 - v2.6.18 */ 
+/* The Multiverse 2 - v2.7.18 */ 
 /*                    1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 2.6.18";
+        --Update-Text: "Version 2.7.18";
 	--revision: "4";
 	--creator-short: "SrS";
 }
@@ -150,7 +150,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .theme-dark .card-FDVird:before {background: rgba(32,34,37,.3);}
 
 .contentWrapper-3WC1ID, .scroller-3__pG8, .slideBody-2nMrnU, .theme-dark .quickswitcher-3JagVE, .theme-dark .root-1gCeng, .theme-dark .footer-3rDWdC, .theme-dark .footer-3mqk7D, .theme-dark .modal-yWgWj-, .theme-dark .uploadModal-2ifh8j {background: var(--popout-control-dialog) !important;}
-.tierBody-16Chc9, .tierBody-x9kBBp, .perk-2WeBWW, .tierMarkerBackground-3q29am, .ctaBar-2UsjF2, .body-2iXqIL, .footer-2aTx0s {background: var(--popout-secondary-control-dialog) !important;}
+.tierBody-16Chc9, .tierBody-x9kBBp, .perk-2WeBWW, .tierMarkerBackground-3q29am, .ctaBar-2UsjF2, .body-2iXqIL, .footer-2aTx0s, .tiles-2aXG_k {background: var(--popout-secondary-control-dialog) !important;}
 
 .bd-backdrop {background: transparent;}
 .bd-modal-wrapper .bd-modal-body, bd-modal-wrapper .footer {background: var(--popout-control-dialog);}
@@ -176,7 +176,6 @@ svg[name="DiscordWordmark"] {display: none;}
 .horizontal-1ae9ci>.flexChild-faoVW3:first-child {color: #f6f6f6;}
 .notches-1sAcEM {background-image: none !important;}
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {background: transparent;}
-.userSettingsVoice-iwdUCU .media-engine-video {background: transparent;}
 #pubslayer .ui-tab-bar-item.selected {background-color: var(--settings-member-select) !important;}
 #pubslayer .ui-tab-bar-item:hover {background-color: var(--settings-member-hover) !important;}
 .lookFilled-1Gx00P.colorBrand-3pXr91, .lookInverted-2D7oAl.colorBrand-3pXr91 {margin-left: 18px;}
@@ -204,7 +203,7 @@ display: block;
 border: 3px double rgba(74,107,26,1);
 color: rgba(74,107,26,1);
 border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. Experminting with --secondary-transparecny customization option</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20"></text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. Now happy with the new changes to the --secondary-transparecny customization flag</text><text y="68" style="font-size: 1em;" x="20">2. Improved the voice/video call dialog</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20"></text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
@@ -275,7 +274,8 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 .theme-dark .wrapper-29NfPK {background: var(--secondary-transpraency);}
 .sidebar-2K8pFh {border-radius: 0px !important;}
 .container-2Rl01u, .panels-j1Uci_, .container-1r6BKw.themed-ANHk51, .searchBar-6Kv8R2 {background: var(--secondary-transpraency); opacity: .76;}
-.video-1FfuMD {background: rgba(0,0,0,.2); outline: 2px solid springgreen; border-left: 2px solid springgreen;}
+.video-1FfuMD {background: var(--secondary-transpraency); border-bottom: 2px solid var(--border-libary-friends-main); border-left: 2px solid var(--border-libary-friends-main)}
+.video-1kutKI {background: transparent;}
 .contentColumnDefault-1VQkGM {padding: 60px 40px 60px; position: relative; border-radius: 5px; background-color: var(--secondary-transpraency); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: auto; margin-left: auto;margin-right: auto; border: 3px var(--border-settings-main) double;}
 .sidebarScrollable-1qPI87+.content-1rPSz4 {
     padding: 60px 40px 60px !important;
@@ -341,31 +341,21 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 .clickable-1JJAn8.container-2Pjhx-:active, .selected-aXhQR6.container-2Pjhx- {background-color: var(--user-member-select) !important; text-shadow: 1px 1px #000 !important;}
 
 /* Changes the more users options color */
-.contextMenu-HLZMGh, .container-3cGP6G {padding: 0px; background: var(--main-dropdown);}
-.clickable-11uBi-:hover, .selected-BYpGTS {background: var(--main-dropdown-hover);}
+.contextMenu-HLZMGh, .container-3cGP6G, .quickSelectPopout-X1hvgV {padding: 0px; background: var(--main-dropdown);}
+.clickable-11uBi-:hover, .selected-BYpGTS, .quickSelectPopoutOption-opKBx9:hover {background: var(--main-dropdown-hover);}
 
 .theme-dark .item-1Yvehc {color: #fff;} 
 .item-2J1YMK {margin: 0px;}
 
 .helper-2c73HK {text-shadow: 1px 1px; font-size: 12px;}
 
-.optionLabel-2CkCZx {background: var(--main-dropdown);}
-.optionActive-KkAdqq, .optionNormal-12VR9V:hover {background: var(--main-dropdown-hover) !important;}
-
 .icon-2doZ3q, .iconContainer-2ZxvJk {filter: brightness(0.25);}
 .itemBase-1Qj4z6:hover {background: var(--main-dropdown-hover);}
-.theme-dark .item-1GzJrl.invite-271nFU {color: #304db5;}
-
 .menu-Sp6bN1 {padding: 4px 0px; background: var(--main-dropdown);}
 .itemBase-1Qj4z6 {margin: 0px;}
 .separator-2zcjq8 {border-bottom: none;}
 
 .theme-dark .item-1Yvehc.disabled-2xniQf, .theme-dark .item-1Yvehc.disabled-2xniQf:hover {color: #33b;}
-
-.search .DraftEditor-root .public-DraftStyleDefault-block span {background: var(--main-dropdown);}
-
-.css-1gnr91b-option, .css-12o7ek3-option {background: var(--main-dropdown-hover);}
-.css-1aymab5-option {background: var(--main-dropdown);}
 
 .theme-dark .container-3ayLPN {background: var(--main-dropdown);}
 .theme-dark .item-1GzJrl.invite-271nFU {color: #304db5 !important;}

@@ -9,7 +9,7 @@ My Own Themes:
 - The Mutliverse | An photo that an austromener took relaviling mulitplie universes in the stars
 - The Multiverse 2 | An photo that an austromener took relaviling mulitplie universes in the stars
 
-Commissions:
+Commissions (cannot under any circumstance be downloaded):
 - Kill La Kill | A blood like theme from the anime Kill La Kill (depected, commissioner left)
 
 ## Guidelines!

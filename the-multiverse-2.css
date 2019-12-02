@@ -3,7 +3,7 @@
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 2.7.18";
+        --Update-Text: "Version 2.8.18";
 	--revision: "4";
 	--creator-short: "SrS";
 }
@@ -101,35 +101,6 @@ svg[name="DiscordWordmark"] {display: none;}
   }
 }
 
-@keyframes cursor {
-	0% {cursor: alias;}
-	4% {cursor: all-scroll;}
-	8% {cursor: cell;}
-	12% {cursor: col-resize;}
-	16% {cursor: copy;}
-	20% {cursor: crosshair;}
-	24% {cursor: ew-resize;}
-	28% {cursor: help;}
-	32% {cursor: n-resize;}
-	36% {cursor: nesw-resize;}
-	40% {cursor: nw-resize;}
-	44% {cursor: se-resize;}
-	48% {cursor: row-resize;}
-	52% {cursor: none;}
-	56% {cursor: not-allowed;}
-	60% {cursor: pointer;}
-	64% {cursor: progress;}
-	68% {cursor: wait;}
-	72% {cursor: text;}
-	76% {cursor: vertical-text;}
-	80% {cursor: zoom-in;}
-	84% {cursor: zoom-out;}
-	88% {cursor: grab;}
-	92% {cursor: grabbing;}
-	96% {cursor: context-menu;}
-	100% {cursor: auto;}
-}
-
 /* Stylizes the activity tab */
 .theme-dark .outer-2IVh5n, .theme-dark .recentlyPlayedContainer-2F3MqS {background: var(--store-item-background) !important;}
 .title-pqKcDf, .da-formTitleInCard {color: var(--activity-heading-2) !important;}
@@ -205,7 +176,7 @@ display: block;
 border: 3px double rgba(74,107,26,1);
 color: rgba(74,107,26,1);
 border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. Now happy with the new changes to the --secondary-transparecny customization flag</text><text y="68" style="font-size: 1em;" x="20">2. Improved the voice/video call dialog</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20"></text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. Removed Easter Egg in Theme Information and updated it to text color change</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20"></text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
@@ -223,7 +194,7 @@ animation: color-change 20s infinite linear;
     padding: 2px 10px;
     white-space: pre-line;
     color: lime;
-    animation: cursor 24s infinite linear;
+    animation: color-change 20s infinite linear;
 }
 
 /* Styles the toast notifications */

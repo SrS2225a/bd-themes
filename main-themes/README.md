@@ -12,7 +12,3 @@ My Own Themes:
 Commissions:
 
 ## Guidelines!
-
-
-## TO DO
-For extra protection, private all themes and create a plugin for BD that logins to github and integrates with KSS within the discord client. Anyones github account added to the source code has access to the theme.

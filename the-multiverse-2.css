@@ -83,7 +83,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .name-3_Dsmg {color: white !important;}
 .unread-3zKkbm:after {content: ">"; margin-left: 2px; color: var(--main-unread); display: block !important;}
 
-.keybind-KpFkfr {font-size: 0px;}
+.keybind-KpFkfr {color: lime; animation: color-change 12s infinite linear;}
 .theme-dark .subtitle-Qv5s8c {color: #1db954;}
 
 .theme-dark .base-gE7OpD span {color: lime; animation: color-change 12s infinite linear;}

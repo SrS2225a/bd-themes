@@ -52,31 +52,59 @@
 }
  
 .layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(17):before {
-    content: '\E7FC'
+    content: '\E7FC';
 }
  
 .layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(15):before {
-    content: '\EA8F'
+    content: '\EA8F';
 }
  
 .layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(16):before {
-    content: '\EC31'
+    content: '\EC31';
 }
  
  
 .layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(13):before {
-    content: '\EA0C'
+    content: '\EA0C';
 }
  
 .layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(14):before {
-    content: '\F5ED'
+    content: '\F5ED';
 }
  
  
 .layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(26):before {
-    content: '\F0E3'
+    content: '\F0E3';
 }
  
 layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(29):before {
-    content: '\E72B'
+    content: '\E72B';
+}
+
+.layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(8):before {
+    contnet: '\EB52';
+}
+
+.layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(9):before {
+    content: '\E74A';
+}
+
+.layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(6):before {
+    content: '\E719';
+}
+
+.layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(5):before {
+    contnet: '\EC05';
+}
+
+.layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(4):before {
+    contnet: '\ED5C';
+}
+
+.layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(3):before {
+    content: '\F552'
+}
+
+.layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(2):before {
+    content: '\E910'
 }

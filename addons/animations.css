@@ -1,0 +1,21 @@
+/* Animations */
+@keyframes color-change {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
+/* Set your code to 'display: none' first */
+@keyframes fade-in {
+  from {
+    display: block;
+    opacity: 0;
+  }
+  to {
+    display: block;
+    opacity: 1;
+  }
+}

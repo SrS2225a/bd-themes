@@ -627,6 +627,24 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .sb-menu-label {padding-bottom: 10px;}
 .vgr-friend-item:hover {background-color: rgba(255, 255, 255, 0.2);}
 
+.bda-slist::before  {
+    content: 'Thank you for using The Multiverse 2! If you ever need help, want a custom theme, or just to share feeback, feel free to message the creator SrS#8614 via dm. Enjoy!';
+    word-wrap: break-word;
+    padding: 12px;
+    display: block;
+    color: #1a66ff;
+    border: 1px solid #0080ff !important;
+    background: rgba(128, 0, 255, .3);
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 17px;
+    padding-left: 120px;
+    background-image: url(https://images.vexels.com/media/users/3/143372/isolated/lists/6e633a235ea0d523078e667b9f84f15b-blue-check-mark.png);
+    background-size: 80px;
+    background-position: 20px 50%;
+    background-repeat: no-repeat;
+}
+
 /*
 		                          _
                         .-.      / \        _

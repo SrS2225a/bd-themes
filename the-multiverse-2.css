@@ -3,8 +3,8 @@
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 
 /* Adds in imports */
-@import url("https://raw.githack.com/SrS2225a/bd-themes/master/theme-imports/animations.css");
-@import url("https://raw.githack.com/SrS2225a/bd-themes/master/theme-imports/setting-icons.css");
+@import url("https://raw.githack.com/SrS2225a/bd-themes/master/addons/animations.css");
+@import url("https://raw.githack.com/SrS2225a/bd-themes/master/addons/setting-icons.css");
 
 :root {
         --Theme-Variant: "The Multiverse 2";

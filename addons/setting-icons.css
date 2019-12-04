@@ -90,6 +90,10 @@
     content: '\E74A';
 }
 
+.layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(10):before {
+    content: '\EC24'   
+}
+
 .layer-3QrUeG[aria-label=USER_SETTINGS] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-child(6):before {
     content: '\E719';
 }

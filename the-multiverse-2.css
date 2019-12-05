@@ -1,4 +1,4 @@
-/* The Multiverse 2 - v2.8.18 */ 
+/* The Multiverse 2 - v2.9.18 */ 
 /*                    1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 
@@ -7,7 +7,7 @@
 
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 2.8.18";
+        --Update-Text: "Version 2.9.18";
 	--revision: "4";
 	--creator-short: "SrS";
 }
@@ -170,7 +170,7 @@ display: block;
 border: 3px double rgba(74,107,26,1);
 color: rgba(74,107,26,1);
 border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. Removed Easter Egg in Theme Information and updated it to text color change</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20">2. Planning on adding other animations</text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. restructured home menu</text><text y="68" style="font-size: 1em;" x="20">2. Added info on how to send feedback</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20">2. Planning on adding other animations</text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
@@ -334,6 +334,28 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 
 .theme-dark .dividerEnabled-2TTlcf {border-bottom-color: hsla(0, 0%, 100%, 0.2);}
 .theme-dark .separator-gCa7yv, .theme-dark #bd-settings-sidebar .ui-tab-bar-separator {background-color: hsla(180, 100%, 61%, 0.2); padding: 0;}
+
+/* Restructures Elements */
+#app-mount .channel-2QD9_O[href="/activity"] .layout-2DM8Md, #app-mount .channel-2QD9_O[href="/channels/@me"]:not([href="/channels/@me/"]) .layout-2DM8Md, #app-mount .channel-2QD9_O[href="/library"] .layout-2DM8Md, #app-mount .channel-2QD9_O[href="/store"] .layout-2DM8Md {
+    flex-direction: column;
+    height: 50px;
+}
+
+#app-mount .channel-2QD9_O[href="/activity"], #app-mount .channel-2QD9_O[href="/channels/@me"]:not([href="/channels/@me/"]), #app-mount .channel-2QD9_O[href="/library"], #app-mount .channel-2QD9_O[href="/store"] {
+    display: inline-block;
+    margin-top: 4px;
+    padding: initial;
+    width: 22%;
+    margin-left: 5px;   
+}
+
+#app-mount .channel-2QD9_O[href="/activity"] .avatar-3uk_u9, #app-mount .channel-2QD9_O[href="/channels/@me"]:not([href="/channels/@me/"]) .avatar-3uk_u9, #app-mount .channel-2QD9_O[href="/library"] .avatar-3uk_u9, #app-mount .channel-2QD9_O[href="/store"] .avatar-3uk_u9 {
+    margin: 0;    
+}
+
+#app-mount .channel-2QD9_O[href="/activity"] .layout-2DM8Md .name-uJV0GL, #app-mount .channel-2QD9_O[href="/channels/@me"]:not([href="/channels/@me/"]) .layout-2DM8Md .name-uJV0GL, #app-mount .channel-2QD9_O[href="/library"] .layout-2DM8Md .name-uJV0GL, #app-mount .channel-2QD9_O[href="/store"] .layout-2DM8Md .name-uJV0GL {
+    font-size: 14px;    
+}
 
 /* Changes the time-stamp color */
 .theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: var(--main-timestamp) !important;}
@@ -627,7 +649,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .vgr-friend-item:hover {background-color: rgba(255, 255, 255, 0.2);}
 
 .bda-slist::before  {
-    content: 'Thank you for using The Multiverse 2! If you ever need help, want a custom theme, or just to share feeback, feel free to message the creator SrS#8614 via dm. Enjoy!';
+    content: 'Thank you for using The Multiverse 2! If you ever need help, want a custom theme, or just to share feeback, feel free to message the creator SrS#8614 via dm, or create a issue at 'github.com/SrS2225a/bd-themes/issues'. Enjoy!';
     word-wrap: break-word;
     padding: 12px;
     display: block;

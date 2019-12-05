@@ -222,12 +222,11 @@ animation: color-change 20s infinite linear;
 .notice-2FJMB4, #pluginNotice {
     position: fixed;
     margin-top: 8px;
-    left: 50%;
+    left: calc(50% - 8em);
     display: grid;
     border-radius: 4px;
     font-size: initial;
     z-index: 9999;
-    margin-left: -14em;
 }
 
 .button-1MICoQ {position: unset; margin-left: 0; margin-bottom: 8px;}

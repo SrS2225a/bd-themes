@@ -112,7 +112,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .title-1rUb9I {color: var(--store-small-heading-main);}
 .theme-dark .description-1RsfgZ {background: var(--store-item-background);}
 
-.body-2lagau {width: -webkit-fill-available;}
+.body-2lagau {width: -webkit-fill-available; max-width: -webkit-fill-available;}
 
 .pageControl-1aUwvK {flex-direction: column;  background: var(--background-modifier-accent);}
 

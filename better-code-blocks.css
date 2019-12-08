@@ -1,1 +1,590 @@
-better code blocks
+*/ Shows the corresponding language's syntax highlighting that was used on the code block */
+
+@charset "UTF-8";
+#app-mount .markup-2BOw-j .hljs:before {
+  pointer-events: none;
+  display: var(--code-block-lang);
+  margin: 0 0 10px 0;
+  font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; }
+#app-mount .markup-2BOw-j .hljs[class~="1c" i]:before {
+  content: "1c"; }
+#app-mount .markup-2BOw-j .hljs[class~="abnf" i]:before {
+  content: "ABNF"; }
+#app-mount .markup-2BOw-j .hljs[class~="accesslog" i]:before {
+  content: "Access Log"; }
+#app-mount .markup-2BOw-j .hljs[class~="actionscript" i]:before {
+  content: "ActionScript"; }
+#app-mount .markup-2BOw-j .hljs[class~="as" i]:before {
+  content: "ActionScript"; }
+#app-mount .markup-2BOw-j .hljs[class~="ada" i]:before {
+  content: "Ada"; }
+#app-mount .markup-2BOw-j .hljs[class~="apache" i]:before {
+  content: "Apache"; }
+#app-mount .markup-2BOw-j .hljs[class~="apacheconf" i]:before {
+  content: "Apache"; }
+#app-mount .markup-2BOw-j .hljs[class~="applescript" i]:before {
+  content: "Applescript"; }
+#app-mount .markup-2BOw-j .hljs[class~="osascript" i]:before {
+  content: "Applescript"; }
+#app-mount .markup-2BOw-j .hljs[class~="arduino" i]:before {
+  content: "Arduino"; }
+#app-mount .markup-2BOw-j .hljs[class~="armasm" i]:before {
+  content: "ARM Assembly"; }
+#app-mount .markup-2BOw-j .hljs[class~="arm" i]:before {
+  content: "ARM Assembly"; }
+#app-mount .markup-2BOw-j .hljs[class~="asciidoc" i]:before {
+  content: "AsciiDoc"; }
+#app-mount .markup-2BOw-j .hljs[class~="adoc" i]:before {
+  content: "AsciiDoc"; }
+#app-mount .markup-2BOw-j .hljs[class~="aspectj" i]:before {
+  content: "AspectJ"; }
+#app-mount .markup-2BOw-j .hljs[class~="atom" i]:before {
+  content: "Atom Feed (XML)"; }
+#app-mount .markup-2BOw-j .hljs[class~="autohotkey" i]:before {
+  content: "AutoHotkey"; }
+#app-mount .markup-2BOw-j .hljs[class~="autoit" i]:before {
+  content: "AutoIt"; }
+#app-mount .markup-2BOw-j .hljs[class~="avrasm" i]:before {
+  content: "AVR Assembler"; }
+#app-mount .markup-2BOw-j .hljs[class~="awk" i]:before {
+  content: "Awk"; }
+#app-mount .markup-2BOw-j .hljs[class~="mawk" i]:before {
+  content: "Awk"; }
+#app-mount .markup-2BOw-j .hljs[class~="nawk" i]:before {
+  content: "Awk"; }
+#app-mount .markup-2BOw-j .hljs[class~="gawk" i]:before {
+  content: "Awk"; }
+#app-mount .markup-2BOw-j .hljs[class~="axapta" i]:before {
+  content: "Axapta"; }
+#app-mount .markup-2BOw-j .hljs[class~="bash" i]:before {
+  content: "Bash"; }
+#app-mount .markup-2BOw-j .hljs[class~="sh" i]:before {
+  content: "Bash"; }
+#app-mount .markup-2BOw-j .hljs[class~="zsh" i]:before {
+  content: "Bash"; }
+#app-mount .markup-2BOw-j .hljs[class~="basic" i]:before {
+  content: "Basic"; }
+#app-mount .markup-2BOw-j .hljs[class~="dos" i]:before {
+  content: "Batch"; }
+#app-mount .markup-2BOw-j .hljs[class~="bat" i]:before {
+  content: "Batch"; }
+#app-mount .markup-2BOw-j .hljs[class~="cmd" i]:before {
+  content: "Batch"; }
+#app-mount .markup-2BOw-j .hljs[class~="bnf" i]:before {
+  content: "BNF"; }
+#app-mount .markup-2BOw-j .hljs[class~="brainfuck" i]:before {
+  content: "Brainfuck"; }
+#app-mount .markup-2BOw-j .hljs[class~="c" i]:before {
+  content: "C/C++"; }
+#app-mount .markup-2BOw-j .hljs[class~="cc" i]:before {
+  content: "C/C++"; }
+#app-mount .markup-2BOw-j .hljs[class~="cpp" i]:before {
+  content: "C/C++"; }
+#app-mount .markup-2BOw-j .hljs[class~="h" i]:before {
+  content: "C/C++"; }
+#app-mount .markup-2BOw-j .hljs[class~="hpp" i]:before {
+  content: "C/C++"; }
+#app-mount .markup-2BOw-j .hljs[class~="cs" i]:before {
+  content: "C#"; }
+#app-mount .markup-2BOw-j .hljs[class~="csharp" i]:before {
+  content: "C#"; }
+#app-mount .markup-2BOw-j .hljs[class~="cal" i]:before {
+  content: "CAL"; }
+#app-mount .markup-2BOw-j .hljs[class~="capnproto" i]:before {
+  content: "Cap'n Proto"; }
+#app-mount .markup-2BOw-j .hljs[class~="capnp" i]:before {
+  content: "Cap'n Proto"; }
+#app-mount .markup-2BOw-j .hljs[class~="ceylon" i]:before {
+  content: "Ceylon"; }
+#app-mount .markup-2BOw-j .hljs[class~="clean" i]:before {
+  content: "Clean"; }
+#app-mount .markup-2BOw-j .hljs[class~="clojure" i]:before {
+  content: "Clojure"; }
+#app-mount .markup-2BOw-j .hljs[class~="clj" i]:before {
+  content: "Clojure"; }
+#app-mount .markup-2BOw-j .hljs[class~="clojure-repl" i]:before {
+  content: "Clojure REPL"; }
+#app-mount .markup-2BOw-j .hljs[class~="cmake" i]:before {
+  content: "CMake"; }
+#app-mount .markup-2BOw-j .hljs[class~="coffeescript" i]:before {
+  content: "CoffeeScript"; }
+#app-mount .markup-2BOw-j .hljs[class~="coffee" i]:before {
+  content: "CoffeeScript"; }
+#app-mount .markup-2BOw-j .hljs[class~="cson" i]:before {
+  content: "CoffeeScript"; }
+#app-mount .markup-2BOw-j .hljs[class~="iced" i]:before {
+  content: "CoffeeScript"; }
+#app-mount .markup-2BOw-j .hljs[class~="coq" i]:before {
+  content: "Coq"; }
+#app-mount .markup-2BOw-j .hljs[class~="cos" i]:before {
+  content: "Caché Object Script"; }
+#app-mount .markup-2BOw-j .hljs[class~="cls" i]:before {
+  content: "Caché Object Script"; }
+#app-mount .markup-2BOw-j .hljs[class~="podspec" i]:before {
+  content: "CocoaPod"; }
+#app-mount .markup-2BOw-j .hljs[class~="crmsh" i]:before {
+  content: "crmsh"; }
+#app-mount .markup-2BOw-j .hljs[class~="crm" i]:before {
+  content: "crmsh"; }
+#app-mount .markup-2BOw-j .hljs[class~="pcmk" i]:before {
+  content: "crmsh"; }
+#app-mount .markup-2BOw-j .hljs[class~="crystal" i]:before {
+  content: "Crystal"; }
+#app-mount .markup-2BOw-j .hljs[class~="csp" i]:before {
+  content: "CSP"; }
+#app-mount .markup-2BOw-j .hljs[class~="css" i]:before {
+  content: "CSS"; }
+#app-mount .markup-2BOw-j .hljs[class~="d" i]:before {
+  content: "D"; }
+#app-mount .markup-2BOw-j .hljs[class~="dart" i]:before {
+  content: "Dart"; }
+#app-mount .markup-2BOw-j .hljs[class~="delphi" i]:before {
+  content: "Delphi (Object Pascal)"; }
+#app-mount .markup-2BOw-j .hljs[class~="dfm" i]:before {
+  content: "Delphi (Object Pascal)"; }
+#app-mount .markup-2BOw-j .hljs[class~="dpr" i]:before {
+  content: "Delphi (Object Pascal)"; }
+#app-mount .markup-2BOw-j .hljs[class~="diff" i]:before {
+  content: "Diff"; }
+#app-mount .markup-2BOw-j .hljs[class~="patch" i]:before {
+  content: "Diff"; }
+#app-mount .markup-2BOw-j .hljs[class~="django" i]:before {
+  content: "Django"; }
+#app-mount .markup-2BOw-j .hljs[class~="jinja" i]:before {
+  content: "Django"; }
+#app-mount .markup-2BOw-j .hljs[class~="dns" i]:before {
+  content: "DNS Zone File"; }
+#app-mount .markup-2BOw-j .hljs[class~="dockerfile" i]:before {
+  content: "Dockerfile"; }
+#app-mount .markup-2BOw-j .hljs[class~="docker" i]:before {
+  content: "Dockerfile"; }
+#app-mount .markup-2BOw-j .hljs[class~="dsconfig" i]:before {
+  content: "dsconfig"; }
+#app-mount .markup-2BOw-j .hljs[class~="dts" i]:before {
+  content: "Device Tree"; }
+#app-mount .markup-2BOw-j .hljs[class~="dust" i]:before {
+  content: "Dust"; }
+#app-mount .markup-2BOw-j .hljs[class~="ebnf" i]:before {
+  content: "EBNF"; }
+#app-mount .markup-2BOw-j .hljs[class~="elixir" i]:before {
+  content: "Elixir"; }
+#app-mount .markup-2BOw-j .hljs[class~="elm" i]:before {
+  content: "Elm"; }
+#app-mount .markup-2BOw-j .hljs[class~="erb" i]:before {
+  content: "ERB"; }
+#app-mount .markup-2BOw-j .hljs[class~="erlang" i]:before {
+  content: "Erlang"; }
+#app-mount .markup-2BOw-j .hljs[class~="erl" i]:before {
+  content: "Erlang"; }
+#app-mount .markup-2BOw-j .hljs[class~="erlang-repl" i]:before {
+  content: "Erlang REPL"; }
+#app-mount .markup-2BOw-j .hljs[class~="excel" i]:before {
+  content: "Excel"; }
+#app-mount .markup-2BOw-j .hljs[class~="xls" i]:before {
+  content: "Excel"; }
+#app-mount .markup-2BOw-j .hljs[class~="xlsx" i]:before {
+  content: "Excel"; }
+#app-mount .markup-2BOw-j .hljs[class~="fs" i]:before {
+  content: "F#"; }
+#app-mount .markup-2BOw-j .hljs[class~="fsharp" i]:before {
+  content: "F#"; }
+#app-mount .markup-2BOw-j .hljs[class~="fix" i]:before {
+  content: "Fix"; }
+#app-mount .markup-2BOw-j .hljs[class~="flix" i]:before {
+  content: "Flix"; }
+#app-mount .markup-2BOw-j .hljs[class~="fortran" i]:before {
+  content: "Fortran"; }
+#app-mount .markup-2BOw-j .hljs[class~="f90" i]:before {
+  content: "Fortran"; }
+#app-mount .markup-2BOw-j .hljs[class~="f95" i]:before {
+  content: "Fortran"; }
+#app-mount .markup-2BOw-j .hljs[class~="gams" i]:before {
+  content: "GAMS"; }
+#app-mount .markup-2BOw-j .hljs[class~="gms" i]:before {
+  content: "GAMS"; }
+#app-mount .markup-2BOw-j .hljs[class~="gauss" i]:before {
+  content: "Gauss"; }
+#app-mount .markup-2BOw-j .hljs[class~="gss" i]:before {
+  content: "Gauss"; }
+#app-mount .markup-2BOw-j .hljs[class~="gcode" i]:before {
+  content: "G-code"; }
+#app-mount .markup-2BOw-j .hljs[class~="nc" i]:before {
+  content: "G-code"; }
+#app-mount .markup-2BOw-j .hljs[class~="gherkin" i]:before {
+  content: "Gherkin"; }
+#app-mount .markup-2BOw-j .hljs[class~="glsl" i]:before {
+  content: "GLSL"; }
+#app-mount .markup-2BOw-j .hljs[class~="go" i]:before {
+  content: "Go"; }
+#app-mount .markup-2BOw-j .hljs[class~="golang" i]:before {
+  content: "Go"; }
+#app-mount .markup-2BOw-j .hljs[class~="golo" i]:before {
+  content: "Golo"; }
+#app-mount .markup-2BOw-j .hljs[class~="gololang" i]:before {
+  content: "Golo"; }
+#app-mount .markup-2BOw-j .hljs[class~="gradle" i]:before {
+  content: "Gradle"; }
+#app-mount .markup-2BOw-j .hljs[class~="groovy" i]:before {
+  content: "Groovy"; }
+#app-mount .markup-2BOw-j .hljs[class~="haml" i]:before {
+  content: "Haml"; }
+#app-mount .markup-2BOw-j .hljs[class~="handlebars" i]:before {
+  content: "Handlebars"; }
+#app-mount .markup-2BOw-j .hljs[class~="hbs" i]:before {
+  content: "Handlebars"; }
+#app-mount .markup-2BOw-j .hljs[class~="haskell" i]:before {
+  content: "Haskell"; }
+#app-mount .markup-2BOw-j .hljs[class~="hs" i]:before {
+  content: "Haskell"; }
+#app-mount .markup-2BOw-j .hljs[class~="haxe" i]:before {
+  content: "Haxe"; }
+#app-mount .markup-2BOw-j .hljs[class~="hx" i]:before {
+  content: "Haxe"; }
+#app-mount .markup-2BOw-j .hljs[class~="hsp" i]:before {
+  content: "HSP"; }
+#app-mount .markup-2BOw-j .hljs[class~="html" i]:before {
+  content: "HTML"; }
+#app-mount .markup-2BOw-j .hljs[class~="htmlbars" i]:before {
+  content: "HTMLBars"; }
+#app-mount .markup-2BOw-j .hljs[class~="http" i]:before {
+  content: "HTTP"; }
+#app-mount .markup-2BOw-j .hljs[class~="https" i]:before {
+  content: "HTTPS"; }
+#app-mount .markup-2BOw-j .hljs[class~="hy" i]:before {
+  content: "Hy"; }
+#app-mount .markup-2BOw-j .hljs[class~="hylang" i]:before {
+  content: "Hy"; }
+#app-mount .markup-2BOw-j .hljs[class~="inform7" i]:before {
+  content: "Inform7"; }
+#app-mount .markup-2BOw-j .hljs[class~="i7" i]:before {
+  content: "Inform7"; }
+#app-mount .markup-2BOw-j .hljs[class~="ini" i]:before {
+  content: "Ini"; }
+#app-mount .markup-2BOw-j .hljs[class~="irpf90" i]:before {
+  content: "IRPF90"; }
+#app-mount .markup-2BOw-j .hljs[class~="java" i]:before {
+  content: "Java"; }
+#app-mount .markup-2BOw-j .hljs[class~="jsp" i]:before {
+  content: "Java"; }
+#app-mount .markup-2BOw-j .hljs[class~="javascript" i]:before {
+  content: "JavaScript (Babel)"; }
+#app-mount .markup-2BOw-j .hljs[class~="js" i]:before {
+  content: "JavaScript (Babel)"; }
+#app-mount .markup-2BOw-j .hljs[class~="jsx" i]:before {
+  content: "JavaScript (Babel)"; }
+#app-mount .markup-2BOw-j .hljs[class~="xjb" i]:before {
+  content: "JAXB (XML)"; }
+#app-mount .markup-2BOw-j .hljs[class~="jboss-cli" i]:before {
+  content: "JBoss CLI"; }
+#app-mount .markup-2BOw-j .hljs[class~="json" i]:before {
+  content: "JSON"; }
+#app-mount .markup-2BOw-j .hljs[class~="julia" i]:before {
+  content: "Julia"; }
+#app-mount .markup-2BOw-j .hljs[class~="julia-repl" i]:before {
+  content: "Julia REPL"; }
+#app-mount .markup-2BOw-j .hljs[class~="kotlin" i]:before {
+  content: "Kotlin"; }
+#app-mount .markup-2BOw-j .hljs[class~="lasso" i]:before {
+  content: "Lasso"; }
+#app-mount .markup-2BOw-j .hljs[class~="lassoscript" i]:before {
+  content: "Lasso"; }
+#app-mount .markup-2BOw-j .hljs[class~="ls" i]:before {
+  content: "Lasso"; }
+#app-mount .markup-2BOw-j .hljs[class~="ldif" i]:before {
+  content: "LDIF"; }
+#app-mount .markup-2BOw-j .hljs[class~="leaf" i]:before {
+  content: "Leaf"; }
+#app-mount .markup-2BOw-j .hljs[class~="less" i]:before {
+  content: "Less"; }
+#app-mount .markup-2BOw-j .hljs[class~="lisp" i]:before {
+  content: "Lisp"; }
+#app-mount .markup-2BOw-j .hljs[class~="livecodeserver" i]:before {
+  content: "LiveCode Server"; }
+#app-mount .markup-2BOw-j .hljs[class~="livescript" i]:before {
+  content: "LiveScript"; }
+#app-mount .markup-2BOw-j .hljs[class~="ls" i]:before {
+  content: "LiveScript"; }
+#app-mount .markup-2BOw-j .hljs[class~="llvm" i]:before {
+  content: "LLVM IR"; }
+#app-mount .markup-2BOw-j .hljs[class~="lsl" i]:before {
+  content: "LSL"; }
+#app-mount .markup-2BOw-j .hljs[class~="lua" i]:before {
+  content: "Lua"; }
+#app-mount .markup-2BOw-j .hljs[class~="makefile" i]:before {
+  content: "Makefile"; }
+#app-mount .markup-2BOw-j .hljs[class~="mk" i]:before {
+  content: "Makefile"; }
+#app-mount .markup-2BOw-j .hljs[class~="mak" i]:before {
+  content: "Makefile"; }
+#app-mount .markup-2BOw-j .hljs[class~="markdown" i]:before {
+  content: "Markdown"; }
+#app-mount .markup-2BOw-j .hljs[class~="md" i]:before {
+  content: "Markdown"; }
+#app-mount .markup-2BOw-j .hljs[class~="mkd" i]:before {
+  content: "Markdown"; }
+#app-mount .markup-2BOw-j .hljs[class~="mkdown" i]:before {
+  content: "Markdown"; }
+#app-mount .markup-2BOw-j .hljs[class~="mathematica" i]:before {
+  content: "Mathematica"; }
+#app-mount .markup-2BOw-j .hljs[class~="mma" i]:before {
+  content: "Mathematica"; }
+#app-mount .markup-2BOw-j .hljs[class~="matlab" i]:before {
+  content: "MatLab"; }
+#app-mount .markup-2BOw-j .hljs[class~="maxima" i]:before {
+  content: "Maxima"; }
+#app-mount .markup-2BOw-j .hljs[class~="mel" i]:before {
+  content: "MEL"; }
+#app-mount .markup-2BOw-j .hljs[class~="mercury" i]:before {
+  content: "Mercury"; }
+#app-mount .markup-2BOw-j .hljs[class~="mipsasm" i]:before {
+  content: "MISP Assembly"; }
+#app-mount .markup-2BOw-j .hljs[class~="mips" i]:before {
+  content: "MISP Assembly"; }
+#app-mount .markup-2BOw-j .hljs[class~="routeros" i]:before {
+  content: "Microtik RouterOS script"; }
+#app-mount .markup-2BOw-j .hljs[class~="mizar" i]:before {
+  content: "Mizar"; }
+#app-mount .markup-2BOw-j .hljs[class~="mojolicious" i]:before {
+  content: "Mojolicious"; }
+#app-mount .markup-2BOw-j .hljs[class~="monkey" i]:before {
+  content: "Monkey"; }
+#app-mount .markup-2BOw-j .hljs[class~="moonscript" i]:before {
+  content: "MoonScript"; }
+#app-mount .markup-2BOw-j .hljs[class~="moon" i]:before {
+  content: "MoonScript"; }
+#app-mount .markup-2BOw-j .hljs[class~="n1ql" i]:before {
+  content: "N1QL"; }
+#app-mount .markup-2BOw-j .hljs[class~="nginx" i]:before {
+  content: "Nginx"; }
+#app-mount .markup-2BOw-j .hljs[class~="nginxconf" i]:before {
+  content: "Nginx"; }
+#app-mount .markup-2BOw-j .hljs[class~="nimrod" i]:before {
+  content: "Nimrod"; }
+#app-mount .markup-2BOw-j .hljs[class~="nix" i]:before {
+  content: "Nix"; }
+#app-mount .markup-2BOw-j .hljs[class~="nsis" i]:before {
+  content: "NSIS"; }
+#app-mount .markup-2BOw-j .hljs[class~="objectivec" i]:before {
+  content: "Objective-C"; }
+#app-mount .markup-2BOw-j .hljs[class~="objc" i]:before {
+  content: "Objective-C"; }
+#app-mount .markup-2BOw-j .hljs[class~="ocaml" i]:before {
+  content: "OCaml"; }
+#app-mount .markup-2BOw-j .hljs[class~="openscad" i]:before {
+  content: "OpenSCAD"; }
+#app-mount .markup-2BOw-j .hljs[class~="scad" i]:before {
+  content: "OpenSCAD"; }
+#app-mount .markup-2BOw-j .hljs[class~="ruleslanguage" i]:before {
+  content: "Oracle Rules Language"; }
+#app-mount .markup-2BOw-j .hljs[class~="oxygene" i]:before {
+  content: "Oxygene"; }
+#app-mount .markup-2BOw-j .hljs[class~="parser3" i]:before {
+  content: "Parser3"; }
+#app-mount .markup-2BOw-j .hljs[class~="pascal" i]:before {
+  content: "Pascal/Object Pascal"; }
+#app-mount .markup-2BOw-j .hljs[class~="pas" i]:before {
+  content: "Pascal/Object Pascal"; }
+#app-mount .markup-2BOw-j .hljs[class~="freepascal" i]:before {
+  content: "Pascal/Object Pascal"; }
+#app-mount .markup-2BOw-j .hljs[class~="lazarus" i]:before {
+  content: "Pascal/Object Pascal"; }
+#app-mount .markup-2BOw-j .hljs[class~="lfm" i]:before {
+  content: "Pascal/Object Pascal"; }
+#app-mount .markup-2BOw-j .hljs[class~="lpr" i]:before {
+  content: "Pascal/Object Pascal"; }
+#app-mount .markup-2BOw-j .hljs[class~="perl" i]:before {
+  content: "Perl"; }
+#app-mount .markup-2BOw-j .hljs[class~="pl" i]:before {
+  content: "Perl"; }
+#app-mount .markup-2BOw-j .hljs[class~="pm" i]:before {
+  content: "Perl"; }
+#app-mount .markup-2BOw-j .hljs[class~="pf" i]:before {
+  content: "PF"; }
+#app-mount .markup-2BOw-j .hljs[class~="pf.conf" i]:before {
+  content: "PF"; }
+#app-mount .markup-2BOw-j .hljs[class~="php" i]:before {
+  content: "PHP"; }
+#app-mount .markup-2BOw-j .hljs[class~="php3" i]:before {
+  content: "PHP"; }
+#app-mount .markup-2BOw-j .hljs[class~="php4" i]:before {
+  content: "PHP"; }
+#app-mount .markup-2BOw-j .hljs[class~="php5" i]:before {
+  content: "PHP"; }
+#app-mount .markup-2BOw-j .hljs[class~="php6" i]:before {
+  content: "PHP"; }
+#app-mount .markup-2BOw-j .hljs[class~="pony" i]:before {
+  content: "Pony"; }
+#app-mount .markup-2BOw-j .hljs[class~="powershell" i]:before {
+  content: "PowerShell"; }
+#app-mount .markup-2BOw-j .hljs[class~="ps" i]:before {
+  content: "PowerShell"; }
+#app-mount .markup-2BOw-j .hljs[class~="processing" i]:before {
+  content: "Processing"; }
+#app-mount .markup-2BOw-j .hljs[class~="prolog" i]:before {
+  content: "Prolog"; }
+#app-mount .markup-2BOw-j .hljs[class~="plist" i]:before {
+  content: "Property List"; }
+#app-mount .markup-2BOw-j .hljs[class~="protobuf" i]:before {
+  content: "Protocol Buffers"; }
+#app-mount .markup-2BOw-j .hljs[class~="puppet" i]:before {
+  content: "Puppet"; }
+#app-mount .markup-2BOw-j .hljs[class~="pp" i]:before {
+  content: "Puppet"; }
+#app-mount .markup-2BOw-j .hljs[class~="purebasic" i]:before {
+  content: "PureBASIC"; }
+#app-mount .markup-2BOw-j .hljs[class~="python" i]:before {
+  content: "Python"; }
+#app-mount .markup-2BOw-j .hljs[class~="py" i]:before {
+  content: "Python"; }
+#app-mount .markup-2BOw-j .hljs[class~="gyp" i]:before {
+  content: "Python"; }
+#app-mount .markup-2BOw-j .hljs[class~="profile" i]:before {
+  content: "Python profile"; }
+#app-mount .markup-2BOw-j .hljs[class~="q" i]:before {
+  content: "Q"; }
+#app-mount .markup-2BOw-j .hljs[class~="k" i]:before {
+  content: "Q"; }
+#app-mount .markup-2BOw-j .hljs[class~="kdb" i]:before {
+  content: "Q"; }
+#app-mount .markup-2BOw-j .hljs[class~="qml" i]:before {
+  content: "QML"; }
+#app-mount .markup-2BOw-j .hljs[class~="r" i]:before {
+  content: "R"; }
+#app-mount .markup-2BOw-j .hljs[class~="rib" i]:before {
+  content: "RenderMan RIB"; }
+#app-mount .markup-2BOw-j .hljs[class~="rsl" i]:before {
+  content: "RenderMan RSL"; }
+#app-mount .markup-2BOw-j .hljs[class~="roboconf" i]:before {
+  content: "Roboconf"; }
+#app-mount .markup-2BOw-j .hljs[class~="graph" i]:before {
+  content: "Roboconf"; }
+#app-mount .markup-2BOw-j .hljs[class~="instances" i]:before {
+  content: "Roboconf"; }
+#app-mount .markup-2BOw-j .hljs[class~="rss" i]:before {
+  content: "RSS Feed (XML)"; }
+#app-mount .markup-2BOw-j .hljs[class~="ruby" i]:before {
+  content: "Ruby"; }
+#app-mount .markup-2BOw-j .hljs[class~="rb" i]:before {
+  content: "Ruby"; }
+#app-mount .markup-2BOw-j .hljs[class~="thor" i]:before {
+  content: "Thor"; }
+#app-mount .markup-2BOw-j .hljs[class~="irb" i]:before {
+  content: "IRB"; }
+#app-mount .markup-2BOw-j .hljs[class~="gemspec" i]:before {
+  content: "Ruby Gem"; }
+#app-mount .markup-2BOw-j .hljs[class~="rust" i]:before {
+  content: "Rust"; }
+#app-mount .markup-2BOw-j .hljs[class~="rs" i]:before {
+  content: "Rust"; }
+#app-mount .markup-2BOw-j .hljs[class~="scala" i]:before {
+  content: "Scala"; }
+#app-mount .markup-2BOw-j .hljs[class~="scheme" i]:before {
+  content: "Scheme"; }
+#app-mount .markup-2BOw-j .hljs[class~="scilab" i]:before {
+  content: "Scilab"; }
+#app-mount .markup-2BOw-j .hljs[class~="sci" i]:before {
+  content: "Scilab"; }
+#app-mount .markup-2BOw-j .hljs[class~="scss" i]:before {
+  content: "SCSS"; }
+#app-mount .markup-2BOw-j .hljs[class~="shell" i]:before {
+  content: "Shell"; }
+#app-mount .markup-2BOw-j .hljs[class~="console" i]:before {
+  content: "Shell"; }
+#app-mount .markup-2BOw-j .hljs[class~="smali" i]:before {
+  content: "Smali"; }
+#app-mount .markup-2BOw-j .hljs[class~="smalltalk" i]:before {
+  content: "Smalltalk"; }
+#app-mount .markup-2BOw-j .hljs[class~="st" i]:before {
+  content: "Smalltalk"; }
+#app-mount .markup-2BOw-j .hljs[class~="sml" i]:before {
+  content: "SML"; }
+#app-mount .markup-2BOw-j .hljs[class~="sqf" i]:before {
+  content: "SQF"; }
+#app-mount .markup-2BOw-j .hljs[class~="sql" i]:before {
+  content: "SQL"; }
+#app-mount .markup-2BOw-j .hljs[class~="stan" i]:before {
+  content: "Stan"; }
+#app-mount .markup-2BOw-j .hljs[class~="stata" i]:before {
+  content: "Stata"; }
+#app-mount .markup-2BOw-j .hljs[class~="step21" i]:before {
+  content: "STEP Part 21"; }
+#app-mount .markup-2BOw-j .hljs[class~="step" i]:before {
+  content: "STEP Part 21"; }
+#app-mount .markup-2BOw-j .hljs[class~="stp" i]:before {
+  content: "STEP Part 21"; }
+#app-mount .markup-2BOw-j .hljs[class~="p21" i]:before {
+  content: "STEP Part 21"; }
+#app-mount .markup-2BOw-j .hljs[class~="stylus" i]:before {
+  content: "Stylus"; }
+#app-mount .markup-2BOw-j .hljs[class~="styl" i]:before {
+  content: "Stylus"; }
+#app-mount .markup-2BOw-j .hljs[class~="subunit" i]:before {
+  content: "SubUnit"; }
+#app-mount .markup-2BOw-j .hljs[class~="swift" i]:before {
+  content: "Swift"; }
+#app-mount .markup-2BOw-j .hljs[class~="taggerscript" i]:before {
+  content: "Tagger Script"; }
+#app-mount .markup-2BOw-j .hljs[class~="tap" i]:before {
+  content: "TAP"; }
+#app-mount .markup-2BOw-j .hljs[class~="tcl" i]:before {
+  content: "Tcl"; }
+#app-mount .markup-2BOw-j .hljs[class~="tk" i]:before {
+  content: "Tcl"; }
+#app-mount .markup-2BOw-j .hljs[class~="tex" i]:before {
+  content: "TeX"; }
+#app-mount .markup-2BOw-j .hljs[class~="thrift" i]:before {
+  content: "Thrift"; }
+#app-mount .markup-2BOw-j .hljs[class~="tp" i]:before {
+  content: "TP"; }
+#app-mount .markup-2BOw-j .hljs[class~="twig" i]:before {
+  content: "Twig"; }
+#app-mount .markup-2BOw-j .hljs[class~="craftcms" i]:before {
+  content: "Twig"; }
+#app-mount .markup-2BOw-j .hljs[class~="typescript" i]:before {
+  content: "TypeScript"; }
+#app-mount .markup-2BOw-j .hljs[class~="ts" i]:before {
+  content: "TypeScript"; }
+#app-mount .markup-2BOw-j .hljs[class~="vala" i]:before {
+  content: "Vala"; }
+#app-mount .markup-2BOw-j .hljs[class~="vbnet" i]:before {
+  content: "VB.NET"; }
+#app-mount .markup-2BOw-j .hljs[class~="vb" i]:before {
+  content: "VB.NET"; }
+#app-mount .markup-2BOw-j .hljs[class~="vbscript" i]:before {
+  content: "VBScript"; }
+#app-mount .markup-2BOw-j .hljs[class~="vbs" i]:before {
+  content: "VBScript"; }
+#app-mount .markup-2BOw-j .hljs[class~="verilog" i]:before {
+  content: "Verilog"; }
+#app-mount .markup-2BOw-j .hljs[class~="v" i]:before {
+  content: "Verilog"; }
+#app-mount .markup-2BOw-j .hljs[class~="vhdl" i]:before {
+  content: "VHDL"; }
+#app-mount .markup-2BOw-j .hljs[class~="vim" i]:before {
+  content: "Vim Script"; }
+#app-mount .markup-2BOw-j .hljs[class~="x86asm" i]:before {
+  content: "x86 Assembly"; }
+#app-mount .markup-2BOw-j .hljs[class~="xl" i]:before {
+  content: "XL"; }
+#app-mount .markup-2BOw-j .hljs[class~="tao" i]:before {
+  content: "XL"; }
+#app-mount .markup-2BOw-j .hljs[class~="xquery" i]:before {
+  content: "XQuery"; }
+#app-mount .markup-2BOw-j .hljs[class~="xq xpath" i]:before {
+  content: "XQuery"; }
+#app-mount .markup-2BOw-j .hljs[class~="yaml" i]:before {
+  content: "YAML"; }
+#app-mount .markup-2BOw-j .hljs[class~="yml" i]:before {
+  content: "YAML"; }
+#app-mount .markup-2BOw-j .hljs[class~="xhtml" i]:before {
+  content: "XHTML"; }
+#app-mount .markup-2BOw-j .hljs[class~="xml" i]:before {
+  content: "XML"; }
+#app-mount .markup-2BOw-j .hljs[class~="xsd" i]:before {
+  content: "XML Schema"; }
+#app-mount .markup-2BOw-j .hljs[class~="xsl" i]:before {
+  content: "XSL"; }
+#app-mount .markup-2BOw-j .hljs[class~="zephir" i]:before {
+  content: "Zephir"; }
+#app-mount .markup-2BOw-j .hljs[class~="zep" i]:before {
+  content: "Zephir"; }

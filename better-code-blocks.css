@@ -2,12 +2,13 @@
 
 @charset "UTF-8";
 #app-mount .markup-2BOw-j .hljs:before {
-  content: "";
-  pointer-events: none;
-  display: var(--code-block-lang-identifer);
+  content: "" !important;
+  pointer-events: none  !important;
+  display: var(--code-block-lang-identifer) !important;
   margin: 0 0 10px 0 !important;
-  color: var(--code-block-lang-identifer-color);
-  font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; }
+  color: var(--code-block-lang-identifer-color) !important;
+  font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important; 
+}
 
 #app-mount .markup-2BOw-j .hljs[class~="1c" i]:before {
   content: "1c"; }

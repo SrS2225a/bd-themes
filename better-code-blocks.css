@@ -1,8 +1,7 @@
 */ Shows the corresponding language's syntax highlighting that was used on the code block */
 
 @charset "UTF-8";
-#app-mount .markup-2BOw-j .hljs:before {
-  content: "" !important;
+#app-mount .markup-2BOw-j code:before {
   pointer-events: none  !important;
   display: var(--code-block-lang-identifer) !important;
   margin: 0 0 10px 0 !important;

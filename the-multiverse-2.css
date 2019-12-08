@@ -8,9 +8,10 @@ Some stuff of the theme however comes from Satoru's example theme, and tropical'
 Orignal Authors are cool with it
 */
 
-/* Adds in imports */
+/* Adds in addons */
 @import url("https://raw.githack.com/SrS2225a/bd-themes/master/addons/animations.css");
 
+/* Initalizes the theme */
 :root {
         --Theme-Variant: "The Multiverse 2";
         --Update-Text: "Version 3.9.18";
@@ -18,7 +19,6 @@ Orignal Authors are cool with it
 	--creator-short: "SrS";
 }
 
-/* Initalizes the theme */
 #app-mount, .app-2rEoOp, body, .members-1998pB, .bg-h5JY_x, .container-3gCOGc, .chat-3bRxxu, .wrapper-1Rf91z, .pageWrapper-1PgVDX, .contentRegion-3nDuYy, .scroller-305q3I, .container-PNkimc, .perksModal-fSYqOq, .privateChannels-1nO12o, .scroller-1IIF0A, .messages-3amgkR, .sidebar-2K8pFh, .scroller-2TZvBN, .scroller-9moviB, .sidebarRegionScroller-3MXcoP, .friendsTable-133bsv .friendsTableBody-1ZhKif, .scroller-1JbKMe, .activityFeed-1C0EmJ, .scroller-1JpcIc, .applicationStore-1pNvnv, .root-1BQpZw, .scroller-5bBood, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e {
     background-color: transparent !important;
 }

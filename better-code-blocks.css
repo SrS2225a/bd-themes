@@ -5,6 +5,7 @@
   pointer-events: none;
   display: var(--code-block-lang);
   margin: 0 0 10px 0;
+  color: #f0f;
   font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; }
 
 #app-mount .markup-2BOw-j .hljs[class~="1c" i]:before {

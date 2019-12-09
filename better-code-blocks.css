@@ -13,7 +13,7 @@
 #app-mount .markup-2BOw-j .hljs[class~="1c" i]:before {
   content: "1c"; }
 #app-mount .markup-2BOw-j .hljs[class~="abnf" i]:before {
-  content: "ABNF"; }
+  content: "ABNF [Augmented Backus-Naur form]"; }
 #app-mount .markup-2BOw-j .hljs[class~="accesslog" i]:before {
   content: "Access Log"; }
 #app-mount .markup-2BOw-j .hljs[class~="actionscript" i]:before {
@@ -135,9 +135,9 @@
 #app-mount .markup-2BOw-j .hljs[class~="crystal" i]:before {
   content: "Crystal"; }
 #app-mount .markup-2BOw-j .hljs[class~="csp" i]:before {
-  content: "CSP"; }
+  content: "CSP [Communicating sequential processes]"; }
 #app-mount .markup-2BOw-j .hljs[class~="css" i]:before {
-  content: "CSS"; }
+  content: "CSS [Cassading Style Sheet]"; }
 #app-mount .markup-2BOw-j .hljs[class~="d" i]:before {
   content: "D"; }
 #app-mount .markup-2BOw-j .hljs[class~="dart" i]:before {
@@ -169,13 +169,13 @@
 #app-mount .markup-2BOw-j .hljs[class~="dust" i]:before {
   content: "Dust"; }
 #app-mount .markup-2BOw-j .hljs[class~="ebnf" i]:before {
-  content: "EBNF"; }
+  content: "EBNF [Extended Backus-Naur form]"; }
 #app-mount .markup-2BOw-j .hljs[class~="elixir" i]:before {
   content: "Elixir"; }
 #app-mount .markup-2BOw-j .hljs[class~="elm" i]:before {
   content: "Elm"; }
 #app-mount .markup-2BOw-j .hljs[class~="erb" i]:before {
-  content: "ERB"; }
+  content: "ERB [ERuby]"; }
 #app-mount .markup-2BOw-j .hljs[class~="erlang" i]:before {
   content: "Erlang"; }
 #app-mount .markup-2BOw-j .hljs[class~="erl" i]:before {
@@ -203,9 +203,9 @@
 #app-mount .markup-2BOw-j .hljs[class~="f95" i]:before {
   content: "Fortran"; }
 #app-mount .markup-2BOw-j .hljs[class~="gams" i]:before {
-  content: "GAMS"; }
+  content: "GAMS [General Algebraic Modeling System]"; }
 #app-mount .markup-2BOw-j .hljs[class~="gms" i]:before {
-  content: "GAMS"; }
+  content: "GAMS [General Algebraic Modeling System]"; }
 #app-mount .markup-2BOw-j .hljs[class~="gauss" i]:before {
   content: "Gauss"; }
 #app-mount .markup-2BOw-j .hljs[class~="gss" i]:before {
@@ -245,15 +245,15 @@
 #app-mount .markup-2BOw-j .hljs[class~="hx" i]:before {
   content: "Haxe"; }
 #app-mount .markup-2BOw-j .hljs[class~="hsp" i]:before {
-  content: "HSP"; }
+  content: "HSP [Hot Soup Processor]"; }
 #app-mount .markup-2BOw-j .hljs[class~="html" i]:before {
-  content: "HTML"; }
+  content: "HTML [Hyper Text Markup Language]"; }
 #app-mount .markup-2BOw-j .hljs[class~="htmlbars" i]:before {
   content: "HTMLBars"; }
 #app-mount .markup-2BOw-j .hljs[class~="http" i]:before {
-  content: "HTTP"; }
+  content: "HTTP [Hypertext Transfer Protocol]"; }
 #app-mount .markup-2BOw-j .hljs[class~="https" i]:before {
-  content: "HTTPS"; }
+  content: "HTTPS [Hypertext Transfer Protocol Secure]"; }
 #app-mount .markup-2BOw-j .hljs[class~="hy" i]:before {
   content: "Hy"; }
 #app-mount .markup-2BOw-j .hljs[class~="hylang" i]:before {
@@ -277,11 +277,11 @@
 #app-mount .markup-2BOw-j .hljs[class~="jsx" i]:before {
   content: "JavaScript (Babel)"; }
 #app-mount .markup-2BOw-j .hljs[class~="xjb" i]:before {
-  content: "JAXB (XML)"; }
+  content: "JAXB (XML) [Java Architecture for XML Binding]"; }
 #app-mount .markup-2BOw-j .hljs[class~="jboss-cli" i]:before {
   content: "JBoss CLI"; }
 #app-mount .markup-2BOw-j .hljs[class~="json" i]:before {
-  content: "JSON"; }
+  content: "JSON [JavaScript Object Notation]"; }
 #app-mount .markup-2BOw-j .hljs[class~="julia" i]:before {
   content: "Julia"; }
 #app-mount .markup-2BOw-j .hljs[class~="julia-repl" i]:before {
@@ -295,7 +295,7 @@
 #app-mount .markup-2BOw-j .hljs[class~="ls" i]:before {
   content: "Lasso"; }
 #app-mount .markup-2BOw-j .hljs[class~="ldif" i]:before {
-  content: "LDIF"; }
+  content: "LDIF [LDAP Data Interchange Format]"; }
 #app-mount .markup-2BOw-j .hljs[class~="leaf" i]:before {
   content: "Leaf"; }
 #app-mount .markup-2BOw-j .hljs[class~="less" i]:before {
@@ -311,7 +311,7 @@
 #app-mount .markup-2BOw-j .hljs[class~="llvm" i]:before {
   content: "LLVM IR"; }
 #app-mount .markup-2BOw-j .hljs[class~="lsl" i]:before {
-  content: "LSL"; }
+  content: "LSL [Linden Scripting Language]"; }
 #app-mount .markup-2BOw-j .hljs[class~="lua" i]:before {
   content: "Lua"; }
 #app-mount .markup-2BOw-j .hljs[class~="makefile" i]:before {
@@ -337,7 +337,7 @@
 #app-mount .markup-2BOw-j .hljs[class~="maxima" i]:before {
   content: "Maxima"; }
 #app-mount .markup-2BOw-j .hljs[class~="mel" i]:before {
-  content: "MEL"; }
+  content: "MEL [Maya Embedded Language]"; }
 #app-mount .markup-2BOw-j .hljs[class~="mercury" i]:before {
   content: "Mercury"; }
 #app-mount .markup-2BOw-j .hljs[class~="mipsasm" i]:before {
@@ -489,7 +489,7 @@
 #app-mount .markup-2BOw-j .hljs[class~="sci" i]:before {
   content: "Scilab"; }
 #app-mount .markup-2BOw-j .hljs[class~="scss" i]:before {
-  content: "SCSS"; }
+  content: "SCSS [Syntactically Awesome Style Sheets]"; }
 #app-mount .markup-2BOw-j .hljs[class~="shell" i]:before {
   content: "Shell"; }
 #app-mount .markup-2BOw-j .hljs[class~="console" i]:before {
@@ -501,11 +501,11 @@
 #app-mount .markup-2BOw-j .hljs[class~="st" i]:before {
   content: "Smalltalk"; }
 #app-mount .markup-2BOw-j .hljs[class~="sml" i]:before {
-  content: "SML"; }
+  content: "SML [Standard Meta Language]"; }
 #app-mount .markup-2BOw-j .hljs[class~="sqf" i]:before {
   content: "SQF"; }
 #app-mount .markup-2BOw-j .hljs[class~="sql" i]:before {
-  content: "SQL"; }
+  content: "SQL [Structured Query Language]"; }
 #app-mount .markup-2BOw-j .hljs[class~="stan" i]:before {
   content: "Stan"; }
 #app-mount .markup-2BOw-j .hljs[class~="stata" i]:before {
@@ -563,31 +563,31 @@
 #app-mount .markup-2BOw-j .hljs[class~="v" i]:before {
   content: "Verilog"; }
 #app-mount .markup-2BOw-j .hljs[class~="vhdl" i]:before {
-  content: "VHDL"; }
+  content: "VHDL [VHSIC Hardware Description Language]"; }
 #app-mount .markup-2BOw-j .hljs[class~="vim" i]:before {
   content: "Vim Script"; }
 #app-mount .markup-2BOw-j .hljs[class~="x86asm" i]:before {
   content: "x86 Assembly"; }
 #app-mount .markup-2BOw-j .hljs[class~="xl" i]:before {
-  content: "XL"; }
+  content: "XL [eXtensible Language]"; }
 #app-mount .markup-2BOw-j .hljs[class~="tao" i]:before {
-  content: "XL"; }
+  content: "XL [eXtensible Language]"; }
 #app-mount .markup-2BOw-j .hljs[class~="xquery" i]:before {
   content: "XQuery"; }
 #app-mount .markup-2BOw-j .hljs[class~="xq xpath" i]:before {
   content: "XQuery"; }
 #app-mount .markup-2BOw-j .hljs[class~="yaml" i]:before {
-  content: "YAML"; }
+  content: "YAML [YAML Ain't Markup Language]"; }
 #app-mount .markup-2BOw-j .hljs[class~="yml" i]:before {
-  content: "YAML"; }
+  content: "YAML [YAML Ain't Markup Language]"; }
 #app-mount .markup-2BOw-j .hljs[class~="xhtml" i]:before {
-  content: "XHTML"; }
+  content: "XHTML [Extensible Hypertext Markup Language]"; }
 #app-mount .markup-2BOw-j .hljs[class~="xml" i]:before {
-  content: "XML"; }
+  content: "XML [Extensible Markup Language]"; }
 #app-mount .markup-2BOw-j .hljs[class~="xsd" i]:before {
   content: "XML Schema"; }
 #app-mount .markup-2BOw-j .hljs[class~="xsl" i]:before {
-  content: "XSL"; }
+  content: "XSL [Extensible Stylesheet Language]"; }
 #app-mount .markup-2BOw-j .hljs[class~="zephir" i]:before {
   content: "Zephir"; }
 #app-mount .markup-2BOw-j .hljs[class~="zep" i]:before {

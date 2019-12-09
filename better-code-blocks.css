@@ -10,6 +10,9 @@
   font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important; 
 }
 
+.markup-2BOw-j code {background: var(--code-block-background);}
+.markup-2BOw-j pre {border: var(--code-block-border);}
+
 #app-mount .markup-2BOw-j .hljs[class~="1c" i]:before {
   content: "1c"; }
 #app-mount .markup-2BOw-j .hljs[class~="abnf" i]:before {

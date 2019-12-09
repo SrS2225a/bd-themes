@@ -484,6 +484,17 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .embedFull-2tM8-- {border: none;}
 .embedImage-2W1cML img, .embedFull-2tM8-- .embedMedia-1guQoW {margin-right: auto !important; margin-left: auto !important;}
 
+.wanderingCubesItem-WPXqao {display: none;}
+
+.inner-1gJC7_:not(.pulsingEllipsis-3YiXRF) {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-size:cover;
+    animation:none;
+    background-image: url("http://i.imgur.com/p543mwo.gif");
+}
+
 /* Changes the Voice Channel List */
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {background-color: var(--slected-channel-color) !important; text-shadow: 2px 2px #000 !important;}
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU {background-color: var(--hovered-select-channel); text-shadow: 2px 2px #000 !important;}

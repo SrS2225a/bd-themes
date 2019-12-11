@@ -69,7 +69,16 @@ svg[name="DiscordWordmark"] {display: none;}
 .theme-dark .selectorSelected-1_M1WV {background: rgba(0,0,0,.2);}
 
 /* Changes the color of the role menu and user information */
-.theme-dark .body-3ND3kc, .tabBarContainer-1s1u-z, .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {background-color: var(--user-profile-background);}
+.topSectionNormal-2-vo2m, .body-3ND3kc, .bodyInner-245q0L, .footer-1fjuF6 {background-color: var(--user-profile-background);}
+.tabBarContainer-1s1u-z {background: rgba(255, 255, 255, .07)!important}
+.bodyInner-245q0L {overflow: hidden; padding: 0;}
+
+.bodyTitle-Y0qMQz {margin: 0; background: rgba(255, 255, 255, .07)!important; height: 28px!important; line-height: 28px; padding-left: 10px; display: flex;}
+
+.rolesList-22qj2L {margin: 10px;}
+.note-3HfJZ5 textarea {margin: 10px; width: 94%;}
+.footer-1fjuF6 {padding-top: 0;}
+
 .header-QKLPzZ, .headerTop-3C2Zn0 {background: var(--user-profile-background); filter: hue-rotate(20deg); border-bottom: gray 1px solid;}
 .guildName-13lmy3, .subscriberCount-3PSK6x {color: gray;}
 .body-Ogsp8ivar {background: var(--user-profile-background)}

@@ -1,11 +1,11 @@
-/* The Multiverse 2 - v3.10.18 */ 
+/* The Multiverse 2 - v3.11.18 */ 
 /*                    1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 
 /* 
 98% Of The Orginal source code is from the Author SrS#8614
 Some stuff of the theme however comes from Satoru's example theme, and tropical's Midnight UI theme edited to fit this themes purpose(s)
-Orignal Authors are cool with it
+Orignal Authors are cool about it
 */
 
 /* Adds in addons */
@@ -14,7 +14,7 @@ Orignal Authors are cool with it
 /* Initalizes the theme */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 3.10.18";
+        --Update-Text: "Version 3.11.18";
 	--revision: "4";
 	--creator-short: "SrS";
 }
@@ -69,7 +69,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .theme-dark .selectorSelected-1_M1WV {background: rgba(0,0,0,.2);}
 
 /* Changes the color of the role menu and user information */
-.topSectionNormal-2-vo2m, .body-3ND3kc, .bodyInner-245q0L, .footer-1fjuF6 {background-color: var(--user-profile-background);}
+.topSectionNormal-2-vo2m, .body-3ND3kc, .bodyInner-245q0L, .footer-1fjuF6 {background-color: var(--user-profile-background) !important;}
 .tabBarContainer-1s1u-z {background: rgba(255, 255, 255, .07)!important}
 .bodyInner-245q0L {overflow: hidden; padding: 0;}
 

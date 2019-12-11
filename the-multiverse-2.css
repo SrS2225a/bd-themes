@@ -525,7 +525,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 ::placeholder {color: lightgray !important;}
 .attachWrapper-1_D-pj {border: 0;}
 .theme-dark .inner-zqa7da {background-color: rgba(114,118,125,.3); box-shadow: 2px 2px 3px 0px #000;}
-.buttons-205you {margin-right: auto;}
+.buttons-205you {margin-right: auto !important;}
 .search-l1Wz-Q.da-search.theme-dark.popout-open, .browseSearch-e9jF-f.popout-open {box-shadow: 2px 2px 3px 0px #000;}
 .scrollableContainer-38zsVD {overflow-x: visible; overflow-y: visible; background-color: transparent; max-height: none; border-radius: 8px;}
 

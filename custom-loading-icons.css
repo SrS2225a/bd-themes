@@ -1,1 +1,21 @@
+.wanderingCubesItem-WPXqao {display: none;}
+.circular-2NaZOq {display: none;}
 
+.inner-1gJC7_:not(.pulsingEllipsis-3YiXRF) {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-size:cover;
+    animation:none;
+    z-index:1;
+    background-image: var(--custom-loading-icon-gif-1);
+}
+
+.inner-1gJC7_:not(.pulsingEllipsis-3YiXRF) {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    animation:none;
+    z-index:1;
+    content: var(--custom-loading-icon-svg-1);
+}

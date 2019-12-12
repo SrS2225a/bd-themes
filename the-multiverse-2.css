@@ -1,4 +1,4 @@
-/* The Multiverse 2 - v3.10.18 */ 
+/* The Multiverse 2 - v3.10.19 */ 
 /*                    1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 
@@ -14,7 +14,7 @@ Orignal Authors are cool with it
 /* Initalizes the theme */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 3.10.18";
+        --Update-Text: "Version 3.10.19";
 	--revision: "4";
 	--creator-short: "SrS";
 }
@@ -495,6 +495,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .embedImage-2W1cML img, .embedFull-2tM8-- .embedMedia-1guQoW {margin-right: auto !important; margin-left: auto !important;}
 
 .wanderingCubesItem-WPXqao {display: none;}
+.circular-2NaZOq {display: none;}
 
 .inner-1gJC7_:not(.pulsingEllipsis-3YiXRF) {
     position: relative;
@@ -502,6 +503,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
     height: 80px;
     background-size:cover;
     animation:none;
+    z-index:1;
     background-image: url("http://i.imgur.com/p543mwo.gif");
 }
 

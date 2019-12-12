@@ -1,11 +1,11 @@
-/* The Multiverse 2 - v3.11.18 */ 
+/* The Multiverse 2 - v3.10.18 */ 
 /*                    1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 
 /* 
 98% Of The Orginal source code is from the Author SrS#8614
 Some stuff of the theme however comes from Satoru's example theme, and tropical's Midnight UI theme edited to fit this themes purpose(s)
-Orignal Authors are cool about it
+Orignal Authors are cool with it
 */
 
 /* Adds in addons */
@@ -14,7 +14,7 @@ Orignal Authors are cool about it
 /* Initalizes the theme */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 3.11.18";
+        --Update-Text: "Version 3.10.18";
 	--revision: "4";
 	--creator-short: "SrS";
 }
@@ -69,7 +69,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .theme-dark .selectorSelected-1_M1WV {background: rgba(0,0,0,.2);}
 
 /* Changes the color of the role menu and user information */
-.topSectionNormal-2-vo2m, .body-3ND3kc, .bodyInner-245q0L, .footer-1fjuF6 {background-color: var(--user-profile-background) !important;}
+.topSectionNormal-2-vo2m, .body-3ND3kc, .bodyInner-245q0L, .footer-1fjuF6 {background-color: var(--user-profile-background);}
 .tabBarContainer-1s1u-z {background: rgba(255, 255, 255, .07)!important}
 .bodyInner-245q0L {overflow: hidden; padding: 0;}
 
@@ -433,6 +433,7 @@ div::-webkit-scrollbar {width: inherit}
 /* Changes the color of pinned messages */
 .messagesPopout-24nkyi {background-color: var(--main-updates-background) !important;}
 .messageGroupWrapper-o-Zw7G {background-color: var(--main-secondary-updates-background) !important;}
+.theme-dark .header-ykumBX {background: var(--main-updates-background) !important; filter: contrast(84%);}
 
 /* Changes the header color */
 .theme-dark .h5-18_1nd, .theme-dark .header-2RyJ0Y, .membersGroup-v9BXpm, .name-IbjUBS, .privateChannels-1nO12o header, .theme-dark .contentTitle-2tG_sM, .label-3aiqT, .overflowRolesPopoutHeaderText-1SW-y3, path[fill*="#72767d"], #bd-settings-sidebar .ui-tab-bar-header {color: var(--small-heading-main) !important; opacity: 1;}
@@ -522,6 +523,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .searchResult-3pzFAB:before, .theme-dark .searchResult-3pzFAB:after {background-image: linear-gradient(0deg,hsla(0,0%,95%,0),#0E2F44);}
 .theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {border: transparent;}
 
+::placeholder {color: lightgray !important;}
 .attachWrapper-1_D-pj {border: 0;}
 .theme-dark .inner-zqa7da {background-color: rgba(114,118,125,.3); box-shadow: 2px 2px 3px 0px #000;}
 .buttons-205you {margin-right: auto !important;}

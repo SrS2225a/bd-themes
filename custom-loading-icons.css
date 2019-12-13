@@ -1,5 +1,6 @@
 .wanderingCubesItem-WPXqao {display: none;}
 .circular-2NaZOq {display: none;}
+.spinningCircleInner-mbM5zM {transform: rotate(0deg);}
 
 .inner-1gJC7_:not(.pulsingEllipsis-3YiXRF) {
     position: relative;
@@ -18,4 +19,23 @@
     animation:none;
     z-index:1;
     content: var(--custom-loading-icon-svg-1);
+}
+
+.spinningCircleInner-mbM5zM.inner-1gJC7_ {  
+    position: relative;
+    width: 80px;
+    height: 80px;
+    animation:none;
+    z-index:1;
+    content: var(--custom-loading-icon-svg-2);
+}
+
+.spinningCircleInner-mbM5zM.inner-1gJC7_ {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-size:cover;
+    animation:none;
+    z-index:1;
+    background-image: var(--custom-loading-icon-gif-2);
 }

@@ -595,3 +595,19 @@
   content: "Zephir"; }
 #app-mount .markup-2BOw-j .hljs[class~="zep" i]:before {
   content: "Zephir"; }
+
+.hljs-comment, .hljs-quote {color: var(--hl-comment);}
+
+.hljs-addition, .hljs-keyword, .hljs-selector-tag {color: var(--hl-addition);}
+
+.hljs-doctag, .hljs-literal, .hljs-meta .hljs-meta-string, .hljs-number, .hljs-regexp, .hljs-string {color: var(--hl-doctag);}
+
+.hljs-name, .hljs-section, .hljs-selector-class, .hljs-selector-id, .hljs-title {color: var(--hl-name);}
+
+.hljs-attr, .hljs-attribute, .hljs-class .hljs-title, .hljs-template-variable, .hljs-type, .hljs-variable {color: var(--hl-attr);}
+
+hljs-bullet, .hljs-link, .hljs-meta, .hljs-meta .hljs-keyword, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-subst, .hljs-symbol {var(--hl-bullet);}
+
+.hljs-built_in, .hljs-deletion {var(--hl-built-in);}
+
+.hljs-formula {var(--hl-formula);}

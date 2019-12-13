@@ -496,7 +496,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 
 .wanderingCubesItem-WPXqao {display: none;}
 .circular-2NaZOq {display: none;}
-.spinningCircleInner-mbM5zM {transform: 0deg;}
+.spinningCircleInner-mbM5zM {transform: rotate(0deg);}
 
 .inner-1gJC7_:not(.pulsingEllipsis-3YiXRF) {
     position: relative;

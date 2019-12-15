@@ -606,8 +606,8 @@
 
 .hljs-attr, .hljs-attribute, .hljs-class .hljs-title, .hljs-template-variable, .hljs-type, .hljs-variable {color: var(--hl-attr);}
 
-hljs-bullet, .hljs-link, .hljs-meta, .hljs-meta .hljs-keyword, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-subst, .hljs-symbol {var(--hl-bullet);}
+hljs-bullet, .hljs-link, .hljs-meta, .hljs-meta .hljs-keyword, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-subst, .hljs-symbol {color: var(--hl-bullet);}
 
-.hljs-built_in, .hljs-deletion {var(--hl-built-in);}
+.hljs-built_in, .hljs-deletion {color: var(--hl-built-in);}
 
-.hljs-formula {var(--hl-formula);}
+.hljs-formula {color: var(--hl-formula);}

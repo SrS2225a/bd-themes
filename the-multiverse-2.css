@@ -1,4 +1,4 @@
-/* The Multiverse 2 - v3.10.19 */ 
+/* The Multiverse 2 - v3.10.20 */ 
 /*                    1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 
@@ -14,7 +14,7 @@ Orignal Authors are cool with it
 /* Initalizes the theme */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 3.10.19";
+        --Update-Text: "Version 3.10.20";
 	--revision: "4";
 	--creator-short: "SrS";
 }
@@ -178,6 +178,20 @@ svg[name="DiscordWordmark"] {display: none;}
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {background: var(--settings-member-hover) !important;}
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, #bd-settings-sidebar .ui-tab-bar-item.selected {background: var(--settings-member-select) !important;}
 
+.button-14-BFJ[aria-label="Mute"], .button-14-BFJ[aria-label="Deafen"], .button-14-BFJ[aria-label="Undeafen"], .button-14-BFJ[aria-label="Unmute"]{display:none;}
+
+.container-3baos1 .flex-1xMQg5:hover {
+    flex-direction:column;
+    margin-bottom:64px;
+    z-index:1;
+    background:rgba(0,0,0,0.25);
+    border-radius:3px;
+}
+
+.scroller-2wx7Hm {z-index: 0;}
+
+.container-3baos1 .flex-1xMQg5:hover .button-14-BFJ[aria-label="Mute"], .container-3baos1 .flex-1xMQg5:hover .button-14-BFJ[aria-label="Deafen"], .container-3baos1 .flex-1xMQg5:hover .button-14-BFJ[aria-label="Undeafen"], .container-3baos1 .flex-1xMQg5:hover .button-14-BFJ[aria-label="Unmute"] {display:block;}
+
 .roundButton-2CW1Hh {color: lightgrey;}
 .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:hover, .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ {background: transparent !important;}
 .theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: var(--main-decription-color);}
@@ -216,7 +230,7 @@ display: block;
 border: 3px double rgba(74,107,26,1);
 color: rgba(74,107,26,1);
 border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. revamp in prograss - restructuring alot but some discord elements</text><text y="68" style="font-size: 1em;" x="20">2. Added in a custom loading icon</text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20"></text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. revamp done - restructuring alot but some discord elements</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20"></text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;

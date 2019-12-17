@@ -71,7 +71,7 @@ svg[name="DiscordWordmark"] {display: none;}
 
 /* Changes the color of the role menu and user information */
 .topSectionNormal-2-vo2m, .body-3ND3kc, .bodyInner-245q0L, .footer-1fjuF6 {background-color: var(--user-profile-background) !important;}
-.tabBarContainer-1s1u-z {background: rgba(0,0,0,.2)!important;}
+.tabBarContainer-1s1u-z {background: rgba(255, 255, 255, .07)!important;}
 .bodyInner-245q0L {overflow: hidden; padding: 0;}
 
 .bodyTitle-Y0qMQz {margin: 0; background: rgba(255, 255, 255, .07)!important; height: 28px!important; line-height: 28px; padding-left: 10px; display: flex;}
@@ -168,6 +168,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .tierBody-16Chc9, .tierBody-x9kBBp, .perk-2WeBWW, .tierMarkerBackground-3q29am, .ctaBar-2UsjF2, .body-2iXqIL, .footer-2aTx0s, .tiles-2aXG_k {background: var(--popout-secondary-control-dialog) !important;}
 
 .bd-backdrop {background: transparent;}
+.bd-modal-wrapper .tab-bar-container {rgba(255, 255, 255, .07)!important;}
 .bd-modal-wrapper .bd-modal-body, .bd-modal-wrapper .footer {background: var(--popout-control-dialog);}
 .bd-modal-wrapper .header {background: var(--popout-control-dialog) ; color: var(--large-heading-main);}
 .bd-modal-wrapper .footer button {background: var(--main-button-color);}

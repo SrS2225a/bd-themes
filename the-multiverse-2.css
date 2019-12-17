@@ -288,6 +288,7 @@ animation: color-change 20s infinite linear;
     border-radius: 4px;
     font-size: initial;
     z-index: 9999;
+    padding: 12px 30px 8px 12px;
 }
 
 .button-1MICoQ {position: unset; margin-left: 0; margin-bottom: 8px;}

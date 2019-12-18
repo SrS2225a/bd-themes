@@ -296,7 +296,9 @@ animation: color-change 20s infinite linear;
 
 .button-1MICoQ {position: unset; margin-left: 0; margin-bottom: 8px;}
 
-#pluginNotice {height: auto; text-align: start;}
+#pluginNotice {text-align: start; padding: 4px 8px; }
+.platformIcon-2NdO9F {margin-top: 0px;}
+
 span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 
 .theme-dark .tooltipBlack-PPG47z, .theme-dark .overflowRolesPopout-140n9i {background: var(--toast-hover-main);}

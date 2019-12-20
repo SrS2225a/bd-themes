@@ -425,6 +425,8 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
     font-size: 14px;    
 }
 
+.downloadProgressCircle-3_wgim {margin-left: 0; right: 12%;}
+
 /* Changes the time-stamp color */
 .theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: var(--main-timestamp) !important;}
 .theme-dark .timestampCompact-MHgFLv {color: var(--main-timestamp);}

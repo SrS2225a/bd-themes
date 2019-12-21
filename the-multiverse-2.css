@@ -540,7 +540,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 
 /* Changes the transparency of the search bars, so they can be seen easier */
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx input, .theme-dark .wrapper-1cBijl {color: #fff; opacity: 1; background-color: var(--main-input);}
- .wrapper-1cBijl .btn:disabled {cursor: not-allowed !important; pointer-events: all;}
+.wrapper-1cBijl .btn:disabled {cursor: not-allowed !important; pointer-events: all;}
  
 /* Recolors the server serach popout */
 .theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB .hit-NLlWXA {background-color: #bc8f8f;}
@@ -549,12 +549,11 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .searchResult-3pzFAB:before, .theme-dark .searchResult-3pzFAB:after {background-image: linear-gradient(0deg,hsla(0,0%,95%,0),#0E2F44);}
 .theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {border: transparent;}
 
-::placeholder {color: lightgray !important;}
 .attachWrapper-1_D-pj {border: 0;}
-.theme-dark .inner-zqa7da {background-color: rgba(114,118,125,.3); box-shadow: 2px 2px 3px 0px #000;}
-.buttons-205you {margin-right: auto !important;}
+.inner-MADQqc {background-color: rgba(114,118,125,.3); box-shadow: 2px 2px 3px 0px #000;}
+.buttons-3JBrkn {margin-right: auto !important;}
 .search-l1Wz-Q.da-search.theme-dark.popout-open, .browseSearch-e9jF-f.popout-open {box-shadow: 2px 2px 3px 0px #000;}
-.scrollableContainer-38zsVD {overflow-x: visible; overflow-y: visible; background-color: transparent; max-height: none; border-radius: 8px;}
+.scrollableContainer-2NUZem {overflow-x: visible; overflow-y: visible; background-color: transparent; max-height: none; border-radius: 8px;}
 
 .children-19S4PO:after {background: transparent;}
 

@@ -111,7 +111,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .theme-dark .base-gE7OpD span {color: lime; animation: color-change 12s infinite linear;}
 .base-gE7OpD .cooldownWrapper-3joyFc {color: lime !important; animation: color-change 12s infinite linear;}
 
-.emptyMessage-2wGhmr {display: none;}
+.innerDisabled-1YTFPN {display: none;}
 
 /* Stylizes the activity tab */
 .theme-dark .outer-2IVh5n, .theme-dark .recentlyPlayedContainer-2F3MqS {background: var(--store-item-background) !important;}
@@ -549,7 +549,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .searchResult-3pzFAB:before, .theme-dark .searchResult-3pzFAB:after {background-image: linear-gradient(0deg,hsla(0,0%,95%,0),#0E2F44);}
 .theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {border: transparent;}
 
-.attachWrapper-1_D-pj {border: 0;}
+.attachWrapper-2TRKBi {border: 0;}
 .inner-MADQqc {background-color: rgba(114,118,125,.3); box-shadow: 2px 2px 3px 0px #000;}
 .buttons-3JBrkn {margin-right: auto !important;}
 .search-l1Wz-Q.da-search.theme-dark.popout-open, .browseSearch-e9jF-f.popout-open {box-shadow: 2px 2px 3px 0px #000;}

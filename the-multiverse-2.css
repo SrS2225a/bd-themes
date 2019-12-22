@@ -71,10 +71,9 @@ svg[name="DiscordWordmark"] {display: none;}
 
 /* Changes the color of the role menu and user information */
 .topSectionNormal-2-vo2m, .body-3ND3kc, .bodyInner-245q0L, .footer-1fjuF6 {background-color: var(--user-profile-background) !important;}
-.tabBarContainer-1s1u-z {background: rgba(255, 255, 255, .07)!important;}
 .bodyInner-245q0L {overflow: hidden; padding: 0;}
 
-.bodyTitle-Y0qMQz {margin: 0; background: rgba(255, 255, 255, .07)!important; height: 28px!important; line-height: 28px; padding-left: 10px; display: flex;}
+.bodyTitle-Y0qMQz {margin: 0; background: var(--user-profile-background) important; filter: contrast(80%); height: 28px!important; line-height: 28px; padding-left: 10px; display: flex;}
 .userPopout-3XzG_A {width: 260px;}
 
 .rolesList-22qj2L {margin: 10px;}
@@ -456,7 +455,7 @@ div::-webkit-scrollbar {width: inherit}
 /* Changes the color of pinned messages */
 .messagesPopout-24nkyi {background-color: var(--main-updates-background) !important;}
 .messageGroupWrapper-o-Zw7G {background-color: var(--main-secondary-updates-background) !important;}
-.theme-dark .header-ykumBX {background: var(--main-updates-background) !important; filter: contrast(84%);}
+.theme-dark .header-ykumBX, .theme-dark .searchHeader-1l-wpR, .tabBarContainer-1s1u-z {background: var(--main-updates-background) !important; filter: contrast(80%);}
 
 /* Changes the header color */
 .theme-dark .h5-18_1nd, .theme-dark .header-2RyJ0Y, .membersGroup-v9BXpm, .name-IbjUBS, .privateChannels-1nO12o header, .theme-dark .contentTitle-2tG_sM, .label-3aiqT, .overflowRolesPopoutHeaderText-1SW-y3, path[fill*="#72767d"], #bd-settings-sidebar .ui-tab-bar-header {color: var(--small-heading-main) !important; opacity: 1;}

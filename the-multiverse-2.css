@@ -549,10 +549,9 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {border: transparent;}
 
 .attachWrapper-2TRKBi {border: 0;}
-.inner-MADQqc {background-color: rgba(114,118,125,.3); box-shadow: 2px 2px 3px 0px #000;}
 .buttons-3JBrkn {margin-right: auto !important;}
 .search-l1Wz-Q.da-search.theme-dark.popout-open, .browseSearch-e9jF-f.popout-open {box-shadow: 2px 2px 3px 0px #000;}
-.scrollableContainer-2NUZem {overflow-x: visible; overflow-y: visible; background-color: transparent; max-height: none; border-radius: 8px;}
+.scrollableContainer-2NUZem {overflow-x: visible; overflow-y: auto; background-color: rgba(114,118,125,.3); max-height: 152px !important; border-radius: 1px; box-shadow: 2px 2px 3px 0px #000 !important;}
 
 .children-19S4PO:after {background: transparent;}
 

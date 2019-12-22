@@ -575,7 +575,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 #app-mount .nameBodyCell-3JOlnK{margin:10px 0 0 10px}
 #app-mount .bodyCell-9xKjWE{width:300px;padding:2px}
 #app-mount .row-ZLfFhY{height:150px;width:350px;display:inline-table;margin:0;background:rgba(0,0,0,.4)}
-#app-mount .rowWrapper-2fB6P0{height:150px;width:350px;display: inline-table;margin:5px 0 0 35px; border: 3px groove var(--border-libary-friends-main);}
+#app-mount .rowWrapper-2fB6P0{height:150px;width:350px;display: inline-table;margin:10px; border: 3px groove var(--border-libary-friends-main);}
 #app-mount .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY{border:none;background:var(--secondary-transpraency);}
 .table-1tDS6w:only-child {margin-top: 20px;}
 .rowWrapperActive-2L7i9f.rowWrapper-2fB6P0 {background:transparent;}

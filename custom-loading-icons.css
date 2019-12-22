@@ -18,7 +18,7 @@
     height: 80px;
     animation:none;
     z-index:1;
-    content: var(--custom-loading-icon-svg-1);
+    content: var(--custom-loading-icon-svg-1) !important;
 }
 
 .spinningCircleInner-mbM5zM.inner-1gJC7_ {  
@@ -27,7 +27,7 @@
     height: 80px;
     animation:none;
     z-index:1;
-    content: var(--custom-loading-icon-svg-2);
+    content: var(--custom-loading-icon-svg-2) !important;
 }
 
 .spinningCircleInner-mbM5zM.inner-1gJC7_ {

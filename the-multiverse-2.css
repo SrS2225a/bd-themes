@@ -191,7 +191,7 @@ svg[name="DiscordWordmark"] {display: none;}
     border-radius:3px;
 }
 
-.scroller-2wx7Hm {z-index: 0;}
+.scroller-2wx7Hm, .scroller-1JbKMe {z-index: 0;}
 
 .container-3baos1 .flex-1xMQg5:hover .button-14-BFJ[aria-label="Mute"], .container-3baos1 .flex-1xMQg5:hover .button-14-BFJ[aria-label="Deafen"], .container-3baos1 .flex-1xMQg5:hover .button-14-BFJ[aria-label="Undeafen"], .container-3baos1 .flex-1xMQg5:hover .button-14-BFJ[aria-label="Unmute"] {display:block;}
 

@@ -17,10 +17,7 @@
     background: #747f8d;
     position: relative;
     box-sizing: border-box;
-    padding-left: .25em !important;
-    padding-right: .25em !important;
-    padding-bottom: .25em;
-    padding-top: 30px !important;
+    padding: 30px 10px 7px 10px;
     border-radius: 0;
     border: none !important;
     background: transparent !important;

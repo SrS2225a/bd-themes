@@ -9,7 +9,7 @@
     background-size:cover;
     animation:none;
     z-index:1;
-    background-image: var(--custom-loading-icon-gif-1);
+    background-image: var(--custom-loading-icon-gif-1) !important;
 }
 
 .inner-1gJC7_:not(.pulsingEllipsis-3YiXRF) {
@@ -18,7 +18,7 @@
     height: 80px;
     animation:none;
     z-index:1;
-    content: var(--custom-loading-icon-svg-1);
+    content: var(--custom-loading-icon-svg-1) !important;
 }
 
 .spinningCircleInner-mbM5zM.inner-1gJC7_ {  
@@ -27,7 +27,7 @@
     height: 80px;
     animation:none;
     z-index:1;
-    content: var(--custom-loading-icon-svg-2);
+    content: var(--custom-loading-icon-svg-2) !important;
 }
 
 .spinningCircleInner-mbM5zM.inner-1gJC7_ {
@@ -37,5 +37,5 @@
     background-size:cover;
     animation:none;
     z-index:1;
-    background-image: var(--custom-loading-icon-gif-2);
+    background-image: var(--custom-loading-icon-gif-2) !important;
 }

@@ -548,6 +548,18 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .searchResult-3pzFAB:before, .theme-dark .searchResult-3pzFAB:after {background-image: linear-gradient(0deg,hsla(0,0%,95%,0),#0E2F44);}
 .theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {border: transparent;}
 
+.theme-dark .pagination-eQpqgk {
+    color: hsla(0,0%,100%,.6);
+    position: absolute;
+    bottom: 0%;
+    z-index: 9999;
+    background: rgba(0,0,0,0.6);
+    padding: 18px;
+    width: 80%;
+    margin: 10px;
+    justify-content: center;
+}
+
 .attachWrapper-2TRKBi {border: 0;}
 .buttons-3JBrkn {margin-right: auto !important;}
 .search-l1Wz-Q.da-search.theme-dark.popout-open, .browseSearch-e9jF-f.popout-open {box-shadow: 2px 2px 3px 0px #000;}

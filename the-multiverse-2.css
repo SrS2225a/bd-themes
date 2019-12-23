@@ -208,8 +208,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .wrapper-29NfPK .actions-2vadYq .center-1Vp33r {background: var(--commands-main);}
 #pubslayer .ui-tab-bar-item.selected {background-color: var(--settings-member-select) !important;}
 #pubslayer .ui-tab-bar-item:hover {background-color: var(--settings-member-hover) !important;}
-.lookFilled-1Gx00P.colorBrand-3pXr91 {margin-left: 18px;}
-.cancelAllButton-16p7ma {margin-right: 18px}
+.lookFilled-1Gx00P.colorBrand-3pXr91, .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {margin-left: 18px;}
 .horizonal-2R4X-v .button-1vm4ZO {margin-right: 24px; margin-left: 0px !important;}
 .message-3SOT5P .btn-11C5_u {margin-left: auto !important;}
 .bda-slist .bda-footer button, .item-26Dhrx[style*="background-color: rgb(114, 137, 218);"], .lookFilled-1Gx00P.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .buttonColor-1agP3J {background: var(--main-button-color) !important;}

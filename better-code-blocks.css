@@ -45,6 +45,9 @@
         box-sizing: border-box;
     }
 
+body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
+    content: 'Plain Text';
+}
 #app-mount .markup-2BOw-j .hljs[class~="1c" i]:before {
   content: "1c"; }
 #app-mount .markup-2BOw-j .hljs[class~="abnf" i]:before {
@@ -116,6 +119,8 @@
 #app-mount .markup-2BOw-j .hljs[class~="c" i]:before {
   content: "C/C++"; }
 #app-mount .markup-2BOw-j .hljs[class~="cc" i]:before {
+  content: "C/C++"; }
+#app-mount .markup-2BOw-j .hljs[class~="c++" i]:before {
   content: "C/C++"; }
 #app-mount .markup-2BOw-j .hljs[class~="cpp" i]:before {
   content: "C/C++"; }

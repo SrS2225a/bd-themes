@@ -132,6 +132,8 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
   content: "C#"; }
 #app-mount .markup-2BOw-j .hljs[class~="csharp" i]:before {
   content: "C#"; }
+#app-mount .markup-2BOw-j .hljs[class~="c#" i]:before {
+  content: "C#"; }
 #app-mount .markup-2BOw-j .hljs[class~="cal" i]:before {
   content: "CAL"; }
 #app-mount .markup-2BOw-j .hljs[class~="capnproto" i]:before {

@@ -1,9 +1,9 @@
-/* The Multiverse 2 - v3.10.21 */ 
+/* The Multiverse 2 - v3.11.21 */ 
 /*                    1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 
 /* 
-98% Of The Orginal source code is from the Author SrS#8614
+95% Of The Orginal source code is from the Author SrS#8614
 Some stuff of the theme however comes from Satoru's example theme, and tropical's Midnight UI theme edited to fit this themes purpose(s)
 Orignal Authors are cool with it
 */
@@ -14,7 +14,7 @@ Orignal Authors are cool with it
 /* Initalizes the theme */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 3.10.21";
+        --Update-Text: "Version 3.11.21";
 	--revision: "4";
 	--creator-short: "SrS";
 }
@@ -79,6 +79,10 @@ svg[name="DiscordWordmark"] {display: none;}
 .rolesList-22qj2L {margin: 10px;}
 .note-3HfJZ5 textarea {margin: 10px; width: 94%;}
 .footer-1fjuF6 {padding-top: 0;}
+
+.quickswitcher-3JagVE .emptyStateNote-ZYTetQ:before {content: "There appears to be no results. Have a nyan cat instead!"; font-size: initial;}
+.emptyState-2gL-9T {background-image: url(https://media.giphy.com/media/7lsw8RenVcjCM/giphy.gif)!important; background-size: 40%; background-position: top; padding-top: 120px; margin-top: 40px;}
+.emptyStateNote-ZYTetQ {font-size: 0;}
 
 .header-QKLPzZ, .headerTop-3C2Zn0 {background: var(--user-profile-background); filter: hue-rotate(20deg); border-bottom: gray 1px solid;}
 .guildName-13lmy3, .subscriberCount-3PSK6x {color: gray;}
@@ -234,7 +238,7 @@ display: block;
 border: 3px double rgba(74,107,26,1);
 color: rgba(74,107,26,1);
 border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. fixed css due to discord updates</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20"></text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. added in a new easter egg - find it!</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20">1. Easter Egg Hint: Search</text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;

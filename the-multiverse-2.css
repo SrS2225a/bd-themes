@@ -201,6 +201,9 @@ svg[name="DiscordWordmark"] {display: none;}
 
 .container-3baos1 .flex-1xMQg5:hover .button-14-BFJ[aria-label="Mute"], .container-3baos1 .flex-1xMQg5:hover .button-14-BFJ[aria-label="Deafen"], .container-3baos1 .flex-1xMQg5:hover .button-14-BFJ[aria-label="Undeafen"], .container-3baos1 .flex-1xMQg5:hover .button-14-BFJ[aria-label="Unmute"] {display:block;}
 
+.container-1giJp5 {right: 0; position: absolute; z-index: 9999; width: 14.5%;}
+.members-1998pB .container-1giJp5 {margin-bottom: 52px;}
+
 .roundButton-2CW1Hh {color: lightgrey;}
 .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:hover, .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ {background: transparent !important;}
 .theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: var(--main-decription-color);}
@@ -314,7 +317,7 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 /* stylizes the configuration page for the user settings and server settings pages*/
 .theme-dark .wrapper-29NfPK {background: var(--secondary-transpraency);}
 .sidebar-2K8pFh {border-radius: 0px !important;}
-.container-2Rl01u, .panels-j1Uci_, .container-1r6BKw.themed-ANHk51, .searchBar-6Kv8R2 {background: var(--secondary-transpraency); opacity: .74;}
+.container-2Rl01u, .container-1giJp5, .container-1r6BKw.themed-ANHk51, .searchBar-6Kv8R2 {background: var(--secondary-transpraency); z-index: 2;}
 .video-1FfuMD {background: var(--secondary-transpraency); border-bottom: 2px solid var(--border-libary-friends-main); border-left: 2px solid var(--border-libary-friends-main)}
 .video-1kutKI {background: transparent;}
 .contentColumnDefault-1VQkGM {padding: 60px 40px 60px; position: relative; border-radius: 5px; background-color: var(--secondary-transpraency); min-height: 0%; margin-top: 60px; margin-bottom: 60px; min-width: auto; margin-left: auto;margin-right: auto; border: 3px var(--border-settings-main) double;}

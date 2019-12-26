@@ -390,6 +390,7 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 .clickable-11uBi-:hover, .selected-BYpGTS, .quickSelectPopoutOption-opKBx9:hover, .optionLabel-2CkCZx, .optionNormal-12VR9V:hover, .css-1gnr91b-option, .css-12o7ek3-option {background: var(--main-dropdown-hover);}
 
 .contextMenu-HLZMGh {padding: 0;}
+.attachPopout-36hjtN {padding: 0; border-radius: none;}
 .css-1aymab5-option {padding: 8px 12px;}
 
 .theme-dark .item-1Yvehc {color: #fff;} 
@@ -407,10 +408,10 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 
 .icon-360yEu, .iconWrapper-2Urb3j {width: auto; height: auto;}
 
-.theme-dark .container-3ayLPN {background: var(--main-dropdown);}
+.theme-dark .container-3ayLPN, .attachPopout-36hjtN {background: var(--main-dropdown);}
 .theme-dark .item-1GzJrl.invite-271nFU {color: #304db5 !important;}
 
-.theme-dark .option-96V44q.selected-rZcOL- {background-color: var(--main-dropdown-hover);}
+.theme-dark .option-96V44q.selected-rZcOL-, .attachPopoutRow-3iqqu1:hover {background-color: var(--main-dropdown-hover);}
 .theme-dark .option-96V44q:after {background: transparent;}
 .theme-dark .option-96V44q.selected-rZcOL-:after {background: transparent;}
 .theme-dark .searchOption-zQ-1l6 .answer-1n6g43, .theme-dark .option-96V44q .filter-3Y_im- {color: #333;}
@@ -524,7 +525,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .guildInfo-2wGKIg {padding: 16px;}
 
 /* Stylizes embeds */
-.theme-dark .markup-2BOw-j code, .theme-dark .wrapper-35wsBm, .embedFull-2tM8--, .theme-dark .attachment-33OFj0, .wrapperAudio-1jDe0Q {background: var(--main-embed-background) !important;}
+.theme-dark .markup-2BOw-j code, .theme-dark .wrapper-35wsBm, .embedFull-2tM8--, .theme-dark .attachment-33OFj0, .wrapperAudio-1jDe0Q, .invite-18yqGF {background: var(--main-embed-background) !important;}
 .markup-2BOw-j blockquote {border-radius: 0px 3px 3px 0px; background: var(--main-embed-background);}
 .markup-2BOw-j pre {border: 2px solid gray;}
 .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {background: gray; border-radius: 0px;}

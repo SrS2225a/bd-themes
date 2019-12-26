@@ -72,6 +72,7 @@ svg[name="DiscordWordmark"] {display: none;}
 /* Changes the color of the role menu and user information */
 .topSectionNormal-2-vo2m, .body-3ND3kc, .bodyInner-245q0L, .footer-1fjuF6 {background-color: var(--user-profile-background) !important;}
 .bodyInner-245q0L {overflow: hidden; padding: 0;}
+.wumpusWrapper-yrvoR3 {margin-top: 30%;}
 
 .bodyTitle-Y0qMQz {margin: 0; background: var(--user-profile-background) !important; filter: contrast(80%); height: 28px!important; line-height: 28px; padding-left: 10px; display: flex;}
 .userPopout-3XzG_A {width: 260px;}

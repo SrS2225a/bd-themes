@@ -1,4 +1,4 @@
-/* The Multiverse 2 - v3.11.21 */ 
+/* The Multiverse 2 - v3.11.22 */ 
 /*                    1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 
@@ -14,7 +14,7 @@ Orignal Authors are cool with it
 /* Initalizes the theme */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 3.11.21";
+        --Update-Text: "Version 3.11.22";
 	--revision: "4";
 	--creator-short: "SrS";
 }
@@ -242,7 +242,7 @@ display: block;
 border: 3px double rgba(74,107,26,1);
 color: rgba(74,107,26,1);
 border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. added in a new easter egg - find it!</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20">1. Easter Egg Hint: Search</text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. fixed one of discords own bugs</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20"></text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
@@ -403,6 +403,8 @@ span.notice-message {position: absolute; display: contents; padding-left: 4px;}
 .separator-2zcjq8 {border-bottom: none;}
 
 .theme-dark .item-1Yvehc.disabled-2xniQf, .theme-dark .item-1Yvehc.disabled-2xniQf:hover {color: #33b;}
+
+.icon-360yEu, .iconWrapper-2Urb3j {width: auto; height: auto;}
 
 .theme-dark .container-3ayLPN {background: var(--main-dropdown);}
 .theme-dark .item-1GzJrl.invite-271nFU {color: #304db5 !important;}

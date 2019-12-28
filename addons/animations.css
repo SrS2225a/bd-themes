@@ -2,7 +2,7 @@
 
 /* @import and define the animation by name from any animations under this list. Any animation can be used or by any number of times */
 
-@keyframes color-change {
+@keyframes colorChange {
   from {
     -webkit-filter: hue-rotate(0deg);
   }
@@ -11,7 +11,7 @@
   }
 }
 
-@keyframes fade-in {
+@keyframes fadeIn {
   from {
     display: block;
     opacity: 0;
@@ -23,7 +23,7 @@
 }
 
 
-@keyframes fade-out {
+@keyframes fadeOut {
   from {
     display: block;
     opacity: 1;

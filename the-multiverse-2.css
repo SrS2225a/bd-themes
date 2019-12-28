@@ -124,8 +124,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .keybind-KpFkfr {color: lime; animation: color-change 12s infinite linear;}
 .theme-dark .subtitle-Qv5s8c {color: #1db954;}
 
-.theme-dark .base-gE7OpD span {color: lime; animation: color-change 12s infinite linear;}
-.base-gE7OpD .cooldownWrapper-3joyFc {color: lime !important; animation: color-change 12s infinite linear;}
+.theme-dark .base-gE7OpD span, .base-gE7OpD .cooldownWrapper-3joyFc {color: lime; animation: color-change 12s infinite linear;}
 
 .innerDisabled-1YTFPN {display: none;}
 

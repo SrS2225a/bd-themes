@@ -101,6 +101,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .theme-dark .streamPreview-2-WUWT {background: var(--user-profile-background);}
 .theme-dark .container-VSDcQc .sectionTag-pXyto9, .theme-dark .popoutList-T9CKZQ {background: #999966; text-shadow: 1px 1px black;}
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6, .cancelButton-2O3h8t, .lookLink-9FtZy-.colorWhite-rEQuAQ, .lookLink-9FtZy-.colorBrand-3pXr91 {background: var(--main-cancel-button-color); color: black;}
+#bd-settingspane-container .bd-pfbtn {margin-left: 10px !important;}
 .closeButton-g8-Rd4 {padding: 2px 16px 2px 16px;}
 .lookFilled-1Gx00P.colorRed-1TFJan {margin-left: 12px;}
 .giftButton-1qyve4 {width: 100%; margin-top: 20px;}

@@ -509,6 +509,7 @@ span.optional--ezibr {display: none;}
 .nextArrow-V_4mvH, .prevArrow-11tqRS {background: var(--play-arrow-color-main); border-radius: 50%; width: 40px; height: 40px;}
 .wrapper-129saQ {background: var(--play-arrow-color-main);}
 .iconExternal-NKMKxg, .iconExternalMargins-2v2mzg, .iconPlay-2kgvwV {color: gray; opacity: 1;}
+.copyButton-gxXBmB {background: transparent;}
 .theme-dark .scrollerButton-1Vm5_P {
     background-color: var(--play-arrow-color-main);
     color: #fff;

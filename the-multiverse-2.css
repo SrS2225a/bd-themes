@@ -1,4 +1,4 @@
-/* The Multiverse 2 - v3.12.22 */ 
+/* The Multiverse 2 - v3.13.22 */ 
 /*                    1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 
@@ -14,7 +14,7 @@ Orignal Authors are cool with it
 /* Initalizes the theme */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 3.12.22";
+        --Update-Text: "Version 3.13.22";
 	--revision: "4";
 	--creator-short: "SrS";
 }

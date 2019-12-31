@@ -291,8 +291,6 @@ animation: color-change 20s infinite linear;
 }
 
 .bd-toasts .bd-toast {
-	position: relative;
-	overflow: hidden;
 	padding: 40px 10px 2px 0px;
 	height: 22px;
 	text-align: center;

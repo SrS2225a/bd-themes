@@ -278,24 +278,22 @@ animation: color-change 20s infinite linear;
 
 /* Styles the toast notifications */
 .bd-toasts, .toasts {
-  width: calc(100% - 10px)!important;
-  height: calc(100% - 70px)!important;
+  width: calc(40% - 20px)!important;
+  height: calc(100% - 80px) !important;
   position: absolute;
   top: initial!important;
-  right: initial!important;
   bottom: 0px!important;
-  left: initial!important;
   display: flex;
   flex-flow: column;
+  min-width: 158px;
   justify-content: flex-end;
 }
 
 .bd-toasts .bd-toast {
-	padding: 40px 10px 2px 0px;
-	height: 22px;
+	padding: 40px 8px 6px 8px !important;
 	text-align: center;
 	text-indent: 8px;
-	background-repeat: space;
+	background-repeat: space !important;
 	background-blend-mode: hue;
 }
 

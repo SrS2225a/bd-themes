@@ -103,7 +103,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6, .cancelButton-2O3h8t, .lookLink-9FtZy-.colorWhite-rEQuAQ, .lookLink-9FtZy-.colorBrand-3pXr91 {background: var(--main-cancel-button-color); color: black;}
 #bd-settingspane-container .bd-pfbtn {margin-left: 10px !important;}
 .closeButton-g8-Rd4 {padding: 2px 16px 2px 16px;}
-.lookFilled-1Gx00P.colorRed-1TFJan {margin-left: 12px;}
+.lookFilled-1Gx00P.colorRed-1TFJan, .lookFilled-1Gx00P.colorGreen-29iAKY {margin-left: 12px;}
 .giftButton-1qyve4 {width: 100%; margin-top: 20px;}
 .linkButton-wzh5kV {padding: 2px 4px;}
 .fullWidth-1orjjo {right: 5%;}

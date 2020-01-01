@@ -282,10 +282,11 @@ animation: color-change 20s infinite linear;
   height: calc(100% - 80px) !important;
   position: absolute;
   top: initial!important;
+  left: initial!important;
   bottom: 0px!important;
   display: flex;
   flex-flow: column;
-  min-width: 158px;
+  min-width: 162px;
   justify-content: flex-end;
 }
 

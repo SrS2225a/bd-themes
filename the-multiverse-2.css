@@ -328,7 +328,7 @@ animation: color-change 20s infinite linear;
 
 .notice-2FJMB4, #pluginNotice {
     position: fixed;
-    margin-top: 8px;
+    margin-top: 16px;
     left: calc(50% - 8em);
     display: grid;
     border-radius: 4px;
@@ -339,10 +339,8 @@ animation: color-change 20s infinite linear;
 
 .button-1MICoQ {position: unset; margin-left: 0; margin-bottom: 8px;}
 
-#pluginNotice {text-align: start; padding: 4px 8px; }
-.platformIcon-2NdO9F {margin-top: 0px;}
-
-span.notice-message {position: absolute; display: contents; padding-left: 4px;}
+#pluginNotice {text-align: start; padding: 4px 28px 4px 8px; }
+.platformIcon-2NdO9F {margin-top: 0px !important;}
 
 .theme-dark .tooltipBlack-PPG47z, .theme-dark .overflowRolesPopout-140n9i {background: var(--toast-hover-main);}
 

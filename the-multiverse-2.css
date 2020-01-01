@@ -286,7 +286,7 @@ animation: color-change 20s infinite linear;
   bottom: 0px!important;
   display: flex;
   flex-flow: column;
-  min-width: 162px;
+  min-width: 170px;
   justify-content: flex-end;
 }
 

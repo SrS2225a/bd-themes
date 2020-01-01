@@ -304,6 +304,7 @@ animation: color-change 20s infinite linear;
 	position: absolute;
 	top: 0;
 	left: 0;
+	overflow: hidden;
 	width: 100%;
 	white-space: nowrap;
 	background: rgba(0, 0, 0, .3);

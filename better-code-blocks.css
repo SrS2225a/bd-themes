@@ -3,6 +3,8 @@
 @charset "UTF-8";
 
 .embedImage-2W1cML img, .embedFull-2tM8-- .embedMedia-1guQoW {margin-left: auto !important; margin-right: auto !important;}
+.embedProvider-3k5pfl {color: gray;}
+.embedFieldName-NFrena {text-decoration: underline;}
 
 #app-mount .markup-2BOw-j .hljs:before {
   pointer-events: none  !important;

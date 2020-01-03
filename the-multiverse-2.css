@@ -122,10 +122,10 @@ svg[name="DiscordWordmark"] {display: none;}
 .name-3_Dsmg {color: white !important;}
 .unread-3zKkbm:after {content: ">"; margin-left: 2px; color: var(--main-unread); display: block !important;}
 
-.keybind-KpFkfr {color: lime; animation: color-change 12s infinite linear;}
+.keybind-KpFkfr {color: lime; animation: colorChange 12s infinite linear;}
 .theme-dark .subtitle-Qv5s8c {color: #1db954;}
 
-.theme-dark .base-gE7OpD span, .base-gE7OpD .cooldownWrapper-3joyFc {color: lime; animation: color-change 12s infinite linear;}
+.theme-dark .base-gE7OpD span, .base-gE7OpD .cooldownWrapper-3joyFc {color: lime; animation: colorChange 12s infinite linear;}
 
 .innerDisabled-1YTFPN {display: none;}
 

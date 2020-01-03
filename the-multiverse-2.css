@@ -234,7 +234,7 @@ svg[name="DiscordWordmark"] {display: none;}
 .app-2rEoOp button {margin-left: 0 !important;}
 .message-3SOT5P .btn-11C5_u, .bda-slist .bda-footer button {margin-left: auto !important;}
 .colorPickerSwatch-5GX3Ve {right: -10px;}
-.bda-slist .bda-footer button, .item-26Dhrx[style*="background-color: rgb(114, 137, 218);"], .lookFilled-1Gx00P.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .buttonColor-1agP3J {background: var(--main-button-color) !important;}
+.bda-slist .bda-footer button, .item-26Dhrx[style*="background-color: rgb(114, 137, 218);"], .lookFilled-1Gx00P.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .jumpButton-Ia2hRJ, .buttonColor-1agP3J {background: var(--main-button-color) !important;}
 .bd-pfbtn:hover, .bda-slist .bda-footer button:hover, .item-26Dhrx[style*="background-color: rgb(114, 137, 218);"]:hover, .lookFilled-1Gx00P.colorBrand-3pXr91:hover, .buttonColor-1agP3J {background: var(--main-button-color); filter: hue-rotate(20deg);}
 .lookFilled-1Gx00P.colorPrimary-3b3xI6, .lookFilled-1Gx00P.colorGreen-29iAKY, .bd-pfbtn {background: var(--main-secondary-button-color) !important;}
 .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .bd-pfbtn:hover {background: var(--main-secondary-button-color) !important; filter: hue-rotate(20deg);}

@@ -10,7 +10,9 @@
   display: var(--code-block-lang-identifer) !important;
   margin: 0 0 10px 0 !important;
   color: #fff !important;
-  font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial' !important; 
 }
 
 .markup-2BOw-j code {background: var(--code-block-background);}

@@ -182,7 +182,7 @@ svg[name="DiscordWordmark"] {display: none;}
 
 .bd-backdrop {background: transparent;}
 .bd-modal-wrapper .tab-bar-container {background: rgba(255, 255, 255, .07)!important;}
-.modal-6GHvdM .tabBarContainer-1s1u-z {margin-left: auto !important; background: rgba(255, 255, 255, .07)!important;}
+.theme-dark .modal-6GHvdM .tabBarContainer-1s1u-z {margin-left: auto !important; background: rgba(255, 255, 255, .07)!important;}
 .bd-modal-wrapper .bd-modal-body, .bd-modal-wrapper .footer {background: var(--popout-control-dialog);}
 .bd-modal-wrapper .header {background: var(--popout-control-dialog) ; color: var(--large-heading-main);}
 .bd-modal-wrapper .footer button {background: var(--main-button-color);}

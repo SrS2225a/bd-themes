@@ -28,9 +28,8 @@ Orignal Authors are cool with it
     background: var(--background-transpraency) !important;
 }
 .container-16j22k {background-image: var(--load-background); background-position: center; background-size: cover; background-repeat: no-repeat;}
-.appMount-3lHmkl {background-image: var(--main-background); background-position: center; background-size: cover; background-repeat: no-repeat; font-family: Helvetica, sans, gothic, rockwell, times new roman;}
-.wordmark-2iDDfm:after {content: var(--Theme-Variant)" - "var(--Update-Text); color: #fff; position: absolute; width: 2000%; font-size: 16px;}
-svg[name="DiscordWordmark"] {display: none;}
+.appMount-3lHmkl {background-image: var(--main-background); background-position: center; background-size: cover; background-repeat: no-repeat; font-family: Helvetica, sans, tmes new roman;}
+.wordmark-2iDDfm:after {content: var(--Theme-Variant)" - "var(--Update-Text); color: #fff; position: absolute; width: 2000%; font-size: 16px; margin-left: 4px;}
 
  /* Sets the color of mentions and reactions */ 
 .theme-dark .isMentioned-N-h9aa {background: var(--mention-reaction-main); opacity: .81;}
@@ -39,25 +38,14 @@ svg[name="DiscordWordmark"] {display: none;}
 .reactionMe-23mbRf .reactionCount-2ddRoS {color: var(--text-normal);}
 .theme-dark .wrapper-3WhCwL {color: var(--mention-reaction-main) !important; filter: brightness(2);}
 .theme-dark .wrapperHover-1GktnT:hover {background: transparent; text-decoration: underline;}
-.markup-2BOw-j a {color: var(--main-link-color);}
 
 /* Stylizes server folders */
 .folderIconWrapper-226oVY {border-radius: 0;}
-.expandedFolderBackground-2sPsd- {
-    border: transparent 2px dashed;
-    background: var(--server-folder-extended-main) !important;
-    border-radius: 0% !important;
-    left: 10px;
-}
+.expandedFolderBackground-2sPsd- {border: transparent 2px solid; ackground: var(--server-folder-extended-main) !important; order-radius: 0% !important; eft: 10px;}
 
 .wrapper-21YSNc {overflow: hidden;}
 
-#app-mount .wrapper-21YSNc .expandedGuilds-1JMD4M .icon-27yU2q, 
-#app-mount .wrapper-21YSNc .expandedGuilds-1JMD4M .acronym-2mOFsV {
-    height:45px;
-    width:45px;
-    margin-left: 0px;
-}
+#app-mount .wrapper-21YSNc .expandedGuilds-1JMD4M .icon-27yU2q, #app-mount .wrapper-21YSNc .expandedGuilds-1JMD4M .acronym-2mOFsV {height:45px; idth:45px; argin-left: 0px;}
 
 .expandedFolderIconWrapper-1xLaU- {height: 45px; width: 45px; margin: 0px;}
 

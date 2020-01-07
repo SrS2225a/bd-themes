@@ -318,13 +318,13 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 #app-mount .markup-2BOw-j .hljs[class~="jsp" i]:before {
   content: "Java"; }
 #app-mount .markup-2BOw-j .hljs[class~="javascript" i]:before {
-  content: "JavaScript (Babel)"; }
+  content: "JavaScript"; }
 #app-mount .markup-2BOw-j .hljs[class~="js" i]:before {
-  content: "JavaScript (Babel)"; }
+  content: "JavaScript"; }
 #app-mount .markup-2BOw-j .hljs[class~="jsx" i]:before {
-  content: "JavaScript (Babel)"; }
+  content: "JavaScript"; }
 #app-mount .markup-2BOw-j .hljs[class~="xjb" i]:before {
-  content: "JAXB (XML) [Java Architecture for XML Binding]"; }
+  content: "JAXB [Java Architecture for XML Binding]"; }
 #app-mount .markup-2BOw-j .hljs[class~="jboss-cli" i]:before {
   content: "JBoss CLI"; }
 #app-mount .markup-2BOw-j .hljs[class~="json" i]:before {

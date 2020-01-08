@@ -17,7 +17,7 @@ li[data-name*="better code blocks"] .bda-footer:before {color: #fff !important; 
   font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial' !important; 
 }
 
-.markup-2BOw-j code {background: var(--code-block-background);}
+.markup-2BOw-j code {background: var(--code-block-background) !important;}
 .markup-2BOw-j pre {border: var(--code-block-border);}
 
  .hljs {

@@ -207,7 +207,7 @@ Orignal Authors are cool with it
 #pubslayer .ui-tab-bar-item.selected {background-color: var(--settings-member-select) !important;}
 #pubslayer .ui-tab-bar-item:hover {background-color: var(--settings-member-hover) !important;}
 
-.footer-3rDWdC .lookFilled-1Gx00P.colorBrand-3pXr91, .footer-3rDWdC .lookLink-9FtZy-.colorPrimary-3b3xI6, .footer-3mqk7D .hasSpoilers-1IRtQC .lookFilled-1Gx00P.colorBrand-3pXr91 {margin-right: 18px; margin-left: 0;}
+.footer-3rDWdC .lookFilled-1Gx00P.colorBrand-3pXr91, .footer-3rDWdC .lookLink-9FtZy-.colorPrimary-3b3xI6, .footer-3mqk7D .hasSpoilers-1IRtQC .lookLink-9FtZy-.colorPrimary-3b3xI6 {margin-right: 18px; margin-left: 0;}
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6, .cancelButton-2O3h8t, .lookLink-9FtZy-.colorWhite-rEQuAQ, .lookLink-9FtZy-.colorBrand-3pXr91 {background: var(--main-cancel-button-color); color: black;}
 .cancelButton-3F-H2t {margin-right: 0;}
 #bd-settingspane-container .bd-pfbtn {margin-left: 10px !important;}

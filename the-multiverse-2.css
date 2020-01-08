@@ -304,7 +304,7 @@ animation: color-change 20s infinite linear;
     position: fixed;
     margin-top: 16px;
     left: calc(50% - 8em);
-    display: grid;
+    display: block;
     border-radius: 4px;
     font-size: initial;
     z-index: 9999;
@@ -604,9 +604,9 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .header-39GIC8 {opacity: 0; height: 2px;}
 .theme-dark .gameUpdates-2GPqBU {background: transparent;}
 
-.theme-dark .rowWrapperActive-2L7i9f {background-color: rgba(0,0,0,.6);}
-.rowBackground-3MeNoN {-webkit-mask: radial-gradient(100% 100% at top left,hsla(0,0%,100%,.3) 0,hsla(0,0%,100%,.4) 100%); width: 100%; filter: grayscale(80%);}
-.gameLibrary-TTDw4Y .header-39GIC8 {display: none}
+.rowWrapperActive-2L7i9f {background-color: rgba(0,0,0,.6);}
+.rowBackground-3MeNoN {mask: radial-gradient(100% 100% at top left,hsla(0,0%,100%,.3) 0,hsla(0,0%,100%,.4) 100%); width: 100%; filter: grayscale(80%);}
+.rowWrapperActive-2L7i9f .header-39GIC8 {display: none}
 .textCell-1aBIUP{margin:10px 0 0 20px}
 #app-mount .nameBodyCell-3JOlnK{margin:10px 0 0 10px}
 #app-mount .bodyCell-9xKjWE{width:300px;padding:2px}
@@ -663,38 +663,14 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .buttonWrapper-1ZmCpA[tabindex="3"] {display:none}
 
 /* Changes the border-radius of user pfp's and server icons */
-.theme-dark .mask-3OgeRz {-webkit-mask: none;mask: none;}
+.theme-dark .mask-3OgeRz {mask: none;}
 
 .pointerEvents-2zdfdO {border-radius: 0px; mask: none !important;}
 
-#app-mount .wrapper-1Rf91z [mask*="url"], #app-mount .mask-1l8v16 foreignObject {
-    mask: var(--border-radius-profile-main);
-}
+#app-mount .wrapper-1Rf91z [mask*="url"], #app-mount .mask-1l8v16 foreignObject {mask: var(--border-radius-profile-main);}
 
-[mask="url(#svg-mask-avatar-status-round-80)"], [mask="url(#svg-mask-avatar-status-mobile-80)"] {
-    mask: none;	
-}
+[mask="url(#svg-mask-avatar-status-round-80)"] {mask: none;}
 
-[mask="url(#svg-mask-status-online)"],
-[mask="url(#svg-mask-status-online-mobile)"] {
-    fill: rgb(67, 181, 129);
-}
-
-[mask="url(#svg-mask-status-idle)"] {
-    fill: rgb(250, 166, 26);
-}
-
-[mask="url(#svg-mask-status-dnd)"] {
-    fill: rgb(240, 71, 71);
-}
-
-[mask="url(#svg-mask-status-offline)"] {
-    fill: rgb(116, 127, 141);
-}
-
-[mask="url(#svg-mask-status-streaming)"] {
-    fill: rgb(89, 54, 149);
-}
 
 .selected-nT-gM3, .circleButtonSelected-34rLFW  {outline: 2.8px dashed yellow !important;}
 .badgeWrapper-3e8pMZ {width: 95%; height: 95%;}

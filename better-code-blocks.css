@@ -53,6 +53,7 @@
 body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
     content: 'Plain Text';
 }
+
 #app-mount .markup-2BOw-j .hljs[class~="1c" i]:before {
   content: "1c"; }
 #app-mount .markup-2BOw-j .hljs[class~="abnf" i]:before {
@@ -310,7 +311,9 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 #app-mount .markup-2BOw-j .hljs[class~="i7" i]:before {
   content: "Inform7"; }
 #app-mount .markup-2BOw-j .hljs[class~="ini" i]:before {
-  content: "Ini"; }
+  content: "INI"; }
+#app-mount .markup-2BOw-j .hljs[class~="toml" i]:before {
+  content: "TOML"; }
 #app-mount .markup-2BOw-j .hljs[class~="irpf90" i]:before {
   content: "IRPF90"; }
 #app-mount .markup-2BOw-j .hljs[class~="java" i]:before {

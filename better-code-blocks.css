@@ -2,6 +2,8 @@
 
 @charset "UTF-8";
 
+li[data-name*="better code blocks"] .bda-footer:before {color: #fff !important; content: "New Changes: Added Support for the TOML Language" !important;}
+
 .embedImage-2W1cML img, .embedFull-2tM8-- .embedMedia-1guQoW {margin-left: auto !important; margin-right: auto !important;}
 .embedFieldName-NFrena {text-decoration: underline;}
 

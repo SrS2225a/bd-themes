@@ -672,7 +672,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 
 #app-mount .wrapper-1Rf91z [mask*="url"], #app-mount .mask-1l8v16 foreignObject {mask: var(--border-radius-profile-main);}
 
-[mask="url(#svg-mask-avatar-status-round-80)"] {mask: none;}
+[mask="url(#svg-mask-avatar-status-round-80)"], [mask="url(#svg-mask-avatar-status-mobile-80)"] {mask: none;}
 
 
 .selected-nT-gM3, .circleButtonSelected-34rLFW  {outline: 2.8px dashed yellow !important;}

@@ -1,4 +1,4 @@
-/* The Multiverse 2 - v3.13.23 */ 
+/* The Multiverse 2 - v3.13.24 */ 
 /*                    1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 
@@ -15,7 +15,7 @@ Orignal Authors are cool with it
 /* Initalizes the theme */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 3.13.23";
+        --Update-Text: "Version 3.13.24";
 	--revision: "4";
 	--creator-short: "SrS";
 }
@@ -234,7 +234,7 @@ display: block;
 border: 3px double rgba(74,107,26,1);
 color: rgba(74,107,26,1);
 border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. reduced code size</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20">1. Contunie on reduceing code size by using shorter classes</text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. added support for BD dropdowns</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20">1. Contunie on reduceing code size by using shorter classes</text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;
@@ -396,8 +396,8 @@ animation: color-change 20s infinite linear;
 .clickable-1JJAn8.container-2Pjhx-:active, .selected-aXhQR6.container-2Pjhx- {background-color: var(--user-member-select) !important; text-shadow: 1px 1px #000 !important;}
 
 /* Changes the more users options color */
-.contextMenu-HLZMGh, .container-3cGP6G, .quickSelectPopout-X1hvgV, .theme-dark .popout-2sKjHu, .css-1aymab5-option {background: var(--main-dropdown);}
-.clickable-11uBi-:hover, .selected-BYpGTS, .quickSelectPopoutOption-opKBx9:hover, .optionLabel-2CkCZx, .optionNormal-12VR9V:hover, .css-1gnr91b-option, .css-12o7ek3-option {background: var(--main-dropdown-hover);}
+.contextMenu-HLZMGh, .container-3cGP6G, .quickSelectPopout-X1hvgV, .theme-dark .popout-2sKjHu, .css-1aymab5-option, .BDFDB-select .css-1ye7vu0 {background: var(--main-dropdown);}
+.clickable-11uBi-:hover, .selected-BYpGTS, .quickSelectPopoutOption-opKBx9:hover, .optionLabel-2CkCZx, .optionNormal-12VR9V:hover, .css-1gnr91b-option, .css-12o7ek3-option, .BDFDB-select .css-1gnr91b-option {background: var(--main-dropdown-hover);}
 
 .contextMenu-HLZMGh {padding: 0;}
 .attachPopout-36hjtN {padding: 0; border-radius: none;}

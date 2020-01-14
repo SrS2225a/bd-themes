@@ -33,7 +33,7 @@ Orignal Authors are cool with it
 
 .container-16j22k {background-image: var(--load-background); background-position: center; background-size: cover; background-repeat: no-repeat;}
 .appMount-3lHmkl {background-image: var(--main-background); background-position: center; background-size: cover; background-repeat: no-repeat; font-family: 'zrnic';}
-.wordmark-2iDDfm:after {content: var(--Theme-Variant)" - "var(--Update-Text); color: #fff; position: absolute; width: 2000%; font-size: 16px; margin-left: 4px;}
+.wordmark-2iDDfm:after {content: var(--Theme-Variant)" - "var(--Update-Text); color: #fff; position: absolute; width: 2000%; font-size: 16px; margin-left: 6px;}
 
  /* Sets the color of mentions and reactions */ 
 .theme-dark .isMentioned-N-h9aa {background: var(--mention-reaction-main); opacity: .81;}

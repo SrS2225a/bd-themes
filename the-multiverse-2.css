@@ -112,6 +112,7 @@ Orignal Authors are cool with it
 .innerDisabled-1YTFPN {display: none;}
 
 /* Stylizes the activity tab */
+.activityFeed-1C0EmJ * {color: darkgray;}
 .theme-dark .outer-2IVh5n, .theme-dark .recentlyPlayedContainer-2F3MqS {background: var(--store-item-background) !important;}
 .title-pqKcDf, .da-formTitleInCard {color: var(--activity-heading-2) !important;}
 .theme-dark .base-1x0h_U {color: var(--activity-heading-1);}

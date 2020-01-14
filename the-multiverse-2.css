@@ -11,6 +11,10 @@ Orignal Authors are cool with it
 
 /* Adds in addons */
 @import url("https://raw.githack.com/SrS2225a/bd-themes/master/addons/animations.css");
+@font-face {
+    font-family: 'zrnic';
+    src: url('https://raw.githack.com/SrS2225a/bd-themes/master/addons/fonts/zrnic.ttf');
+}
 
 /* Initalizes the theme */
 :root {
@@ -28,7 +32,7 @@ Orignal Authors are cool with it
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {background: var(--background-transpraency) !important;}
 
 .container-16j22k {background-image: var(--load-background); background-position: center; background-size: cover; background-repeat: no-repeat;}
-.appMount-3lHmkl {background-image: var(--main-background); background-position: center; background-size: cover; background-repeat: no-repeat; font-family: Helvetica, sans, tmes new roman;}
+.appMount-3lHmkl {background-image: var(--main-background); background-position: center; background-size: cover; background-repeat: no-repeat; font-family: 'zrnic';}
 .wordmark-2iDDfm:after {content: var(--Theme-Variant)" - "var(--Update-Text); color: #fff; position: absolute; width: 2000%; font-size: 16px; margin-left: 4px;}
 
  /* Sets the color of mentions and reactions */ 
@@ -234,7 +238,7 @@ display: block;
 border: 3px double rgba(74,107,26,1);
 color: rgba(74,107,26,1);
 border-radius: 4px; 
-content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. added support for BD dropdowns</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20">1. Contunie on reduceing code size by using shorter classes</text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
+content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" style="width:110%;height:100%;word-wrap:normal;"><g style="fill: lime; font-family:verdana"><text y="20" style="font-size: 1.4em; fill: lime;">The Multiverse Update Log</text><text y="50" style="font-size: 1em;" x="20">1. Trying out diffrient fonts, feel free to suggest!</text><text y="68" style="font-size: 1em;" x="20"></text><text y="98" style="font-size: 1.4em;">Notes</text><text y="124" style="font-size: 1em;" x="20">1. www.dafont.com is a good resource to find custom fonts</text><text y="144" style="font-size: 1em;" x="20"></text></g></svg>')"For, "var(--Theme-Variant)" - "var(--Update-Text);
 text-align: center;
 word-wrap: break-word;
 animation: color-change 20s infinite linear;

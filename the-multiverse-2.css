@@ -32,7 +32,7 @@ Orignal Authors are cool with it
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {background: var(--background-transpraency) !important;}
 
 .container-16j22k {background-image: var(--load-background); background-position: center; background-size: cover; background-repeat: no-repeat;}
-.appMount-3lHmkl {background-image: var(--main-background); background-position: center; background-size: cover; background-repeat: no-repeat; font-family: 'zrnic'; letter-spacing: 1px;}
+.appMount-3lHmkl {background-image: var(--main-background); background-position: center; background-size: cover; background-repeat: no-repeat; font-family: 'zrnic'; letter-spacing: 1.3px;}
 .wordmark-2iDDfm:after {content: var(--Theme-Variant)" - "var(--Update-Text); color: #fff; position: absolute; width: 2000%; font-size: 16px; margin-left: 6px;}
 
  /* Sets the color of mentions and reactions */ 

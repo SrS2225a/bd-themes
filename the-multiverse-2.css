@@ -107,7 +107,7 @@ Orignal Authors are cool with it
 .keybind-KpFkfr {color: lime; animation: colorChange 12s infinite linear;}
 .theme-dark .subtitle-Qv5s8c {color: #1db954;}
 
-.theme-dark .base-gE7OpD span, .base-gE7OpD .cooldownWrapper-3joyFc {color: lime; animation: colorChange 12s infinite linear;}
+.theme-dark .base-gE7OpD span, .base-gE7OpD .cooldownWrapper-3joyFc {color: lime !important; animation: colorChange 12s infinite linear;}
 
 .innerDisabled-1YTFPN {display: none;}
 

@@ -165,7 +165,7 @@ Orignal Authors are cool with it
 /* Changes the pop-in control tabs */
 .theme-dark .card-FDVird:before {background: rgba(32,34,37,.3);}
 
-.contentWrapper-3WC1ID, .scroller-3__pG8, .slideBody-2nMrnU, .theme-dark .quickswitcher-3JagVE, .theme-dark .root-1gCeng, .theme-dark .footer-3rDWdC, .footer-3rDWdC .lookFilled-1Gx00P.colorRed-1TFJan, .theme-dark .modal-yWgWj-, .theme-dark .uploadModal-2ifh8j {background: var(--popout-control-dialog) !important;}
+.contentWrapper-3WC1ID, .scroller-3__pG8, .slideBody-2nMrnU, .theme-dark .quickswitcher-3JagVE, .theme-dark .root-1gCeng, .theme-dark .footer-3rDWdC, .theme-dark .footer-3mqk7D, .theme-dark .modal-yWgWj-, .theme-dark .uploadModal-2ifh8j {background: var(--popout-control-dialog) !important;}
 .tierBody-16Chc9, .tierBody-x9kBBp, .perk-2WeBWW, .tierMarkerBackground-3q29am, .ctaBar-2UsjF2, .body-2iXqIL, .footer-2aTx0s, .tiles-2aXG_k {background: var(--popout-secondary-control-dialog) !important;}
 
 .bd-backdrop {background: transparent;}
@@ -212,7 +212,7 @@ Orignal Authors are cool with it
 #pubslayer .ui-tab-bar-item.selected {background-color: var(--settings-member-select) !important;}
 #pubslayer .ui-tab-bar-item:hover {background-color: var(--settings-member-hover) !important;}
 
-.footer-3rDWdC .lookFilled-1Gx00P.colorBrand-3pXr91, .footer-3rDWdC .lookLink-9FtZy-.colorPrimary-3b3xI6, .footer-3mqk7D .hasSpoilers-1IRtQC .lookLink-9FtZy-.colorPrimary-3b3xI6, .footer-3mqk7D .hasSpoilers-1IRtQC .lookFilled-1Gx00P.colorBrand-3pXr91 {margin-left: 18px; margin-right: 0;}
+.footer-3rDWdC .lookFilled-1Gx00P.colorBrand-3pXr91, .footer-3rDWdC .lookLink-9FtZy-.colorPrimary-3b3xI6, .footer-3mqk7D .hasSpoilers-1IRtQC .lookLink-9FtZy-.colorPrimary-3b3xI6, .footer-3mqk7D .hasSpoilers-1IRtQC .lookFilled-1Gx00P.colorBrand-3pXr91, .footer-3rDWdC .lookFilled-1Gx00P.colorRed-1TFJan {margin-left: 18px; margin-right: 0;}
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6, .cancelButton-2O3h8t, .lookLink-9FtZy-.colorWhite-rEQuAQ, .lookLink-9FtZy-.colorBrand-3pXr91 {background: var(--main-cancel-button-color); color: black;}
 .cancelButton-3F-H2t {margin-right: 0;}
 #bd-settingspane-container .bd-pfbtn {margin-left: 10px !important;}

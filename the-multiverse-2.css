@@ -64,13 +64,13 @@ Orignal Authors are cool with it
 /* Changes the color of the role menu and user information */
 .topSectionNormal-2-vo2m, .body-3ND3kc, .bodyInner-245q0L, .footer-1fjuF6 {background-color: var(--user-profile-background) !important;}
 
-.bodyInner-245q0L {padding: 0; overflow: hidden;}
+.bodyInner-245q0L {padding: 0; overflow-x: hidden;}
 .wumpusWrapper-yrvoR3 {margin-top: 30px;}
 .footer-1fjuF6 {padding-top: 0;}
 .note-3HfJZ5 textarea {margin: 8px; width: 94%; height: auto;}
 .rolesList-22qj2L {margin: 10px;}
 
-.userPopout-3XzG_A {width: 260px;}
+.userPopout-3XzG_A {width: 262px;}
 .body-3ND3kc {height: 260px;}
 
 .bodyTitle-Y0qMQz {margin: 0; margin-bottom: 1px; background: var(--user-profile-background) !important; filter: contrast(80%); height: 28px!important; line-height: 28px; padding-left: 10px; display: flex; white-space: nowrap;}
@@ -96,7 +96,7 @@ Orignal Authors are cool with it
 .planInfo-2sxmf2 {margin-top: auto; margin-bottom: auto;}
 .tierImage-2rby9B {display: flex; flex: 1 1 auto;}
 .theme-dark .listRow-hutiT_:hover {background: hsla(0, 0%, 100%, .05);}
-.role-2irmRk {border-radius: 3px; margin: 2.7px;}
+.role-2irmRk {border-radius: 3px;}
 .roleCircle-3xAZ1j {border-radius: 6%;}
 .sidebar-2K8pFh {border-radius: 0px;}
 

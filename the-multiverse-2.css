@@ -325,7 +325,7 @@ animation: color-change 20s infinite linear;
 #pluginNotice {text-align: start; padding: 4px 28px 4px 8px; }
 .platformIcon-2NdO9F {margin-top: 0px !important;}
 
-.theme-dark .tooltipBlack-PPG47z, .theme-dark .overflowRolesPopout-140n9i {background: var(--toast-hover-main);}
+.theme-dark .tooltipBlack-PPG47z, .theme-dark .overflowRolesPopout-140n9i, .toolbar-2bjZV7 {background: var(--toast-hover-main);}
 
 /* stylizes the configuration page for the user settings and server settings pages*/
 .theme-dark .wrapper-29NfPK, .panels-j1Uci_ {background: var(--secondary-transpraency);}

@@ -32,7 +32,7 @@ Orignal Authors are cool with it
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {background: var(--background-transpraency) !important;}
 
 .container-16j22k {background-image: var(--load-background); background-position: center; background-size: cover; background-repeat: no-repeat;}
-.appMount-3lHmkl {background-image: var(--main-background); background-position: center; background-size: cover; background-repeat: no-repeat; font-family: 'zrnic'; letter-spacing: 1.3px;}
+.appMount-3lHmkl {background-image: var(--main-background); background-position: center; background-size: cover; background-repeat: no-repeat; font-family: 'zrnic'; letter-spacing: 1.4px;}
 .wordmark-2iDDfm:after {content: var(--Theme-Variant)" - "var(--Update-Text); color: #fff; position: absolute; width: 2000%; font-size: 16px; margin-left: 6px;}
 
  /* Sets the color of mentions and reactions */ 
@@ -67,7 +67,7 @@ Orignal Authors are cool with it
 .bodyInner-245q0L {padding: 2px; overflow-x: hidden; overflow-y: auto;}
 .wumpusWrapper-yrvoR3 {margin-top: 30px;}
 .footer-1fjuF6 {padding-top: 0;}
-.note-3HfJZ5 textarea {margin: 8px; width: 94%; height: auto;}
+.note-3HfJZ5 textarea {margin: 8px; margin-top: 0; width: 94%; height: auto;}
 .note-3HfJZ5 {margin-left: 0;}
 .rolesList-22qj2L {margin: 8px;}
 

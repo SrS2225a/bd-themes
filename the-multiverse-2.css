@@ -203,7 +203,7 @@ Orignal Authors are cool with it
 .roundButton-2CW1Hh {color: lightgrey;}
 .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:hover, .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ {background: transparent !important;}
 .theme-dark .description-3_Ncsb, .theme-dark .markValue-2DwdXI, .user-settings-games .last-played, #bd-settingspane-container .ui-switch-item .style-description {color: var(--main-decription-color);}
-.description-2nQj2E, .theme-dark #bd-settingspane-container .ui-switch-item .style-description {color: var(--main-decription-color);}
+.description-2nQj2E, .theme-dark #bd-settingspane-container .ui-switch-item .style-description, .progressCellText-3avmMz {color: var(--main-decription-color);}
 .markup-2BOw-j {color: var(--main-chat-color); text-shadow: 0 0 20px;}
 .theme-dark .spoilerText-3p6IlD {background: hsla(0,0%,100%,.3);}
 .regionSelectModal-12e-57 {background: var(--popout-control-dialog); !important}
@@ -457,7 +457,7 @@ animation: color-change 20s infinite linear;
     font-size: 14px;    
 }
 
-.downloadProgressCircle-3_wgim {margin-left: 0; right: 12%;}
+.downloadProgressCircle-3_wgim {margin-left: 0; right: 15%;}
 
 /* Changes the time-stamp color */
 .theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: var(--main-timestamp) !important;}

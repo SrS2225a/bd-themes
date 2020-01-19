@@ -268,14 +268,12 @@ animation: color-change 20s infinite linear;
 
 /* Styles the toast notifications */
 .bd-toasts, .toasts {
-  width: calc(40% - 80px)!important;
+  width: calc(40% - 120px)!important;
   height: calc(100% - 20px) !important;
   position: absolute;
   top: initial!important;
   left: initial!important;
   bottom: 0px!important;
-  display: flex;
-  flex-flow: column;
   min-width: 170px;
 }
 

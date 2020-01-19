@@ -12,8 +12,12 @@ Orignal Authors are cool with it
 /* Adds in addons */
 @import url("https://raw.githack.com/SrS2225a/bd-themes/master/addons/animations.css");
 @font-face {
-    font-family: 'zrnic';
-    src: url('https://raw.githack.com/SrS2225a/bd-themes/master/addons/fonts/zrnic.ttf');
+    font-family:'zrnic';
+    src: local('zrnic rg'), local('zrnic'), url('https://raw.githack.com/SrS2225a/bd-themes/master/addons/fonts/zrnic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Segoe MDL2 Assets';
+  src: local('Segoe MDL2 Assets'), local('SegoeMDL2Assets'), url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeMDL2Assets.woff2') format('woff2');
 }
 
 /* Initalizes the theme */

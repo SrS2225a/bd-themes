@@ -745,13 +745,12 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionDeny-18IZiW:hover, .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionAccept-zzNNTu:hover {background: transparent !important;}
 
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M {visibility: visible !important;}
+.friendsTable-133bsv .friendsRow-2yicud .discordTag-1Hozyw .discriminator-1Ro5o1 {visibility: hidden !important;}
+
 /* Stylies Plugins */
 [data-name="ZeresPluginLibrary"] {display: none;}
 [data-name="KSSLibrary"] {display: none;}
-
-.metalloriff-changelog-scroller, .vgr-relationshipswindow-scroller-wrapper, .sb-menu-scroller-wrapper {background: #381f25 !important;}
-.sb-menu-label {padding-bottom: 10px;}
-.vgr-friend-item:hover {background-color: rgba(255, 255, 255, 0.2);}
 
 .bda-slist::before  {
     content: 'Thank you for using The Multiverse 2! If you ever need help, want a custom theme, or just to share feeback, feel free to message the creator SrS#8614 via dm, or create a ticket at github.com/SrS2225a/bd-themes/issues. Enjoy!';

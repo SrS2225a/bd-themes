@@ -700,14 +700,6 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 
 .theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d {display: none;}
 
-.friendsTable-133bsv .scroller-2FKFPG>div:not(.friendsRow-2yicud),
-.friendsTable-133bsv .scroller-2FKFPG {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .avatarSmall--gkJKA {top: 10px;
     left: 10px;
     width: 85px !important;

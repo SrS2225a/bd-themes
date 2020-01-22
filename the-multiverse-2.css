@@ -461,7 +461,8 @@ animation: color-change 20s infinite linear;
     font-size: 14px;    
 }
 
-.downloadProgressCircle-3_wgim {margin-left: 0; right: 15%;}
+.downloadProgressCircle-3_wgim {display: none}
+.channel-2QD9_O .numberBadge-2s8kKX {margin-top: -33px; margin-left: 12px; transform: scale(0.84); z-index: 1;}
 
 /* Changes the time-stamp color */
 .theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: var(--main-timestamp) !important;}

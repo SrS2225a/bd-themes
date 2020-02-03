@@ -1,4 +1,4 @@
-/* The Multiverse 2 - v3.14.27 */ 
+/* The Multiverse 2 - v4.14.27 */ 
 /*                    1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 
@@ -10,10 +10,11 @@ Orignal Authors are cool with it
 
 
 /* Adds in addons */
-@import url("https://raw.githack.com/SrS2225a/bd-themes/master/addons/animations.css");
+@import url("https://gl.githack.com/SrS27a/bd/raw/master/themes/addons/stylesheets/animations.css");
+@import url("https://gl.githack.com/SrS27a/bd/raw/master/themes/addons/stylesheets/plugin-support.css");
 @font-face {
-    font-family:'zrnic';
-    src: local('zrnic rg'), local('zrnic'), url('https://raw.githack.com/SrS2225a/bd-themes/master/addons/fonts/zrnic.ttf') format('truetype');
+    font-family: 'zrnic';
+    src: local('zrnic rg'), local('zrnic'), url('https://gl.githack.com/SrS27a/bd/raw/master/themes/addons/fonts/zrnic.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Segoe MDL2 Assets';
@@ -23,12 +24,15 @@ Orignal Authors are cool with it
 /* Initalizes the theme */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 3.14.27";
-	--revision: "4";
-	--creator-short: "SrS";
+        --Update-Text: "Version 4.14.27";
+	    --revision: "4";
+	    --creator-short: "SrS";
+	    
+	    /* Variables for addons */
+	    --plugin-libary-hide: none;
 }
 
-#app-mount, .app-2rEoOp, body, .members-1998pB, .bg-h5JY_x, .container-3gCOGc, .chat-3bRxxu, .wrapper-1Rf91z, .pageWrapper-1PgVDX, .contentRegion-3nDuYy, .scroller-305q3I, .scroller-2XE8rp, .container-PNkimc, .perksModal-fSYqOq, .privateChannels-1nO12o, .scroller-1IIF0A, .messages-3amgkR, .sidebar-2K8pFh, .scroller-2TZvBN, .scroller-9moviB, .sidebarRegionScroller-3MXcoP, .friendsTable-133bsv .friendsTableBody-1ZhKif, .scroller-1JbKMe, .activityFeed-1C0EmJ, .scroller-1JpcIc, .applicationStore-1pNvnv, .root-1BQpZw, .scroller-5bBood, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e {
+#app-mount, .app-2rEoOp, body, .members-1998pB, .bg-h5JY_x, .container-3gCOGc, .chat-3bRxxu, .wrapper-1Rf91z, .pageWrapper-1PgVDX, .contentRegion-3nDuYy, .scroller-305q3I, .scroller-2XE8rp, .container-PNkimc, .perksModal-fSYqOq, .privateChannels-1nO12o, .scroller-1IIF0A, .messages-3amgkR, .sidebar-2K8pFh, .scroller-2TZvBN, .scroller-9moviB, .sidebarRegionScroller-3MXcoP, .friendsTable-133bsv .friendsTableBody-1ZhKif, .scroller-1JbKMe, .scroller-1JpcIc, .applicationStore-1pNvnv, .root-1BQpZw, .scroller-5bBood, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e {
     background-color: transparent !important;
 }
 
@@ -119,17 +123,11 @@ Orignal Authors are cool with it
 .innerDisabled-1YTFPN {display: none;}
 
 /* Stylizes the activity tab */
-.activityFeed-1C0EmJ * {color: darkgray;}
-.theme-dark .outer-2IVh5n, .theme-dark .recentlyPlayedContainer-2F3MqS {background: var(--store-item-background) !important;}
-.title-pqKcDf, .da-formTitleInCard {color: var(--activity-heading-2) !important;}
+.wrapper-3D2qGf {background: var(--store-item-background);}
+.da-formTitleInCard {color: var(--activity-heading-2) !important;}
 .theme-dark .base-1x0h_U {color: var(--activity-heading-1);}
 .title-FVgbgL {color: var(--large-heading-main) !important;}
-.recentlyPlayedContainer-2F3MqS {background: transparent;}
-.theme-dark .inset-GQDQYw {background: transparent;}
-.theme-dark .section-2VKIPC {background: rgba(32,34,37,.6);}
-.theme-dark .itemContainer-302Zx6:hover {background: rgba(5,5,0,.4);}
-.theme-dark .popout-3G62UL { background-color: var(--user-member-select);}
-.theme-dark .popoutContainer-3WC9HR:hover {background: rgba(0,0,0,.2);}
+.container-1D34oG {background: transparent !important;}
 .channel-2QD9_O, .member-3-YXUe {max-width: 100%; margin-left: auto; margin-right: auto;}
 
 .title-29uC1r {color: #fff !important;}
@@ -138,10 +136,7 @@ Orignal Authors are cool with it
 .theme-dark .description-1RsfgZ {background: var(--store-item-background);}
 
 .body-2lagau {width: -webkit-fill-available; max-width: -webkit-fill-available;}
-.layout-1cQCv2 {grid-template-columns: minmax(596px,736px) auto !important; padding: 16px;}
 .members-1998pB, .sidebar-2K8pFh, .animatedContainer-1pJv5C, .bannerImage-1jOskm {width: 258px;}
-
-.pageControl-1aUwvK {flex-direction: column;  background: var(--background-modifier-accent);}
 
 .theme-dark .lookFilled-1Gx00P.colorTransparent-1ewNp9:disabled {
     background: var(--main-chat-color);
@@ -158,16 +153,8 @@ Orignal Authors are cool with it
 }
 
 
-.pageControlContainer-3czZwE {
-    position: absolute;
-    width: fit-content;
-    right: 0;
-    margin-right: 14px;
-    top: 25%;
-}
-
-.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .activeButton-1BJAiN {background: #000; color: #fff;} 
-.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover, .theme-dark .pageButton-MknE-_:hover {background: #fff; color: #000;}
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .activeButton-1BJAiN {background: var(--main-option-button-color); color: #fff;} 
+.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover, .theme-dark .pageButton-MknE-_:hover {background: var(--main-button-secondary-color); color: #000;}
 
 /* Changes the pop-in control tabs */
 .theme-dark .card-FDVird:before {background: rgba(32,34,37,.3);}
@@ -396,10 +383,8 @@ animation: color-change 20s infinite linear;
 .contentRegion-3nDuYy #bd-customcss-attach-controls {background: transparent;}
 
 /* Changes the DM Color */
-.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a
-{background-color: var(--user-member-hover);}
-.channel-2QD9_O.selected-1HYmZZ a
-{background-color: var(--user-member-select) !important;}
+.channel-2QD9_O:hover a, .memberListContainer-13tNU9:hover {background-color: var(--user-member-hover);}
+.channel-2QD9_O.selected-1HYmZZ a, .popout-13LQ_3 {background-color: var(--user-member-select) !important;}
 .theme-dark .akaBadge-1M-1Gw {background-color: #292b2f !important;}
 
 /* Changes the Member list color */
@@ -442,15 +427,13 @@ animation: color-change 20s infinite linear;
 /* Restructures Elements */
 #app-mount .channel-2QD9_O[href="/activity"] .layout-2DM8Md, #app-mount .channel-2QD9_O[href="/channels/@me"]:not([href="/channels/@me/"]) .layout-2DM8Md, #app-mount .channel-2QD9_O[href="/library"] .layout-2DM8Md, #app-mount .channel-2QD9_O[href="/store"] .layout-2DM8Md {
     flex-direction: column;
-    height: 50px;
+    height: 52px;
 }
 
 #app-mount .channel-2QD9_O[href="/activity"], #app-mount .channel-2QD9_O[href="/channels/@me"]:not([href="/channels/@me/"]), #app-mount .channel-2QD9_O[href="/library"], #app-mount .channel-2QD9_O[href="/store"] {
     display: inline-block;
-    margin-top: 4px;
-    padding: initial;
-    width: 22%;
-    margin-left: 5px;   
+    width: 30%;
+    margin-left: 8px;   
 }
 
 #app-mount .channel-2QD9_O[href="/activity"] .avatar-3uk_u9, #app-mount .channel-2QD9_O[href="/channels/@me"]:not([href="/channels/@me/"]) .avatar-3uk_u9, #app-mount .channel-2QD9_O[href="/library"] .avatar-3uk_u9, #app-mount .channel-2QD9_O[href="/store"] .avatar-3uk_u9 {
@@ -458,10 +441,10 @@ animation: color-change 20s infinite linear;
 }
 
 #app-mount .channel-2QD9_O[href="/activity"] .layout-2DM8Md .name-uJV0GL, #app-mount .channel-2QD9_O[href="/channels/@me"]:not([href="/channels/@me/"]) .layout-2DM8Md .name-uJV0GL, #app-mount .channel-2QD9_O[href="/library"] .layout-2DM8Md .name-uJV0GL, #app-mount .channel-2QD9_O[href="/store"] .layout-2DM8Md .name-uJV0GL {
-    font-size: 14px;    
+    font-size: 16px;    
 }
 
-.downloadProgressCircle-3_wgim {display: none}
+.downloadProgressCircle-3_wgim {display: none;}
 .channel-2QD9_O .numberBadge-2s8kKX {margin-top: -33px; margin-left: 12px; transform: scale(0.84); z-index: 1;}
 
 /* Changes the time-stamp color */
@@ -696,66 +679,28 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 #bd-pub-button {border-radius: 4px;}
 
 /* Changes the look of the friends list */
-@media (max-width:1300px){.friendsTable-133bsv .friendsColumnGuilds-2we6jb{display:inline-flex !important}}
-#app-mount .friendsTable-133bsv .friendsRow-2yicud  {
-    margin: 10px;height: 142px !important;flex-direction: column ;flex-basis: 300px ; padding: 0;
-    white-space: nowrap;width: 324px;display: inline-block;justify-content: center;align-items: center;position:relative; background-color: var(--secondary-transpraency); border: 2px groove var(--border-libary-friends-main); border-radius: 2px;}
-
-.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d {display: none;}
-
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .avatarSmall--gkJKA {top: 10px;
-    left: 10px;
-    width: 85px !important;
-    height: 85px !important;
-    background-size: 85px 85px;}
-
-.friendsTable-133bsv .friendsRow-2yicud .discordTag-1Hozyw {
-    position: absolute;
-    top: 20px;
-    left: 105px;
-    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
-}
-
-.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 {left: 10px; bottom: 3px; width: 94%;}
-
-#app-mount .friendsTable-133bsv .friendsTableBody-1ZhKif .friendsRow-2yicud .friendsColumnGuilds-2we6jb {
-    top: 80px;
-    left: 105px;
-    width: 150px;
-   
-}
-
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ+.friendsColumn-eVHFqJ {
+.peopleListItem-2nzedh, .peopleListItem-2nzedh:hover  {
+    height: 62px;
+    opacity: 1;
+    background-color: var(--secondary-transpraency);
+    border: 2px groove var(--border-libary-friends-main);
+    border-radius: 2px;
+    width: 99%;
+    padding: 8px;
     margin: 0;
-    padding: 0;
-}
+    position: relative;
+    margin-top: 6px;
+    }
+    
+.peopleList-3c4jOR {padding-bottom: 8px;}
+    
+.peopleListItem-2nzedh:hover+.peopleListItem-2nzedh {border: 2px groove var(--border-libary-friends-main);}
 
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ {
-    position: absolute;
-}
+.title-30qZAO {display: none;}
 
-.friends-table .friends-row .friendsColumn-eVHFqJ+.friendsColumn-eVHFqJ {
-    margin-left: 41px;
-}
+.nowPlayingColumn-2sl4cE, .peopleList-3c4jOR {background: transparent !important;}
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M {
-    top: 45px;
-    left: 105px;
-}
-
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
-    width: 24px;
-    height: 24px;
-}
-
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionDeny-18IZiW:hover, .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionAccept-zzNNTu:hover {background: transparent !important;}
-
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M {visibility: visible !important;}
-.friendsTable-133bsv .friendsRow-2yicud .discordTag-1Hozyw .discriminator-1Ro5o1 {visibility: hidden !important;}
-
-/* Stylies Plugins */
-[data-name="ZeresPluginLibrary"] {display: none;}
-[data-name="KSSLibrary"] {display: none;}
+.discriminator-22Okc1 {display: none; !important;}
 
 .bda-slist::before  {
     content: 'Thank you for using The Multiverse 2! If you ever need help, want a custom theme, or just to share feeback, feel free to message the creator SrS#8614 via dm, or create a ticket at github.com/SrS2225a/bd-themes/issues. Enjoy!';

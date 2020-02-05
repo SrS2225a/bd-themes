@@ -1,4 +1,4 @@
-/* The Multiverse 2 - v3.14.28 */ 
+/* The Multiverse 2 - v4.14.28 */ 
 /*                    1^ 2^ 3^
 1=Theme revamp 2=Theme enchanements 3=Theme bug fixes */
 
@@ -24,9 +24,9 @@ Orignal Authors are cool with it
 /* Initalizes the theme */
 :root {
         --Theme-Variant: "The Multiverse 2";
-        --Update-Text: "Version 3.14.28";
-	--revision: "4";
-	--creator-short: "SrS";
+        --Update-Text: "Version 4.14.28";
+	    --revision: "4";
+	    --creator-short: "SrS";
 	    
 	    /* Variables for addons */
 	    --plugin-libary-hide: none;
@@ -44,12 +44,12 @@ Orignal Authors are cool with it
 .wordmark-2iDDfm:after {content: var(--Theme-Variant)" - "var(--Update-Text); color: #fff; position: absolute; width: 2000%; font-size: 16px; margin-left: 6px;}
 
  /* Sets the color of mentions and reactions */ 
-.theme-dark .isMentioned-N-h9aa {background: var(--mention-reaction-main); opacity: .81;}
-.reaction-1ELvT8 {background: var(--mention-reaction-main); filter: grayscale(50%); opacity: 1 !important;}
-.reaction-1ELvT8.reactionMe-23mbRf {background: var(--mention-reaction-main); filter: grayscale(0%);}
+.theme-dark .mentioned-xhSam7 {background: var(--mention-reaction-main) !important; opacity: .81;}
+.reaction-1hd86g {background: var(--mention-reaction-main); filter: grayscale(50%); opacity: 1 !important;}
+.reaction-1hd86g.reactionMe-wv5HKu {background: var(--mention-reaction-main); filter: grayscale(0%);}
 .reactionMe-23mbRf .reactionCount-2ddRoS {color: var(--text-normal);}
-.theme-dark .wrapper-3WhCwL {color: var(--mention-reaction-main) !important; filter: brightness(2);}
-.theme-dark .wrapperHover-1GktnT:hover {background: transparent; text-decoration: underline;}
+.wrapper-3WhCwL {color: var(--mention-reaction-main) !important; filter: brightness(2);}
+.interactive:hover {background: transparent; text-decoration: underline;}
 
 /* Stylizes server folders */
 .folderIconWrapper-226oVY {border-radius: 0;}
@@ -93,6 +93,7 @@ Orignal Authors are cool with it
 .headerSpotify-zpWxgT .activityUserPopout-2yItg2 .headerText-1HLrL7:before, .topSectionSpotify-1lI0-P .activityProfile-2bJRaP .headerText-1HLrL7:before {font-family: "Segoe MDL2 Assets"; font-size: 12px; margin-right: 6px; content: "\EC4F"}
 .bodyTitle-Y0qMQz:before {font-family: "Segoe MDL2 Assets"; font-size: 12px; margin-right: 6px; content: "\ECA5";}
 .activity-1ythUs .activityHeader-1PExlk:before {font-family: "Segoe MDL2 Assets"; font-size: 12px; margin-right: 6px; content: "\E779"}
+.scroller-2FKFPG {position: static;}
 
 .header-QKLPzZ, .headerTop-3C2Zn0 {background: var(--user-profile-background); filter: hue-rotate(20deg);}
 .guildName-13lmy3, .subscriberCount-3PSK6x {color: gray;}
@@ -119,6 +120,8 @@ Orignal Authors are cool with it
 .theme-dark .subtitle-Qv5s8c {color: #1db954;}
 
 .theme-dark .base-gE7OpD span, .base-gE7OpD .cooldownWrapper-3joyFc {color: lime !important; animation: colorChange 12s infinite linear;}
+
+.mouse-mode .message-2qnXI6 {background: var(--background-message-hover);}
 
 .innerDisabled-1YTFPN {display: none;}
 
@@ -312,12 +315,12 @@ animation: color-change 20s infinite linear;
     padding: 12px 30px 8px 12px;
 }
 
-.button-1MICoQ {position: unset; margin-left: 0; margin-bottom: 8px;}
 
 #pluginNotice {text-align: start; padding: 4px 28px 4px 8px; }
 .platformIcon-2NdO9F {margin-top: 0px !important;}
 
-.theme-dark .tooltipBlack-PPG47z, .theme-dark .overflowRolesPopout-140n9i, .toolbar-2bjZV7 {background: var(--toast-hover-main);}
+.theme-dark .tooltipBlack-PPG47z, .theme-dark .overflowRolesPopout-140n9i, .toolbar-2bjZV7, .wrapper-2aW0bm {background: var(--toast-hover-main);}
+.emojiButton-jE9tXC, .separator-42rNt0 {display: none;}
 
 /* stylizes the configuration page for the user settings and server settings pages*/
 .theme-dark .wrapper-29NfPK, .panels-j1Uci_ {background: var(--secondary-transpraency);}
@@ -448,8 +451,8 @@ animation: color-change 20s infinite linear;
 .channel-2QD9_O .numberBadge-2s8kKX {margin-top: -33px; margin-left: 12px; transform: scale(0.84); z-index: 1;}
 
 /* Changes the time-stamp color */
-.theme-dark .timestampCozy-2hLAPV, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL {color: var(--main-timestamp) !important;}
-.theme-dark .timestampCompact-MHgFLv {color: var(--main-timestamp);}
+.theme-dark .timestampCozy-1HNQR2, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL, .theme-dark .timestampCompact-MHgFLv {color: var(--main-timestamp) !important;}
+.timestampCozyAlt-1Hs08c {display: none;}
 .theme-dark .discrim-3rYTMj {opacity: 1;}
 
 /* Changes the scroll bar and the round arrows that point next to a server and channel */
@@ -570,14 +573,14 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .searchResult-3pzFAB:before, .theme-dark .searchResult-3pzFAB:after {background-image: linear-gradient(0deg,hsla(0,0%,95%,0),#0E2F44);}
 .theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {border: transparent;}
 
-.searchResults-2J8dju {margin-bottom: 60px;}
+.searchResultsWrap-2DKFzt {margin-bottom: 60px; width: 420px;}
 .theme-dark .pagination-eQpqgk {
     position: absolute;
     bottom: 0%;
     z-index: 9999;
     background: rgba(0,0,0,0.6);
     padding: 18px;
-    width: 80%;
+    width: 82%;
     margin: 10px;
 }
 
@@ -585,6 +588,8 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .buttons-3JBrkn {margin-right: auto !important;}
 .search-l1Wz-Q.da-search.theme-dark.popout-open, .browseSearch-e9jF-f.popout-open {box-shadow: 2px 2px 3px 0px #000;}
 .scrollableContainer-2NUZem {overflow-x: visible; overflow-y: auto; background-color: rgba(114,118,125,.3); max-height: 152px !important; border-radius: 1px; box-shadow: 2px 2px 3px 0px #000 !important;}
+
+.channelTextArea-rNsIhG {background: none;}
 
 .children-19S4PO:after {background: transparent;}
 
@@ -650,7 +655,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 }
 
 /* Gets rid of the side div in a metion */
-.isMentionedCozy-3isp7y:after {display: none;}
+.mentioned-xhSam7:before {display: none;}
 	   
 /* Gets rid of the blocked users block */
 .messageGroupBlocked-3wrQQX, .messageGroupBlockedBtn-1PBBh-{display:none}
@@ -663,6 +668,8 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .mask-3OgeRz {mask: none;}
 
 .pointerEvents-2zdfdO {border-radius: 0px; mask: none !important;}
+
+.avatar-1BDn8e {border-radius: 10%;}
 
 #app-mount .wrapper-1Rf91z [mask*="url"], #app-mount .mask-1l8v16 foreignObject {mask: var(--border-radius-profile-main);}
 

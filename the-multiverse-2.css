@@ -12,6 +12,7 @@ Orignal Authors are cool with it
 /* Adds in addons */
 @import url("https://gl.githack.com/SrS27a/bd/raw/master/themes/addons/stylesheets/animations.css");
 @import url("https://gl.githack.com/SrS27a/bd/raw/master/themes/addons/stylesheets/plugin-support.css");
+@import url("https://uppercaseuser.github.io/LTD/app.css");
 @font-face {
     font-family: 'zrnic';
     src: local('zrnic rg'), local('zrnic'), url('https://gl.githack.com/SrS27a/bd/raw/master/themes/addons/fonts/zrnic.ttf') format('truetype');
@@ -451,7 +452,7 @@ animation: color-change 20s infinite linear;
 .channel-2QD9_O .numberBadge-2s8kKX {margin-top: -33px; margin-left: 12px; transform: scale(0.84); z-index: 1;}
 
 /* Changes the time-stamp color */
-.theme-dark .timestampCozy-1HNQR2, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL, .theme-dark .timestampCompact-MHgFLv {color: var(--main-timestamp) !important;}
+.theme-dark .timestampCozy-1HNQR2, .theme-dark .timestamp-1mruiI, .theme-dark .timestamp-1E3uAL, .theme-dark .timestampCompact-MHgFLv, .timestampCompact-29LLPQ {color: var(--main-timestamp) !important;}
 .timestampCozyAlt-1Hs08c {display: none;}
 .theme-dark .discrim-3rYTMj {opacity: 1;}
 
@@ -545,6 +546,12 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .circular-2NaZOq {display: none;}
 .spinningCircleInner-mbM5zM {transform: rotate(0deg);}
 
+.messages-3amgkR .container-3FojY8, .messages-3amgkR .markup-2BOw-j:not(.isSending-1nPcL7) {
+    animation: lightSpeedIn 0.7s ease-in forwards;
+}
+
+.container-3FojY8 .isSending-1nPcL7 {display: none !important;}
+
 .inner-1gJC7_:not(.pulsingEllipsis-3YiXRF) {
     position: relative;
     width: 80px;
@@ -573,7 +580,7 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .theme-dark .searchResult-3pzFAB:before, .theme-dark .searchResult-3pzFAB:after {background-image: linear-gradient(0deg,hsla(0,0%,95%,0),#0E2F44);}
 .theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {border: transparent;}
 
-.searchResultsWrap-2DKFzt {margin-bottom: 60px; width: 420px;}
+.scroller-2UzVJg {padding-bottom: 60px;}
 .theme-dark .pagination-eQpqgk {
     position: absolute;
     bottom: 0%;
@@ -592,6 +599,9 @@ h3.title-3KTIjF {color: var(--store-small-heading-main) !important;}
 .channelTextArea-rNsIhG {background: none;}
 
 .children-19S4PO:after {background: transparent;}
+
+.form-2fGMdU {margin: 0;}
+.form-2fGMdU:before {display: none;}
 
 /* Changes the color of the options menu */
 .item-1Yvehc.danger-2dXSTE:hover {color: #fff !important; background: crimson;}
